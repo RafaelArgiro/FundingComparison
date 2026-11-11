@@ -1,1666 +1,1459 @@
-tradovate
+rithmic
 
 ---
 
-https://help.tradeify.co/en/collections/15250271-tradovate
+https://help.tradeify.co/en/collections/19288902-rithmic
 
-Tradovate
-Tradovate related articles
+Rithmic
+Platform setup guides for Rithmic
 
-6 articles
-Tradovate Platform Overview
-Tradovate setup: log in at trader.tradovate.com with dashboard credentials, choose Demo or Simulation, sign Non-Professional agreement, workspace modules, Privacy Mode, TradingView add-on, desktop and mobile apps.
-Tradovate Charting Guide
-Complete guide to charting in Tradovate, covering chart creation, navigation, layout sections, intervals, styles, crosshair settings, and the Data Box feature for comprehensive market analysis.
-Tradovate Order Entry & Copy Trading
-Complete guide to order entry in Tradovate, covering the SuperDOM module, market/limit/stop orders, ATM strategies (bracket orders), exit buttons, and Group Trading setup with important limitations and warnings.
-Tradovate Risk & Account Settings
-Complete guide to account management, risk settings, and contract rollovers in Tradovate. Learn how to monitor accounts, configure risk controls, and manage contract rollovers.
-Tradovate Analytics, Tools & Mobile
-Complete guide to Tradovate's performance analytics, Time & Sales module, hotkeys configuration, and mobile trading features including charts, order entry, and contract rollovers.
-Drawdown Widget
-Track real-time distance to your Trailing Max Drawdown: add the Dis Drawdown Net Liq column in Tradovate Accounts or Trailing Max Drawdown in NinjaTrader Control Center. Dashboard floor updates end…
+4 articles
+Tradesea Setup Guide
+Complete guide to connecting your Tradeify account to Tradesea, including setup, key features (charts, DOM, trading modes, risk tools, copy trading, hot keys), mobile app, and troubleshooting.
+R|Trader Pro Setup Guide
+Complete guide to downloading, installing, and connecting your Tradeify account to R|Trader Pro — Rithmic's native trading platform. Covers desktop (Windows), web, and mobile access, key features, and troubleshooting.
+Quantower Setup Guide
+Guide to installing Quantower and connecting your Tradeify account. Covers beta version setup, Rithmic connection, charting, DOM, volume profile, and troubleshooting.
+Sierra Chart Setup Guide
+Connect Sierra Chart with Rithmic credentials: sign CME agreement in R|Trader Pro, select Rithmic Direct - DTC, pick Tradeify server, turn off Trade Simulation Mode, fix Permission Denied and login…
+
 
 ---
 
-https://help.tradeify.co/en/articles/13196332-tradovate-platform-overview
+https://help.tradeify.co/en/articles/14068317-tradesea-setup-guide
 
-Tradovate Platform Overview
-Tradovate setup: log in at trader.tradovate.com with dashboard credentials, choose Demo or Simulation, sign Non-Professional agreement, workspace modules, Privacy Mode, TradingView add-on, desktop and mobile apps.
+Tradesea Setup Guide
+Complete guide to connecting your Tradeify account to Tradesea, including setup, key features (charts, DOM, trading modes, risk tools, copy trading, hot keys), mobile app, and troubleshooting.
 
 Updated over 3 weeks ago
-This comprehensive guide covers everything you need to know about setting up and customizing your Tradovate trading platform, including workspace management, module configuration, instrument selection, and TradingView integration.
+This guide covers everything you need to connect your Tradeify account to Tradesea and start trading — from initial setup to key features and troubleshooting.
+
+
+
+⚠️ Third-Party Software Notice
+
+Tradesea is a third-party platform not owned or operated by Tradeify. Tradeify does not provide technical support for Tradesea. For platform-specific issues (bugs, UI problems, feature questions), contact Tradesea directly at support@tradesea.ai or visit the Tradesea Help Center. For account or billing questions, contact Tradeify support.
+
+
+
+
+
+What is Tradesea?
+Tradesea is a high-performance, web-based trading platform built for serious futures traders. It combines TradingView-powered charts, an ultra-fast DOM (Depth of Market), and low-latency order execution in one unified interface — no software download required.
+
+
+
+Key features:
+
+TradingView charts — Advanced charting with indicators, drawing tools, multi-timeframe layouts, and trade-from-chart execution
+
+Ultra-fast DOM — Real-time price ladder with one-click order entry and draggable order repositioning
+
+Three trading modes — Scalp Mode, DOM Mode, and Order Mode for different trading styles
+
+Built-in risk controls — Position brackets, daily loss/profit limits, and personal lockouts
+
+Copy trading — Mirror trades from a lead account to multiple follower accounts
+
+Mobile apps — Available on iOS and Android for trading on the go
+
+
+
+How to access Tradesea:
+
+Web: app.tradesea.ai (recommended)
+
+iOS: App Store
+
+Android: Google Play Store (currently in beta)
+
+
+
+
+
+
+
+
+Prerequisites
+Before connecting to Tradesea, make sure you have:
+
+
+
+A Tradeify account purchased with Rithmic as your broker. Tradesea connects using Rithmic credentials. If you purchased with Tradovate or WealthCharts, you cannot use Tradesea.
+
+Your Rithmic credentials. Find your Rithmic username and password in your Tradeify dashboard under your account details.
+
+A Tradesea account. Sign up for free at app.tradesea.ai using your Google account or email (OTP verification).
+
+A supported browser. Google Chrome 111+ (recommended), Microsoft Edge 111+, Firefox 128+, or Safari 16+. Other Chromium-based browsers (Brave, Opera, Vivaldi) work if the Chromium version is 111+.
+
+
+
+
+
+
+
+
+Connecting Your Tradeify Account
+Follow these steps to link your Tradeify trading account to Tradesea:
+
+
+
+Step 1: Log in to Tradesea
+Go to app.tradesea.ai and log in with your Google account or email OTP. This is your Tradesea account login — not your Rithmic credentials.
+
+
+
+Step 2: Open Account Centre
+Once logged in, open the Account Centre. You can access it from the top-left account selector dropdown or from the main navigation.
+
+
+
+
+
+
+Step 3: Click "Connect New"
+In Account Centre, click the "Connect New" button to add a new trading account.
+
+
+
+
+
+
+Step 4: Select Tradeify
+A list of supported prop firms will appear. Find and select Tradeify from the list, then click Connect.
+
+
+
+
+
+
+Step 5: Enter Your Rithmic Credentials
+Enter your Rithmic credentials from your Tradeify dashboard:
+
+
+
+Rithmic Username — your username from the Tradeify dashboard
+
+Rithmic Password — your password from the Tradeify dashboard
+
+Environment — select Simulation for evaluation and sim funded accounts, or Live for live accounts
+
+Full Name — enter your name as it appears on your Tradeify account
+
+
+
+Click Connect to link your account.
+
+
+
+Important: Both your Rithmic username and password are case-sensitive. Copy them exactly as shown in your Tradeify dashboard.
+
+
+
+
+
+
+Step 6: Verify Connection
+After successful authentication, you'll be redirected to Account Centre. Your Tradeify account should now appear as connected. Select it from the account dropdown in the top bar to start trading.
+
+
+
 
 
 
 
 
 Platform Overview
-Tradovate is a cloud-based futures trading platform designed specifically for modern traders. Key advantages include:
-
-Cross-Device Synchronization - Trade seamlessly across web, desktop, and mobile
-
-No Downloads Required - Web-based trading accessible from any browser
-
-Advanced Risk Management - Built-in ATM strategies and risk controls
-
-Real-Time Analytics - Comprehensive performance tracking and reporting
+Once connected, here's a quick tour of the Tradesea Station interface.
 
 
 
-
-
-Included Free Features with Tradeify
-Your Tradeify account includes these premium features at no additional cost:
-
-Free TradingView Integration - Access TradingView's advanced charting and analysis tools
-
-Free OrderFlow+ - Professional order flow analysis and market depth visualization
-
-Level 1 Market Data - Real-time price feeds for all supported instruments
+Account Panel
+The Account Panel in the top bar gives you a real-time snapshot of your trading status:
 
 
 
-Additional Data Subscriptions (Optional)
-Level 2 Data and EUREX Access: If you require Level 2 market data or EUREX exchange access, these must be purchased directly from Tradovate. Tradeify does not provide or offer these premium data subscriptions. Contact Tradovate support or check their subscription options in your account settings.
+Account Selector — Switch between connected trading accounts. The selected account determines which account receives your orders.
+
+Balance (Bal) — Your current account balance including all closed trade results.
+
+RPL (Realized P&L) — Total profit or loss from trades that have been closed today.
+
+UPL (Unrealized P&L) — Real-time profit or loss from currently open positions.
+
+Account Status — Shows whether the account is active, restricted, or locked.
 
 
 
+
+
+
+TradingView Charts
+Tradesea uses TradingView-powered charts with full access to indicators, drawing tools, and custom studies. You can trade directly from the chart by dragging stop-loss and take-profit markers onto price levels.
+
+
+
+Multiple chart types and timeframes
+
+Multi-chart layouts (view multiple symbols or timeframes side by side)
+
+Trade from chart — place and manage orders directly on the chart
+
+Customizable chart settings, drawing tools, and saved layouts
+
+
+
+
+
+
+DOM (Depth of Market)
+The DOM displays a live price ladder showing the best bid and best ask, traded volume at each price, and your own working orders. No synthetic or system-generated liquidity.
+
+
+
+Price — Tradable price levels
+
+Bid/Ask Size — Number of buy/sell contracts waiting at each price
+
+Volume — Contracts traded at each price level
+
+My Bid/My Ask — Your active working orders on the ladder
+
+Level 1 data: Rithmic accounts include Level 1 CME market data. The DOM shows the best bid and best ask along with your own working orders — it does not show full order book depth. Level 2 depth data and EUREX data are not yet available on Rithmic accounts and cannot be purchased — coming soon. See Level 2 (L2) and EUREX Data: Availability by Broker.
+
+
+
+
+
+Click a bid column price to place a buy limit order, or an ask column price for a sell limit order. Working orders can be cancelled or repositioned directly on the ladder.
+
+
+
+
+
+
+Order Types
+Tradesea supports the following order types:
+
+
+
+Market Order — Executes immediately at the best available price
+
+Limit Order — Executes only at your specified price or better
+
+Stop Market Order — Becomes a market order when the trigger price is reached
+
+Stop Limit Order — Becomes a limit order after the stop price is triggered
+
+Trailing Stop-Loss — A stop that automatically moves as the price moves in your favor
+
+Bracket Order — Attaches a stop-loss and take-profit to a single entry order
+
+
+
+
+
+Trading Modes
+Tradesea offers three trading modes designed for different styles and speeds of execution.
+
+
+
+Scalp Mode
+Optimized for fast execution and quick trades. A movable floating Scalp Pad lets you place orders without leaving the chart. Features include:
+
+
+
+Buy/Sell — Instant market orders
+
+Join Bid/Join Ask — Limit orders at the current best bid or ask
+
+Close Position — Quick exit at market
+
+Lot Selector — Set order size for subsequent trades
+
+
+
+Best for: Scalpers, momentum traders, and high-frequency intraday trading.
+
+
+
+
+
+
+DOM Mode
+Designed for order-flow and precision traders who want direct interaction with the order book. Click price levels on the DOM ladder to place limit orders, drag to reposition, and use the execution panel for quick actions (Buy, Sell, Join Bid, Join Ask, Close, Reverse, Cancel All, Flatten All).
+
+
+
+Best for: Intraday traders, order-flow traders, and active position managers.
+
+
+
+
+
+
+Order Mode
+Built for planned trades where the full trade structure is defined before entry. Select your direction, order type (market, limit, stop), position size, and attach automatic stop-loss and take-profit levels before submitting.
+
+
+
+Best for: Swing traders, positional traders, and strategy-based setups with defined risk-reward ratios.
+
+
+
+
+
+
+
+
+Risk Management Features
+Tradesea includes built-in risk controls to help you manage your trading discipline. These are personal risk tools you configure yourself — they are separate from Tradeify's account-level rules (Daily Loss Limit and Max Trailing Drawdown), which are enforced by Tradeify regardless of your platform settings.
+
+
+
+Position Brackets
+Position brackets manage your entire open position with a single stop-loss and take-profit. Unlike order brackets (which protect individual orders), position brackets automatically adjust when you add to or reduce your position:
+
+
+
+Enter a trade — bracket is placed for the full position
+
+Add contracts — average price recalculates and bracket adjusts automatically
+
+Partially close — bracket resizes to match remaining exposure
+
+
+
+You can also enable Auto Position Brackets to automatically attach stop-loss and take-profit to every new position.
+
+
+
+Daily Loss & Profit Limits
+Set personal daily boundaries to protect your account:
+
+
+
+Personal Daily Loss Limit (PDLL) — Maximum daily loss before Tradesea takes action
+
+Personal Daily Profit Target (PDPT) — Daily profit target to lock in gains
+
+
+
+When a limit is hit, you choose the action: Liquidate (closes positions) or Liquidate and Block (closes positions and locks trading for the rest of the day).
+
+
+
+To configure: click Settings (top right) and find the PDLL/PDPT fields.
+
+
+
+
+
+
+Personal Lockouts
+Personal lockouts let you temporarily block yourself from placing orders — a cooling-off tool to prevent impulsive or revenge trading after losses.
+
+
+
+To activate: click the padlock icon in the upper right corner (above the DOM). Choose a preset trading session or enter a custom lockout duration in hours, then click Set Lockout. A countdown timer appears in the top right showing time remaining.
+
+
+
+
+
+
+
+
+Copy Trading
+Tradesea's built-in trade copier lets you mirror trades from one account to multiple accounts automatically. This is useful if you have several Tradeify accounts and want them to execute the same trades.
+
+
+
+Lead Account — The account where you place trades manually. Orders are automatically copied to follower accounts.
+
+Follower Accounts — Accounts that automatically receive and execute the same trades as the lead.
+
+
+
+To set up: go to Settings > Copy Trading, then assign which account is the lead and which are followers.
+
+
+
+Note: Copy trading is explicitly allowed by Tradeify. Using a trade copier across your own accounts does not violate any Tradeify rules, provided every account trades in the same direction. Do not configure the copier to reverse or invert direction on any follower account — opposing positions across your accounts are a hedging violation. See Rules: Hedging & Correlated Products.
+
+
+
+
+
+
+
+
+Hot Keys
+Tradesea supports customizable keyboard shortcuts for fast execution. Access via Settings > Hot Keys.
+
+
+
+Default hot keys:
+
+
+
+B — Buy Market
+
+S — Sell Market
+
+J — Join Bid (limit order at current best bid)
+
+A — Join Ask (limit order at current best ask)
+
+R — Reverse Position (close and reopen opposite side)
+
+F — Flatten All (close positions and cancel working orders)
+
+C — Cancel All (cancel all working orders)
+
+X — Close All (exit all open positions at market)
+
+
+
+⚠️ Warning: Hot keys trigger live trading actions. Make sure you understand what each key does before activating them — especially Flatten All, Close All, and Reverse Position.
+
+
+
+
+
+
+
+
+Mobile App
+Tradesea is available as a mobile app on iOS and Android (Android is currently in beta). Connect your Tradeify account using the same Rithmic credentials as the web version.
+
+
+
+Mobile features include:
+
+TradingView charts with trade-from-chart execution
+
+DOM trading
+
+Order and position management
+
+Account switching between connected accounts
+
+Market watchlists
+
+
+
+
+
+
+
+Troubleshooting
+
+
+Dashboard or balance not updating after a holiday or half-day
+Tradesea runs on Rithmic, and Rithmic does not run its end-of-day report and reconciliation on shortened (holiday or early-close) sessions. That day is combined with the next full session and posts at the next full market close — for example, a Friday half-day posts after Monday's close. So if your balance or P&L looks stuck right after a holiday or half-day, this is expected and will update at the next full market close. It is not a sync error, and you do not need to contact Tradesea support for it.
+
+
+
+Rithmic credentials not working
+Both username and password are case-sensitive — copy them exactly from your Tradeify dashboard
+
+Make sure you are using your Rithmic credentials (not your Tradeify login or Tradesea login)
+
+If you recently reset your password, try the new password
+
+Verify your account is active in your Tradeify dashboard
+
+
+
+Tradeify not listed as a prop firm
+Make sure you are clicking Connect New from Account Centre (not just the account dropdown)
+
+Try refreshing the page and checking again
+
+If Tradeify still does not appear, contact support@tradesea.ai
+
+
+
+Account connected but not visible in Station
+Open Account Centre and verify the account shows as Connected
+
+Refresh the platform (F5 or browser refresh)
+
+Use the account selector dropdown in the top bar to switch to the correct account
+
+
+
+Platform lag or slow performance
+Use Google Chrome (latest version) for the best performance
+
+Disable VPN if you are using one — VPNs add latency and can cause disconnections
+
+Close unnecessary browser tabs to free up memory
+
+Try clearing your browser cache or using an incognito/private window
+
+
+
+Need more help?
+Platform issues (bugs, UI problems, features): Contact Tradesea at support@tradesea.ai or visit the Tradesea Help Center
+
+Account or billing issues (credentials, account status, payments): Contact Tradeify support through the chat widget in your dashboard
+
+---
+
+https://help.tradeify.co/en/articles/14068316-r-trader-pro-setup-guide
+
+
+R|Trader Pro Setup Guide
+Complete guide to downloading, installing, and connecting your Tradeify account to R|Trader Pro — Rithmic's native trading platform. Covers desktop (Windows), web, and mobile access, key features, and troubleshooting.
+
+Updated over 3 weeks ago
+This guide covers everything you need to connect your Tradeify account to R|Trader Pro and start trading — from downloading and installing the platform to connecting your account and navigating key features.
+
+
+
+⚠️ Third-Party Software Notice
+
+R|Trader Pro is developed and maintained by Rithmic, a third-party company not owned or operated by Tradeify. Tradeify does not provide technical support for R|Trader Pro. For platform-specific issues (bugs, UI problems, feature questions), contact Rithmic directly at support@rithmic.com or visit the Rithmic FAQ. For account or billing questions, contact Tradeify support.
+
+
+
+
+
+What is R|Trader Pro?
+R|Trader Pro is Rithmic's native trading platform, built for professional-grade futures trading. It provides comprehensive charting with over 100 built-in technical studies, a full-featured Depth of Market (DOM) price ladder, advanced order types, and server-side order execution — meaning your orders stay active on Rithmic's servers even if your connection drops.
+
+
+
+Key features:
+
+100+ technical studies — Comprehensive charting with customizable indicators, multiple chart types, drawing tools, and trade-from-chart execution
+
+Depth of Market (DOM) — Real-time price ladder, bid/ask sizes, and one-click order entry
+
+Advanced order types — Market, limit, stop, stop-limit, trailing stop, bracket, OCO (One Cancels Other), and group orders
+
+Server-side orders — Orders persist on Rithmic's servers even if your internet drops, so your stop-loss and brackets stay active
+
+Excel real-time interface — Stream live market data directly into Microsoft Excel spreadsheets (desktop version only)
+
+Multi-platform access — Available on desktop (Windows), web browser, and mobile (iOS and Android)
+
+
+
+How to access R|Trader Pro:
+
+Desktop (Windows): Download the installer from rithmic.com/rtraderpro
+
+Web: rtraderpro.rithmic.com/rtraderpro-web (Chrome, Edge, Safari, and other modern browsers)
+
+iOS: App Store
+
+Android: Google Play Store
+
+
+
+
+
+
+
+
+Prerequisites
+Before connecting to R|Trader Pro, make sure you have:
+
+
+
+A Tradeify account purchased with Rithmic as your broker. R|Trader Pro connects using Rithmic credentials. If you purchased with Tradovate or WealthCharts, you cannot use R|Trader Pro.
+
+Your Rithmic credentials. Find your Rithmic username and password in your Tradeify dashboard under your account details.
+
+For desktop: A Windows computer. R|Trader Pro desktop requires Windows 10 or later (not Windows S mode), a dual-core CPU, 4 GB+ RAM, and a high-speed internet connection. Mac and Linux users should use the web version instead.
+
+For web: A modern browser. Google Chrome (recommended), Microsoft Edge, Safari, or other modern browser.
+
+
+
+
+
+
+
+
+Connecting Your Tradeify Account
+The login process is the same whether you are using the desktop, web, or mobile version of R|Trader Pro. Follow these steps to connect your Tradeify trading account.
+
+
+
+Step 1: Open R|Trader Pro
+Launch R|Trader Pro using whichever version you prefer:
+
+
+
+Desktop: Download the installer from rithmic.com/rtraderpro, run the .msi file, and follow the installation prompts. Once installed, launch R|Trader Pro from your Start menu or desktop shortcut.
+
+Web: Go to rtraderpro.rithmic.com/rtraderpro-web in your browser.
+
+Mobile: Download "Rithmic Trader Pro" from the App Store (iOS) or Google Play Store (Android) and open the app.
+
+
+
+
+
+
+Step 2: Enter Your Credentials
+On the login screen, enter your Rithmic credentials from your Tradeify dashboard:
+
+
+
+Username — your Rithmic username from the Tradeify dashboard
+
+Password — your Rithmic password from the Tradeify dashboard
+
+
+
+Important: Both your username and password are case-sensitive. Copy them exactly as shown in your Tradeify dashboard.
+
+
+
+Step 3: Select System Name
+In the System Name dropdown, select "Tradeify". This tells R|Trader Pro which prop firm's server to connect to.
+
+
+
+If you do not see "Tradeify" in the list, make sure you have the latest version of R|Trader Pro installed. See the Troubleshooting section below for more help.
+
+
+
+
+
+
+Step 4: Select Gateway
+Select the Gateway server closest to your physical location for the best connection speed:
+
+
+
+Chicago Area — recommended for most US-based traders
+
+Select a different gateway if you are located outside the US — choose the one closest to your region
+
+
+
+
+
+
+Step 5: Log In and Verify
+Click Login. Once authenticated, your Tradeify trading account should appear and market data should begin streaming. Verify that you can see your account balance and live price data.
+
+
+
+
+
+
+
+
+Platform Overview
+Once connected, here is a quick tour of R|Trader Pro's main features.
+
+
+
+Charting
+R|Trader Pro includes a full charting package with over 100 built-in technical studies. You can customize chart types (candlestick, bar, line, and more), timeframes, drawing tools, and annotations. Charts support trade-from-chart execution — place and manage orders directly on the chart by clicking at your desired price level.
+
+
+
+
+
+
+DOM (Depth of Market)
+The DOM displays a real-time price ladder showing the best bid and best ask sizes at each price level. You can place orders directly from the DOM with a single click, view your working orders on the ladder, and modify or cancel orders by dragging them to a new price level.
+
+
+
+Level 1 data: Rithmic accounts include Level 1 CME market data. The DOM shows the best bid and best ask along with your own working orders — it does not show full order book depth. Level 2 depth data and EUREX data are not yet available on Rithmic accounts and cannot be purchased — coming soon. See Level 2 (L2) and EUREX Data: Availability by Broker.
+
+
+
+
+
+
+Order Types
+R|Trader Pro supports a comprehensive set of order types for managing your trades:
+
+
+
+Market Order — executes immediately at the best available price
+
+Limit Order — executes only at your specified price or better
+
+Stop Market Order — becomes a market order when the trigger price is reached
+
+Stop Limit Order — becomes a limit order when the stop price is triggered
+
+Trailing Stop — a stop that automatically adjusts as price moves in your favor
+
+Bracket Order — attaches a stop-loss and take-profit to a single entry order
+
+OCO (One Cancels Other) — two linked orders where filling one automatically cancels the other
+
+Group Orders — link multiple orders together for coordinated execution
+
+
+
+
+
+Key Features
+
+
+Server-Side Orders
+One of R|Trader Pro's standout features is server-side order management. When you place trailing stops, brackets, or OCO orders, they are stored and managed on Rithmic's servers — not on your local computer. This means if your internet connection drops or your computer crashes, your protective orders (including stop-losses) remain active and will execute as configured.
+
+
+
+This is particularly important for risk management. Your stop-loss will execute even if you lose connectivity, helping protect your account from unexpected losses.
+
+
+
+Excel Real-Time Interface
+The desktop version of R|Trader Pro includes a two-way real-time interface with Microsoft Excel. You can stream live market data (quotes, trades, market depth) directly into Excel spreadsheets and view over 100 studies in real-time. With the power of Excel, you can build custom analysis tools and even send orders back into R|Trader Pro from your spreadsheets.
+
+
+
+Note: The Excel interface is available on the desktop version only and requires Microsoft Excel installed on your Windows computer.
+
+
+
+
+
+
+
+Desktop Installation
 
 
 System Requirements
-Web Platform (Recommended for beginners):
+Operating System: Windows 10 or later (not Windows S mode)
 
-Modern web browser (Chrome, Firefox, Safari, Edge)
+Processor: Dual-core CPU or better
 
-Stable internet connection (25+ Mbps recommended)
+Memory: 4 GB RAM minimum
 
-JavaScript enabled
+Internet: High-speed broadband connection
 
-Desktop Application:
+Not supported: macOS, Linux — use the web version instead
 
-Windows 10+ or macOS 10.14+
 
-8GB RAM minimum (16GB recommended)
 
-2GB available storage space
+Note: Actual requirements may vary based on the number of instruments you are monitoring, the number of active windows, and other software running concurrently.
 
-Mobile Apps:
 
-iOS 12+ or Android 8+
 
-Stable cellular or WiFi connection
+Download and Install
+Go to rithmic.com/rtraderpro
 
+Download the Windows installer (.msi file)
 
+Run the installer and follow the on-screen prompts
 
+Once installed, launch R|Trader Pro from your Start menu (All Programs > Rithmic > Launch > Rithmic Trader Pro) or from the desktop shortcut
 
 
-Initial Setup Process
 
+Updating R|Trader Pro
+R|Trader Pro may prompt you to update when a new version is available. You can also manually update by downloading the latest installer from rithmic.com/rtraderpro and running it — the new version will replace the existing installation.
 
-Step 1: Access Tradovate Platform
-Open your web browser
 
-Navigate to trader.tradovate.com
 
-Use desktop browser (not mobile app) for initial setup
 
-Click "Log In" in the top-right corner
 
+Web and Mobile Access
 
 
-Step 2: First-Time Login
-Enter your Tradovate user name and password. You can find them at the top of your Tradeify Dashboard
+Web Version
+The web version of R|Trader Pro runs in your browser with no download required. Access it at rtraderpro.rithmic.com/rtraderpro-web. It works with Chrome, Edge, Safari, and other modern browsers.
 
 
-2. Select trading environment:
 
-Choose "Simulation" or "Demo"
+The web version is a good alternative for Mac and Linux users who cannot run the desktop version. The login process is the same — enter your Rithmic credentials, select "Tradeify" as the System Name, and choose your closest Gateway.
 
-Never select "Live" for Tradeify accounts
 
 
+Note: The web version may have limited availability for simulation accounts. If you cannot access the web version, use the desktop version instead.
 
-Critical Data Agreement Step
-When logging in for the first time, make sure you sign the "NON-PROFESSIONAL Agreement. Otherwise, you will not receive real-time data and can potentially incur a $300 per month data fee.
 
 
+Mobile App
+R|Trader Pro is available on mobile devices for trading on the go:
 
-Step 3: Platform Orientation
-After successful login, you'll see the main trading interface with these components:
 
-Charts - Market analysis and technical indicators
 
-DOM - Order book and quick trading
+iOS: Download from the App Store
 
-Positions - Active trades and P&L monitoring
+Android: Download from Google Play Store
 
-Orders - Order management and history
 
-Account Summary - Balance, equity, and performance metrics
 
+The mobile app uses the same login credentials and System Name/Gateway selection as the desktop and web versions. It includes charting, order entry, and position management for managing trades from your phone or tablet.
 
 
 
+Note: The mobile version may have limited availability for simulation accounts. If you cannot access the mobile app, use the desktop or web version instead.
 
-Module Management
-Modules can be added, moved, and removed from your workspace in the Tradovate Web version. Since the Tradovate Web Trader operates within a single browser tab, modules can be easily resized and grouped using tabs, allowing for streamlined and organized workspace management.
 
 
 
-Adding New Modules
-To add new modules to your workspace, click the + (New) button located at the top left of the screen within your browser.
 
 
-Then simply drag and drop your selected module to any location within your workspace to add it.
 
-Tip: In the Tradovate Desktop app, a unique feature allows you to open a module in its own window by clicking on its name instead of dragging and dropping it. This keeps it separate from the main workspace window on your monitor.
+Troubleshooting
 
 
+Rithmic credentials not working
+Both your username and password are case-sensitive — copy them exactly as shown in your Tradeify dashboard
 
+Make sure you are using your Rithmic credentials (not your Tradeify website login — these are different)
 
-Moving Modules Around Your Workspace
-To move a module within your Tradovate Web workspace, click on the module's tab at the top and drag it to the desired area within your browser window.
+If you recently reset your password, try the new password
 
+Verify your account is active in your Tradeify dashboard
 
-When you click and hold the tab, highlighted areas with a plus sign (+) will appear as you move it around the screen, indicating where you can move the module within your workspace.
 
 
-You can also click and drag modules to create new tabs within the same module window, allowing for more organized workspace customization.
+"Tradeify" not appearing in System Name dropdown
+Make sure you have the latest version of R|Trader Pro installed
 
+If using the desktop version, re-download the installer from rithmic.com/rtraderpro and reinstall
 
+If using the web version, try clearing your browser cache and refreshing the page
 
+Contact Tradeify support if "Tradeify" still does not appear after updating
 
-Resizing Modules
-Modules can be quickly resized by clicking and dragging the horizontal (X) and vertical (Y) borders between them.
 
 
-You can also temporarily fill the entire screen with a specific tab by clicking the Maximize button located near the top right of each module. Click the button again to return the module back to its original sizing.
+Connection failed or gateway timeout
+Try selecting a different Gateway server (e.g., switch from one region to another)
 
+Chicago Area is recommended for most US-based traders
 
-Tip: Pressing the F11 key (or Fn + F11, depending on your computer setup) toggles Tradovate Web into full-screen mode, letting you make full use of your monitor's available space.
+Disable VPN if you are using one — VPNs add latency and can cause connection failures
 
+Check your internet connection and firewall settings — R|Trader Pro may need to pass through your firewall
 
 
-Removing Modules
-To remove a module or tab from your workspace, simply click the X located at the top right of the module or next to the tab's name.
 
+Desktop installer won't run
+Verify you are running Windows 10 or later (not Windows S mode)
 
+Right-click the .msi file and select "Run as administrator"
 
+Check that your antivirus software is not blocking the installer
 
+If you are on Mac or Linux, the desktop version is not supported — use the web version instead
 
 
-Linking Modules
-Tradovate users can link platform modules—such as the Market Analyzer, DOM, Chart, and Tick Stream—by assigning matching colors in the dropdown next to the Instrument's name in the tab at the top of each module. This guide uses red and green links as examples, but up to six colors can be used. Gray indicates that linking is disabled for a module.
 
-When selecting a quote in the Red quote list, the upper left-hand Chart and DOM modules which are Red will all be updated with the newly selected symbol in the Market Analyzer.
+Platform lag or slow performance
+Desktop: Close unnecessary applications to free up RAM and CPU
 
+Web: Use Google Chrome (latest version) for the best performance and close unnecessary browser tabs
 
-When selecting a quote in the Green Market Analyzer, the Chart in the lower right-hand side, which is Green will be updated with the newly selected symbol.
+All versions: Disable VPN if you are using one — VPNs add latency
 
+Desktop: Verify your system meets the minimum requirements (dual-core CPU, 4 GB RAM, high-speed internet)
 
-Please note that everything is linked to the Quote Board and that instruments you select in that list initiate the changes to your other modules. Linking a Chart and a DOM without linking the Market Analyzer will not create a link.
 
 
+Need more help?
+Platform issues (bugs, UI problems, features): Contact Rithmic at support@rithmic.com or visit rithmic.com/faq
 
-
-
-Instrument Selector & Finding Contracts
-The Instrument Selector is a combined dropdown menu and search bar used to search for and select the Instrument displayed in all market data and order entry modules within the Tradovate Web App.
-
-
-
-Search Bar
-The Search Bar at the top of the Tradovate Web App—next to the Notification Ticker (Clock)—lets you search for any instrument in the database using a symbol, keyword, or contract month.
-
-By default, the Search Box displays Recent Searches and Popular Instruments before you type anything. Left-clicking on any search result will open it in a new Quote Info module.
-
-
-Hovering over any search result opens an additional menu, allowing you to launch that specific instrument or contract in a new Quote Info, Alerts, or Trade module.
-
-You can also click and drag the Instrument into a new SuperDOM, Chart, Market Analyzer, or T&S (Time & Sales) module.
-
-
-
-
-
-Searching In Modules
-In addition to using the Search Bar, you can also search for and select new Instruments when opening nearly any market data or order entry module in the Tradovate Web App. Additionally, you can search in the SuperDOM, Chart, Order Ticket, and other Modules. Simply type the name or symbol of the instrument for a list of available contracts to populate a drop-down menu.
-
-
-To change Instruments within a module, simply left-click the instrument name in the tab at the top-left—the search dropdown will then appear.
-
-
-
-The Instrument Selector is available on all of the following modules:
-
-Market Analyzer
-
-Chart
-
-SuperDOM
-
-Order Ticket
-
-T&S (Time & Sales)
-
-Spread Matrix
-
-Options Chain
-
-
-
-
-
-Privacy Mode
-Privacy Mode allows you to hide your account number(s) and balances from display while using the Tradovate Web App. This is useful for streamers and content creators who want to share their screen without revealing account details.
-
-If your account number and balance are not visible on the Tradovate Web platform, it's likely because Privacy Mode has been enabled.
-
-
-
-How to Toggle Privacy Mode On/Off
-To toggle Privacy Mode:
-
-After logging into the Tradovate Web App, click the Application Settings button in the top-right corner of the screen
-
-On the Settings page, select the Security & Privacy tab at the top
-
-Privacy Mode will be listed below - toggle it on or off
-
-Log out and back into the Tradovate Web App for the changes to take effect
-
-After logging back in, your account number and balance will be absent from the top bar of the screen.
-
-
-
-
-
-
-TradingView Add-on Setup
-Trade with TradingView's world-class charts through your Tradovate account. This section walks you through the complete process of setting up TradingView integration with your Tradeify Tradovate account for seamless charting and trading.
-
-
-
-Third-Party Software Disclaimer
-TradingView is a third-party platform that operates independently of Tradeify's systems. Issues arising from TradingView's API connectivity, platform bugs, data feed problems, or other technical malfunctions are outside Tradeify's control and support scope. Accounts affected by third-party software issues will not be repaired or adjusted by Tradeify.
-
-
-
-Requirements
-Active Tradeify account with Tradovate access
-
-Tradovate credentials from your Tradeify welcome email
-
-TradingView account (free or paid subscription)
-
-Free add-on: TradingView integration is free for all Tradeify users
-
-The free version of TradingView will only update once every 5 seconds. For fully live updates you will need to be a TradingView subscriber (any package will suffice)
-
-
-
-Step 1: Enable TradingView Add-on in Tradovate
-Log into Tradovate at trader.tradovate.com. Use your Tradeify-provided Tradovate credentials. Select "Demo" or "Simulation" environment.
-
-
-Access Application Settings. Click the three lines (hamburger menu) in the top-right corner. Select "Application Settings".
-
-
-Activate TradingView Add-on. Find "Add-On Tools" section. Locate "TradingView Add-On". Click "Activate TradingView Add-On". Confirm activation when prompted.
-
-
-You should see a confirmation message that the TradingView add-on is now active.
-
-
-
-
-Step 2: Set Up TradingView Account
-Visit TradingView at tradingview.com or open the TradingView App
-
-Create or log into your account. If new: Sign up for a free TradingView account. If existing: Log in with your credentials.
-
-Navigate to a chart. Search for your preferred trading instrument (e.g., "ES1!", "NQ1!"). Open a chart for that instrument.
-
-
-
-Step 3: Connect TradingView to Tradovate
-Open the Trading Panel. Look for the "Trading Panel" tab at the bottom of the chart. Click to open the Broker selection panel.
-
-
-Select Tradovate. In the Trading Panel, look for broker options. Click on the Tradovate logo. Select "Connect" next to Tradovate.
-
-
-Choose connection type. Select "Demo" (this is correct for Tradeify accounts).
-
-
-Enter your credentials. Enter the credentials located at the top of your Tradeify dashboard (same as you would use to Log into Tradovate).
-
-
-
-Important: Always select "Demo" for Tradeify accounts.
-
-
-
-Step 4: Verify Connection
-Check connection status. Look for a green connection indicator in the Trading Panel. Your account balance should appear. Available instruments should populate.
-
-
-Test data synchronization. Charts should display real-time or near-real-time price data. Order entry fields should be active. Account information should match your Tradovate dashboard.
-
-
-
-
-TradingView Best Practices
-Keep Tradovate open:
-
-Maintain Tradovate in a separate browser tab
-
-You cannot check and monitor your drawdown effectively in TradingView
-
-Monitor latency:
-
-TradingView integration may have slight delays
-
-For time-sensitive trades, consider using Tradovate directly
-
-Test execution speed during different market conditions
-
-Data verification:
-
-Cross-check important price levels between platforms
-
-Verify order fills in both TradingView and Tradovate
-
-Report any synchronization issues immediately
-
-
-
-TradingView Troubleshooting
-Problem: Can't connect TradingView to Tradovate
-
-Solutions:
-
-Verify TradingView add-on is activated in Tradovate
-
-Check that you're using correct credentials
-
-Ensure "Demo" is selected, not "Live"
-
-Clear browser cache and try again
-
-Problem: Connection drops frequently
-
-Solutions:
-
-Check internet connection stability
-
-Try different browser or disable browser extensions
-
-Verify Tradovate account is active and accessible
-
-Contact support if issues persist
-
-Note: Issues related to TradingView's platform functionality, API connectivity, or data feeds are third-party issues that Tradeify cannot resolve or compensate for.
-
-
-
-
-
-Multi-Platform Setup
-
-
-Desktop Application
-Download the desktop app:
-
-Windows: https://download.tradovate.com/download
-
-macOS: https://download.tradovate.com/download/osx
-
-Or go to Settings → Downloads in your web platform
-
-Install using standard installation process
-
-Sync your settings:
-
-Log in with same credentials
-
-Verify charts and layouts sync automatically
-
-Test order execution across platforms
-
-
-
-Mobile Configuration
-Download Tradovate mobile app:
-
-iOS (iPhone/iPad): https://apps.apple.com/us/app/tradovate/id1379109157
-
-Android: https://play.google.com/store/apps/details?id=com.tradovate.pulse
-
-Log in with your credentials
-
-Configure mobile-specific settings:
-
-Enable push notifications for fills and alerts
-
-Set up one-tap trading for quick execution
-
-Configure mobile chart layouts
-
-Test functionality:
-
-Verify real-time data on mobile
-
-Practice placing and canceling orders
-
-Confirm P&L syncs across devices
-
-
-
-
-
-Important Platform Notes
-
-
-Data and Connectivity
-Internet dependency: Tradovate requires stable internet connection
-
-Data updates: Level 1 data included; Level 2 and EUREX must be purchased separately from Tradovate
-
-
-
-Trading Considerations
-Order types: Familiarize yourself with available order types
-
-Market hours: Platform availability during extended trading hours
-
-Commissions: https://help.tradeify.co/en/articles/10468315-trading-commission-fees
-
-
-
-Risk Management Integration
-Automated stops: Configure stop-loss parameters. Tradeify Daily loss Limit feature is not meant to be used as Stop loss.
-
-Position sizing: Align with Tradeify risk management rules.
-
-Daily limits: Some plans include fixed daily loss limit. Trading permissions will be revoked for the session after hitting that threshold.
-
-
-
-
-
-Platform URLs & Downloads
-Web Trading: https://trader.tradovate.com
-
-Desktop Downloads: https://trader.tradovate.com/welcome/desktop-download
-
-iOS App: https://apps.apple.com/us/app/tradovate/id1051461690
-
-Android App: https://play.google.com/store/apps/details?id=com.tradovate.tradovate
-
-Support: https://support.tradovate.com
-
-Setup complete! Your Tradovate platform is now configured and ready for trading with all included premium features. Remember to follow all Tradeify trading rules and monitor your account performance regularly through the platform's analytics tools.
-
+Account or billing issues (credentials, account status, payments): Contact Tradeify support through the chat widget in your dashboard
 
 ---
 
-https://help.tradeify.co/en/articles/13196338-tradovate-charting-guide
+https://help.tradeify.co/en/articles/12294317-quantower-setup-guide
 
-Tradovate Charting Guide
-Complete guide to charting in Tradovate, covering chart creation, navigation, layout sections, intervals, styles, crosshair settings, and the Data Box feature for comprehensive market analysis.
-
-December 19, 2025
-This comprehensive guide covers everything you need to know about charting in Tradovate, including creating charts, navigation, intervals, styles, crosshair settings, and the Data Box feature.
-
-
-
-
-
-Chart Module Overview
-Charts are the most customizable module in the Tradovate Web App, designed for efficient data analysis and streamlined trading controls.
-
-
-
-
-
-Creating a New Chart Module
-To add a new Chart Module to your Workspace in the Tradovate Web App, click the + (New) button at the top left of the page. Then, click and drag the Chart module to your desired location within the browser window.
-
-
-Once the Chart module is open, type the instrument symbol or a search term into the Search Bar—such as the symbol, name, or exchange. Tradovate's smart search will automatically display relevant products and contracts as you type.
-
-
-You can also add new Charts by using the search bar at the top of the page or by right-clicking on an instrument within a Market Analyzer Module.
-
-
-
-
-
-Navigating Web Charts
-To quickly navigate and customize the Chart Module view, you can:
-
-Left-click and drag within the chart to pan in any direction
-
-Scroll up or down with your mouse or touchpad to zoom in or out horizontally
-
-Left-click and drag on the price scale (Y-axis) to adjust the vertical position
-
-Left-click and drag the module's borders to resize it within your workspace or browser window
-
-Clicking the Arrow at the top-right of the Chart module will move your view back to the current bar.
-
-
-
-
-
-
-Chart Layout - Contract Details
-
-The Contract Details section in the top-left corner of the Chart Module displays key information for the selected instrument, including the name, contract, last traded price, bid and ask prices, open positions, and unrealized P&L.
-
-To change the instrument, left-click the Instrument Symbol/Contract tab. You can also use the + button to add additional chart tabs within the same Chart Module.
-
-The color-coded dropdown dot next to the Chart Interval allows you to link the chart to other modules by instrument.
-
-
-
-
-
-Chart Layout - Trade Mode
-The Trade Mode section at the top-right allows you to place and manage trades in the Chart Module.
-
-The following buttons are available in the Trade Mode section:
-
-Control
-
-Description
-
-Buy Mkt / Sell Mkt
-
-Place Buy or Sell Market orders at the current price.
-
-Buy Bid / Sell Ask
-
-Place Buy Limit order at current Bid price or Sell Limit order at current Ask price.
-
-Order Quantity
-
-Select an order quantity using your keyboard or the dropdown.
-
-Close
-
-Close your open position, or Reverse your open position and/or Cancel any pending orders using the dropdown menu.
-
-ATM
-
-Manage and select your custom ATM Strategies.
-
-DAY/GTC
-
-Sets the Order Flags, or Time-in-Force, for your next orders.
-
-
-You can place Limit and Stop orders at specific prices directly on the Chart by left-clicking at your desired price level.
-
-
-
-
-
-Chart Layout - Quick Buttons
-
-While hovering over the Chart, numerous Quick Buttons will appear, allowing you to access all other available functions to customize your Chart. The Quick Buttons located at the top from left to right are:
-
-Control
-
-Description
-
-Zoom In/Out
-
-Manually zoom in and out horizontally on the chart. This can also be done using the scroll wheel on your mouse or touchpad for quick navigation.
-
-Interval
-
-Choose from predefined bar intervals on your chart, or select Custom Time to set a custom interval using Tick, Volume, Range, Momentum Range, or Seconds.
-
-Chart Style
-
-Includes Candlestick, OHLC, Line on Close, Bid-Ask Volume, Heikin Ashi, Renko, Point and Figure, and TPO (footprint) chart styles.
-
-Chart Settings
-
-Customize general settings including Color Scheme, Autofit, and Order Information on the Chart Module.
-
-Configure
-
-Change settings for specific objects on the Chart. Tip: Double-click on any object in the Chart to quickly access their configurable settings.
-
-Indicators
-
-Add and manage built-in indicators to the chart as well as search for Community Indicators.
-
-Templates
-
-Save and load Chart Templates.
-
-
-
-
-
-
-Additional Chart Properties
-
-Some additional chart properties found at the top-right of the Chart Module include:
-
-Control
-
-Description
-
-H
-
-Toggle Hot Keys in the Chart Module.
-
-View Settings
-
-Toggle and customize important settings on the chart, including: Show/Hide the Contract Details and Trade Mode sections, Change Stop order type while trading, Configure a custom Bar Countdown, Roll forward or backward through available futures contracts.
-
-Maximize/Minimize
-
-Maximize the Chart Module to fill the entire available screen space.
-
-Close
-
-Removes the Chart Module from the visible workspace.
-
-
-
-
-
-
-Chart Intervals
-The Interval you select defines what each bar on your Chart represents. In the Tradovate Web App, you can either choose from a predefined list of intervals or create a custom interval directly within your Chart modules.
-
-
-
-How to Change Interval
-To change the interval on your chart, hover your cursor over the chart and left-click the third button from the left.
-
-This will open the Interval dropdown, where you can select a predefined interval or create a custom one.
-
-
-
-
-Available Interval Types
-All historical market data consists of either minute, tick, or daily data. The following Interval Types are available:
-
-Minute
-
-Minute
-
-Hour (60-minute)
-
-Predefined Minute Intervals include 1, 5, 15, 30, and 60-minute charts. Selecting the Custom Time parameter allows you to choose any specific minute-based interval for your Chart. Recent Custom Timeframes will appear at the bottom of the Interval dropdown.
-
-Tick
-
-Ticks
-
-Volume
-
-Range
-
-Momentum Range
-
-Seconds
-
-When selecting any of the Tick-based Interval Types, a pop-up will appear prompting you to choose the specific tick, volume, range, or second amount for each bar.
-
-Day
-
-1 Day
-
-
-
-
-
-
-Chart Styles
-While Charts in the Tradovate Web App will default to candlestick-style bars, you can change the bar style to fit your preferences at any time using the Chart Style dropdown.
-
-
-
-How to Change Chart Style
-To change the bar styling in your chart, hover your cursor over the Chart module and click the Chart Style button that appears at the top.
-
-
-
-
-Available Chart Styles
-There are eight built-in Chart Styles available for use in the Tradovate Web App:
-
-Candlesticks (Default)
-
-OHLC
-
-Line on Close
-
-Bid-Ask Volume
-
-Heiken-Ashi
-
-Renko
-
-Point and Figure
-
-TPO (also known as Footprint or Volumetric)
-
-
-
-
-
-
-Chart Crosshair
-The Crosshair feature in the Tradovate Web App offers both visual and global customization parameters for your cursor while hovering over a Chart module.
-
-
-
-Customizing the Crosshair
-When hovering your cursor over a Chart in the Tradovate Web app, a crosshair will automatically appear that displays the Time (X-axis) and Price (Y-axis) of your cursor's current location.
-
-To customize the crosshair, click the Crosshair icon located on the left side of the Chart.
-
-
-From the menu that appears, you can choose to:
-
-Toggle the visibility of the crosshair (Show Crosshair)
-
-Enable or disable Snap mode
-
-Turn on the Global Crosshair to sync the crosshair across multiple Chart modules
-
-To sync the crosshair across multiple charts using the same instrument, you must enable the Global Crosshair setting on each Chart module.
-
-
-
-
-
-
-Data Box
-The Data Box is a Charting feature available in the Tradovate Web App that allows you to view pricing, time, and indicator information at a glance for the bar you are currently hovering your mouse over.
-
-
-
-Opening & Customizing the Data Box
-To open the Data Box, click the Data Box icon that appears on the left side of the Chart as you hover your cursor over it.
-
-
-To move the Data Box within the Chart module, left-click and drag the three dots in the upper-right corner.
-
-You can resize it by clicking and dragging the bottom-right corner. To close the Data Box, click the X in the top-right corner.
-
-
-
-
-Data Box Display Overview
-The Data Box will display the current Date, Time, and Volume, in addition to the Open, High, Low, and Close prices for the bar you are currently hovering your cursor over in the Chart.
-
-Should you have any Indicators added to your Chart, resizing the Data Box or scrolling down in it will allow you to see all Indicator values at your current cursor location
-
----
-
-https://help.tradeify.co/en/articles/13196343-tradovate-order-entry-copy-trading
-
-
-Tradovate Order Entry & Copy Trading
-Complete guide to order entry in Tradovate, covering the SuperDOM module, market/limit/stop orders, ATM strategies (bracket orders), exit buttons, and Group Trading setup with important limitations and warnings.
-
-January 22, 2026
-This comprehensive guide covers order entry in Tradovate, including the SuperDOM module, order types, ATM strategies, quick exit buttons, and Group Trading (copy trading) setup with important warnings.
-
-
-
-
-
-Important Copy Trading Rules
-You may only group trade between accounts you own and manage. Copying other strategies or engaging in copy trading with others is not permitted.
-
-If you choose to use third-party trade copiers, you do so at your own risk. We are not responsible for any errors they may cause, and support for such issues is beyond our scope.
-
-
-
-
-
-SuperDOM Overview
-The SuperDOM module can be launched from the New (+) menu in the Tradovate Web app. DOM stands for Depth of Market, and the SuperDOM provides a live view of Level II market data while also serving as an order entry window for trading in your selected market.
-
-
-
-Accessing the SuperDOM Settings
-To view and configure the settings of your SuperDOM in Tradovate Web, locate the gear icon at the top right of the DOM module:
-
-
-Click "Settings" in the drop-down menu to bring up the SuperDOM Settings:
-
-
-
-
-SuperDOM Settings Reference
-Setting
-
-Description
-
-Mouse Configuration for Order Entry
-
-Configure which buttons on your mouse take actions with placing orders.
-
-Show Bid / Ask Histogram
-
-Toggle the display of the Histogram if you have Order Flow+ enabled.
-
-PNL in Ticks
-
-See profit and loss displayed as tick values or dollars.
-
-Show Estimated P/L
-
-Display estimated profit and loss at various levels within your SuperDOM.
-
-Show Chart Indicators
-
-When enabled, hovering over indicator names shows which chart they're displaying.
-
-
-
-
-
-
-
-Placing Market Orders
-To place a market order from the SuperDOM in Tradovate Web, simply click the Buy Mkt or Sell Mkt buttons at the top of the Module. Clicking Buy Mkt will place a market order to buy, clicking Sell Mkt will place a limit order to sell:
-
-
-Clicking the Exit at Mkt & Cancel button will submit market orders to offset any active positions you have in that instrument, as well as cancel any working orders in that instrument. Please note that said button only impacts positions and orders in the instrument that is loaded in the SuperDOM at that time.
-
-
-
-
-
-Placing Limit Orders
-To place a limit order in the SuperDOM, find your desired price level and:
-
-Left-click on the left side below the current market price to place a Buy Limit order
-
-Left-click on the right side above the current price to place a Sell Limit order
-
-If Order Confirmations are enabled, you'll be prompted to confirm before the order is submitted. If they are not enabled, the order is sent to the exchange immediately upon clicking.
-
-Important:
-
-Buy limit orders must be placed below the current market price
-
-Sell limit orders must be placed above the current market price
-
-
-
-
-
-Placing Stop Orders
-To place a Stop order in the SuperDOM, simply right-click in the bid or ask column at your desired price.
-
-If Order Confirmations are enabled, you'll be prompted to confirm before the order is submitted. If they are not enabled, the order will be sent to the exchange immediately upon your click.
-
-
-
-Configuring the Default Stop Type
-The default Stop Type in the Tradovate Web app is a Stop Market order. To customize your default Stop Type, click the gear icon at the top right corner of the SuperDOM and select Stop Type from the dropdown.
-
-The available Stop Types include:
-
-Stop (Market)
-
-Stop Limit
-
-Trailing Stop
-
-Trailing Stop Limit
-
-
-
-
-
-
-Changing & Cancelling Orders
-
-
-Changing Order Prices
-To change the price of an existing order, simply click on an order in the SuperDOM and drag it to the price level where you want it to be.
-
-
-
-Cancelling Orders
-To cancel a working order in the SuperDOM, hover over the order and click the X that corresponds to the order in the SuperDOM module. Please note that cancelling an order does NOT mean that you are closing out an open position.
-
-
-
-
-
-
-ATM Strategies (Bracket Orders)
-ATM (Advanced Trade Management) Strategies enable the automatic placement of predefined Stop Loss and Profit Target orders once an Entry order is executed. These exit orders are configured with OCO (One Cancels the Other) functionality, ensuring that when either the Profit Target or Stop Loss is triggered, the remaining order is automatically canceled. This setup is commonly referred to as a 'bracket order.'
-
-
-
-Creating ATM Strategies
-Step 1: Select ATM Settings
-
-To begin configuring a custom ATM Strategy, select the ATM Settings cogwheel button next to the ATM dropdown on a Chart or SuperDOM module.
-
-
-Step 2: Name and customize your ATM Strategy
-
-The following settings are available in the ATM Settings window:
-
-ATM Name: Click the + button to give your strategy a custom name, or select an existing strategy from the dropdown
-
-Show In: Setup your ATM Strategy using Ticks, Delta Price, or $Value
-
-Type: Create an ATM Strategy with both a Stop Loss and Profit Target, a Stop Loss only, or a Profit Target only
-
-Profit: Set your Profit Target amount (uses Limit order type)
-
-Stop: Set your initial Stop Loss amount
-
-Stop Loss Type: Seven possible configuration types available for your Stop Loss
-
-
-
-
-Stop Loss Types
-There are seven different configurable Stop Loss Types available for ATM Strategies:
-
-
-Stop: The default Stop Market order type with no enhanced behavior
-
-Stop Limit: Stop Limit order type. You can set a Limit offset using the "Stop Limit" box when selected
-
-Trail.Stop: Stop Market order with a Trailing Stop, which will move with the market if your trade is profitable
-
-Trail.Stop Limit: The same Trailing Stop behavior but with a Stop Limit order type
-
-Auto Breakeven: Stop Market order that will move to breakeven after reaching a specified "Profit Trigger"
-
-Auto Trail: Stop Market order that will begin trailing once the "Profit Trigger" is reached
-
-Auto BreakEven + AutoTrail: A combination stop strategy that combines both behaviors
-
-Click the blue + button next to the "Type" dropdown to add additional separate targets to your strategy each with their own Stop Loss configuration.
-
-Step 3: Click "OK" and select your custom ATM Strategy from the "ATM" dropdown on your Chart or SuperDOM.
-
-When trading with an ATM Strategy selected in the dropdown, your Stop Loss and/or Profit Target orders will automatically be placed after your Entry order fills. Once either your Stop Loss or Profit Target is filled, the remaining order(s) will automatically be canceled.
-
-
-
-
-Deleting Saved ATM Strategies
-Click the ATM configuration icon (gear) in your SuperDOM or Chart
-
-Click on the ATM Name dropdown
-
-Hover over the ATM Strategy you want to delete and click on the "trash can" icon to remove it
-
-
-
-
-
-
-Exit & Cancel Buttons
-Tradovate's SuperDOM and Chart modules have buttons that can be used to exit positions and cancel orders.
-
-
-
-
-Exit at Mkt & Cxl
-This is short for "Exit at Market and Cancel". Clicking this button will exit all positions at the market and cancel any working orders for the instrument associated with that module.
-
-For example, if you have a SuperDOM module for MES, and you have an active position with a working ATM strategy in MES, clicking the Exit at Mkt & Cxl button will close your MES position with a market order and cancel any working MES orders.
-
-
-
-Reverse & Cxl
-This is short for "Reverse and Cancel". Clicking this button will exit your current positions at the market and establish one in the opposite direction, also at the market, for the instrument associated with that module. Your working orders in that instrument will be cancelled.
-
-
-
-Cancel All
-This will cancel all working orders in the instrument associated with the module. Positions will remain open until they are closed out.
-
-
-
-Cancel Offers / Cancel Bids
-Cancel Offers will cancel working buy orders for the instrument. Cancel Bids will cancel working sell orders.
-
-
-
-Exit All Positions Cancel All
-This button can be accessed by clicking your balance at the top of the Tradovate platform. Clicking it will cancel all working orders and close all positions at the market, regardless of instrument.
-
-
-Important Note: "Exit All Positions Cancel All" button does NOT work when using Group Trading - it will only close the position for the selected account and will NOT close/cancel positions for other accounts in the group.
-
-
-
-
-
-Group Trading (Copy Trading)
-Group Trading allows you to execute trades across multiple linked accounts simultaneously from a single interface.
-
-
-
-Group Trading Setup Instructions
-1. Log into your Tradovate account.
-
-
-2. Click on the Application Settings in the top right corner.
-
-
-3. Navigate to the Add-Ons Section.
-
-
-4. Scroll down and Click "Activate" on Group Trade Add-on.
-
-
-5. Click on the Accounts dropdown menu, then "Manage Groups".
-
-
-6. Click on the plus sign to create a new group.
-
-
-7. Drag the Accounts you want to trade from the left side to the right side.
-
-
-8. Select the Contract Amount you would like to copy per account.
-
-
-
-
-Understanding How Group Quantities Work
-The Qty setting determines how many contracts each account receives when you place a trade. All accounts in your group will receive the same number of contracts (equal distribution).
-
-
-
-Key Rule: Your order quantity MUST be a multiple of your group's total quantity.
-
-
-
-Total Group Qty = Per-Account Qty × Number of Accounts
-
-
-
-Example - Setting Up for 1 Contract Per Account:
-
-If you want each account to receive 1 contract per trade, set Qty = 1 for all accounts:
-
-3 accounts × Qty 1 each = Total Group Qty of 3
-
-With this setup:
-
-Valid order sizes: 3, 6, 9, 12, 15...
-
-Placing a 3-contract order → each account receives 1 contract
-
-Placing a 6-contract order → each account receives 2 contracts
-
-Placing a 9-contract order → each account receives 3 contracts
-
-
-
-Common Mistake - Setting Qty Too High:
-
-If you set Qty = 3 for each of 3 accounts:
-
-3 accounts × Qty 3 each = Total Group Qty of 9
-
-Valid order sizes: 9, 18, 27, 36...
-
-You CANNOT place orders smaller than 9 contracts
-
-This is why you may see the error "Total order quantity should be a multiple of 9" - your minimum order size is 9 contracts (3 per account × 3 accounts).
-
-
-
-Recommendation: Set each account to Qty = 1. This gives you the most flexibility - you can trade in multiples of your account count (e.g., 3 accounts = trade 3, 6, 9... contracts, with each account receiving 1, 2, 3... contracts respectively).
-
-
-
-9. Click Save.
-
-
-10. Click on the Group name you created to turn it on.
-
-
-11. To confirm that it's on, you will see the Group Name appear under the Account number.
-
-
-
-
-Important Group Trading Limitations
-Bracket orders (ATM Strategies) are NOT supported while Group Trading.
-
-"Exit All Positions Cancel All" only affects the selected account, not the entire group.
-
-
-
-Troubleshooting: "Total order quantity should be a multiple of X" Error
-This error means your order quantity doesn't match your group settings.
-
-
-
-The "X" in the error message is your Total Group Qty (per-account Qty × number of accounts).
-
-
-
-How to fix:
-
-Check your group settings in Accounts → Manage Groups
-
-Calculate your total: Per-Account Qty × Number of Accounts
-
-Either place orders in multiples of that total, OR lower the Qty setting for each account
-
-
-
-Example Fix:
-
-Problem: 3 accounts × Qty 3 each = Total 9 → Must trade 9, 18, 27...
-
-Solution: Change to 3 accounts × Qty 1 each = Total 3 → Can trade 3, 6, 9...
-
-
-
-After changing your group settings, click Save, then reselect your group from the Account dropdown.
-
-
-
-
-
-Frequently Asked Questions
-Q: I clicked Cancel All before closing my platform, and it didn't close out my position, how come it didn't work?
-
-A: Cancel All will only cancel working orders - it does not impact positions.
-
-
-
-Q: Does Exit at Mkt & Cxl affect all positions and orders?
-
-A: The Exit at Mkt & Cxl button only impacts positions and orders associated with the instrument in that module. For example, if you have positions in CL and ES, but click the button on an ES module, only ES orders and positions will be affected.
-
-
-
-Q: How can I close all positions and cancel all orders?
-
-A: Click your balance at the top of the platform and use the "Exit All Positions Cancel All" button. Note: This does not work with Group Trading - you must close each account's positions separately.
-
-
-
-Q: I get "Total order quantity should be a multiple of X" - what does this mean?
-
-A: This error means your order size doesn't match your group configuration. The "X" is your total group quantity (per-account Qty × number of accounts). For example, if you have 3 accounts each set to Qty 3, your total is 9 (3 × 3), so you can only place orders of 9, 18, 27, etc. To trade smaller quantities, go to Manage Groups and lower the Qty for each account. Setting each account to Qty 1 lets you trade in multiples of your account count (e.g., 3 accounts = orders of 3, 6, 9...).
-
-
----
-
-https://help.tradeify.co/en/articles/13196348-tradovate-risk-account-settings
-
-
-Tradovate Risk & Account Settings
-Complete guide to account management, risk settings, and contract rollovers in Tradovate. Learn how to monitor accounts, configure risk controls, and manage contract rollovers.
+Quantower Setup Guide
+Guide to installing Quantower and connecting your Tradeify account. Covers beta version setup, Rithmic connection, charting, DOM, volume profile, and troubleshooting.
 
 Updated over 3 weeks ago
-This guide covers account management, risk settings, and contract rollovers in Tradovate, helping you monitor your accounts and configure risk controls.
+This guide covers everything you need to download, install, and connect your Tradeify account to Quantower — from setting up the beta version to navigating the platform's advanced charting and order flow tools.
 
 
 
+⚠️ Third-Party Software Notice
 
+Quantower is a third-party platform not owned or operated by Tradeify. Tradeify does not provide technical support for Quantower. For platform-specific issues (bugs, UI problems, feature questions), visit the Quantower Help Center or contact Quantower support. For account or billing questions, contact Tradeify support.
 
-Accounts Module
-The Accounts Module in the Tradovate Web App is a customizable grid that provides real-time information for all your connected accounts in one location.
 
 
 
-Display Overview
-To access the Accounts Module, simply open the New (+) menu and select Accounts. New tabs can be added for additional account filtering as needed.
 
+What is Quantower?
+Quantower is a professional-grade desktop trading platform built for serious futures traders who want deep market analysis. It combines advanced charting with over 150 technical indicators, a powerful DOM (Depth of Market) with heatmap visualization, volume profile analysis, and footprint (cluster) charts — giving you a complete picture of order flow and market structure.
 
-By default, the Accounts module will display the Account Number and Open (Unrealized) P&L for all your connected accounts.
 
 
+Key features:
 
-Customizing Accounts Module Columns
-To add, remove, or sort columns in the Accounts Module, click the View Settings (cog wheel) button at the top right of the module, then select Select Columns.
+150+ technical indicators — Comprehensive charting with customizable indicators, multiple chart types, drawing tools, and multi-timeframe analysis
 
-In the menu that appears, you can customize your columns as follows:
+DOM and DOM Surface — Real-time price ladder, one-click order entry, and a heatmap visualization showing where large orders are resting
 
-Drag columns from Available to Visible to add them to the Accounts Module
+Volume Profile — Overlay volume distribution at each price level to identify high-volume nodes, points of control, and value areas
 
-Drag columns from Visible back to Available to remove them
+Footprint (Cluster) Charts — Break down traded volume at each price level, showing buyer vs. seller activity, delta, and imbalances
 
-Rearrange the order of columns in the Visible list—top to bottom here reflects left to right in the Accounts Module
+Order flow analysis — Power Trades detection, Time & Sales, and cumulative delta to track institutional activity
 
+Custom indicators — Build your own indicators and automated strategies using C#
 
-The following columns are available for use in the Accounts Module:
+Multi-monitor support — Detach and arrange panels across multiple screens for a fully customizable workspace
 
 
-All Live and Demo account management can be completed from the Application Settings. If you are utilizing a prop trading account, please contact your account provider to make any risk or other account changes if needed.
 
+How to access Quantower:
 
+Desktop (Windows): Download for free from quantower.com/download
 
 
 
-Risk Settings
-Risk parameters can be configured on your Tradovate account to automatically "lock" it once specific profit or loss thresholds are reached through the application Risk Settings. Daily and weekly profit targets and loss limits are available.
+Quantower is a Windows-only desktop application. Mac users can run Quantower using virtual machine software such as Parallels, VMware Fusion, or VirtualBox.
 
-Daily profit and loss is calculated based on net profit and loss, starting at 5:00 PM Central Time and ending at 3:45 PM Central Time, Sunday through Friday, with real-time updates that include all fees and commissions.
 
-If the set risk limit is reached, all open positions are closed, and any working orders are canceled. No new positions can be established until the start of the next trading session: 5:00 PM Central the same day for daily limits or 5:00 PM Central on the following Sunday for weekly limits.
 
 
 
-How to Edit Risk Settings
-Log into your Tradovate account
 
-Navigate to the Application Settings by clicking the button in the upper right-hand corner
 
-On the Application Settings page, click the "Risk Settings" button to access and configure your risk parameters
 
+Prerequisites
+Before connecting to Quantower, make sure you have:
 
 
 
+A Tradeify account purchased with Rithmic as your broker. Quantower connects using Rithmic credentials. If you purchased with Tradovate or WealthCharts, you cannot use Quantower.
 
-Available Risk Settings
-Daily Loss Limit
+Your Rithmic credentials. Find your Rithmic username and password in your Tradeify dashboard under your account details.
 
-Weekly Loss Limit
+A Windows computer. Quantower requires Windows 10 or later, a 4-core CPU (recommended), 16 GB RAM (recommended), an SSD, and a high-speed internet connection. Mac users can run Quantower using virtual machine software (Parallels, VMware Fusion, or VirtualBox).
 
-Daily Profit Trigger
+.NET 8 installed. Quantower requires .NET 8. The installer will prompt you to download it from Microsoft if it is not already installed.
 
-Weekly Profit Trigger
 
-Each setting can be toggled on or off individually. After enabling a setting, enter your desired value in the provided box, ensuring it is not left at zero. Then, scroll down and click "Save" to apply your risk settings.
 
 
 
 
-Important Notes About Risk Settings
-Risk Settings work on Tradeify evaluation and Sim Funded accounts, as well as Tradovate live and demo accounts. Settings you choose are your own limits and do not replace Tradeify's account rules.
 
-Saving a Risk Setting to $0 will result in position liquidation and the cancellation of open orders. If this occurs by mistake, you can either disable the setting or adjust it to a value greater than zero.
 
-Customized Risk Settings do not override brokerage margin rules. If a Loss Limit exceeds the margin requirement to maintain a position, the Margin Policy will take precedence.
+Download and Install
 
 
+Step 1: Download Quantower
+Go to quantower.com/download and download the installer. Run the installer and follow the on-screen prompts to complete the installation.
 
 
 
-Manual Lockout
-Manual Lockout is a trader-controlled lockout that lets you proactively pause trading across all your accounts for a defined period. Use it to step away before limits are breached, lock in green days, or prevent overtrading during emotional decision-making.
 
 
 
-Where to Access Manual Lockout
-Manual Lockout can be initiated from:
+Step 2: Enable Beta Version
+⚠️ Important: You must enable the beta version of Quantower to connect to Tradeify. The stable release does not yet support the Tradeify connection.
 
-Tradovate Web Trader (trader.tradovate.com)
 
-NinjaTrader Mobile (Android & iOS)
 
-Once enabled, the lockout is enforced across ALL platforms — including TradingView and NinjaTrader 8 desktop.
+Open Quantower and click the General Settings icon (top right of the platform)
 
+Find and enable the option "Use beta version"
 
+Close the General Settings window
 
-Lock Duration Options
-15 minutes
+Click the "Refresh platform" button (top right) to download the beta update
 
-30 minutes
+Once the update finishes, restart Quantower
 
-1 hour
 
-End of session
 
-Custom duration (up to 24 hours max)
 
 
 
-What Happens When Activated
-All open positions are flattened
 
-All working orders are canceled
 
-New trades are blocked across all platforms
 
-The lockout automatically expires at the end of the chosen duration
 
 
+Connecting Your Tradeify Account
+After restarting Quantower with the beta version enabled, follow these steps to connect your Tradeify account.
 
-Important Notes About Manual Lockout
-Manual Lockout is user-level — it applies to ALL accounts tied to your user ID, not just one account
 
-Once enabled, the lockout CANNOT be canceled by the trader. This is intentional to promote disciplined trading
 
-Manual Lockout overrides existing risk settings while active, then hands control back once expired
+Step 3: Open the Connection Manager
+In the Quantower main panel, click Connections to open the Connection Manager. Select Rithmic from the list of available connections.
 
-Contact Tradeify support if you need an admin override in urgent situations
 
 
 
 
+Step 4: Select Tradeify Server
+In the connection settings, select "Tradeify" from the server dropdown menu.
 
-Contract Rollovers
-Automatic Rollovers are enabled by default in the Tradovate Web App, ensuring the modules on your Workspace display data for the current contract automatically for a seamless experience. However, contracts can be rolled over automatically at any time, and you can disable auto-rollovers if needed.
 
-Important Note: Neither automatic nor manual rollovers will roll over open positions on any of your accounts to a different contract.
 
 
 
-Manual Contract Rollovers
-While contracts are set to rollover automatically in the Tradovate Web App, you can roll forward or backward between contracts at any time by clicking the View Settings button (gear icon) located at the top-right of any Chart or SuperDOM module.
+Step 5: Enter Your Credentials
+Enter your Rithmic credentials from your Tradeify dashboard:
 
-From there, select Roll Forward to view the next contract or Roll Backward to view the previous contract in your selected module.
 
 
+Username — your Rithmic username from the Tradeify dashboard
 
+Password — your Rithmic password from the Tradeify dashboard
 
-Automatic Rollover Notification
-When contracts saved in your workspace are due for rollover, an Automatic Rollover notification will appear after you load the Tradovate Web App.
 
-To proceed with the automatic rollover:
 
-Toggle the contracts you'd like to roll over in the Update column
+Important: Both your username and password are case-sensitive. Copy them exactly as shown in your Tradeify dashboard.
 
-Click Done at the bottom of the window to confirm
 
-To skip rollover for now, click Cancel instead
 
+Step 6: Connect
+Click Connect. Once authenticated, your Tradeify trading account should appear in the account panel and market data should begin streaming. Verify that you can see your account balance and live price data.
 
 
 
-Prohibit Autoroll Contracts
-To prevent your Workspace from rolling over contracts automatically:
 
-Step 1: Click the Application Settings button at the top-right of the screen, and then select the Preferences tab at the top of the page.
 
 
-Step 2: On the Preferences page, scroll down to the Prohibit Autoroll Contracts section. By default, this setting is disabled, meaning all contracts in your Workspace will roll over automatically.
 
+Platform Overview
+Once connected, here is a quick tour of Quantower's main features.
 
-If you enable the Prohibit Autoroll Contracts setting, all contracts will need to be rolled over manually. Please log out and back in again for the changes to take effect.
 
----
-https://help.tradeify.co/en/articles/13196353-tradovate-analytics-tools-mobile
 
+Charting
+Quantower's charting engine supports over 150 built-in technical indicators with customizable parameters, multiple chart types (candlestick, bar, line, Heikin Ashi, Renko, Range, and more), drawing tools, and multi-timeframe analysis. You can link chart panels together so switching instruments updates all connected panels simultaneously.
 
-Tradovate Analytics, Tools & Mobile
-Complete guide to Tradovate's performance analytics, Time & Sales module, hotkeys configuration, and mobile trading features including charts, order entry, and contract rollovers.
 
-December 19, 2025
-This guide covers Tradovate's analytics tools, Time & Sales module, hotkeys configuration, and mobile trading features to help you maximize your trading efficiency.
 
 
 
+DOM (Depth of Market)
+The DOM displays a real-time price ladder showing the best bid and best ask sizes and traded volume at each price level. You can place orders with a single click, drag working orders to new price levels, and view your position and P&L in real-time.
 
 
-Performance Analytics
-Traders can access their account analytics directly from Tradovate to review trading performance over any date range.
 
-To access Performance Analytics:
+Quantower also offers DOM Surface — a heatmap visualization that plots price and traded activity over time. Note that its full order book depth view requires Level 2 data, which is not yet available on Rithmic accounts.
 
-Log into your Tradovate account
+Level 1 data: Rithmic accounts include Level 1 CME market data. The DOM shows the best bid and best ask along with your own working orders — it does not show full order book depth. Level 2 depth data and EUREX data are not yet available on Rithmic accounts and cannot be purchased — coming soon. See Level 2 (L2) and EUREX Data: Availability by Broker.
 
-Click the Reports icon on the right-hand side of the screen
 
-Select the Performance tab
 
-Select your date range and click Go
 
 
-The Performance report provides comprehensive analytics for your account including profit/loss metrics, win rate, and trade statistics:
 
 
+Volume Profile
+Volume Profile overlays show how much volume was traded at each price level over a given period. Use them to identify:
 
 
 
+Point of Control (POC) — the price level with the highest traded volume
 
-Time & Sales Module
-The T&S (Time & Sales) module available in the Tradovate Web App is a market data tool that shows real-time trade executions for your selected market. This feature is sometimes known as a Tape or Data Stream on other trading platforms.
+Value Area — the range where approximately 70% of trading volume occurred
 
+High Volume Nodes — price levels that attracted heavy trading activity
 
+Low Volume Nodes — price levels that may act as support or resistance
 
-Display Overview
-Once you select an instrument in the T&S module, you'll begin seeing all individual trades for that market update in real time. Each row in the module represents a single executed trade.
 
-At the top of the T&S module, the Last Trade price is displayed along with the net change for the current session, shown in both points and percentage. Next to that, you'll see the Total Volume of contracts traded during the session. A Volume Filter is also available, allowing you to view only trades that meet or exceed a specified contract size.
 
 
-Trades displayed in green represent Buy orders, while red indicates Sell orders. Rows that appear white or black (depending on your theme settings) signify additional fills in the same direction at the same price as the most recent trade.
 
+Footprint (Cluster) Charts
+Footprint charts (also called cluster charts) break down the traded volume at each price level within each candle, showing you exactly how much was bought vs. sold. This includes:
 
 
 
+Buy/Sell Volume — see the split between aggressive buyers and sellers at each price
 
-Available Columns
-For every trade printed in the T&S module, the following information will be displayed:
+Delta — the difference between buy and sell volume, revealing directional pressure
 
-Timestamp: Shows the precise time the trade occurred, down to the thousandths of a second
+Cumulative Delta — running total of delta to track the overall buyer/seller balance
 
-Price: Displays the price at which the trade was executed
+Imbalances — highlighted price levels where one side heavily dominated
 
-Size: Indicates the number of contracts in the trade
 
-Acc: Represents the accumulated volume at that price for the selected market during the current session
 
-There are no additional columns or settings available for customization in the T&S module. Additional instruments can be added to each module using new tabs.
 
 
+Order Types
+Quantower supports a full set of order types:
 
 
 
-Hotkeys
-Hotkeys in the Tradovate Web App are fully customizable and can be used for functions such as order entry, module management, and quick navigation around your workspace.
+Market Order — executes immediately at the best available price
 
+Limit Order — executes only at your specified price or better
 
+Stop Order — becomes a market order when the trigger price is reached
 
-How to Enable Hotkeys
-Hotkeys are disabled by default. To enable them:
+Stop Limit Order — becomes a limit order when the stop price is triggered
 
-Step 1: Click Application Settings in the top-right corner, then select the Preferences tab.
+Trailing Stop — a stop that automatically adjusts as price moves in your favor
 
+OCO (One Cancels Other) — two linked orders where filling one automatically cancels the other
 
-Step 2: Scroll down to the Hotkeys section and toggle them on.
 
 
-Step 3: Click the blue Edit Hotkeys button to configure your hotkey combinations.
 
 
+Troubleshooting
 
 
+"Tradeify" not appearing in server list
+Make sure you have enabled the beta version in General Settings and restarted Quantower
 
+Click the Refresh platform button to ensure you have the latest beta update
 
-Configuring Hotkeys
-The Hotkey Editor is organized into sections. Click the arrow on the right side of each section to expand and view the available hotkeys.
+If you are running an older version of Quantower, download the latest version from quantower.com/download and reinstall
 
-To assign a hotkey, toggle it on, click the blank textbox, and press your desired key combination all at once using your keyboard.
 
 
-After pressing your key combination, click anywhere else on the page. A green banner will confirm your hotkey was saved successfully.
+Rithmic credentials not working
+Both your username and password are case-sensitive — copy them exactly as shown in your Tradeify dashboard
 
+Make sure you are using your Rithmic credentials (not your Tradeify website login — these are different)
 
+Verify that "Tradeify" is selected as the server in the connection settings
 
+If you recently reset your password, try the new password
 
-Resetting Hotkeys
-To reset an individual hotkey, click the Reset button next to its configuration text box.
+Verify your account is active in your Tradeify dashboard
 
 
-To reset all configured hotkeys, click the Restore Default button at the top of the Hotkey Editor page. Note: This cannot be undone and you will need to manually remap all your configured hotkeys.
 
+Connection drops or data freezes
+Disable VPN if you are using one — VPNs add latency and can cause disconnections
 
+Check your internet connection and ensure you have stable broadband
 
+Try disconnecting and reconnecting from the Connection Manager
 
+If the issue persists, restart Quantower
 
 
-Using Hotkeys in Your Workspace
-After setting up your custom hotkey combinations, return to your workspace to start using them.
 
-If a hotkey is tied to a specific module (such as a chart), you'll need to enable that module for hotkey use by clicking the H button located at the top right of the module.
+Platform lag or slow performance
+Close unnecessary panels and reduce the number of active charts to free up memory
 
+Make sure your system meets the recommended requirements (4-core CPU, 16 GB RAM, SSD)
 
-When Hotkeys are toggled on for a module, a small keyboard icon will appear at the top-left next to the contract symbol. Click this icon to quickly disable hotkeys for that module if needed.
+Disable unnecessary indicators or volume analysis tools on charts you are not actively using
 
+Close other resource-heavy applications running alongside Quantower
 
 
 
+.NET 8 errors on startup
+If Quantower displays an error about .NET 8 on startup, download and install the latest version of .NET 8 from the Microsoft .NET download page, then restart Quantower.
 
 
-Mobile Trading
-The Tradovate Mobile app provides full trading capabilities on iOS and Android devices. This section covers loading charts and SuperDOM, order entry, contract rollovers, and switching contract months on mobile.
 
+Need more help?
+Platform issues (bugs, UI problems, features): Visit the Quantower Help Center or contact Quantower support
 
+Account or billing issues (credentials, account status, payments): Contact Tradeify support through the chat widget in your dashboard
 
-Loading Charts & SuperDOM
-To load a chart or SuperDOM in Tradovate Mobile:
-
-Tap the menu icon (three horizontal lines) in the upper-left corner
-
-Select Markets from the menu
-
-
-This displays futures contracts sorted by category. After selecting a contract, tap the expand screen icon (four arrows pointing out) to view in full screen:
-
-
-Once expanded, you'll see a thin vertical line on the screen. Press and hold the small notch in the upper part of this line to switch between the SuperDOM and chart:
-
-Swipe left for full-screen SuperDOM
-
-Swipe right for full-screen chart
-
-
-
-
-
-
-Order Entry on Mobile
-From the Options Menu:
-
-Tap the menu icon (hamburger) in the upper-left corner
-
-Select Trade from the menu
-
-
-
-From the Markets Screen:
-
-Navigate to the instrument you wish to trade, then tap Trade. You can also change the instrument on the Order Ticket screen.
-
-
-On the Order Ticket, select your Instrument, Buy/Sell direction, Order Type, and Brackets (if applicable):
-
-
-
-
-
-
-Contract Rollovers on Mobile
-To roll over to a different contract month in Tradovate Mobile:
-
-Step 1: Tap the menu icon (three horizontal lines) in the upper-left corner to access the side menu.
-
-
-Step 2: Select Markets to view available futures contracts.
-
-
-Step 3: Tap the dropdown icon next to your selected instrument's name to expand its details.
-
-
-Step 4: Tap the three dots at the bottom of the instrument's details panel, then select Roll Forward or Roll Backward.
-
-Note: No data will appear if you roll backwards to an expired contract.
-
-
-
-
-
-
-Switching Contract Months
-To add a specific contract month to your watchlist in Tradovate Mobile:
-
-Navigate to the Markets menu
-
-Tap the + sign in the lower-right corner of the screen
-
-
-Enter the contract name or symbol you want to add. As you type, options will auto-populate below the text entry box. Select the specific contract month you want.
 
 ---
 
-https://help.tradeify.co/en/articles/10468276-drawdown-widget
+https://help.tradeify.co/en/articles/14477114-sierra-chart-setup-guide
 
-Drawdown Widget
-Track real-time distance to your Trailing Max Drawdown: add the Dis Drawdown Net Liq column in Tradovate Accounts or Trailing Max Drawdown in NinjaTrader Control Center. Dashboard floor updates end of day.
+
+Sierra Chart Setup Guide
+Connect Sierra Chart with Rithmic credentials: sign CME agreement in R|Trader Pro, select Rithmic Direct - DTC, pick Tradeify server, turn off Trade Simulation Mode, fix Permission Denied and login errors.
 
 Updated over 3 weeks ago
-Your Trailing Max Drawdown floor is now shown directly on your Tradeify dashboard, where it updates once per day, at the end of each trading day. The steps below show how to also track your real-time distance to that floor inside your trading platform during the trading day.
+This guide covers everything you need to connect your Tradeify account to Sierra Chart and start trading — from subscription requirements and CME market data agreements to configuring the Rithmic data service and troubleshooting common issues.
 
 
 
-How to know my current drawdown
+⚠️ Third-Party Software Notice
 
-
-
-To view your distance to drawdown at which point your account is failed, read the following steps.
-
-
-
-Click the plus sign on the top left of Tradovate and select Accounts
-
-
-
-
-Click the gear on the top right of the accounts widget and click select columns.
+Sierra Chart is a third-party platform not owned or operated by Tradeify. Tradeify does not provide technical support for Sierra Chart. For platform-specific issues (bugs, UI problems, feature questions), visit the Sierra Chart Support Board or email Sierra Chart support. For account or billing questions, contact Tradeify support.
 
 
 
 
 
-
-Add the Dis Drawdown Net Liq to the right side of the visible fields.
-
-
-
-
-You will now see the distance to failing your account. In this example below if I lose $163 at anytime during the day, I will fail my account.
+What is Sierra Chart?
+Sierra Chart is a professional-grade charting and trading platform for Windows, known for its speed, reliability, and deep customization. It connects to Rithmic for real-time market data and order execution, and is popular among futures traders who want institutional-level charting and analysis tools.
 
 
 
+Key features:
+
+Advanced charting — Hundreds of built-in technical studies, multiple chart types, real-time streaming, and minimal latency
+
+Spreadsheet-based customization — Build custom studies and calculations using built-in spreadsheet formulas, no coding required
+
+DOM (Depth of Market) — Real-time price ladder trading with configurable columns (Level 1 data on Tradeify accounts)
+
+Order flow and volume analysis — Volume-at-price, footprint charts, market depth historical graph, and Numbers Bars
+
+Chart replay — Replay historical market data tick-by-tick for practice and strategy backtesting
+
+Automated trading (ACSIL) — Build custom automated trading systems using C++ via the Advanced Custom Study Interface and Language
+
+Multi-monitor support — Detach and arrange chartbooks across multiple screens
 
 
 
-NinjaTrader Drawdown Widget
-To view your distance to drawdown in Ninjatrader at which point your account is failed, read the following steps.
+Level 1 data: Rithmic accounts include Level 1 CME market data. The DOM shows the best bid and best ask along with your own working orders — it does not show full order book depth. Level 2 depth data and EUREX data are not yet available on Rithmic accounts and cannot be purchased — coming soon. See Level 2 (L2) and EUREX Data: Availability by Broker.
 
 
 
-1. Navigate to Control Center → Accounts
+How to access Sierra Chart:
 
-
-
-
-
-
-2. Right-click anywhere within the accounts tab and select "Properties"
+Desktop (Windows): Download from sierrachart.com (Windows only — no native Mac or Linux versions)
 
 
 
 
 
 
-3. Scroll down to the "Columns" section, check the box for "Trailing Max Drawdown," and click "Apply"
+
+Prerequisites
+Before connecting to Sierra Chart, make sure you have:
+
+
+
+A Tradeify account purchased with Rithmic as your broker. Sierra Chart connects using Rithmic credentials. If you purchased with Tradovate or WealthCharts, you cannot use Sierra Chart.
+
+Your Rithmic credentials. Find your Rithmic username and password in your Tradeify dashboard under your account details.
+
+A Sierra Chart subscription (Package 10 or higher). Sierra Chart requires a paid "Integrated" subscription to connect to Rithmic. Package 10 ("Integrated Standard") is the minimum at $36/month ($23.40/month with prepaid annual). Packages 3 and 5 do NOT support external data feeds like Rithmic. Subscribe at sierrachart.com.
+
+A Windows computer. Sierra Chart is a Windows desktop application. Mac and Linux users can run it via a virtual machine or compatibility layer (e.g., Parallels, Wine), but this is not officially supported by Sierra Chart.
+
+CME market data agreements signed. You must log in to R|Trader Pro at least once and accept the CME Non-Professional Market Data Agreement before Sierra Chart can receive market data. See Step 1 below.
+
+
+
+
+
+
+
+Connecting Your Tradeify Account
+Follow these steps to configure Sierra Chart to connect to your Tradeify trading account using Rithmic. For a visual reference of the settings windows, see Sierra Chart's official Rithmic setup documentation.
+
+
+
+Step 1: Sign CME Market Data Agreements
+Before connecting Sierra Chart, you must sign the CME Non-Professional Market Data Agreement through R|Trader Pro. If you have already done this (e.g., when setting up another Rithmic platform), you can skip to Step 2.
+
+
+
+Go to rtraderpro.rithmic.com/rtraderpro-web (the R|Trader Pro web version)
+
+Log in with your Rithmic credentials from your Tradeify dashboard
+
+Select System Name: "Tradeify"
+
+Accept any CME Non-Professional Market Data Agreements that appear
+
+Once signed, you can close R|Trader Pro — you only need to do this once
+
+
+
+Important: If you skip this step, Sierra Chart will show "Permission Denied" errors when trying to load market data.
+
+
+
+
+
+Step 2: Open Data/Trade Service Settings
+Open Sierra Chart and go to Global Settings → Data/Trade Service Settings from the menu bar at the top of the window.
+
+
+
+
+
+Step 3: Select Rithmic Data Feed
+In the Data/Trade Service Settings window, find the "Current Selected Service (List)" dropdown and select "Rithmic Direct - DTC [Trading]". Then click OK to save.
+
+
+
+Important: After clicking OK, Sierra Chart needs a moment to load the available server list from Rithmic. Wait about 5–10 seconds, then reopen Global Settings → Data/Trade Service Settings before proceeding to the next step.
+
+
+
+
+
+Step 4: Select Your Server
+After reopening Data/Trade Service Settings, the Server (List) dropdown will now be populated with available Rithmic servers. Select the correct server for your account type:
+
+
+
+Evaluation and Sim Funded accounts: Select "Tradeify" (you may see variations like "Tradeify-Chicago Area-Non-Aggregated" — any "Tradeify" option will work)
+
+Live Funded accounts: Select "Rithmic 01" (you may see "Rithmic 01 - US" or similar)
+
+
+
+Important: Using the wrong server will prevent you from connecting. Evaluation and Sim Funded accounts must use a "Tradeify" server. If the Server dropdown is empty, close and reopen the settings window — the list loads asynchronously after selecting the Rithmic service.
+
+
+
+
+
+Step 5: Enter Your Rithmic Credentials
+Enter your Rithmic credentials from your Tradeify dashboard in the following fields. All three credential pairs use the same Rithmic username and password:
+
+
+
+Trading Username — your Rithmic username
+
+Trading Password — your Rithmic password
+
+Market Data Username — same Rithmic username
+
+Market Data Password — same Rithmic password
+
+Historical Data Username — same Rithmic username
+
+Historical Data Password — same Rithmic password
+
+
+
+Click OK to save the settings.
+
+
+
+Important: Credentials are case-sensitive. Copy them from your Tradeify dashboard, then check that no extra spaces were added at the start or end. If your username or password is longer than 31 characters, contact Tradeify support to have it shortened.
+
+
+
+
+
+Step 6: Connect and Verify
+Go to File → Connect to Data Feed (or press F11). Sierra Chart will connect to Rithmic and begin streaming market data.
+
+
+
+To verify the connection is working:
+
+
+
+The connection status bar at the top of the window should turn green
+
+Open a chart (File → New Chart or Chart → Open) and select a futures symbol (e.g., ES) to confirm data is flowing
+
+Check Trade → Trade Activity Log for connection status messages
+
+
+
+
+
+Step 7: Disable Trade Simulation Mode
+Sierra Chart may start in Trade Simulation Mode by default. When this mode is enabled, your orders are simulated locally and not sent to the exchange through Rithmic.
+
+
+
+To disable it, go to Trade → Trade Simulation Mode On/Off and make sure it is unchecked (off). When Trade Simulation Mode is off, your orders will be sent through Rithmic to the exchange.
+
+
+
+⚠️ Warning: If Trade Simulation Mode is on, you will see simulated fills but no actual orders will be placed. Your Tradeify account balance will not change. Always verify this setting before placing trades.
+
+
+
+
+
+
+
+Optional: Denali Exchange Data Feed
+Sierra Chart offers an optional alternative market data source called the Denali Exchange Data Feed, which is Sierra Chart's own exchange data service. If you configured the Rithmic data feed using the steps above, you do not need Denali — your market data is already provided through Rithmic.
+
+
+
+Denali is a separate paid add-on ($6–$40.50/month depending on the exchanges you subscribe to) and has its own CME non-professional rate requirements. It is primarily designed for traders with personal live funded brokerage accounts.
+
+
+
+For most Tradeify users, the Rithmic data feed configured above is the recommended approach. If you want to learn more about Denali, visit the Sierra Chart Denali Exchange Data Feed page.
+
+
+
+
+
+Troubleshooting
+
+
+"Permission Denied" or no market data
+This usually means you have not signed the CME Non-Professional Market Data Agreements
+
+Log in to R|Trader Pro (web) with your Rithmic credentials and System Name "Tradeify"
+
+Accept any market data agreements that appear, then try Sierra Chart again
+
+If you already signed, wait 15–30 minutes and try reconnecting — agreement propagation can be delayed
+
+
+
+Login failed or connection refused
+Make sure you are using your Rithmic credentials (not your Tradeify website login or your Sierra Chart subscription login — these are all different)
+
+Verify all six credential fields (Trading, Market Data, Historical Data) have the same username and password
+
+Credentials are case-sensitive — copy them from your Tradeify dashboard and check for extra spaces at the start or end
+
+If you recently reset your password, try the new password
+
+Verify your account is active in your Tradeify dashboard
+
+
+
+Wrong server or cannot find account
+Evaluation and Sim Funded accounts must use a "Tradeify" server (for example "Tradeify-Chicago Area-Non-Aggregated")
+
+Live Funded accounts must use "Rithmic 01"
+
+If the Server dropdown is empty, close the Data/Trade Service Settings window, wait a few seconds, and reopen it — the server list loads asynchronously after selecting the Rithmic service
+
+
+
+Session already in use (platform conflict)
+Rithmic credentials can only maintain one active session per connection type at a time
+
+If you are logged into another Rithmic platform (R|Trader Pro, Tradesea, or Quantower), close it before connecting Sierra Chart
+
+If Sierra Chart says the session is already in use, log out of all other Rithmic-connected platforms and try again
+
+
+
+Orders not appearing in Tradeify dashboard
+Check that Trade Simulation Mode is off (Trade → Trade Simulation Mode On/Off should be unchecked)
+
+When simulation mode is on, Sierra Chart processes orders locally without sending them to Rithmic
+
+Verify by checking the Trade Activity Log — simulated orders will show "Sim" indicators
+
+
+
+Platform lag or slow performance
+Close unnecessary chartbooks and studies to reduce CPU and memory usage
+
+Disable VPN if you are using one — VPNs add latency and can cause disconnections
+
+Sierra Chart is designed for Windows — if running through a virtual machine or compatibility layer, performance may be reduced
+
+Make sure Sierra Chart is up to date (File → Fast Update)
+
+
+
+Need more help?
+Platform issues (bugs, UI problems, features): Visit the Sierra Chart Support Board or email Sierra Chart support
+
+Account or billing issues (credentials, account status, payments): Contact Tradeify support through the chat widget in your dashboard
+
+---
