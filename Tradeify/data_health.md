@@ -74,13 +74,16 @@ it counts toward the 5-funded-account cap.
 
 ## 3. Missing articles
 
-Three collection indexes in this folder list more articles than were captured.
+One collection index in this folder still lists more articles than were captured.
 
 | Collection | Listed | Captured | Missing |
 |---|---|---|---|
 | Accounts & Rules | 20 | 18 | "Account Types", "Forge" (2 articles) |
-| Getting Started | 14 | 13 | "How to Select the Correct Trading Contract" |
+| Getting Started | 14 | 14 | — |
 | Payouts & Billing | 8 | 8 | — |
+
+"How to Select the Correct Trading Contract" is present in `Getting_Started.md` with its
+source URL, and the Getting Started collection is now complete.
 
 Referenced throughout but not present in any file:
 
@@ -113,6 +116,8 @@ Referenced throughout but not present in any file:
 | 10 | **Select 300K availability.** The Select Evaluation article lists five sizes including $300,000, then its Getting Started steps say "Choose your account size (25K, 50K, 100K, **or 150K**)". | `Accounts_n_Rules.md`, within one article |
 | 11 | **Stale collection description.** The Accounts & Rules collection is described as "Tradeify's challenge accounts including **Advanced**, Growth, and **Straight to Sim Funded** options". The current names are Select, Growth, Lightning and Inter Miami. "Advanced" and "Straight to Sim Funded" appear nowhere else. | `Accounts_n_Rules.md` |
 | 12 | **"Save $X with code NOV" labels are off by $1 on three Select plans.** Select 50K is $165 → $116, labelled "Save $50" when the actual saving is $49. Select 100K is $265 → $186, labelled "Save $80" against an actual $79. Select 300K is $525 → $368, labelled "Save $158" against an actual $157. The discount itself is a clean 30% rounded to the dollar in each case. | `Plans.md`, within one page |
+| 13 | **QI (E-mini Silver) is listed as a supported product.** "How to Select the Correct Trading Contract" lists QI under "CME Contract Calendars — Tradeify Supported Products". QI does not appear in the 48-symbol supported list, nor in the Metals Product Group used for hedging, nor in the commission schedule. The Supported Products article also states there is no micro or mini silver beyond the full-size SI. | `Getting_Started.md` vs `Accounts_n_Rules.md`, `Payouts_n_billing.md` |
+| 14 | **Two contract-symbol year formats.** The same article states the year code is a single digit on Tradovate, Rithmic, WealthCharts and NinjaTrader (ESH6 for March 2026), then its own worked example reads "If the CME calendar shows **ESH25**". "Understanding CME Contracts" also uses the two-digit form. | `Getting_Started.md`, within one article |
 
 ---
 
@@ -180,6 +185,12 @@ tradable products with no published commission.
 EUREX commissions are quoted in EUR while accounts are denominated in USD. The products
 article confirms EUREX contracts are "traded in euros but settled in USD" but gives no
 conversion rate, timing or spread.
+
+**Contract calendars**
+
+The calendar list in "How to Select the Correct Trading Contract" is headed "Tradeify
+Supported Products" but omits all eleven EUREX products, which have no CME calendar. A
+trader working from that list alone would not know which EUREX contract month to trade.
 
 **Tables with missing rows**
 
@@ -418,8 +429,7 @@ on a funding tradeoff beyond what is already in the pricing and rules articles. 
 useful item buried in them is the Drawdown Widget reference in `tradovate.md`, which
 matters because the dashboard drawdown figure is only updated daily.
 
-Note the filename `wealthCarts.md` is misspelled, and the folder is named `Tradify` while
-the firm is `Tradeify`.
+Note the filename `wealthCarts.md` is misspelled.
 
 ---
 
@@ -434,11 +444,14 @@ the firm is `Tradeify`.
 4. Confirm the Select 300K price: $570 in the Pricing Reference, $525 on the purchase page.
 5. Confirm whether Lightning payouts require 5 trading days, as the plan cards state, or
    none, as the payout policy states.
-6. Confirm whether the `NOV` coupon is permanent or a rotating promotion, and whether the
+6. Confirm whether QI (E-mini Silver) is tradable. It appears in the contract-calendar
+   list but in no other article, including the hedging Product Groups and the commission
+   schedule.
+7. Confirm whether the `NOV` coupon is permanent or a rotating promotion, and whether the
    40% rate on Growth is permanent or seasonal.
-7. Confirm what activation looks like on Rithmic and WealthCharts if instant activation is
+8. Confirm what activation looks like on Rithmic and WealthCharts if instant activation is
    Tradovate-only.
-8. Get the date of "the new dashboard launch" so legacy parameters can be ruled out.
-9. Obtain commissions for NKD, FVS, FXXP and FGBX, or treat them as untradeable.
-10. Confirm whether the 50% Consistency Add-on is still sold separately, since the purchase
+9. Get the date of "the new dashboard launch" so legacy parameters can be ruled out.
+10. Obtain commissions for NKD, FVS, FXXP and FGBX, or treat them as untradeable.
+11. Confirm whether the 50% Consistency Add-on is still sold separately, since the purchase
     page shows the consistency choice as a toggle with no surcharge.
