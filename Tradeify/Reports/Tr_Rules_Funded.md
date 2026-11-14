@@ -2,6 +2,11 @@
 
 Rules that apply once an account is funded: simulated capital, real payouts.
 
+> **Read `Tr_Rules_General.md` first.** Trading hours, position limits, prohibited and
+> permitted conduct, instruments, platforms, inactivity and the general drawdown mechanic
+> apply here and are not repeated. This document covers only what is specific to the
+> funded phase, plus the parameters of each account type.
+
 Consequence codes:
 - **KILL** account lost immediately
 - **LOCK** trading halted until next session
@@ -14,129 +19,29 @@ away**, and **what caps the money you can actually withdraw**.
 
 ---
 
-## 1. General — applies to every account type
+## 1. What is specific to the funded phase
 
-### 1.1 Trading hours
+Five things change the moment you are funded. Each is expanded below.
 
-- **All positions must be flat by 4:45 PM ET.** On holiday half-days, 12:59 PM ET.
-- Open positions are closed automatically at the deadline. This does **not** fail the
-  account, but fills may be unfavourable.
-- No overnight, no weekend, no swing trading.
-- Session runs 6:00 PM ET to 5:00 PM ET the next day, with a 5:00–6:00 PM ET maintenance
-  break. A position may be held across that whole ~23-hour window, but never through the
-  break or the weekend.
-- A trading day is one trade placed within a session. Trades at 10:00 AM and 7:00 PM on
-  the same calendar date count as **two** trading days. This matters directly, because
-  payout eligibility is counted in trading days.
+| | |
+|---|---|
+| The drawdown locks | Section 2 |
+| Daily loss limits take their funded values and rise at 6% profit | Section 3 |
+| Select loses full contract size and must scale up | Section 4 |
+| The 10-second rule starts gating payouts | Section 5 |
+| Resets effectively disappear | Section 6 |
 
-### 1.2 Position limits and scaling
-
-- Contract limits are per account size. **10 micros = 1 mini.**
-- Minis and micros may be held at the same time, provided the combined position stays
-  within the limit at that 10:1 ratio.
-- **Growth and Lightning: full contract size from the first trade.** No scaling plan.
-- **Select: a contract scaling plan applies once funded.** You start below your maximum
-  and earn your way up as end-of-day profit grows. See sections 4.1 and 5.1.
-- **Inter Miami: micros only** at every size.
-- Deliberately circumventing the contract limit may result in the day's profit being
-  wiped. STRIP.
-
-### 1.3 Prohibited — these end the account or worse
-
-- **Hedging.** BAN. No opposing positions on the same instrument or on two products from
-  the same Product Group, whether in one account or spread across several of your
-  accounts. Consequences: violation status on every account involved, forfeiture of
-  profits generated during the violating period, and possibly a permanent ban.
-- Automated hedging detection breaches only when all three are true: opposing positions,
-  held longer than 10 seconds, and more than \$150 of profit generated from the hedge.
-  Cross-account and correlated-product hedging is reviewed manually with no published
-  threshold.
-- **High-frequency trading bots.** BAN.
-- **Exploiting platform errors** — price display errors, update delays, or any strategy
-  designed to create them. BAN under the Good Faith policy.
-- **Account sharing**, and paying with a card not in your own name.
-- Logging in via VPN or VPS. A VPS may be used for trading after a normal login.
-
-### 1.4 The 10-second rule — funded accounts only
-
-This gate does not exist during an evaluation. It appears the moment you are funded.
-
-- To request a payout, **both** of the following must be true:
-  - over 50% of your trades are held longer than 10 seconds, **and**
-  - over 50% of your profit comes from trades held longer than 10 seconds.
-- Failing it does **not** fail the account. BLOCK — it simply makes you ineligible to
-  request a payout until the ratios recover.
-- It is measured on the account, so a single heavy scalping session can push both ratios
-  out and block payouts until enough longer-held trades dilute them.
-
-### 1.5 Explicitly allowed
-
-- **News trading, with no restrictions at all.** Slippage is your own risk.
-- **Dollar cost averaging and scaling into trades.**
-- **Martingale**, provided it does not become hedging.
-- **Genuine scalping**, subject to the 10-second payout gate above.
-- **Automated and algorithmic trading**, provided you solely own the strategy, can prove
-  it on request, do not share it across firms, and it is not HFT.
-- **Trade copying in the same direction** across your own accounts.
-
-### 1.6 Account lifecycle
-
-- **A funded account cannot be reset.** A drawdown breach terminates it permanently, and
-  the normal route back is to buy and pass a new evaluation.
-- **Funded Reset** is the one exception and is narrowly scoped: Select funded accounts at
-  50K, 100K and 150K only, on both the Daily and Flex paths. Conditions:
-  - the breach must have occurred within the last 30 days,
-  - **no payout may ever have been taken on that account's history** — this is absolute
-    and cannot be waived,
-  - a maximum of two uses per account history, the second costing 10% more than the first,
-  - you must not hold, and nobody in your household may hold, a live account.
-  - The new account starts with zero profit, a full drawdown, a reset payout clock and
-    reset consistency progress. The price is not published anywhere.
-- Funded Reset is **not available** for Growth, Lightning, any 25K account, or Inter Miami.
-- **At least one trade per week** (Monday–Friday) per account, or the account is closed
-  for inactivity after an email warning.
-- **Maximum 5 funded accounts** per user and per household, in any mix of account types.
-- There are **no ongoing fees** once funded. No monthly charge, no activation fee.
-- **KYC must be completed before the first payout.**
-- Tradeify reserves the right to move you to a live account at any time after a successful
-  payout.
-
-### 1.7 Instruments and platforms
-
-- 48 supported root symbols across CME, CBOT, COMEX, NYMEX, and EUREX on Tradovate only.
-- No crypto, stocks, forex, options or single stock futures.
-- The broker chosen at checkout — Tradovate, Rithmic/Tradesea or WealthCharts — carries
-  through to the funded account and **cannot be switched**.
-- Level 1 CME data is free; the Non-Professional Agreement must be signed or a \$300/month
-  professional fee may apply.
-- CME exchange halts are not compensated.
+Consistency rules also appear or change: Growth gains a **35%** rule it did not have
+during its evaluation, Lightning runs a **progressive 20% → 25% → 30%** rule, and Select
+**loses** the 40%/50% rule it had during the evaluation.
 
 ---
 
-## 2. General risk limits — apply to every account type
+## 2. The drawdown lock
 
-### 2.1 Overview
-
-- **Trailing Max Drawdown is the only thing that fails a funded account.** KILL.
-- The drawdown limit **updates only at the end of each day**, trailing the highest-ever
-  end-of-day balance. It moves up, never down.
-- The limit is **enforced in real time against net liquidation value**, which includes
-  unrealised P&L on open positions. Touching it at any moment during the session fails the
-  account immediately, even if the day closes green.
-- **The drawdown locks** once the account is far enough ahead, or the moment you request a
-  payout. After that it is a fixed floor. This is the single most important difference
-  from the evaluation phase.
-- **Daily Loss Limit is a soft breach.** LOCK. Trading pauses until the next session opens
-  at 6:00 PM ET. The account survives. Select Flex has no DLL at all.
-- Never use the DLL as a stop loss. It is not a hard stop, and slippage past it can breach
-  the drawdown, which does fail the account.
-- **A breached funded account cannot be reset.** The account is gone.
-
-### 2.2 Trailing max drawdown and the lock
-
-**Before the lock**, the floor behaves exactly as it does in an evaluation: it sits the
-drawdown distance below the highest end-of-day balance, moves up on new closing highs,
-never moves down, and ignores intraday peaks entirely.
+**Before the lock**, the floor behaves exactly as described in `Tr_Rules_General.md`: it
+sits the drawdown distance below the highest end-of-day balance, moves up on new closing
+highs, never moves down, and ignores intraday peaks.
 
 **The lock.** The floor stops trailing permanently once **either** of these happens,
 whichever comes first:
@@ -181,50 +86,9 @@ and differ between the two Select paths:
 Inter Miami uses a **static** floor that never trails and therefore never needs to lock:
 \$500 / \$1,000 / \$1,500 below the starting balance at 10K / 25K / 50K.
 
-### 2.3 Real time enforcement
+---
 
-**The floor updates end-of-day but is checked continuously.** These are two separate
-things, and conflating them is the most expensive mistake available on this platform.
-
-**What is checked:** your **net liquidation value** — cash balance plus unrealised profit
-and loss on any open position. Not your closed balance.
-
-**When it is checked:** continuously, throughout the session.
-
-**What happens:** the instant net liquidation value touches or crosses the floor, the
-account fails. This is a hard breach. There is no recovery, no reset, and closing the day
-green changes nothing.
-
-**What follows from this:**
-
-- **An open losing position can kill the account before you close it.** You do not get to
-  decide when the loss is realised.
-- **Your stop must sit inside the floor, not at it.** Slippage past your stop breaches it.
-  This is why the documentation repeatedly warns never to use the Daily Loss Limit as a
-  stop loss — in fast markets the DLL may not trigger before the floor is hit.
-- **Your usable drawdown is less than the stated amount.** You must reserve room for
-  adverse excursion on open trades and for slippage, neither of which the headline figure
-  accounts for.
-- **The dashboard cannot help you intraday.** Every dashboard metric updates in real time
-  *except* the Trailing Max Drawdown figure, which refreshes once per day at the session
-  close.
-
-**To see the live distance you must use the platform, not the dashboard:**
-
-| Platform | Where |
-|---|---|
-| Tradovate | Accounts widget → add the "Dis Drawdown Net Liq" column |
-| NinjaTrader | Control Center → Accounts → add the "Trailing Max Drawdown" column |
-
-**The label is misleading.** "End-of-day trailing drawdown" describes only how the floor
-moves. Enforcement is continuous and counts unrealised losses, so an open trade that never
-gets closed at a loss can still end the account.
-
-### 2.4 Daily loss limit
-
-A soft breach. Hitting it halts trading until the next session opens at 6:00 PM ET; the
-account is not failed. It resets each session, so yesterday's losses do not count toward
-today's limit.
+## 3. Daily loss limit when funded
 
 | Size | Growth | Lightning | Select Daily | Select Flex | Inter Miami |
 |---|---|---|---|---|---|
@@ -256,9 +120,66 @@ time. A single bad session can end the account with nothing to halt it first.
 
 ---
 
-## 3. Account type: Growth — funded
+## 4. Contract scaling when funded
 
-### 3.1 Rules and risk
+- **Growth and Lightning: full contract size from the first trade.** No scaling plan.
+- **Select: a scaling plan applies.** You start below your maximum and earn your way up as
+  end-of-day profit grows.
+- **Inter Miami: micros only** at every size.
+
+| EOD profit | Select 25K | Select 50K | Select 100K | Select 150K |
+|---|---|---|---|---|
+| Start | 1 mini | 2 minis | 3 minis | 3 minis |
+| \$1,500+ | 2 minis | 3 minis | 4 minis | 4 minis |
+| \$2,000+ | — | 4 minis | 5 minis | 5 minis |
+| \$3,000+ | — | — | 8 minis | 8 minis |
+| \$4,500+ | — | — | — | 12 minis |
+
+- Scaling is calibrated at end of day and is **cumulative** — once a tier is reached you
+  keep it even if the balance later falls.
+- **Taking a payout can scale you back down**, because it reduces the balance the tier is
+  measured against.
+- The 300K scales 3 → 4 → 6 → 10 → 16 minis at \$1,500 / \$3,000 / \$5,000 / \$7,000 of
+  end-of-day profit.
+
+---
+
+## 5. The 10-second rule
+
+This gate does not exist during an evaluation. It appears the moment you are funded.
+
+- To request a payout, **both** of the following must be true:
+  - over 50% of your trades are held longer than 10 seconds, **and**
+  - over 50% of your profit comes from trades held longer than 10 seconds.
+- Failing it does **not** fail the account. BLOCK — it simply makes you ineligible to
+  request a payout until the ratios recover.
+- It is measured on the account, so a single heavy scalping session can push both ratios
+  out and block payouts until enough longer-held trades dilute them.
+
+---
+
+## 6. Account lifecycle when funded
+
+- **A funded account cannot be reset.** A drawdown breach terminates it permanently, and
+  the normal route back is to buy and pass a new evaluation.
+- **Funded Reset** is the one exception and is narrowly scoped: Select funded accounts at
+  50K, 100K and 150K only, on both the Daily and Flex paths. Conditions:
+  - the breach must have occurred within the last 30 days,
+  - **no payout may ever have been taken on that account's history** — this is absolute
+    and cannot be waived,
+  - a maximum of two uses per account history, the second costing 10% more than the first,
+  - you must not hold, and nobody in your household may hold, a live account.
+  - The new account starts with zero profit, a full drawdown, a reset payout clock and
+    reset consistency progress. The price is not published anywhere.
+- Funded Reset is **not available** for Growth, Lightning, any 25K account, or Inter Miami.
+- Tradeify reserves the right to move you to a live account at any time after a successful
+  payout.
+
+---
+
+## 7. Account type: Growth — funded
+
+### 7.1 Rules and risk
 
 - Trailing Max Drawdown: \$1,000 / \$2,000 / \$3,500 / \$5,000 for 25K / 50K / 100K / 150K.
 - Daily Loss Limit: \$600 / \$1,250 / \$2,500 / \$3,750, rising to equal the drawdown at
@@ -269,7 +190,7 @@ time. A single bad session can end the account with nothing to halt it first.
 - Payout policy is **fixed**. There is no Flex/Daily choice.
 - No Funded Reset. A breach means buying and passing a new evaluation.
 
-### 3.2 What caps your earnings
+### 7.2 What caps your earnings
 
 | Lever | Value (25K / 50K / 100K / 150K) |
 |---|---|
@@ -302,35 +223,21 @@ state takes three earlier payouts at \$1,500, \$2,000 and \$2,500.
 
 ---
 
-## 4. Account type: Select Flex — funded
+## 8. Account type: Select Flex — funded
 
 Chosen permanently at activation. No daily loss limit, no consistency rule, larger payouts
 but less frequent.
 
-### 4.1 Rules and risk
+### 8.1 Rules and risk
 
 - Trailing Max Drawdown: \$1,000 / \$2,000 / \$3,000 / \$4,500, and \$8,000 on the 300K.
 - **No Daily Loss Limit at all.** The trailing drawdown is the only risk limit, enforced
   in real time. Nothing halts a bad session before the account dies.
 - **No consistency rule** once funded. The 40%/50% requirement ended at the evaluation.
-- **Contract scaling applies.** You do not get full size immediately:
+- **Contract scaling applies** — see section 4.
+- Funded Reset available at 50K, 100K and 150K, subject to the conditions in section 6.
 
-| EOD profit | 25K | 50K | 100K | 150K |
-|---|---|---|---|---|
-| Start | 1 mini | 2 minis | 3 minis | 3 minis |
-| \$1,500+ | 2 minis | 3 minis | 4 minis | 4 minis |
-| \$2,000+ | — | 4 minis | 5 minis | 5 minis |
-| \$3,000+ | — | — | 8 minis | 8 minis |
-| \$4,500+ | — | — | — | 12 minis |
-
-- Scaling is calibrated at end of day and is **cumulative** — once a tier is reached you
-  keep it even if the balance later falls.
-- **Taking a payout can scale you back down**, because it reduces the balance that the
-  tier is measured against.
-- 300K scales 3 → 4 → 6 → 10 → 16 minis at \$1,500 / \$3,000 / \$5,000 / \$7,000 EOD profit.
-- Funded Reset available at 50K, 100K and 150K, subject to the conditions in 1.6.
-
-### 4.2 What caps your earnings
+### 8.2 What caps your earnings
 
 | Lever | Value (25K / 50K / 100K / 150K) |
 |---|---|
@@ -363,22 +270,22 @@ must be earned back before you can request again.
 
 ---
 
-## 5. Account type: Select Daily — funded
+## 9. Account type: Select Daily — funded
 
 The other permanent choice at activation. Tighter risk parameters, much faster access to
 profit.
 
-### 5.1 Rules and risk
+### 9.1 Rules and risk
 
 - Trailing Max Drawdown: \$1,000 / \$2,000 / \$2,500 / \$3,500, and \$6,000 on the 300K.
   **Smaller than Flex at 100K and 150K** — choosing Daily reduces your drawdown by \$500
   and \$1,000 respectively.
 - Daily Loss Limit: \$500 / \$1,000 / \$1,250 / \$1,750. LOCK.
 - **No consistency rule** once funded.
-- Contract scaling identical to Flex (section 4.1).
-- Funded Reset available at 50K, 100K and 150K, subject to the conditions in 1.6.
+- Contract scaling identical to Flex — see section 4.
+- Funded Reset available at 50K, 100K and 150K, subject to the conditions in section 6.
 
-### 5.2 What caps your earnings
+### 9.2 What caps your earnings
 
 | Lever | Value (25K / 50K / 100K / 150K) |
 |---|---|
@@ -417,11 +324,11 @@ sets the real cadence.
 
 ---
 
-## 6. Account type: Lightning — funded
+## 10. Account type: Lightning — funded
 
 Instant funding, no evaluation. The funded rules apply from the first trade.
 
-### 6.1 Rules and risk
+### 10.1 Rules and risk
 
 - Trailing Max Drawdown: \$1,000 / \$2,000 / \$4,000 / \$5,250 — **the largest drawdowns of
   any Tradeify funded product** at 100K and 150K.
@@ -431,7 +338,7 @@ Instant funding, no evaluation. The funded rules apply from the first trade.
 - **No reset of any kind.** Not an evaluation reset, not a Funded Reset. A breach means
   buying a new Lightning account at full price.
 
-### 6.2 What caps your earnings
+### 10.2 What caps your earnings
 
 | Lever | Value (25K / 50K / 100K / 150K) |
 |---|---|
@@ -468,9 +375,9 @@ this but never removes it.
 
 ---
 
-## 7. Account type: Inter Miami — funded
+## 11. Account type: Inter Miami — funded
 
-### 7.1 Rules and risk
+### 11.1 Rules and risk
 
 - **Static drawdown**: \$500 / \$1,000 / \$1,500 at 10K / 25K / 50K. The floor never moves,
   so the cushion grows with every dollar of profit rather than staying fixed below a
@@ -479,7 +386,7 @@ this but never removes it.
 - **Micros only**: 10 / 20 / 30 micros.
 - **Tradovate only.**
 
-### 7.2 What caps your earnings
+### 11.2 What caps your earnings
 
 | Lever | Value (10K / 25K / 50K) |
 |---|---|
@@ -496,15 +403,15 @@ cards describe it as "80% profit split + 10% to Live Funds"; the destination of 
 equivalent to 3 minis — a quarter of what a 50K on another Tradeify product can trade.
 
 > **Data gap.** Everything above comes from the plan cards in `Data/Plans.md`. Inter Miami
-> has no help-centre article, so it is unknown whether sections 1 and 2 apply to it
-> unchanged — specifically hedging enforcement, the 10-second rule, inactivity, maximum
-> payout caps, consistency, whether it counts toward the 5-funded-account limit, and
-> whether the static floor is enforced on net liquidation in real time. Treat sections 1
-> and 2 as unverified for this product.
+> has no help-centre article, so it is unknown whether `Tr_Rules_General.md` and sections
+> 1–6 above apply to it unchanged — specifically hedging enforcement, the 10-second rule,
+> inactivity, maximum payout caps, consistency, whether it counts toward the
+> 5-funded-account limit, and whether the static floor is enforced on net liquidation in
+> real time.
 
 ---
 
-## 8. Payout mechanics common to all
+## 12. Payout mechanics common to all
 
 - **Profit split is 90/10** on Growth, Select and Lightning. Inter Miami is 80/10/10.
 - **KYC must be completed before the first payout.** Residents of ten named countries must
@@ -524,7 +431,7 @@ equivalent to 3 minis — a quarter of what a 50K on another Tradeify product ca
 
 ---
 
-## 9. Side-by-side
+## 13. Side-by-side
 
 | | Growth | Select Flex | Select Daily | Lightning | Inter Miami |
 |---|---|---|---|---|---|
@@ -543,7 +450,7 @@ equivalent to 3 minis — a quarter of what a 50K on another Tradeify product ca
 
 ---
 
-## 10. What takes the account away
+## 14. What takes the account away
 
 In order of how likely it is to catch a normal daytrader:
 
@@ -567,7 +474,7 @@ A breached funded account cannot be reset, except narrowly via Funded Reset on S
 
 ---
 
-## 11. What limits your profit
+## 15. What limits your profit
 
 Ranked by how hard each binds.
 
