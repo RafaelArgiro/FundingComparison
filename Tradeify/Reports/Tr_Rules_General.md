@@ -1,13 +1,16 @@
 # Tradeify — General Rules
 
-Rules that apply while trading an evaluation account, before funding.
+Rules that apply in **every phase** and to **every account type**.
+
+Phase-specific rules and the per-account-type parameters are in `Tr_Rules_Evaluation.md`
+and `Tr_Rules_Funded.md`, which do not repeat anything covered here.
 
 Consequence codes:
-- **KILL** account lost immediately·
+- **KILL** account lost immediately
 - **LOCK** trading halted until next session
 - **BLOCK** payout blocked (funded phase only)
 - **STRIP** profits removed
-- **BAN** consequences beyond this account.
+- **BAN** consequences beyond this account
 
 ---
 
@@ -30,17 +33,17 @@ Consequence codes:
 - Contract limits are per account size. **10 micros = 1 mini.**
 - Minis and micros may be held at the same time, provided the combined position stays
   within the limit at that 10:1 ratio.
-- **No scaling plan during the evaluation.** Full contract size is available from the
-  first trade on every account type. Scaling applies only once funded.
+- Whether the full limit is available immediately or has to be earned depends on the phase
+  and the account type. See the phase documents.
 - Exceeding the limit may result in the day's profit being wiped if done deliberately.
 
 ### 1.3 Prohibited — these end the account or worse
 
 - **Hedging.** BAN. No opposing positions on the same instrument or on two products from
   the same Product Group, whether in one account or spread across several of your
-  accounts. Consequences: disqualification of the evaluation, violation status on every
-  account involved, forfeiture of profits from the violating period, possible permanent
-  ban.
+  accounts. Consequences: violation status on every account involved, forfeiture of
+  profits generated during the violating period, and possibly a permanent ban. An
+  evaluation is additionally disqualified.
 - Automated hedging detection breaches only when all three are true: opposing positions,
   held longer than 10 seconds, and more than \$150 of profit generated from the hedge.
   Cross-account and correlated-product hedging is reviewed manually with no published
@@ -56,24 +59,21 @@ Consequence codes:
 - **News trading, with no restrictions at all.** Slippage is your own risk.
 - **Dollar cost averaging and scaling into trades.**
 - **Martingale**, provided it does not become hedging.
-- **Genuine scalping.** The 10-second microscalping rule is a payout gate and **does not
-  apply during an evaluation**.
+- **Genuine scalping**, subject to the 10-second payout gate that applies on funded
+  accounts only. See `Tr_Rules_Funded.md`.
 - **Automated and algorithmic trading**, provided you solely own the strategy, can prove
   it on request, do not share it across firms, and it is not HFT.
 - **Trade copying in the same direction** across your own accounts.
 
 ### 1.5 Account lifecycle
 
-- **No time limit** to complete an evaluation.
 - **At least one trade per week** (Monday–Friday) per account, or the account is closed
-  for inactivity after an email warning.
-- **Profit earned during the evaluation does not carry over.** The funded account starts
-  at the base account size regardless of where the evaluation ended.
-- Activation after passing is instant from the dashboard with no activation fee — but
-  instant activation is documented as **Tradovate only**.
-- A passed evaluation can be banked and activated later when a funded slot is free.
-- Maximum 5 funded accounts per user and per household, so passing more than 5 evaluations
-  does not give more funded accounts.
+  for inactivity after an email warning. This applies to evaluation and funded accounts
+  alike.
+- **Maximum 5 funded accounts** per user and per household, in any mix of account types.
+- **KYC must be completed before the first payout.** Residents of ten named countries must
+  complete it before a funded account can be activated at all.
+- There are **no recurring fees** on any account. Every purchase is one-time.
 
 ### 1.6 Instruments and platforms
 
@@ -91,16 +91,17 @@ Consequence codes:
 
 ### 2.1 Overview
 
-- **Trailing Max Drawdown is the only thing that fails an evaluation.** KILL.
+- **Trailing Max Drawdown is the only thing that fails an account.** KILL.
 - The drawdown limit **updates only at the end of each day**, trailing the highest-ever
   end-of-day balance. It moves up, never down.
 - The limit is **enforced in real time against net liquidation value**, which includes
   unrealised P&L on open positions. Touching it at any moment during the session fails the
   account immediately, even if the day closes green.
-- **The drawdown does not lock during an evaluation.** Locking at starting balance + \$100
-  applies to funded accounts only.
+- **Whether the floor ever stops trailing depends on the phase.** It never locks during an
+  evaluation and does lock once funded. See the phase documents.
 - **Daily Loss Limit is a soft breach.** LOCK. Trading pauses until the next session opens
-  at 6:00 PM ET. The account survives.
+  at 6:00 PM ET. The account survives. Amounts, and which account types have one, are in
+  the phase documents.
 - Never use the DLL as a stop loss. It is not a hard stop, and slippage past it can breach
   the drawdown, which does fail the account.
 - If the drawdown floor is closer than the DLL, the drawdown is hit first and the account
@@ -152,30 +153,12 @@ into profit you must then defend. The drawdown is a *distance from your peak*, n
 *loss from your deposit*, and cumulative give-back from the high water mark is capped at
 the drawdown amount, forever.
 
-**No locking during an evaluation.** On funded accounts the floor stops trailing once it
-reaches starting balance + \$100. **Evaluation accounts never lock** — the floor keeps
-trailing right up to the moment you pass.
+**Whether the floor ever stops trailing is phase-dependent.** It never locks during an
+evaluation; it locks once funded. See the phase documents for the thresholds.
 
-**Starting floors and the floor at the profit target:**
-
-| Product | Size | Drawdown | Starting floor | Balance at target | Floor at target |
-|---|---|---|---|---|---|
-| Growth | 25K | \$1,000 | \$24,000 | \$26,500 | \$25,500 |
-| Growth | 50K | \$2,000 | \$48,000 | \$53,000 | \$51,000 |
-| Growth | 100K | \$3,500 | \$96,500 | \$106,000 | \$102,500 |
-| Growth | 150K | \$5,000 | \$145,000 | \$159,000 | \$154,000 |
-| Select | 25K | \$1,000 | \$24,000 | \$26,500 | \$25,500 |
-| Select | 50K | \$2,000 | \$48,000 | \$53,000 | \$51,000 |
-| Select | 100K | \$3,000 | \$97,000 | \$106,000 | \$103,000 |
-| Select | 150K | \$4,500 | \$145,500 | \$159,000 | \$154,500 |
-| Select | 300K | \$8,000 | \$292,000 | \$314,000 | \$306,000 |
-| Inter Miami | 10K | \$500 static | \$9,500 | \$11,000 | \$9,500 — never moves |
-| Inter Miami | 25K | \$1,000 static | \$24,000 | \$27,000 | \$24,000 — never moves |
-| Inter Miami | 50K | \$1,500 static | \$48,500 | \$53,500 | \$48,500 — never moves |
-
-Inter Miami is the exception: a **static** floor that never trails at all. It gives a
-larger and growing cushion as the account becomes profitable, which is the opposite
-behaviour to every other Tradeify product.
+Inter Miami is the exception to the whole mechanic: a **static** floor that never trails at
+all. It gives a larger and growing cushion as the account becomes profitable, which is the
+opposite behaviour to every other Tradeify product.
 
 ### 2.3 Real time enforcement
 
