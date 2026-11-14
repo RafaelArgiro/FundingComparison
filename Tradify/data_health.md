@@ -1,10 +1,11 @@
 # Tradeify Data Health
 
-Status of the Tradeify source material in this folder, for the purpose of comparing
+Status of the Tradeify source material in `Tradify/Data/`, for the purpose of comparing
 funding options for daytrading.
 
 Files reviewed:
 
+- `Plans.md`
 - `Accounts_n_Rules.md`
 - `Payouts_n_billing.md`
 - `Getting_Started.md`
@@ -19,17 +20,59 @@ Files reviewed:
 
 This is the most complete of the three providers. Pricing, commissions, drawdown
 mechanics, payout policies, contract scaling, product lists and conduct rules are all
-present with concrete figures. Unlike the Apex material it describes currently purchasable
-products, and unlike the Lucid material it includes a full price list.
+present with concrete figures, and `Plans.md` adds a capture of the live purchase page
+that corroborates most of them.
 
-The significant gaps are at the two ends of the journey: the **Tradeify Elite Program**
+Two things changed with the addition of `Plans.md`:
+
+- **A fourth product exists that the help centre does not document at all: Inter Miami.**
+  See section 2.
+- **The live purchase page settles several contradictions** that the help centre left
+  open, and opens two new ones. See section 4.
+
+The significant gaps remain at the two ends of the journey: the **Tradeify Elite Program**
 (the live-capital stage, referenced roughly eight times and never captured) and the
-**Funded Reset price**. There is also a recurring undated cutoff, "the new dashboard
-launch", used to split old and new parameters in at least four places.
+**Funded Reset price**, which is absent from the purchase page as well. There is also a
+recurring undated cutoff, "the new dashboard launch", used to split old and new parameters
+in at least four places.
 
 ---
 
-## 2. Missing articles
+## 2. Undocumented product: Inter Miami
+
+`Plans.md` shows a fourth account type sold alongside Growth, Select and Lightning,
+badged "Limited Edition". Nothing in the help-centre material mentions it.
+
+It is structurally unlike the other three and would need separate evaluation:
+
+- **Static drawdown, not trailing.** Every other Tradeify product uses an end-of-day
+  trailing drawdown. This is the only static one.
+- **Different profit split: 80% / 10% / 10%.** The cards state "80% profit split + 10% to
+  Live Funds". The destination of the third 10% is not explained.
+- **Live account after $12,000 in payouts**, rather than the 3-payouts-or-10-payouts
+  threshold used by the other products.
+- **Micros only**, in much smaller sizes: 10K, 25K and 50K.
+- **Tradovate only.** The broker selector offers Tradovate alone; Growth, Select and
+  Lightning all offer Tradovate, WealthCharts and Rithmic/Tradesea.
+- **Daily payouts**, with a minimum gross payout rather than a maximum cap.
+- **No minimum trading days and no consistency rule** in either phase.
+
+| Size | List | Coupon | Profit target | Static drawdown | DLL | Max contracts | Min gross payout |
+|---|---|---|---|---|---|---|---|
+| 10K | $113 | $79 | $1,000 | $500 | $300 | 10 micros | $200 |
+| 25K | $219 | $153 | $2,000 | $1,000 | $600 | 20 micros | $400 |
+| 50K | $376 | $263 | $3,500 | $1,500 | $900 | 30 micros | $600 |
+
+The cards also show a "DLL Type: Soft / None" toggle, which has no counterpart on any
+other Tradeify product and is not explained anywhere.
+
+Nothing is known about its rules beyond these cards: no trading hours, no payout
+mechanics beyond the minimum, no reset policy, no account limits, no statement of whether
+it counts toward the 5-funded-account cap.
+
+---
+
+## 3. Missing articles
 
 Three collection indexes in this folder list more articles than were captured.
 
@@ -54,29 +97,72 @@ Referenced throughout but not present in any file:
 
 ---
 
-## 3. Internal contradictions
+## 4. Internal contradictions
 
 | # | Contradiction | Where |
 |---|---|---|
-| 1 | **Select evaluation contract limits.** The Select Evaluation article states "25K Account Evaluation — Maximum Contracts: 1 mini / 10 micro". The Select Flex and Daily Payout Policies article states "During evaluation, you have access to the full contract limits (**2/20**, 4/40, 8/80, or 12/120 depending on account size)". The 2/20 figure is the 25K *funded* maximum, not the evaluation limit. | `Accounts_n_Rules.md` vs `Payouts_n_billing.md` |
-| 2 | **Select evaluations have no Daily Loss Limit, except the 300K.** The Select Evaluation article, the SELECT vs Growth comparison, the Pricing Reference and the Essential Rules all state Select evaluations have no DLL. The 300K article states "The evaluation carries a **$4,000** daily loss limit." | `Accounts_n_Rules.md`, within one file |
-| 3 | **Activation is instant, except on two of the three brokers.** "Activation is instant and there are no activation fees" is stated unconditionally in at least four places. The same article then says "Instant account activation after passing an evaluation is currently only available on the **Tradovate** platform." Rithmic and WealthCharts users are not told what to expect instead. | `Accounts_n_Rules.md`, within one article |
-| 4 | **Select funded scaling.** Essential Trading Rules Overview states "Growth and Lightning use their maximum position size from day one; **Select funded accounts scale up** as the account grows", then immediately states "**Full limits available immediately — No need to build up gradually**" as a general rule. | `Getting_Started.md`, within one section |
-| 5 | **Evaluations have no time limit, but accounts expire.** "There is no time limit to complete a Growth or Select Evaluation" is stated twice. Elsewhere: "your account remains active until you either pass, fail, or **the account expires**" and "Expired accounts cannot be reinstated". Expiry is never defined. The only time-based closure described is the weekly inactivity rule. | `Getting_Started.md` |
-| 6 | **The Pricing Reference contradicts its own fee list.** It states "No hidden fees. The only costs are: (1) the account purchase price, (2) trading commissions, and (3) optional reset fees." Its own earlier sections describe the $300/month professional data fee, Tradovate L2 and EUREX add-ons, and TradingView subscriptions. It also omits the Funded Reset fee entirely. | `Accounts_n_Rules.md`, within one article |
-| 7 | **Two definitions of the session boundary.** The trading day is defined as 6:00 PM ET to **5:00 PM ET** the next day in four places. One FAQ in the same article says "A Tradeify trading session runs from 6:00 PM ET to **4:45 PM ET** the next calendar day". | `Accounts_n_Rules.md`, within one article |
-| 8 | **Select 300K availability.** The Select Evaluation article lists five sizes including $300,000, then its Getting Started steps say "Choose your account size (25K, 50K, 100K, **or 150K**)". | `Accounts_n_Rules.md`, within one article |
-| 9 | **Stale collection description.** The Accounts & Rules collection is described as "Tradeify's challenge accounts including **Advanced**, Growth, and **Straight to Sim Funded** options". The current names are Select, Growth and Lightning. "Advanced" and "Straight to Sim Funded" appear nowhere else. | `Accounts_n_Rules.md` |
+| 1 | **Select 300K evaluation price: $570 or $525.** The Pricing Reference gives $570 in both its prose and its table. The purchase page gives a list price of **$525**, discounted to $368. | `Accounts_n_Rules.md` vs `Plans.md` |
+| 2 | **Lightning minimum trading days.** The Lightning payout policy states "No Minimum Trading Day Count. You can request a payout after any number of trading days". Every Lightning plan card states "Payout Frequency: **5 Days**". | `Payouts_n_billing.md` vs `Plans.md` |
+| 3 | **Select 25K evaluation contract limit.** The Select Evaluation article states "Maximum Contracts: 1 mini / 10 micro". The Select Flex and Daily Payout Policies article states "During evaluation, you have access to the full contract limits (**2/20**, 4/40, 8/80, or 12/120)". The purchase page shows **1 mini / 10 micros**, which favours the first. | `Accounts_n_Rules.md` vs `Payouts_n_billing.md` vs `Plans.md` |
+| 4 | **Select evaluations have no Daily Loss Limit, except the 300K.** The Select Evaluation article, the SELECT vs Growth comparison, the Pricing Reference and the Essential Rules all state Select evaluations have no DLL. The 300K article states "The evaluation carries a **$4,000** daily loss limit." The purchase page confirms the exception: 25K–150K show "Daily Loss Limit: None", the 300K shows "$4,000". | `Accounts_n_Rules.md` vs `Plans.md` |
+| 5 | **Activation is instant, except on two of the three brokers.** "Activation is instant and there are no activation fees" is stated unconditionally in at least four places, and every plan card shows "Activation Fee: None". The same article then says "Instant account activation after passing an evaluation is currently only available on the **Tradovate** platform." Rithmic and WealthCharts users are not told what to expect instead. | `Accounts_n_Rules.md`, within one article |
+| 6 | **Select funded scaling.** Essential Trading Rules Overview states "Growth and Lightning use their maximum position size from day one; **Select funded accounts scale up** as the account grows", then immediately states "**Full limits available immediately — No need to build up gradually**" as a general rule. | `Getting_Started.md`, within one section |
+| 7 | **Evaluations have no time limit, but accounts expire.** "There is no time limit to complete a Growth or Select Evaluation" is stated twice. Elsewhere: "your account remains active until you either pass, fail, or **the account expires**" and "Expired accounts cannot be reinstated". Expiry is never defined. The only time-based closure described is the weekly inactivity rule. | `Getting_Started.md` |
+| 8 | **The Pricing Reference contradicts its own fee list.** It states "No hidden fees. The only costs are: (1) the account purchase price, (2) trading commissions, and (3) optional reset fees." Its own earlier sections describe the $300/month professional data fee, Tradovate L2 and EUREX add-ons, and TradingView subscriptions. It also omits the Funded Reset fee entirely. | `Accounts_n_Rules.md`, within one article |
+| 9 | **Two definitions of the session boundary.** The trading day is defined as 6:00 PM ET to **5:00 PM ET** the next day in four places. One FAQ in the same article says "A Tradeify trading session runs from 6:00 PM ET to **4:45 PM ET** the next calendar day". | `Accounts_n_Rules.md`, within one article |
+| 10 | **Select 300K availability.** The Select Evaluation article lists five sizes including $300,000, then its Getting Started steps say "Choose your account size (25K, 50K, 100K, **or 150K**)". | `Accounts_n_Rules.md`, within one article |
+| 11 | **Stale collection description.** The Accounts & Rules collection is described as "Tradeify's challenge accounts including **Advanced**, Growth, and **Straight to Sim Funded** options". The current names are Select, Growth, Lightning and Inter Miami. "Advanced" and "Straight to Sim Funded" appear nowhere else. | `Accounts_n_Rules.md` |
+| 12 | **"Save $X with code NOV" labels are off by $1 on three Select plans.** Select 50K is $165 → $116, labelled "Save $50" when the actual saving is $49. Select 100K is $265 → $186, labelled "Save $80" against an actual $79. Select 300K is $525 → $368, labelled "Save $158" against an actual $157. The discount itself is a clean 30% rounded to the dollar in each case. | `Plans.md`, within one page |
 
 ---
 
-## 4. Missing data
+## 5. Pricing
+
+All plans are one-time purchases. The purchase page applies coupon code `NOV`, at **40%
+off Growth** and **30% off Select, Lightning and Inter Miami**.
+
+| Product | Size | List | Coupon | Reset fee |
+|---|---|---|---|---|
+| Growth | 25K | $99 | $59 | $60 |
+| Growth | 50K | $145 | $87 | $95 |
+| Growth | 100K | $255 | $153 | $169 |
+| Growth | 150K | $369 | $221 | $229 |
+| Select | 25K | $109 | $76 | $75 |
+| Select | 50K | $165 | $116 | $109 |
+| Select | 100K | $265 | $186 | $169 |
+| Select | 150K | $369 | $258 | $239 |
+| Select | 300K | $525 | $368 | not available |
+| Lightning | 25K | $345 | $242 | not available |
+| Lightning | 50K | $492 | $344 | not available |
+| Lightning | 100K | $660 | $462 | not available |
+| Lightning | 150K | $796 | $557 | not available |
+| Inter Miami | 10K | $113 | $79 | not shown |
+| Inter Miami | 25K | $219 | $153 | not shown |
+| Inter Miami | 50K | $376 | $263 | not shown |
+
+Prices are identical across Tradovate, WealthCharts and Rithmic/Tradesea, confirming the
+help centre's "all brokers are the same price". Inter Miami is Tradovate-only.
+
+At coupon prices the **Growth 25K at $59 is the cheapest route to a funded account** of
+any product from any of the three providers. The Growth 25K reset fee is shown as a
+struck-through $70 reduced to $60, so the reset now costs more than the account itself.
+
+The 50% Consistency Add-on prices given in the Pricing Reference ($135 / $205 / $329 /
+$459 for Select) do not appear on the purchase page, which shows the 40%/50% consistency
+choice as a toggle with no visible surcharge.
+
+---
+
+## 6. Missing data
 
 **Prices**
 
 - **Funded Reset price.** The whole product is described without a figure. The only
-  pricing statement is "The second use costs 10% more than the first." It is also absent
-  from the Pricing Reference, which presents itself as comprehensive.
+  pricing statement is "The second use costs 10% more than the first." It is absent from
+  the Pricing Reference, which presents itself as comprehensive, and from the purchase
+  page, which lists evaluation reset fees but not funded ones.
+- **Inter Miami reset fee.** The Inter Miami cards carry no reset row at all, unlike
+  Growth and Select.
 - **Select 300K reset** is listed as "Not available", which is consistent, but the 300K is
   also absent from the 50% Consistency Add-on pricing table while being marked "Not
   available" there too — consistent, but the 300K is then never given an add-on status in
@@ -114,14 +200,15 @@ conversion rate, timing or spread.
 
 **Missing entirely**
 
-- The entire Elite Live stage (see section 2).
+- The entire Elite Live stage (see section 3).
+- The entire Inter Miami rule set (see section 2).
 - Tax treatment beyond "Rise sends the 1099".
 - Any U.S. state restrictions.
 - Minimum age.
 
 ---
 
-## 5. Ambiguities worth resolving before a tradeoff
+## 7. Ambiguities worth resolving before a tradeoff
 
 - **Three different Lightning 150K parameter sets exist.** Current: DLL $3,000, drawdown
   $5,250. Pre-dashboard-launch: DLL $3,750, drawdown $6,000. Pre-March-31st: DLL $3,750.
@@ -144,7 +231,7 @@ conversion rate, timing or spread.
 
 ---
 
-## 6. Structural points that are correct but change the economics
+## 8. Structural points that are correct but change the economics
 
 These are not errors. They are consequences of the documented rules that are easy to miss
 and that materially affect a comparison.
@@ -181,7 +268,7 @@ and that materially affect a comparison.
 
 ---
 
-## 7. Verified figures
+## 9. Verified figures
 
 ### Pricing
 
@@ -323,7 +410,7 @@ Ten micros cost roughly three times one mini in commission ($18.20 vs $5.76 on t
 
 ---
 
-## 8. Files with no decision-relevant content
+## 10. Files with no decision-relevant content
 
 `TradingPlatforms_n_products.md`, `tradovate.md`, `rithmic.md` and `wealthCarts.md` are
 platform setup, configuration and troubleshooting guides. They contain nothing that bears
@@ -336,16 +423,22 @@ the firm is `Tradeify`.
 
 ---
 
-## 9. Next steps
+## 11. Next steps
 
 1. Obtain the Tradeify Elite Program article. It governs the live stage, the 80/20 split
    and the one-way transition, and is the single largest gap.
-2. Obtain the Funded Reset price for Select 50K, 100K and 150K.
-3. Confirm the Select 25K evaluation contract limit: 1 mini or 2 minis.
-4. Confirm whether the Select 300K evaluation really has a $4,000 daily loss limit when no
-   other Select evaluation has one.
-5. Confirm what activation looks like on Rithmic and WealthCharts if instant activation is
+2. Obtain the full Inter Miami rule set. It is sold today, uses a static drawdown and a
+   three-way profit split, and has no documentation at all beyond its plan cards.
+3. Obtain the Funded Reset price for Select 50K, 100K and 150K. It is absent from both the
+   help centre and the purchase page.
+4. Confirm the Select 300K price: $570 in the Pricing Reference, $525 on the purchase page.
+5. Confirm whether Lightning payouts require 5 trading days, as the plan cards state, or
+   none, as the payout policy states.
+6. Confirm whether the `NOV` coupon is permanent or a rotating promotion, and whether the
+   40% rate on Growth is permanent or seasonal.
+7. Confirm what activation looks like on Rithmic and WealthCharts if instant activation is
    Tradovate-only.
-6. Get the date of "the new dashboard launch" so legacy parameters can be ruled out.
-7. Obtain commissions for NKD, FVS, FXXP and FGBX, or treat them as untradeable.
-8. Obtain the Select Flex 25K payout cap under the 50% consistency add-on.
+8. Get the date of "the new dashboard launch" so legacy parameters can be ruled out.
+9. Obtain commissions for NKD, FVS, FXXP and FGBX, or treat them as untradeable.
+10. Confirm whether the 50% Consistency Add-on is still sold separately, since the purchase
+    page shows the consistency choice as a toggle with no surcharge.

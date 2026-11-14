@@ -1,10 +1,11 @@
 # Lucid Data Health
 
-Status of the Lucid Trading source material in this folder, for the purpose of comparing
+Status of the Lucid Trading source material in `Lucid/Data/`, for the purpose of comparing
 funding options for daytrading.
 
 Files reviewed:
 
+- `Plans.md`
 - `GeneralInfo.md`
 - `FeesPaymentsPayouts.md`
 - `LucidPro.md`
@@ -17,31 +18,34 @@ Files reviewed:
 
 ---
 
-## 1. Blocking issue: there are no prices
+## 1. Pricing is now available
 
-`FeesPaymentsPayouts.md` describes the pricing *model* in full (one-time fee, no
-subscription, no rebilling, no activation fee, paid resets) but contains **no prices at
-all**. Not one account size, product line or add-on has a figure attached.
+`Plans.md` captures the Lucid pricing page for all four products and closes what was
+previously the blocking gap. It supplies the evaluation price, the reset fee and the
+configuration surcharges for every account size, at both list and coupon price.
 
-This is compounded across the product files, which repeatedly describe price as a
-relative quantity without ever giving the absolute:
+The help-centre articles remain unchanged and still describe price only as a relative
+quantity — "results in a lower evaluation purchase price", "added at checkout for a small
+fee", "cheapest version of LucidFlex". Those articles should not be used for cost
+questions; `Plans.md` should.
 
-- "Results in a lower evaluation purchase price" (Daily Loss Limit On)
-- "Results in a higher evaluation purchase price" (Daily Loss Limit Off)
-- "Added at checkout for a small fee" (50% consistency add-on)
-- "Cheapest version of LucidFlex" / "Mid-tier pricing" / "Most expensive version"
+Key facts now established:
 
-Missing figures:
+- A coupon code (`VAULT`) gives a flat **30% off** every plan and configuration. It checks
+  out to the cent across more than thirty observed prices.
+- The struck-through list price on the page **does not update** when configuration toggles
+  are changed, so only the coupon price is reliable.
+- Cheapest route to a funded account at each size: **Flex at 25K ($45.50)**, **Daily at
+  50K ($65.80), 100K ($110.60) and 150K ($160.30)**. Direct is three to five times the
+  cost of any evaluation route.
 
-- Evaluation price per size for LucidPro, LucidFlex and LucidDaily
-- LucidDirect purchase price per size
-- Reset price per product and size
-- The DLL On/Off price delta
-- The 50% consistency add-on price
-- The LucidDaily Intraday vs End-of-Day evaluation drawdown price delta
+Still not priced anywhere:
 
-Lucid's cost side cannot be modelled from this data. Everything in sections 5 and 6 is
-usable; the cost column is empty.
+- Whether the `VAULT` coupon is permanent or a rotating promotion.
+- Reset fees for LucidDirect; no reset row appears on any Direct card.
+- Most LucidDaily configurations. Only the evaluation drawdown dimension has been
+  captured; the DLL and consistency surcharges for Daily are unknown.
+- Any LucidMaxx pricing.
 
 ---
 
@@ -49,14 +53,17 @@ usable; the cost column is empty.
 
 | # | Contradiction | Where |
 |---|---|---|
-| 1 | **Number of payouts before the move to live: 5 or 6.** LucidFlex Payouts states "Traders may take up to **5** payouts from each LucidFlex account after which they will be moved live." LucidFlex Live (Legacy) states traders are moved live "After completing their **sixth** and final LucidFlex payout". The same 5/6 split exists for LucidPro and LucidDirect. | `LucidFlex.md`, `LucidPro.md`, `LucidDirect.md` vs `LiveTrading.md` |
-| 2 | **LucidDaily consistency: 40% or 50%.** The Customization article offers "40% (standard)" or "50% (add-on)". The Evaluation table lists 50% for every account size with no 40% option, and the Consistency article states flatly "you must have Consistency Percentage of 50% or less" and never mentions 40%. | `LucidDaily.md`, within one file |
-| 3 | **LucidDaily has two settings, three settings, four configurations or eight.** The Customization article says "Two settings can be adjusted", then lists three (Daily Loss Limit, Evaluation Drawdown, Consistency), then says "These settings create **eight** unique LucidDaily account configurations", then the Available Account Configurations section says "LucidDaily offers **four** possible combinations" and lists four. Three binary settings give eight. | `LucidDaily.md`, within one article |
-| 4 | **Scaling DLL is defined against two different quantities.** The LucidPro and LucidDirect funded account tables carry a column headed "Scaling DLL — **60% of Peak EOD Balance**". The LucidScale formula in the Daily Loss Limit articles is "Highest end-of-day account **profit** × 60%". On a $50,000 account those differ by roughly $30,000. The formula is correct; the table header is not. | `LucidPro.md`, `LucidDirect.md` |
-| 5 | **LucidDirect 25K Initial Trail Balance.** The Daily Loss Limit table gives "None"; the Drawdown table gives "$26,100" for the same account. | `LucidDirect.md`, within one file |
-| 6 | **Platform availability.** The Supported Platforms article summary says "All platforms work across **LucidFlex and LucidPro** accounts", while the body says "All listed platforms work with **all** Lucid account types." LucidDirect and LucidDaily are not addressed in the summary. | `GeneralInfo.md` |
-| 7 | **Resets for a product with no evaluation.** The fees article says "LucidPro Evaluation **and LucidDirect** accounts are purchased by paying a one-time fee... you will need to purchase a reset if you wish to restart your **evaluation** account." LucidDirect has no evaluation phase. What a LucidDirect reset restarts is not stated. | `FeesPaymentsPayouts.md` vs `LucidDirect.md` |
-| 8 | **Three move-to-live cap structures described for the same transition.** LucidPro Live (Legacy) uses per-account caps of $15,000–$30,000 plus escrow. LucidDirect Live (Legacy) uses per-account caps of $4,000–$16,000 plus escrow, and its own legacy sub-section uses $2,500/$5,000/$15,000. LucidFlex Live (Legacy) uses $4,000–$16,000, and its legacy sub-section uses "a **$5,000** move to live cap for each account **regardless of account size**". LucidPro's legacy sub-section uses "a **$150,000 total** live funding cap across all active accounts". Four different mechanisms. | `LucidPro.md`, `LucidDirect.md`, `LucidFlex.md` |
+| 1 | **Number of payouts before the move to live: 5 or 6.** LucidFlex Payouts states "Traders may take up to **5** payouts from each LucidFlex account after which they will be moved live." LucidFlex Live (Legacy) states traders are moved live "After completing their **sixth** and final LucidFlex payout". The Pro and Flex plan cards both state "Payouts to Live: 5", which favours 5. The Daily and Direct cards omit the row entirely. | `LucidFlex.md`, `LucidPro.md`, `LucidDirect.md` vs `LiveTrading.md` vs `Plans.md` |
+| 2 | **LucidDaily consistency: 40% or 50%.** The Customization article offers "40% (standard)" or "50% (add-on)". The Evaluation table lists 50% for every account size with no 40% option, and the Consistency article states flatly "you must have Consistency Percentage of 50% or less" and never mentions 40%. The Daily plan cards show a 40%/50% toggle with 40% as the default, which favours the Customization article. | `LucidDaily.md` vs `Plans.md` |
+| 3 | **LucidDaily has two settings, three settings, four configurations or eight.** The Customization article says "Two settings can be adjusted", then lists three (Daily Loss Limit, Evaluation Drawdown, Consistency), then says "These settings create **eight** unique LucidDaily account configurations", then the Available Account Configurations section says "LucidDaily offers **four** possible combinations" and lists four. Three binary settings give eight, and the plan cards show all three toggles. | `LucidDaily.md`, within one article |
+| 4 | **Scaling DLL is defined against two different quantities.** The LucidPro and LucidDirect funded account tables carry a column headed "Scaling DLL — **60% of Peak EOD Balance**". The LucidScale formula in the Daily Loss Limit articles is "Highest end-of-day account **profit** × 60%". On a $50,000 account those differ by roughly $30,000. The plan cards repeat the same "Peak EOD Balance" wording, so the mislabel is consistent across the site. | `LucidPro.md`, `LucidDirect.md`, `Plans.md` |
+| 5 | **LucidPro 25K Daily Loss Limit: $600 or none.** The Pro DLL tables list the 25K as "None" in both the evaluation and funded phases. The Pro plan cards show **$600** on both the evaluation and funded cards, and show the DLL on/off toggle priced at +$14.70 to disable it. | `LucidPro.md` vs `Plans.md` |
+| 6 | **LucidDaily funded drawdown: fixed or selectable.** The help centre states twice that it is fixed: "Regardless of your selection, all LucidDaily Funded accounts use an Intraday Drawdown." The Daily evaluation card presents **"Drawdown In Funded"** as a selectable Intraday/EOD toggle, though only when EOD is chosen for the evaluation drawdown. | `LucidDaily.md` vs `Plans.md` |
+| 7 | **LucidDirect 25K Initial Trail Balance.** The Daily Loss Limit table gives "None"; the Drawdown table gives "$26,100" for the same account. | `LucidDirect.md`, within one file |
+| 8 | **Platform availability.** The Supported Platforms article summary says "All platforms work across **LucidFlex and LucidPro** accounts", while the body says "All listed platforms work with **all** Lucid account types." LucidDirect and LucidDaily are not addressed in the summary. | `GeneralInfo.md` |
+| 9 | **Resets for a product with no evaluation.** The fees article says "LucidPro Evaluation **and LucidDirect** accounts are purchased by paying a one-time fee... you will need to purchase a reset if you wish to restart your **evaluation** account." LucidDirect has no evaluation phase, and the Direct plan cards show no reset fee row at all. | `FeesPaymentsPayouts.md` vs `LucidDirect.md` vs `Plans.md` |
+| 10 | **Three move-to-live cap structures described for the same transition.** LucidPro Live (Legacy) uses per-account caps of $15,000–$30,000 plus escrow. LucidDirect Live (Legacy) uses per-account caps of $4,000–$16,000 plus escrow, and its own legacy sub-section uses $2,500/$5,000/$15,000. LucidFlex Live (Legacy) uses $4,000–$16,000, and its legacy sub-section uses "a **$5,000** move to live cap for each account **regardless of account size**". LucidPro's legacy sub-section uses "a **$150,000 total** live funding cap across all active accounts". Four different mechanisms. | `LucidPro.md`, `LucidDirect.md`, `LucidFlex.md` |
+| 11 | **Minimum trading days before a payout.** The Pro funded card states "Days to Payout: 3" and the Direct card states "Min Day to Payout: 5". Neither the Pro nor the Direct payout criteria in the help centre specify any minimum trading-day count. | `Plans.md` vs `LucidPro.md`, `LucidDirect.md` |
 
 ---
 
@@ -74,12 +81,8 @@ usable; the cost column is empty.
   "LucidPro, LucidFlex and LucidDirect Accounts" and "LucidLive Accounts" only.
 - **LucidDaily and LucidFlex are absent from the account-limit rules.** Maximum Number of
   Accounts names only evaluation accounts, funded accounts, LucidDirect, LucidPro and
-  LucidLive.
-- **LucidPro $25K has no Daily Loss Limit** per the evaluation and DLL tables, yet the
-  LucidPro Customization article presents DLL On/Off as a purchase choice and ties On
-  Demand Payouts to DLL On. LucidDirect explicitly resolves the same situation for its
-  25K ("no Daily Loss Limit, so their payouts follow the regular end-of-day schedule").
-  LucidPro does not.
+  LucidLive. The Direct plan cards add a "Max Accounts: 5" row, which the other products'
+  cards do not carry.
 - **LucidPro Customization does not carry the hedging exclusion.** LucidFlex and
   LucidDaily both state that "Accounts with a Hedging Violation are not eligible for
   intraday payouts". LucidPro offers On Demand Payouts but does not mention it.
@@ -255,15 +258,20 @@ payout request ($500), so the goal is never the binding constraint there.
 
 ## 7. Next steps
 
-1. Obtain the price list: evaluation price per product and size, LucidDirect price per
-   size, reset price, the DLL On/Off delta, the 50% consistency add-on, and the LucidDaily
-   drawdown-type delta.
-2. Resolve whether the move to live occurs after payout 5 or payout 6.
-3. Confirm the LucidDaily evaluation consistency requirement is 40%/50% selectable or a
-   fixed 50%.
-4. Obtain the LucidDirect $100,000 move-to-live and day-one figures.
-5. Confirm which live structure applies to an account purchased today.
-6. Obtain the LucidMaxx documentation, since it governs the best-case outcome of the
+1. Confirm whether the `VAULT` 30% coupon is permanent or a rotating promotion. Every
+   price in `Plans.md` depends on it.
+2. Capture the remaining LucidDaily configurations. Only the evaluation drawdown dimension
+   is priced; the DLL and consistency surcharges are unknown.
+3. Confirm the LucidFlex DLL ON / 50% price, which is currently derived from the published
+   surcharges rather than observed.
+4. Resolve whether the move to live occurs after payout 5 or payout 6, and what the figure
+   is for Daily and Direct, whose cards omit the row.
+5. Confirm whether the LucidDaily funded drawdown is genuinely selectable, as the plan
+   card implies, or always intraday, as the help centre states twice.
+6. Confirm whether LucidDirect resets exist and at what price.
+7. Obtain the LucidDirect $100,000 move-to-live and day-one figures.
+8. Confirm which live structure applies to an account purchased today.
+9. Obtain the LucidMaxx documentation, since it governs the best-case outcome of the
    program.
-7. Confirm LucidDaily trading hours and whether the 4:45 PM EST flat rule applies.
-8. Delete `LucidPro copy.md`.
+10. Confirm LucidDaily trading hours and whether the 4:45 PM EST flat rule applies.
+11. Delete `LucidPro copy.md`.
