@@ -1,0 +1,3 @@
+- trading frequency: at least one trade a week!
+- End-of-day trailing max drawdown: so the max drawdown amount is only updated at the end of the day, so a peak in account balance intra-day does not move it up. Only the closing balance at the end of the day
+-Max drawdown is enforced also intra-day! so even though it is not moving, the intra-day balance will fail the account if it goes below the max drawdown.
