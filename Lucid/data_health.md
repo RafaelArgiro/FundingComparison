@@ -45,15 +45,7 @@ usable; the cost column is empty.
 
 ---
 
-## 2. Duplicate file
-
-`LucidPro copy.md` is a duplicate of `LucidPro.md`. Both contain the same eight articles
-with the same content. Keeping both creates a risk that one is updated and the other is
-not, and that a later comparison reads the stale copy. One of the two should be removed.
-
----
-
-## 3. Internal contradictions
+## 2. Internal contradictions
 
 | # | Contradiction | Where |
 |---|---|---|
@@ -68,7 +60,7 @@ not, and that a later comparison reads the stale copy. One of the two should be 
 
 ---
 
-## 4. Missing data
+## 3. Missing data
 
 **Product coverage gaps**
 
@@ -115,7 +107,7 @@ not, and that a later comparison reads the stale copy. One of the two should be 
 
 ---
 
-## 5. Ambiguities worth resolving before a tradeoff
+## 4. Ambiguities worth resolving before a tradeoff
 
 - **Which live structure applies to a new purchase today.** `LiveTrading.md` contains both
   a "Legacy Live Structure" and a "New Live Structure". Separately, each product file
@@ -148,7 +140,7 @@ not, and that a later comparison reads the stale copy. One of the two should be 
 
 ---
 
-## 6. Data quality issues
+## 5. Data quality issues
 
 - **Commission article title is typo'd**: "pproved Products and Commissions" (missing the
   leading A).
@@ -168,7 +160,7 @@ not, and that a later comparison reads the stale copy. One of the two should be 
 
 ---
 
-## 7. Verified figures
+## 6. Verified figures
 
 These were checked for internal consistency and hold up.
 
@@ -261,7 +253,7 @@ payout request ($500), so the goal is never the binding constraint there.
 
 ---
 
-## 8. Next steps
+## 7. Next steps
 
 1. Obtain the price list: evaluation price per product and size, LucidDirect price per
    size, reset price, the DLL On/Off delta, the 50% consistency add-on, and the LucidDaily
