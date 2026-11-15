@@ -23,6 +23,6 @@ Lightning
 - Ratio wise the 50K account is the most favorable: ratio between max payout and profit goals
 - DLL --> limits scalability later (with a single account)
 
-- Inter Miami
+Inter Miami
 - Very small DLL --> limits scaling on single account --> not interesting for later scaling
 - DLL can be removed (increases product price)
