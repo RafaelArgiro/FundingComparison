@@ -130,13 +130,35 @@ trail.
 - **Static drawdown**: \$500 / \$1,000 / \$1,500 for 10K / 25K / 50K. The floor never moves,
   up or down.
 - Profit targets: \$1,000 / \$2,000 / \$3,500.
-- **Daily Loss Limit**: \$300 / \$600 / \$900, with a "Soft / None" type selectable on the
-  plan card.
+- **Daily Loss Limit is a purchase-time choice**, priced into the account. See below.
 - **Micros only**: 10 / 20 / 30 micros. No mini contracts at any size.
 - **No minimum trading days.**
 - **No consistency rule.**
 - **Tradovate only.** Not offered on Rithmic or WealthCharts.
 - Sizes are 10K, 25K and 50K — smaller than every other Tradeify product.
+
+#### The DLL Type toggle
+
+Inter Miami is sold in two configurations, chosen at checkout. The setting applies to both
+the evaluation and the funded account, and cannot be changed afterwards.
+
+| | **DLL Type: Soft** | **DLL Type: None** |
+|---|---|---|
+| Daily Loss Limit, 10K / 25K / 50K | \$300 / \$600 / \$900 | none at any size |
+| Price, 10K | \$79 | \$134 |
+| Price, 25K | \$153 | \$258 |
+| Price, 50K | \$263 | \$440 |
+
+Prices are after the 30% `NOV` discount. Everything else — static drawdown, profit target,
+contract limit, trading days, consistency — is identical between the two.
+
+**Removing the daily loss limit costs 67–69% more**: +\$55 / +\$105 / +\$177 at 10K / 25K /
+50K. This is by far the steepest configuration premium Tradeify charges.
+
+**What you are buying is the right to lose more in one session.** With the Soft setting a
+bad day halts trading and the account survives; with None there is nothing between you and
+the static floor. On a 50K that floor is \$1,500 below the starting balance, and the Soft
+DLL of \$900 would stop you at 60% of it.
 
 > **Data gap.** Everything above comes from the plan cards in `Data/Plans.md`. Inter Miami
 > has no help-centre article, so it is unknown whether the general rules in

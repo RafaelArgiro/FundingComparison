@@ -14,16 +14,13 @@ Consequence codes:
 - **STRIP** profits removed
 - **BAN** consequences beyond this account
 
-Two questions are answered separately for each account type: **what can take the account
-away**, and **what caps the money you can actually withdraw**.
-
 ---
 
 ## 1. What is specific to the funded phase
 
 Five things change the moment you are funded. Each is expanded below.
 
-| | |
+| What changes: | Section |
 |---|---|
 | The drawdown locks | Section 2 |
 | Daily loss limits take their funded values and rise at 6% profit | Section 3 |
@@ -92,12 +89,15 @@ Inter Miami uses a **static** floor that never trails and therefore never needs 
 
 | Size | Growth | Lightning | Select Daily | Select Flex | Inter Miami |
 |---|---|---|---|---|---|
-| 10K | — | — | — | — | \$300 |
-| 25K | \$600 | **none** | \$500 | **none** | \$600 |
-| 50K | \$1,250 | \$1,250 | \$1,000 | **none** | \$900 |
+| 10K | — | — | — | — | \$300 or none |
+| 25K | \$600 | **none** | \$500 | **none** | \$600 or none |
+| 50K | \$1,250 | \$1,250 | \$1,000 | **none** | \$900 or none |
 | 100K | \$2,500 | \$2,500 | \$1,250 | **none** | — |
 | 150K | \$3,750 | \$3,000 | \$1,750 | **none** | — |
 | 300K | — | — | \$3,000 | \$4,000 | — |
+
+Inter Miami is the only product where the presence of a DLL is a **paid choice made at
+purchase** rather than a property of the account type. See section 11.1.
 
 **The DLL increases at 6% profit.** Once the balance reaches the threshold below, the DLL
 rises to match the drawdown amount, effective from the **next** session rather than
@@ -252,21 +252,86 @@ but less frequent.
 
 The 300K uses a \$750 winning-day threshold and a \$10,000 cap.
 
-**The 50% formula is measured against total profit, not cycle profit.** If your balance is
-\$54,000 on a 50K, total profit is \$4,000 and you may request \$2,000 — regardless of how
-that profit was accumulated or how much you withdrew previously.
+#### How the 50% formula actually works
 
-**Profit required per dollar withdrawn: 2:1, permanently.** Half of all profit you
-generate must remain in the account at any moment you request.
+**"Total profit" means the profit sitting in the account right now**, not your lifetime
+earnings. It is simply `current balance − starting balance`. Because every payout is
+deducted from the balance, past withdrawals are automatically excluded — there is no
+running ledger of what you have taken before.
+
+So the rule in plain words: **you may withdraw half of whatever profit is currently above
+your starting balance, and half must stay behind.**
+
+**Three cycles on a 50K**, assuming you earn \$2,500 in each:
+
+| | Balance before | Profit in account | You may request | Balance after |
+|---|---|---|---|---|
+| Cycle 1 | \$52,500 | \$2,500 | \$1,250 | \$51,250 |
+| Cycle 2 | \$53,750 | \$3,750 | \$1,875 | \$51,875 |
+| Cycle 3 | \$54,375 | \$4,375 | \$2,187 | \$52,187 |
+
+Notice what is happening. The half you leave behind is **not** dead money — it stays in
+the account and counts toward the next cycle's total profit. So each payout is larger than
+the last even though your trading performance is unchanged.
+
+**Where it settles.** The retained half accumulates until it reaches twice your per-cycle
+earnings, at which point the payout equals exactly what you earned that cycle. Earning
+\$2,500 per cycle converges on roughly \$5,000 of profit held in the account and a
+\$2,500 payout each time — which is also where the 50K cap bites.
+
+**So the "2:1" figure only applies at the start.** On the first payout you must generate
+\$2 for every \$1 you withdraw. By steady state it is 1:1, and the cost has turned into a
+one-off: roughly **one cycle's earnings permanently parked in the account**, not half of
+everything you ever make.
+
+**The cap overrides the formula.** Once 50% of your profit exceeds the cap, the percentage
+stops mattering and you simply receive the cap. On a 50K that happens at \$5,000 of profit
+in the account.
 
 **Worked throughput, 50K:** \$2,500 per 5 winning days, so roughly **\$500 per trading
-day** maximum, and only if total profit is at least \$5,000.
-
-**Buying the 50% consistency add-on lowers your funded payout cap.** It speeds up passing
-the evaluation by a day and then costs you \$500 per payout on a 50K, permanently.
+day** maximum, and only once profit in the account has reached \$5,000.
 
 **From payout 2 onward you must be net positive for the cycle.** Losses after a payout
 must be earned back before you can request again.
+
+#### The 50% consistency add-on — when it is worth buying
+
+The add-on is bought at checkout on the **evaluation** and raises the evaluation
+consistency limit from 40% to 50%. It does two things:
+
+- **Lets you pass in 2 trading days instead of 3.** At 40%, no day may exceed 40% of total
+  profit, which mathematically requires at least three days. At 50%, two days suffice.
+- **Stops a good day from forcing you to keep trading past the profit target.** This is the
+  real benefit and it is easy to miss. On a 50K the target is \$3,000. Make \$1,300 on one
+  day and the 40% rule requires \$3,250 of total profit before you can pass — *more than
+  the profit target itself*, so you would have to carry on trading and risking the account
+  after you had already made the money. At 50% the same day needs only \$2,600, which is
+  below the target, so the day costs you nothing.
+
+The cost is in two parts:
+
+| | Standard 40% | With 50% add-on |
+|---|---|---|
+| Evaluation price, 50K | \$165 | \$205 |
+| Reset price, 50K | \$109 | \$145 |
+| **Select Flex payout cap, 50K** | **\$2,500** | **\$2,000** |
+| Select Daily payout cap, 50K | \$1,250 | \$1,250 — unchanged |
+
+**This is the decisive point: the add-on only penalises the Flex path.** On Flex it costs
+\$500 per payout on a 50K, forever — so the \$40 you saved at checkout is wiped out on the
+first payout and you lose \$500 on every one after that. On Daily the caps are identical,
+so the add-on is a one-off \$40 for a materially easier evaluation with no downside at all.
+
+**When to buy it:** if you intend to take the Daily path when you pass, or if you trade in
+a way that produces occasional outsized days and you want to avoid being forced to keep
+trading after hitting the target.
+
+**When not to buy it:** if you intend to take the Flex path. The permanent cap reduction
+is far more expensive than the time it saves.
+
+> **Price uncertainty.** These add-on prices come from the Pricing Reference article. The
+> live purchase page shows the 40%/50% choice as a toggle with no visible surcharge, so
+> the add-on may now be included in the base price. Confirm before relying on the figures.
 
 ---
 
@@ -363,6 +428,13 @@ payout 1: **3:1**.
 profit from new trades to reach the next goal. Leftover profit from the previous cycle
 counts for nothing toward the next.
 
+**Only the counter resets — the money stays.** The un-withdrawn profit remains in the
+balance and still sits above the drawdown floor, so it continues to work as cushion. Once
+the floor has locked at starting balance + \$100, every dollar of it is cushion. What you
+lose is eligibility, not capital: a 150K that reaches \$159,000 and withdraws \$3,000 keeps
+\$6,000 of profit in the account, but must still generate a further \$4,500 of new profit
+before the next request. The balance accumulates faster than it converts to cash.
+
 **The 20% consistency rule on payout 1 forces at least five profitable days.** On a 50K
 needing \$3,000, no single day may exceed \$600. The progression to 25% and then 30% eases
 this but never removes it.
@@ -381,8 +453,23 @@ this but never removes it.
 
 - **Static drawdown**: \$500 / \$1,000 / \$1,500 at 10K / 25K / 50K. The floor never moves,
   so the cushion grows with every dollar of profit rather than staying fixed below a
-  trailing peak.
-- Daily Loss Limit: \$300 / \$600 / \$900, with a "Soft / None" type selectable.
+  trailing peak. There is no lock, because there is nothing to lock.
+- **Daily Loss Limit is a purchase-time choice**, priced into the account and fixed for the
+  life of both the evaluation and the funded account:
+
+| | **DLL Type: Soft** | **DLL Type: None** |
+|---|---|---|
+| Daily Loss Limit, 10K / 25K / 50K | \$300 / \$600 / \$900 | none at any size |
+| Price, 10K | \$79 | \$134 |
+| Price, 25K | \$153 | \$258 |
+| Price, 50K | \$263 | \$440 |
+
+  Prices are after the 30% `NOV` discount. Removing the DLL costs 67–69% more:
+  +\$55 / +\$105 / +\$177. Nothing else differs between the two configurations.
+
+  With **Soft**, a bad session halts trading and the account survives. With **None**,
+  nothing stands between you and the static floor. On a 50K the Soft DLL of \$900 would
+  stop you at 60% of the \$1,500 floor.
 - **Micros only**: 10 / 20 / 30 micros.
 - **Tradovate only.**
 
@@ -436,15 +523,15 @@ equivalent to 3 minis — a quarter of what a 50K on another Tradeify product ca
 | | Growth | Select Flex | Select Daily | Lightning | Inter Miami |
 |---|---|---|---|---|---|
 | Drawdown, 50K | \$2,000 | \$2,000 | \$2,000 | \$2,000 | \$1,500 static |
-| Daily loss limit, 50K | \$1,250 | **None** | \$1,000 | \$1,250 | \$900 |
+| Daily loss limit, 50K | \$1,250 | **None** | \$1,000 | \$1,250 | \$900 or none (paid choice) |
 | Contract scaling | No | **Yes** | **Yes** | No | Not published |
 | Consistency when funded | **35%** | None | None | **20→25→30%** | None |
 | 10-second rule | Yes | Yes | Yes | Yes | Not published |
 | Payout cadence | 5 qualifying days | 5 winning days | Daily | Profit goal | Daily |
 | Payout cap, 50K | \$1,500 → \$3,000 | \$2,500 | \$1,250/day | \$2,000 → \$2,500 | Not published |
 | Payout formula | Flat cap | 50% of total profit | 2× cycle profit | Flat cap | Not published |
-| Locked capital | None | None | **\$2,100 buffer** | None | Not published |
-| Profit per \$1 withdrawn, 50K | 2:1 | 2:1 | **0.5:1** | 1.5:1 then 1:1 | Not published |
+| Locked capital | None | ~1 cycle's earnings | **\$2,100 buffer** | None | Not published |
+| Profit per \$1 withdrawn, 50K | 2:1 | 2:1 then 1:1 | **0.5:1** | 1.5:1 then 1:1 | Not published |
 | Funded Reset | No | Yes (50K+) | Yes (50K+) | **No** | Not published |
 | Split | 90% | 90% | 90% | 90% | **80%** |
 
@@ -485,8 +572,9 @@ Ranked by how hard each binds.
 2. **Cycle length.** Growth and Select Flex both require 5 qualifying or winning days per
    payout, which fixes the maximum extraction rate at roughly \$500–\$600 per trading day
    on a 50K regardless of performance. Select Daily is the only path without this ceiling.
-3. **The payout formula.** Growth and Lightning use flat caps; Select Flex requires half of
-   all profit to stay in the account permanently; Select Daily allows 2× cycle profit.
+3. **The payout formula.** Growth and Lightning use flat caps; Select Flex pays half the
+   profit currently in the account, which starts at 2:1 and converges to 1:1 while leaving
+   roughly one cycle's earnings permanently parked; Select Daily allows 2× cycle profit.
    These differ by a factor of four in how fast profit converts to cash.
 4. **Consistency rules.** 35% on Growth and 20→25→30% on Lightning force profit to be
    spread across multiple days before any payout is permitted. A single outsized day
