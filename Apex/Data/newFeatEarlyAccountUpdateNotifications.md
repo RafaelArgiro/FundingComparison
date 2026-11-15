@@ -25,11 +25,11 @@ With this update, you’ll be notified the next trading day, so you can immediat
 What happens if you receive a notification?
 If trading activity on your account results in a rule violation, an account update notification will be triggered. The following actions will be taken:
 
-Payout Request Suspension: The payout request feature on your account will be temporarily disabled for 8 trading days from the date of the violation. You may continue trading as normal during this period. After the 8-day suspension, payout eligibility will be restored only if no additional rule violations occur and you complete at least 5 qualifying trading days with a minimum profit of $150 per day.
+Payout Request Suspension: The payout request feature on your account will be temporarily disabled for 8 trading days from the date of the violation. You may continue trading as normal during this period. After the 8-day suspension, payout eligibility will be restored only if no additional rule violations occur and you complete at least 5 qualifying trading days with a minimum profit of \$150 per day.
 
 Profit Removal: All profits generated on the trading day in which the violation occurred will be removed in accordance with Apex risk-management policy. This applies to all trading violations, including Scaling and Maximum Adverse Excursion (MAE).
 
-Payout Eligibility Limitation: Following a violation, payout eligibility will be limited to profits earned after the violation date. This limitation remains in place until you successfully complete your next approved payout request at the maximum payout amount for your account size (for example, $2,000 for a $50K account or $2,500 for a $100K account). Partial payout requests will not satisfy this requirement. Once these conditions are met, full payout eligibility will be restored.
+Payout Eligibility Limitation: Following a violation, payout eligibility will be limited to profits earned after the violation date. This limitation remains in place until you successfully complete your next approved payout request at the maximum payout amount for your account size (for example, \$2,000 for a \$50K account or \$2,500 for a \$100K account). Partial payout requests will not satisfy this requirement. Once these conditions are met, full payout eligibility will be restored.
 
 Why Apex takes this approach
 Risk-management rules are designed to help traders stay consistent, manage drawdowns, and avoid emotional decision-making that can negatively impact long-term performance.

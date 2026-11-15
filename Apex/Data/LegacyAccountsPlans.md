@@ -35,13 +35,13 @@ Select Your Tradovate Plan
 Explore Tradovate plans to elevate your trading experience. Choose the perfect fit for your journey!
 
 25K FULL
-Starting Capital $25,000
+Starting Capital \$25,000
 Contractsⓘ
 4 (40 Micros)
 Profit Goalⓘ
-$1,500
+\$1,500
 Trailing Thresholdⓘ
-$1,500
+\$1,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
@@ -58,28 +58,28 @@ Mac Compatible
 Yes
 Tradovate License
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$227/Month
-$22.70/Month
+\$99.00
+\$227/Month
+\$22.70/Month
 – (with Coupon Code)
 One Pack
-$1,135/Month
-$113.50/Month
+\$1,135/Month
+\$113.50/Month
 – (with Coupon Code)
 Five Pack
 50K FULL
-Starting Capital $50,000
+Starting Capital \$50,000
 Contractsⓘ
 10 (100 Micros)
 Profit Goalⓘ
-$3,000
+\$3,000
 Trailing Thresholdⓘ
-$2,500
+\$2,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
@@ -96,28 +96,28 @@ Mac Compatible
 Yes
 Tradovate License
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$247/Month
-$24.70/Month
+\$99.00
+\$247/Month
+\$24.70/Month
 – (with Coupon Code)
 One Pack
-$1,235/Month
-$123.50/Month
+\$1,235/Month
+\$123.50/Month
 – (with Coupon Code)
 Five Pack
 100K FULL
-Starting Capital $100,000
+Starting Capital \$100,000
 Contractsⓘ
 14 (140 Micros)
 Profit Goalⓘ
-$6,000
+\$6,000
 Trailing Thresholdⓘ
-$3,000
+\$3,000
 Daily Drawdownⓘ
 None
 Scalingⓘ
@@ -134,28 +134,28 @@ Mac Compatible
 Yes
 Tradovate License
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$447/Month
-$44.70/Month
+\$99.00
+\$447/Month
+\$44.70/Month
 – (with Coupon Code)
 One Pack
-$2,235/Month
-$223.50/Month
+\$2,235/Month
+\$223.50/Month
 – (with Coupon Code)
 Five Pack
 150K FULL
-Starting Capital $150,000
+Starting Capital \$150,000
 Contractsⓘ
 17 (170 Micros)
 Profit Goalⓘ
-$9,000
+\$9,000
 Trailing Thresholdⓘ
-$5,000
+\$5,000
 Daily Drawdownⓘ
 None
 Scalingⓘ
@@ -172,28 +172,28 @@ Mac Compatible
 Yes
 Tradovate License
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$647/Month
-$64.70/Month
+\$99.00
+\$647/Month
+\$64.70/Month
 – (with Coupon Code)
 One Pack
-$3,235/Month
-$323.50/Month
+\$3,235/Month
+\$323.50/Month
 – (with Coupon Code)
 Five Pack
 250K FULL
-Starting Capital $250,000
+Starting Capital \$250,000
 Contractsⓘ
 27 (270 Micros)
 Profit Goalⓘ
-$15,000
+\$15,000
 Trailing Thresholdⓘ
-$6,500
+\$6,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
@@ -210,28 +210,28 @@ Mac Compatible
 Yes
 Tradovate License
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$447/Month
-$44.70/Month
+\$99.00
+\$447/Month
+\$44.70/Month
 – (with Coupon Code)
 One Pack
-$2,235/Month
-$223.50/Month
+\$2,235/Month
+\$223.50/Month
 – (with Coupon Code)
 Five Pack
 300K FULL
-Starting Capital $300,000
+Starting Capital \$300,000
 Contractsⓘ
 35 (350 Micros)
 Profit Goalⓘ
-$20,000
+\$20,000
 Trailing Thresholdⓘ
-$7,500
+\$7,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
@@ -248,324 +248,324 @@ Mac Compatible
 Yes
 Tradovate License
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$447/Month
-$44.70/Month
+\$99.00
+\$447/Month
+\$44.70/Month
 – (with Coupon Code)
 One Pack
-$2,235/Month
-$223.50/Month
+\$2,235/Month
+\$223.50/Month
 – (with Coupon Code)
 Five Pack
 Select Your WealthCharts Plan
 Explore WealthCharts plans to elevate your trading experience. Choose the perfect fit for your journey!
 
 25K FULL
-Starting Capital $25,000
+Starting Capital \$25,000
 Contractsⓘ
 4 (40 Micros)
 Profit Goalⓘ
-$1,500
+\$1,500
 Trailing Thresholdⓘ
-$1,500
+\$1,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$177/Month
-$17.70/Month
+\$99.00
+\$177/Month
+\$17.70/Month
 – (with Coupon Code)
 One Pack
-$885/Month
-$88.50/Month
+\$885/Month
+\$88.50/Month
 – (with Coupon Code)
 Five Pack
 50K FULL
-Starting Capital $50,000
+Starting Capital \$50,000
 Contractsⓘ
 10 (100 Micros)
 Profit Goalⓘ
-$3,000
+\$3,000
 Trailing Thresholdⓘ
-$2,500
+\$2,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$197/Month
-$19.70/Month
+\$99.00
+\$197/Month
+\$19.70/Month
 – (with Coupon Code)
 One Pack
-$995/Month
-$99.50/Month
+\$995/Month
+\$99.50/Month
 – (with Coupon Code)
 Five Pack
 100K FULL
-Starting Capital $100,000
+Starting Capital \$100,000
 Contractsⓘ
 14 (140 Micros)
 Profit Goalⓘ
-$6,000
+\$6,000
 Trailing Thresholdⓘ
-$3,000
+\$3,000
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$397/Month
-$39.70/Month
+\$99.00
+\$397/Month
+\$39.70/Month
 – (with Coupon Code)
 One Pack
-$1,985/Month
-$198.50/Month
+\$1,985/Month
+\$198.50/Month
 – (with Coupon Code)
 Five Pack
 150K FULL
-Starting Capital $150,000
+Starting Capital \$150,000
 Contractsⓘ
 17 (170 Micros)
 Profit Goalⓘ
-$9,000
+\$9,000
 Trailing Thresholdⓘ
-$5,000
+\$5,000
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$597/Month
-$59.70/Month
+\$99.00
+\$597/Month
+\$59.70/Month
 – (with Coupon Code)
 One Pack
-$2,985/Month
-$298.50/Month
+\$2,985/Month
+\$298.50/Month
 – (with Coupon Code)
 Five Pack
 250K FULL
-Starting Capital $250,000
+Starting Capital \$250,000
 Contractsⓘ
 27 (270 Micros)
 Profit Goalⓘ
-$15,000
+\$15,000
 Trailing Thresholdⓘ
-$6,500
+\$6,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$397/Month
-$39.70/Month
+\$99.00
+\$397/Month
+\$39.70/Month
 – (with Coupon Code)
 One Pack
-$1,985/Month
-$198.50/Month
+\$1,985/Month
+\$198.50/Month
 – (with Coupon Code)
 Five Pack
 300K FULL
-Starting Capital $300,000
+Starting Capital \$300,000
 Contractsⓘ
 35 (350 Micros)
 Profit Goalⓘ
-$20,000
+\$20,000
 Trailing Thresholdⓘ
-$7,500
+\$7,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$397/Month
-$39.70/Month
+\$99.00
+\$397/Month
+\$39.70/Month
 – (with Coupon Code)
 One Pack
-$1,985/Month
-$198.50/Month
+\$1,985/Month
+\$198.50/Month
 – (with Coupon Code)
 Five Pack
 Select Your Rithmic Plan
 Explore Rithmic plans to elevate your trading experience. Choose the perfect fit for your journey!
 
 25K FULL
-Starting Capital $25,000
+Starting Capital \$25,000
 Contractsⓘ
 4 (40 Micros)
 Profit Goalⓘ
-$1,500
+\$1,500
 Trailing Thresholdⓘ
-$1,500
+\$1,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$177/Month
-$17.70/Month
+\$99.00
+\$177/Month
+\$17.70/Month
 – (with Coupon Code)
 One Pack
-$885/Month
-$88.50/Month
+\$885/Month
+\$88.50/Month
 – (with Coupon Code)
 Five Pack
 50K FULL
-Starting Capital $50,000
+Starting Capital \$50,000
 Contractsⓘ
 10 (100 Micros)
 Profit Goalⓘ
-$3,000
+\$3,000
 Trailing Thresholdⓘ
-$2,500
+\$2,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$197/Month
-$19.70/Month
+\$99.00
+\$197/Month
+\$19.70/Month
 – (with Coupon Code)
 One Pack
-$995/Month
-$99.50/Month
+\$995/Month
+\$99.50/Month
 – (with Coupon Code)
 Five Pack
 100K FULL
-Starting Capital $100,000
+Starting Capital \$100,000
 Contractsⓘ
 14 (140 Micros)
 Profit Goalⓘ
-$6,000
+\$6,000
 Trailing Thresholdⓘ
-$3,000
+\$3,000
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$397/Month
-$39.70/Month
+\$99.00
+\$397/Month
+\$39.70/Month
 – (with Coupon Code)
 One Pack
-$1,985/Month
-$198.50/Month
+\$1,985/Month
+\$198.50/Month
 – (with Coupon Code)
 Five Pack
 150K FULL
-Starting Capital $150,000
+Starting Capital \$150,000
 Contractsⓘ
 17 (170 Micros)
 Profit Goalⓘ
-$9,000
+\$9,000
 Trailing Thresholdⓘ
-$5,000
+\$5,000
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$597/Month
-$59.70/Month
+\$99.00
+\$597/Month
+\$59.70/Month
 – (with Coupon Code)
 One Pack
-$2,985/Month
-$298.50/Month
+\$2,985/Month
+\$298.50/Month
 – (with Coupon Code)
 Five Pack
 250K FULL
-Starting Capital $250,000
+Starting Capital \$250,000
 Contractsⓘ
 27 (270 Micros)
 Profit Goalⓘ
-$15,000
+\$15,000
 Trailing Thresholdⓘ
-$6,500
+\$6,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$397/Month
-$39.70/Month
+\$99.00
+\$397/Month
+\$39.70/Month
 – (with Coupon Code)
 One Pack
-$1,985/Month
-$198.50/Month
+\$1,985/Month
+\$198.50/Month
 – (with Coupon Code)
 Five Pack
 300K FULL
-Starting Capital $300,000
+Starting Capital \$300,000
 Contractsⓘ
 35 (350 Micros)
 Profit Goalⓘ
-$20,000
+\$20,000
 Trailing Thresholdⓘ
-$7,500
+\$7,500
 Daily Drawdownⓘ
 None
 Scalingⓘ
 None
-Real-Time Data Fees ($55 Value)
+Real-Time Data Fees (\$55 Value)
 Included
-NinjaTrader Platform ($75 Value)
+NinjaTrader Platform (\$75 Value)
 Included
 One-Time PA Feeⓘ
-$99.00
-$397/Month
-$39.70/Month
+\$99.00
+\$397/Month
+\$39.70/Month
 – (with Coupon Code)
 One Pack
-$1,985/Month
-$198.50/Month
+\$1,985/Month
+\$198.50/Month
 – (with Coupon Code)
 Five Pack
 Apex Trader Funding Inc.

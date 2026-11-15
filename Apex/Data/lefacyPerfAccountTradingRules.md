@@ -17,8 +17,8 @@ These rules only apply to the Legacy Performance Accounts:
 To promote disciplined growth, the Contract Scaling rule outlines how traders manage contract sizes during the growth phase of the account.
 
 Initial Limit: Traders are restricted to trading half of their maximum allowed contracts until they reach the trailing threshold stop.
-Threshold Reached: Once the account’s End-of-Day (EOD) balance exceeds the trailing threshold (the initial balance + trailing drawdown + $100), traders can then use their full contract limit starting with the next full trading session.
-For 100K Static Accounts: Full contracts can be traded after reaching the safety net amount of $2,600.
+Threshold Reached: Once the account’s End-of-Day (EOD) balance exceeds the trailing threshold (the initial balance + trailing drawdown + \$100), traders can then use their full contract limit starting with the next full trading session.
+For 100K Static Accounts: Full contracts can be traded after reaching the safety net amount of \$2,600.
 For full details on the Contract Scaling Rule, please visit the Legacy Contract Scaling Rule page.
 
 2. Legacy 30% Negative P&L Rule (MAE)

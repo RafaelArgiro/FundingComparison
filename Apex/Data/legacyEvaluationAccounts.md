@@ -61,25 +61,25 @@ The video below summarises the Trailing Drawdown Threshold:
 Key Concepts
 Starting Balance: Your account starts with an initial balance, and each plan has a specified maximum number of contracts you can trade.
 No Daily Max Drawdown: There is no daily maximum drawdown limit.
-Max Loss Drawdown: Each plan has a varying max loss drawdown. For example, a $50k plan starts at $47,500, which is $2,500 below the initial $50k balance.
+Max Loss Drawdown: Each plan has a varying max loss drawdown. For example, a \$50k plan starts at \$47,500, which is \$2,500 below the initial \$50k balance.
 Legacy Trailing Drawdown Example
 To better understand how the trailing threshold works, let’s go through a practical example:
 
-Starting Balance: $50,000
-Allowed Drawdown: $2,500, meaning your threshold begins at $47,500.
-First Trade: You make $500 and close the trade. Now, your balance is $50,500, and your threshold will update to $48,000 (the remaining $2,500 below your new balance).
-Second Trade: During the next trade, your balance peaks at $50,875, but you only close the trade at $50,100. Your threshold will be $48,375, trailing $2,500 behind the highest balance reached ($50,875) even though you closed at a lower amount.
+Starting Balance: \$50,000
+Allowed Drawdown: \$2,500, meaning your threshold begins at \$47,500.
+First Trade: You make \$500 and close the trade. Now, your balance is \$50,500, and your threshold will update to \$48,000 (the remaining \$2,500 below your new balance).
+Second Trade: During the next trade, your balance peaks at \$50,875, but you only close the trade at \$50,100. Your threshold will be \$48,375, trailing \$2,500 behind the highest balance reached (\$50,875) even though you closed at a lower amount.
 
 This example highlights that the trailing threshold is based on the highest live value during trades, not on closed trade values. It’s crucial to remember this to avoid unintentionally exceeding the maximum drawdown.
 
 Legacy Drawdown Types: FULL vs. STATIC Accounts
 FULL Accounts:
-In paid/funded accounts, the max drawdown stops trailing once the liquidation threshold is the initial balance plus $100 (e.g., $50,100 on a 50k plan).
-The trailing threshold stops moving once your unrealized balance exceeds the plan’s start balance by the drawdown amount plus $100.
-The example below illustrates a trailing drawdown level at 25 points using 5 contracts on NQ, which would be around the $2500 trailing drawdown for the $50,000 account.
+In paid/funded accounts, the max drawdown stops trailing once the liquidation threshold is the initial balance plus \$100 (e.g., \$50,100 on a 50k plan).
+The trailing threshold stops moving once your unrealized balance exceeds the plan’s start balance by the drawdown amount plus \$100.
+The example below illustrates a trailing drawdown level at 25 points using 5 contracts on NQ, which would be around the \$2500 trailing drawdown for the \$50,000 account.
 STATIC Accounts:
-The drawdown level remains unchanged. For instance, a 100k static account has a set drawdown at $99,375.
-The example below illustrates a fixed drawdown level at roughly 10.5 points using 3 contracts on NQ, which would be around the $625 static drawdown for the $100,000 account.
+The drawdown level remains unchanged. For instance, a 100k static account has a set drawdown at \$99,375.
+The example below illustrates a fixed drawdown level at roughly 10.5 points using 3 contracts on NQ, which would be around the \$625 static drawdown for the \$100,000 account.
 
 
 Legacy Trailing Max Drawdown by Plan and Contract Size
@@ -102,7 +102,7 @@ Plan Account Size Max Loss/Trailing Threshold
 100K Static 2 Minis – 625
 
 Special Rules for RITHMIC, WEALTHCHARTS, and TRADOVATE Accounts For Legacy Trailing Drawdown
-RITHMIC and WEALTHCHARTS Accounts: During the evaluation, the drawdown stops trailing when the threshold balance reaches your profit target (not the account balance). For instance, a 50K account stops trailing when the threshold reaches $53,000.
+RITHMIC and WEALTHCHARTS Accounts: During the evaluation, the drawdown stops trailing when the threshold balance reaches your profit target (not the account balance). For instance, a 50K account stops trailing when the threshold reaches \$53,000.
 TRADOVATE Accounts: The trailing drawdown continues to trail in evaluations and does not stop.
 Monitoring Your Account and Avoiding Liquidation
 Max Drawdown Monitoring: Always check your trailing max drawdown in your RTrader or Tradovate dashboard. The auto-liquidation threshold reflects this value.
@@ -253,7 +253,7 @@ Professional Status and Data Fees
 What is the difference between “non-professional” and “professional”?
 
 Non-Professional: Most traders are non-professional, and your data fees are included in your plan.
-Professional: Selecting ‘Professional’ incurs extra fees. For CME professional data, fees are $115 or more per calendar month per exchange, in addition to other fees. Only select ‘Professional’ when setting up Rithmic if you are truly a professional trader.
+Professional: Selecting ‘Professional’ incurs extra fees. For CME professional data, fees are \$115 or more per calendar month per exchange, in addition to other fees. Only select ‘Professional’ when setting up Rithmic if you are truly a professional trader.
 
 Important: Choosing ‘Professional’ unnecessarily will result in significant additional costs.
 
@@ -311,13 +311,13 @@ Check your account balance is above the profit target (including commission).
 
 Note: Always check the provider account balance, for example, on Rtrader Pro. NinjaTrader may show the balance excluding commissions. Additionally, the WealthCharts WealthTracker also shows the Gross P&L without commissions deducted.
 
-The Tradovate Equity Balance must exceed the profit target. E.g. $320,000 for a $300k Evaluation.
+The Tradovate Equity Balance must exceed the profit target. E.g. \$320,000 for a \$300k Evaluation.
 
 
-The Rithmic Account Balance must exceed the profit target and show an Active Status. E.g. $320,000 for a $300k Evaluation.
+The Rithmic Account Balance must exceed the profit target and show an Active Status. E.g. \$320,000 for a \$300k Evaluation.
 
 
-The WealthCharts Account Balance under the Broker Portfolio tab must exceed the profit target. E.g. $53,000 for a $50k Evaluation.
+The WealthCharts Account Balance under the Broker Portfolio tab must exceed the profit target. E.g. \$53,000 for a \$50k Evaluation.
 
 
 Step 2
@@ -395,12 +395,12 @@ At Apex, managing your Paid Performance (PA) accounts is streamlined, with clear
 Lifetime Fee Pricing
 Legacy PA Lifetime Fees
 (same for all platforms)
-25k	$125 one time fee
-50K	$140 one time fee
-100K	$175 one time fee
-150K	$200 one time fee
-250K	$250 one time fee
-300K	$300 one time fee
+25k	\$125 one time fee
+50K	\$140 one time fee
+100K	\$175 one time fee
+150K	\$200 one time fee
+250K	\$250 one time fee
+300K	\$300 one time fee
 Please note that once a payment has been made, we will be unable to process a refund.
 
 PA Account Activation and Payment Process
