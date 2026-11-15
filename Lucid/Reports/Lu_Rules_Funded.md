@@ -101,21 +101,117 @@ closed higher.
 | \$150,000 | \$2,700 or off | \$2,700 or off | \$2,700 or off | \$3,000 |
 
 On LucidPro, LucidFlex and LucidDaily the presence of a DLL was decided when the evaluation
-was purchased and cannot be changed. On LucidDirect it is fixed by account size.
+was purchased and is permanent. On LucidDirect it is fixed by account size.
 
-**Two mechanics, and which one you get depends on the product:**
+**What the DLL does.** It is a soft breach. LOCK. Lose the stated amount in one session and
+you are blocked from placing further trades until the next session opens at 6:00 PM EST.
+The account survives. Only the Max Loss Limit can end it.
 
-- **LucidPro and LucidDirect** start on the fixed DLL and switch to the **LucidScale DLL**
-  — 60% of the highest end-of-day profit, ratcheting up only — once the balance closes
-  above the Initial Trail Balance. The 25K Direct has neither.
-- **LucidDaily keeps the fixed DLL permanently.** It does not convert.
-- **LucidFlex funded cards show no LucidScale row at all**, only a fixed DLL below the
-  Initial Trail Balance. Whether it converts is not documented either way.
+### 3a. The LucidScale DLL
 
-**On Demand Payouts are tied to the DLL.** Funded accounts bought with the DLL on may
-request payouts during the session, from profit made that session (6:00 PM to 3:45 PM ET).
-After an intraday request, trading is paused until the end of the trading day. Accounts
-with a hedging violation are not eligible for intraday payouts.
+On **LucidPro and LucidDirect**, the fixed DLL is not permanent. Once the account closes
+above the Initial Trail Balance — that is, once the trailing phase ends and the floor locks
+— the fixed amount is replaced by a **LucidScale DLL**:
+
+```
+LucidScale DLL = highest end-of-day account profit × 60%
+```
+
+Three properties matter:
+
+- **It is calculated from your best-ever day-end profit**, not your current balance.
+- **It only ratchets up.** It never falls, even if you subsequently give the profit back.
+  A \$4,000 peak sets the DLL at \$2,400 and it stays at \$2,400 until a higher end-of-day
+  profit replaces it.
+- **It starts roughly where the fixed DLL left off and then grows.** On a 50K Pro the
+  trailing phase ends at \$52,100, which is \$2,100 of profit, giving a LucidScale DLL of
+  \$1,260 against the \$1,200 fixed amount it replaces.
+
+**It is still a daily loss limit.** Only the size of the allowance changes. It is a
+per-session loss budget measured from your balance at the start of the session, it resets
+every session, and hitting it locks you out until the next one. It is **not** a balance
+level. The Max Loss Limit is the balance level.
+
+**Why that distinction matters.** Both limits are live at once, and the one that is
+**nearer** is the one you hit first:
+
+- The **DLL** sits a fixed distance below *today's opening balance* — it moves with you.
+- The **MLL** sits at a fixed balance — \$50,100 on a locked 50K — and does not move.
+
+Early on the DLL is the nearer of the two, so it acts as a brake: you get locked out, the
+account survives, you come back tomorrow. As the LucidScale allowance grows, it can become
+larger than your remaining distance to the floor, at which point it can never trigger
+first.
+
+**Worked comparison, 50K Pro with the floor locked at \$50,100:**
+
+| | Peak EOD profit | LucidScale DLL | Session opens at | DLL would halt you at | MLL ends you at | Which hits first |
+|---|---|---|---|---|---|---|
+| Just past the trail | \$2,100 | \$1,260 | \$52,100 | \$50,840 | \$50,100 | **DLL** — you survive |
+| After a good run, then a giveback | \$10,000 | \$6,000 | \$51,000 | \$45,000 | \$50,100 | **MLL** — account gone |
+
+In the second row the \$6,000 daily allowance is meaningless: you only have \$900 of room
+before the floor, so the account ends before the DLL has any say.
+
+**So the DLL's protective value declines the more successful you have been.** The
+allowance is set by your best day ever, but the risk is set by where your balance is now.
+
+**LucidDaily keeps the fixed DLL permanently.** It does not convert to LucidScale, so its
+daily cap stays at \$600 / \$1,200 / \$1,800 / \$2,700 for the life of the account.
+
+**LucidFlex funded cards show no LucidScale row at all**, only a fixed DLL below the
+Initial Trail Balance. Whether it converts above the trail is not documented either way.
+
+### 3b. What turning the DLL off actually does
+
+The effect is **not** the same across products, because it only removes whichever cap the
+product would otherwise have applied:
+
+| Product | Below the Initial Trail Balance | Above it |
+|---|---|---|
+| LucidPro | No daily cap | **LucidScale DLL still applies** |
+| LucidDirect | n/a — not a choice | LucidScale DLL applies |
+| LucidFlex | No daily cap | No cap shown on the card |
+| LucidDaily | No daily cap | No daily cap — the fixed DLL is simply gone |
+
+**On LucidPro the choice only affects the trailing phase** — and that is the phase where it
+matters most. The Pro DLL-off funded card still shows the LucidScale DLL above the trail,
+so you are buying freedom from a daily cap precisely while the floor is still trailing up
+behind you and your cushion is at its smallest, then having a cap reinstated once the floor
+has locked and the risk is static. That is the opposite of the order you would choose.
+
+**With the DLL off, nothing stops a bad session except the Max Loss Limit**, and reaching
+that is terminal. There is no soft brake, no forced pause, and no opportunity to come back
+the next day.
+
+### 3c. What turning the DLL off does to your payouts
+
+This is the part most easily missed, because it is a payout setting disguised as a risk
+setting.
+
+| | DLL On | DLL Off |
+|---|---|---|
+| Daily loss cap | Yes | No |
+| **On Demand Payouts** | **Available** | **Not available** |
+| When you can request | During the session, 6:00 PM to 3:45 PM ET, from profit made that session | End-of-day schedule only |
+
+**With the DLL on**, you may request a payout intraday from profit earned in the current
+session. Trading on that account is then paused until the end of the trading day.
+
+**With the DLL off**, that option is removed entirely and every payout waits for the
+end-of-day cycle. The toggle is locked red on the plan card — you cannot have both no daily
+cap and intraday payouts.
+
+**This costs the most on LucidDaily**, whose entire proposition is daily payouts: turning
+the DLL off downgrades the product's headline feature. It costs least on LucidPro and
+LucidFlex, where the payout cadence is already 3 and 5 days respectively, so same-session
+access saves hours rather than days.
+
+**LucidDirect follows the same logic without a choice:** the 25K has no DLL and therefore
+takes end-of-day payouts only, while 50K and above have a DLL and get On Demand Payouts.
+
+**A hedging violation permanently removes intraday payout eligibility**, regardless of
+which configuration you bought.
 
 LucidDirect follows the same logic without a choice: the 25K has no DLL and so takes
 end-of-day payouts only, while 50K and above have On Demand Payouts.
@@ -240,8 +336,61 @@ of account balance.
 **The caps do not scale with payout number.** Unlike every other Lucid product, the figures
 above apply to all five payouts.
 
+#### How the 50% formula works
+
+**You may withdraw half the profit sitting in the account, and half must stay behind** —
+subject to the cap. "Profit" means `current balance − starting balance`. Because every
+payout is deducted from the balance, previous withdrawals drop out of the calculation
+automatically; there is no running ledger of what you have taken before.
+
+The half you leave behind is **not** dead money. It stays in the account and counts toward
+the next cycle's profit, so each payout is larger than the last even if your trading is
+unchanged — until the cap takes over.
+
+**Worked example: 50K LucidFlex, cap \$2,000, earning \$2,500 per cycle.**
+
+| Cycle | Earned | Balance before | Profit in account | 50% of profit | Capped? | Withdrawn | Balance after |
+|---|---|---|---|---|---|---|---|
+| 1 | \$2,500 | \$52,500 | \$2,500 | \$1,250 | no | \$1,250 | \$51,250 |
+| 2 | \$2,500 | \$53,750 | \$3,750 | \$1,875 | no | \$1,875 | \$51,875 |
+| 3 | \$2,500 | \$54,375 | \$4,375 | \$2,187 | **yes** | \$2,000 | \$52,375 |
+| 4 | \$2,500 | \$54,875 | \$4,875 | \$2,437 | **yes** | \$2,000 | \$52,875 |
+| 5 | \$2,500 | \$55,375 | \$5,375 | \$2,687 | **yes** | \$2,000 | \$53,375 |
+
+After the fifth payout the account is moved live.
+
+**Reading the example:**
+
+- **The cap binds from cycle 3.** On a 50K it starts biting once profit in the account
+  reaches \$4,000, because half of that is the \$2,000 cap. From then on the percentage is
+  irrelevant and you simply receive the cap.
+- **Total generated: \$12,500. Total withdrawn: \$9,125** gross, or \$8,212 after the 90/10
+  split.
+- **\$3,375 of profit is still sitting in the account** when the fifth payout forces the
+  move to live. What happens to it is not documented — see `Lu_Rules_Live.md`.
+- **The floor locks on the first payout request**, so from cycle 1 onward the Max Loss
+  Limit is fixed at \$50,100 and the trailing phase is over.
+
+**The first payout needs \$1,000 of profit, not \$500.** The minimum request is \$500 and
+you can only ask for half, so \$1,000 in the account is the real threshold. The 5 qualifying
+days at \$150 only guarantee \$750, so profit — not day count — is usually the binding
+constraint on the first cycle.
+
 **Worked throughput, 50K:** \$2,000 per 5 qualifying days, so roughly **\$400 per trading
 day**, and only once profit reaches \$4,000.
+
+**Lifetime ceiling per account: \$10,000 gross** at 50K — five payouts at the \$2,000 cap —
+reachable only if profit exceeds \$4,000 before the third cycle.
+
+> **Documentation defect.** The payouts article says traders "may request 50% of their
+> account **balance**", while the table on the same page says "50% of **Profit**". On a 50K
+> the first reading would permit a \$25,000 withdrawal. The table is the sensible one and
+> is used throughout here.
+
+> **Ambiguity.** Lucid does not state whether "profit" means profit currently in the
+> account or profit earned since the last payout. This document uses the former, which
+> matches how LucidDaily measures profit above its buffer. Under the latter reading every
+> payout in the example above would be \$1,250 and the cap would never bind.
 
 **The account ends after five payouts.** At 50K that caps total extraction from a single
 LucidFlex account at \$10,000 before a forced move live.
