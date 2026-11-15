@@ -57,18 +57,30 @@ It is structurally unlike the other three and would need separate evaluation:
 - **Daily payouts**, with a minimum gross payout rather than a maximum cap.
 - **No minimum trading days and no consistency rule** in either phase.
 
-| Size | List | Coupon | Profit target | Static drawdown | DLL | Max contracts | Min gross payout |
-|---|---|---|---|---|---|---|---|
-| 10K | $113 | $79 | $1,000 | $500 | $300 | 10 micros | $200 |
-| 25K | $219 | $153 | $2,000 | $1,000 | $600 | 20 micros | $400 |
-| 50K | $376 | $263 | $3,500 | $1,500 | $900 | 30 micros | $600 |
+| Size | Profit target | Static drawdown | Max contracts | Min gross payout |
+|---|---|---|---|---|
+| 10K | $1,000 | $500 | 10 micros | $200 |
+| 25K | $2,000 | $1,000 | 20 micros | $400 |
+| 50K | $3,500 | $1,500 | 30 micros | $600 |
 
-The cards also show a "DLL Type: Soft / None" toggle, which has no counterpart on any
-other Tradeify product and is not explained anywhere.
+**It is sold in two priced configurations**, set by a "DLL Type: Soft / None" toggle at
+checkout. The toggle has no counterpart on any other Tradeify product, applies to both the
+evaluation and the funded account, and is not explained in any article.
+
+| Size | DLL Soft — list / coupon | DLL None — list / coupon | Premium (coupon) |
+|---|---|---|---|
+| 10K | $113 / $79 (DLL $300) | $191 / $134 (no DLL) | +$55 |
+| 25K | $219 / $153 (DLL $600) | $368 / $258 (no DLL) | +$105 |
+| 50K | $376 / $263 (DLL $900) | $628 / $440 (no DLL) | +$177 |
+
+All six prices are exactly 30% off with code `NOV`, and all six "Save $X" labels are
+arithmetically correct — unlike the Select plans. Removing the daily loss limit costs
+**67–69% more**, the steepest configuration premium Tradeify charges. Everything else is
+identical between the two configurations.
 
 Nothing is known about its rules beyond these cards: no trading hours, no payout
-mechanics beyond the minimum, no reset policy, no account limits, no statement of whether
-it counts toward the 5-funded-account cap.
+mechanics beyond the minimum, no reset policy, no account limits, no consistency or
+holding-time rules, and no statement of whether it counts toward the 5-funded-account cap.
 
 ---
 
@@ -141,9 +153,12 @@ off Growth** and **30% off Select, Lightning and Inter Miami**.
 | Lightning | 50K | $492 | $344 | not available |
 | Lightning | 100K | $660 | $462 | not available |
 | Lightning | 150K | $796 | $557 | not available |
-| Inter Miami | 10K | $113 | $79 | not shown |
-| Inter Miami | 25K | $219 | $153 | not shown |
-| Inter Miami | 50K | $376 | $263 | not shown |
+| Inter Miami | 10K | $113 / $191 | $79 / $134 | not shown |
+| Inter Miami | 25K | $219 / $368 | $153 / $258 | not shown |
+| Inter Miami | 50K | $376 / $628 | $263 / $440 | not shown |
+
+Inter Miami is quoted as **DLL Soft / DLL None**, the two configurations described in
+section 2.
 
 Prices are identical across Tradovate, WealthCharts and Rithmic/Tradesea, confirming the
 help centre's "all brokers are the same price". Inter Miami is Tradovate-only.
@@ -152,9 +167,13 @@ At coupon prices the **Growth 25K at $59 is the cheapest route to a funded accou
 any product from any of the three providers. The Growth 25K reset fee is shown as a
 struck-through $70 reduced to $60, so the reset now costs more than the account itself.
 
+At the other end, the **Inter Miami 50K with the DLL removed is $440** — five times the
+Growth 50K at $87, for a micros-only account on a worse profit split.
+
 The 50% Consistency Add-on prices given in the Pricing Reference ($135 / $205 / $329 /
 $459 for Select) do not appear on the purchase page, which shows the 40%/50% consistency
-choice as a toggle with no visible surcharge.
+choice as a toggle with no visible surcharge. The Inter Miami DLL toggle, by contrast, is
+priced explicitly on the cards.
 
 ---
 
@@ -437,8 +456,11 @@ Note the filename `wealthCarts.md` is misspelled.
 
 1. Obtain the Tradeify Elite Program article. It governs the live stage, the 80/20 split
    and the one-way transition, and is the single largest gap.
-2. Obtain the full Inter Miami rule set. It is sold today, uses a static drawdown and a
-   three-way profit split, and has no documentation at all beyond its plan cards.
+2. Obtain the full Inter Miami rule set. It is sold today, uses a static drawdown, a
+   three-way profit split and a priced DLL toggle, and has no documentation at all beyond
+   its plan cards. In particular: whether the static floor is enforced on net liquidation
+   in real time, whether the 10-second rule and consistency rules apply, whether resets
+   exist, and whether it counts toward the 5-funded-account cap.
 3. Obtain the Funded Reset price for Select 50K, 100K and 150K. It is absent from both the
    help centre and the purchase page.
 4. Confirm the Select 300K price: $570 in the Pricing Reference, $525 on the purchase page.
