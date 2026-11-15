@@ -210,20 +210,34 @@ starting balance. On a \$50,000 account that distance is \$2,000, putting the fl
 highest closing balance and lifts the floor to stay the same distance below it. The floor
 moves up only; a lower closing balance never pulls it back down.
 
-**Where it stops.** The floor stops trailing permanently once the account closes above the
-**Initial Trail Balance**, defined as:
+**Where it stops.** The floor does not trail forever. It stops once the account has earned
+enough profit, and the balance at which that happens is called the **Initial Trail
+Balance**:
 
 ```
 Initial Trail Balance = starting balance + Max Loss Limit + $100
 ```
 
-At that point the floor **locks** at:
+The name describes what it is: the balance at which the *initial trailing period ends*.
+On a \$50,000 account with a \$2,000 Max Loss Limit it is \$52,100 — the starting balance
+plus the full drawdown plus \$100.
+
+Once the account **closes above** that figure, the floor **locks** permanently at:
 
 ```
 Locked MLL = starting balance + $100
 ```
 
-and never moves again.
+and never moves again. On the same \$50,000 account that is \$50,100.
+
+So every account has two phases: a **trailing phase** from the starting balance up to the
+Initial Trail Balance, and a **locked phase** above it.
+
+**Each account has its own Initial Trail Balance, and nothing carries between accounts.**
+Reaching it, and locking the floor, applies only to the account you did it on. Passing an
+evaluation does **not** transfer the balance or the locked floor to the funded account —
+the funded account is a new account that starts at its base size with the floor trailing
+again from the beginning.
 
 **Worked example, \$50,000 account with a \$2,000 Max Loss Limit:**
 
