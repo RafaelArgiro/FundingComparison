@@ -76,15 +76,16 @@ account that dangerous stretch is the first \$2,100 of profit.
 
 ## 3. Choosing your configuration at purchase
 
-Three settings are sold, and which are available depends on the product. All are permanent
+Four settings are sold, and which are available depends on the product. All are permanent
 and all are priced.
 
 | Setting | LucidPro | LucidFlex | LucidDaily | LucidDirect |
 |---|---|---|---|---|
 | Daily Loss Limit On / Off | Yes | Yes | Yes | No — fixed by size |
-| Consistency 40% / 50% | No — fixed | Yes | Yes | No — fixed at 20% |
+| Consistency | No — fixed | 40% / 50% | 40% / 50%, or 30% / 40% under funded EOD | No — fixed at 20% |
 | Evaluation drawdown EOD / Intraday | No — EOD | No — EOD | Yes | No — EOD |
-| Number of configurations | 2 | 4 | 8 | 1 |
+| **Funded drawdown Intraday / EOD** | No — EOD | No — EOD | **Yes, if eval is EOD** | No — EOD |
+| Number of configurations | 2 | 4 | **12** | 1 |
 
 **Turning the Daily Loss Limit off forces On Demand Payouts off.** This is the single most
 consequential choice, because it is not really a risk setting — it is a payout setting:
@@ -100,9 +101,14 @@ You cannot have both no daily cap and intraday payouts.
 of total profit, which lowers the number of days needed to pass. A cushion is built in so
 that a two-day pass is achievable.
 
-**The evaluation drawdown type** on LucidDaily decides whether unrealised profit and loss
-moves the floor during the evaluation. Intraday is the cheaper option and the harsher one.
-**The funded account is intraday regardless of what you choose here.**
+**LucidDaily sells two separate drawdown choices.** The **evaluation** drawdown may be
+end-of-day or intraday, and the **funded** drawdown may be intraday or end-of-day. The
+funded choice only appears if the evaluation is set to end-of-day; choosing intraday for
+the evaluation forces an intraday funded account. Intraday is the cheaper option in both
+cases, and an end-of-day funded drawdown is the single most expensive option Lucid sells.
+
+**Choosing an end-of-day funded drawdown changes the consistency tiers** from 40% / 50% to
+**30% / 40%**. The 50% option is not selectable alongside it.
 
 ---
 
@@ -192,33 +198,56 @@ anomaly is confined to that one row.
 **2-4 days to pass · Daily payouts · Customizable**
 
 The most configurable product, and the only one where the drawdown type is a purchase
-choice.
+choice in either phase.
 
 - **2 to 4 trading days to pass**, depending on the consistency setting.
 - **Consistency applies during the evaluation only.** The funded account has none.
-- **Drawdown type is selectable for the evaluation**: end-of-day or intraday.
-- **The funded account is always intraday**, whatever you choose here.
+- **Evaluation drawdown is selectable**: end-of-day or intraday.
+- **Funded drawdown is also selectable**: intraday or end-of-day — but only if the
+  evaluation is set to end-of-day.
+- **Consistency tiers depend on the funded drawdown**: 40% / 50% under intraday,
+  **30% / 40%** under end-of-day.
 - **Daily Loss Limit**: \$600 / \$1,200 / \$1,800 / \$2,700, or off.
 
-**Pricing**, by evaluation drawdown type, at DLL On and 40% consistency:
+**Pricing**, all nine captured configurations:
 
-| Size | Intraday eval | EOD eval | EOD surcharge | Reset, intraday | Reset, EOD |
-|---|---|---|---|---|---|
-| 25K | \$50.40 | \$60.20 | +\$9.80 | \$50 | \$60 |
-| 50K | \$65.80 | \$85.40 | +\$19.60 | \$65 | \$85 |
-| 100K | \$110.60 | \$140.00 | +\$29.40 | \$110 | \$140 |
-| 150K | \$160.30 | \$200.20 | +\$39.90 | \$160 | \$200 |
+| Eval DD | Funded DD | DLL | Cons. | 25K | 50K | 100K | 150K |
+|---|---|---|---|---|---|---|---|
+| Intraday | Intraday | On | 40% | \$50.40 | \$65.80 | \$110.60 | \$160.30 |
+| Intraday | Intraday | On | 50% | \$55.30 | \$75.60 | \$125.30 | \$180.60 |
+| Intraday | Intraday | Off | 40% | \$65.10 | \$90.30 | \$150.50 | \$210.00 |
+| Intraday | Intraday | Off | 50% | \$75.60 | \$100.10 | \$170.10 | \$235.20 |
+| EOD | Intraday | On | 40% | \$60.20 | \$85.40 | \$140.00 | \$200.20 |
+| EOD | Intraday | On | 50% | \$65.10 | \$95.20 | \$155.40 | \$220.50 |
+| EOD | Intraday | Off | 40% | \$80.50 | \$115.50 | \$180.60 | \$250.60 |
+| EOD | Intraday | Off | 50% | \$90.30 | \$130.20 | \$200.20 | \$280.00 |
+| **EOD** | **EOD** | **Off** | **40%** | **\$160.30** | **\$235.20** | **\$350.00** | **\$490.00** |
 
-The DLL and consistency surcharges for LucidDaily have not been captured.
+Reset fees track the price, rounded down. Three configurations remain uncaptured, all in
+the funded-EOD branch: DLL on at 30% and 40%, and DLL off at 30%.
 
-> **Documentation conflict.** The plan cards show a 40% / 50% consistency toggle with 40%
-> as the default. The help-centre LucidDaily articles state a flat 50% requirement with no
-> 40% option mentioned anywhere.
+**The surcharges are not independent.** Each toggle's price depends on where the others
+are set, so no configuration can be worked out by addition. The headline surcharges:
 
-> **Open question.** The plan cards present "Drawdown In Funded" as a selectable
-> Intraday / EOD toggle, visible only when EOD is chosen for the evaluation. The
-> help centre states twice that funded LucidDaily accounts are always intraday. An
-> EOD-drawdown funded account with daily payouts would be a materially different product.
+| Choice | 25K | 50K | 100K | 150K |
+|---|---|---|---|---|
+| EOD evaluation drawdown | +\$9.80 | +\$19.60 | +\$29.40 | +\$39.90 |
+| **EOD funded drawdown** | **+\$55.30** | **+\$79.80** | **+\$130.20** | **+\$184.80** |
+| DLL off, funded intraday | +\$20.30 | +\$30.10 | +\$40.60 | +\$50.40 |
+| DLL off, funded EOD | +\$44.80 | +\$70.00 | +\$79.80 | +\$105.00 |
+
+**The end-of-day funded drawdown is the most valuable option Lucid sells and the most
+expensive.** It removes the intraday drawdown that otherwise defines a funded LucidDaily
+account, meaning an unrealised run-up that is given back no longer costs you room. At 50K
+it takes the account from \$65.80 to \$235.20 — **3.6 times the cheapest build**.
+
+> **Documentation conflict.** The plan cards show consistency tiers of 40% / 50%, or
+> 30% / 40% under a funded EOD drawdown. The help-centre LucidDaily articles state a flat
+> 50% requirement and mention no other option.
+
+> **Documentation conflict.** A funded rules card bought with the funded drawdown set to
+> EOD reads "Drawdown Type: EOD". The help centre states twice that funded LucidDaily
+> accounts always use intraday drawdown. The help centre is wrong.
 
 ---
 
@@ -252,16 +281,21 @@ Consequences for this document:
 |---|---|---|---|---|
 | Evaluation exists | Yes | Yes | Yes | **No** |
 | Minimum trading days | 1 | 3 (2 at 50%) | 2–4 | — |
-| Consistency in evaluation | **None** | 40% or 50% | 40% or 50% | — |
+| Consistency in evaluation | **None** | 40% or 50% | 40% / 50%, or 30% / 40% | — |
 | Daily loss limit | Optional | Optional | Optional | — |
 | Evaluation drawdown | EOD | EOD | **EOD or intraday** | — |
-| Configurations | 2 | 4 | **8** | 1 |
+| Funded drawdown | EOD | EOD | **Intraday or EOD** | EOD |
+| Configurations | 2 | 4 | **12** | 1 |
 | Contracts in evaluation | Full size | Full size | Full size | — |
-| Cheapest 50K | \$120.40 | **\$80.50** | \$65.80 | \$360.50 |
+| Cheapest 50K | \$120.40 | \$80.50 | **\$65.80** | \$360.50 |
+| Dearest 50K | \$150.50 | \$130.20 | **\$235.20** | \$360.50 |
 | Reset available | Yes | Yes | Yes | Not published |
 
 Cheapest route to a funded account at each size: LucidFlex at 25K (\$45.50), LucidDaily at
 50K (\$65.80), 100K (\$110.60) and 150K (\$160.30).
+
+**LucidDaily has by far the widest price range**, because its configuration choices carry
+the largest surcharges. At 50K it spans \$65.80 to \$235.20 for the same account size.
 
 ---
 
@@ -276,7 +310,8 @@ In order of how likely it is to catch a normal daytrader:
 2. **Choosing intraday drawdown on LucidDaily and then giving back an unrealised run-up.**
    Under intraday drawdown the floor rises with live P&L, so a position that goes +\$1,500
    and comes back to flat has permanently cost \$1,500 of room. Under end-of-day drawdown
-   the same round trip costs nothing. The intraday option is the cheaper one at checkout.
+   the same round trip costs nothing. The intraday option is the cheaper one at checkout,
+   in both the evaluation and the funded phase.
 3. **Turning the Daily Loss Limit off.** It is sold as flexibility, but it removes the only
    soft brake on a deteriorating session. With it off, the Max Loss Limit is the sole risk
    control and reaching it is terminal.

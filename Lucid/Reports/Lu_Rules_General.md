@@ -253,9 +253,12 @@ and loss counts.
 | **End-of-day** | Account balance at session close | No — intraday swings do not move the floor |
 | **Intraday** | Real-time P&L | Yes — the floor moves with live, unrealised profit |
 
-- **LucidPro, LucidFlex and LucidDirect use end-of-day drawdown** in both phases.
-- **LucidDaily funded accounts always use intraday drawdown.** Its evaluation can be bought
-  with either type, and the intraday option is the cheaper of the two.
+- **LucidPro, LucidFlex and LucidDirect use end-of-day drawdown** in both phases. It is not
+  selectable.
+- **LucidDaily makes both the evaluation and the funded drawdown a purchase-time choice.**
+  The evaluation can be bought as end-of-day or intraday, and the funded account can be
+  bought as intraday or end-of-day. Both are permanent once chosen. Intraday is the cheaper
+  option in each case, and an end-of-day funded drawdown carries a large surcharge.
 - Under intraday drawdown, a position that runs up and is then given back **permanently
   costs you room**, because the peak was counted as it happened. Under end-of-day
   drawdown the same round trip costs nothing.

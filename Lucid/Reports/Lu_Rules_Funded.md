@@ -29,6 +29,9 @@ away**, and **what caps the money you can actually withdraw**.
 | Payout buffers lock capital in the account | Per product, sections 6–9 |
 | A breach is terminal — no reset exists | Section 5 |
 
+**Nothing about the funded account can be changed once you are in it.** The Daily Loss
+Limit, and on LucidDaily the drawdown type, were fixed when the evaluation was bought.
+
 **Consistency by product once funded:**
 
 | Product | Evaluation | Funded |
@@ -56,6 +59,10 @@ LucidPro, LucidFlex or LucidDaily account typically begins life with a fixed flo
 **LucidDirect is the exception.** With no evaluation, the account starts below the Initial
 Trail Balance and the floor trails from day one. The dangerous stretch that evaluation
 traders cleared before funding is still ahead of a Direct trader.
+
+**Which balance the floor follows depends on the product.** LucidPro, LucidFlex and
+LucidDirect track the highest closing balance. **LucidDaily tracks whichever was bought** —
+real-time P&L on an intraday build, or the closing balance on an end-of-day build.
 
 **Funded Max Loss Limits, Initial Trail Balances and locked floors:**
 
@@ -289,9 +296,12 @@ eligibility counter resets.
 ### 9.1 Rules and risk
 
 - Max Loss Limit: \$1,000 / \$2,000 / \$3,000 / \$4,500.
-- **Intraday drawdown, always.** The floor moves with real-time P&L, so an unrealised
-  run-up that is given back permanently costs room. This is the only Lucid funded product
-  that works this way.
+- **Drawdown type was chosen at purchase: intraday or end-of-day.** Intraday is the
+  default and the cheaper option; under it the floor moves with real-time P&L, so an
+  unrealised run-up that is given back permanently costs room. The end-of-day option
+  removes that entirely and is the most expensive choice Lucid sells — at 50K it takes the
+  account from \$65.80 to \$235.20. An end-of-day funded drawdown is only available if the
+  evaluation was also bought as end-of-day.
 - Daily Loss Limit: \$600 / \$1,200 / \$1,800 / \$2,700, or off. **Fixed — it does not
   convert to LucidScale.**
 - **No consistency rule.**
@@ -325,7 +335,7 @@ simulated account on Lucid's timetable rather than yours, and on the move only
 out: on the move to live it funds the starting live drawdown instead.
 
 **Worked throughput, 50K:** unlimited per day in principle, bounded in practice by the
-\$8,000 maximum daily profit and by the intraday drawdown.
+\$8,000 maximum daily profit and, on an intraday-drawdown build, by the drawdown itself.
 
 ---
 
@@ -349,7 +359,7 @@ out: on the move to live it funds the starting live drawdown instead.
 
 | | LucidPro | LucidFlex | LucidDirect | LucidDaily |
 |---|---|---|---|---|
-| Drawdown type | EOD | EOD | EOD | **Intraday** |
+| Drawdown type | EOD | EOD | EOD | **Intraday or EOD** |
 | Max Loss Limit, 50K | \$2,000 | \$2,000 | \$2,000 | \$2,000 |
 | Daily loss limit, 50K | \$1,200 or off | \$1,200 or off | \$1,200 | \$1,200 or off |
 | LucidScale DLL | Yes | Not shown | Yes | **No — fixed** |
@@ -373,9 +383,11 @@ In order of how likely it is to catch a normal daytrader:
    LucidFlex and LucidDaily the floor is usually already locked at starting balance + \$100,
    which makes this a fixed and knowable line. For **LucidDirect it is not** — the floor
    trails from day one until the Initial Trail Balance is cleared.
-2. **Giving back an unrealised run-up on LucidDaily.** Intraday drawdown counts the peak as
-   it happens, so a trade that goes +\$1,500 and returns to flat has permanently removed
-   \$1,500 of room.
+2. **Giving back an unrealised run-up on an intraday-drawdown LucidDaily.** Intraday
+   drawdown counts the peak as it happens, so a trade that goes +\$1,500 and returns to
+   flat has permanently removed \$1,500 of room. This applies only if the account was
+   bought with the intraday funded drawdown — the default and cheaper option. An
+   end-of-day funded build is immune to it.
 3. **Trading US high-impact news on a funded LucidDaily account.** A hard breach, and the
    only product where news is restricted at all.
 4. **Turning the Daily Loss Limit off at purchase.** With no soft brake, the Max Loss Limit
