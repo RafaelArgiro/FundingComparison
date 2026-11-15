@@ -52,17 +52,20 @@ The mechanic is unchanged from `Lu_Rules_General.md`: the floor trails the highe
 balance until the account closes above the Initial Trail Balance, then locks permanently at
 starting balance + \$100.
 
-**For most funded traders the floor is already locked**, because the Initial Trail Balance
-sits below the evaluation profit target and is therefore crossed before passing. A funded
-LucidPro, LucidFlex or LucidDaily account typically begins life with a fixed floor.
+**The funded account starts fresh.** It is a new account at its base size — \$50,000 on a
+50K — with the floor back at the full drawdown distance below it. **Nothing carries over
+from the evaluation**: not the balance, not the profit, and not the locked floor. Whatever
+you did to clear the Initial Trail Balance during the evaluation has to be done again.
 
-**LucidDirect is the exception.** With no evaluation, the account starts below the Initial
-Trail Balance and the floor trails from day one. The dangerous stretch that evaluation
-traders cleared before funding is still ahead of a Direct trader.
+**So every funded trader begins in the trailing phase.** On a 50K the floor starts at
+\$48,000 and trails your closing balance until you close above \$52,100, at which point it
+locks at \$50,100. Until then, profit you carry into a close converts part of your original
+cushion into profit you must defend.
 
-**Which balance the floor follows depends on the product.** LucidPro, LucidFlex and
-LucidDirect track the highest closing balance. **LucidDaily tracks whichever was bought** —
-real-time P&L on an intraday build, or the closing balance on an end-of-day build.
+**LucidDirect has the same trailing phase**, reached by purchase rather than by passing an
+evaluation. The difference is only that a Direct trader has never traded the mechanic
+before, where a Pro, Flex or Daily trader has already been through it once during the
+evaluation.
 
 **Funded Max Loss Limits, Initial Trail Balances and locked floors:**
 
@@ -74,7 +77,14 @@ real-time P&L on an intraday build, or the closing balance on an end-of-day buil
 | \$150,000 | \$4,500 | \$5,000 | \$154,600 — Direct \$155,100 | \$150,100 |
 
 **LucidFlex locks the floor on a payout request**, immediately and regardless of balance.
-Requesting a payout is therefore a risk-reduction action as well as a withdrawal.
+Requesting a payout is therefore a risk-reduction action as well as a withdrawal, and it is
+the one way to leave the trailing phase early.
+
+**What the floor follows depends on the product.** LucidPro, LucidFlex and LucidDirect
+track the highest **closing** balance. **LucidDaily tracks whichever was bought** —
+real-time P&L on an intraday build, or the closing balance on an end-of-day build. On an
+intraday build the floor can rise, and the trailing phase can end, without any day having
+closed higher.
 
 > **Documentation conflict.** The LucidDirect Daily Loss Limit table gives the 25K Initial
 > Trail Balance as "None"; the LucidDirect Drawdown table gives it as \$26,100.
