@@ -72,6 +72,10 @@ starting balance up to the Initial Trail Balance. After that the risk is static 
 remaining distance to the target can be traded against a fixed floor. On a \$50,000
 account that dangerous stretch is the first \$2,100 of profit.
 
+**The lock does not transfer.** It belongs to the evaluation account only. The funded
+account is a new account at its base size, with its own floor trailing again from the
+start — see `Lu_Rules_Funded.md`. Neither the balance nor the locked floor carries over.
+
 ---
 
 ## 3. Choosing your configuration at purchase
