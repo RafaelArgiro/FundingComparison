@@ -92,7 +92,7 @@ https://support.lucidtrading.com/en/articles/12890029-lucidpro-evaluation-accoun
 
 
 LucidPro Evaluation Account
-LucidPro evaluation accounts: $25K-$150K accounts, profit targets from $1,250, one-time fee with no rebilling, and funded upgrades within 5-30 minutes.
+LucidPro evaluation accounts: \$25K-\$150K accounts, profit targets from \$1,250, one-time fee with no rebilling, and funded upgrades within 5-30 minutes.
 
 A
 Written by AJ
@@ -110,43 +110,43 @@ Daily Loss Limit
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,250
+\$1,250
 
-$1,000
+\$1,000
 
 None
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$2,000
+\$2,000
 
-$1,200
+\$1,200
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$6000
+\$6000
 
-$3,000
+\$3,000
 
-$1,800
+\$1,800
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
-$2,700
+\$2,700
 
 10 mini or 100 micros
 
@@ -185,41 +185,41 @@ Scaling DLL (optional)
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
-$600
+\$600
 
 60% of Peak EOD Balance
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$1,200
+\$1,200
 
 60% of Peak EOD Balance
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
-$1,800
+\$1,800
 
 60% of Peak EOD Balance
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
-$2,700
+\$2,700
 
 60% of Peak EOD Balance
 
@@ -259,7 +259,7 @@ Payout requests are final once submitted, they cannot be edited or canceled.
 Profit Split Structure
 All funded account payouts are split 90% to the trader and 10% to Lucid Trading.
 
-Accounts purchased or reset before 11/28/2025 at 3:00 PM EST are still eligible for 100% on the first $10k.
+Accounts purchased or reset before 11/28/2025 at 3:00 PM EST are still eligible for 100% on the first \$10k.
 
 Payout Eligibility Criteria
 All of the following requirements must be met to qualify for a payout. These conditions reset after every approved payout.
@@ -273,21 +273,21 @@ Account Size
 
 Minimum Profit Goal
 
-$25,000
+\$25,000
 
-$250
+\$250
 
-$50,000
+\$50,000
 
-$500
+\$500
 
-$100,000
+\$100,000
 
-$750
+\$750
 
-$150,000
+\$150,000
 
-$1,000
+\$1,000
 
 
 This profit goal resets after each payout.
@@ -306,14 +306,14 @@ To request a payout, your profits must exceed the buffer balance, which acts as 
 
 
 
-The buffer is equal to: Initial Max Loss Limit + $100
+The buffer is equal to: Initial Max Loss Limit + \$100
 
 Important: If you take a trade before your payout is processed that drops your balance into the buffer, your request may be denied. Get more details at the bottom of this page.
 
 
 
 Payout Minimums and Maximums
-Minimum payout request: $500
+Minimum payout request: \$500
 
 Maximum payout amounts depend on account size and payout cycle:
 
@@ -324,59 +324,59 @@ Required Buffer Balance
 
 Minimum Payout Request
 
-Minimum Balance for $500 Payout
+Minimum Balance for \$500 Payout
 
 Maximum First Payout
 
 Minimum Balance for Maximum Payout
 
-$25,000
+\$25,000
 
-$26,100
+\$26,100
 
-$500
+\$500
 
-$26,600
+\$26,600
 
-$1,000
+\$1,000
 
-$27,100
+\$27,100
 
-$50,000
+\$50,000
 
-$52,100
+\$52,100
 
-$500
+\$500
 
-$52,600
+\$52,600
 
-$2,000
+\$2,000
 
-$54,100
+\$54,100
 
-$100,000
+\$100,000
 
-$103,100
+\$103,100
 
-$500
+\$500
 
-$103,600
+\$103,600
 
-$2,500
+\$2,500
 
-$105,600
+\$105,600
 
-$150,000
+\$150,000
 
-$154,600
+\$154,600
 
-$500
+\$500
 
-$155,100
+\$155,100
 
-$3,000
+\$3,000
 
-$157,600
+\$157,600
 
 
 Payouts 2+
@@ -386,59 +386,59 @@ Required Buffer Balance
 
 Minimum Payout Request
 
-Minimum Balance for $500 Payout
+Minimum Balance for \$500 Payout
 
 Maximum Payout 2+
 
 Minimum Balance for Maximum Payout
 
-$25,000
+\$25,000
 
-$26,100
+\$26,100
 
-$500
+\$500
 
-$26,600
+\$26,600
 
-$1,500
+\$1,500
 
-$27,600
+\$27,600
 
-$50,000
+\$50,000
 
-$52,100
+\$52,100
 
-$500
+\$500
 
-$52,600
+\$52,600
 
-$2,500
+\$2,500
 
-$54,600
+\$54,600
 
-$100,000
+\$100,000
 
-$103,100
+\$103,100
 
-$500
+\$500
 
-$103,600
+\$103,600
 
-$3,000
+\$3,000
 
-$106,100
+\$106,100
 
-$150,000
+\$150,000
 
-$154,600
+\$154,600
 
-$500
+\$500
 
-$155,100
+\$155,100
 
-$3,500
+\$3,500
 
-$158,100
+\$158,100
 
 
 Each payout cycle resets these thresholds.
@@ -491,11 +491,11 @@ Largest Single Day Profit / Account Profit = Consistency Percentage
 
 
 Example
-You trade your $50k LucidPro Account and your Largest Single Day Profit was $1,000 and your Account Profit is $4,000. Plug the values into the above formula.
+You trade your \$50k LucidPro Account and your Largest Single Day Profit was \$1,000 and your Account Profit is \$4,000. Plug the values into the above formula.
 
 
 
-$1,000 / $4,000 = 25%
+\$1,000 / \$4,000 = 25%
 
 
 
@@ -536,21 +536,21 @@ Account Size
 
 Fixed DLL Amount
 
-$25,000
+\$25,000
 
 None
 
-$50,000
+\$50,000
 
-$1,200
+\$1,200
 
-$100,000
+\$100,000
 
-$1,800
+\$1,800
 
-$150,000
+\$150,000
 
-$2,700
+\$2,700
 
 
 If you reach the DLL listed for your account size, you will be restricted from placing additional trades until the next trading session, provided your account has not been liquidated.
@@ -566,29 +566,29 @@ Fixed DLL
 
 Initial Trail Balance
 
-$25,000
+\$25,000
 
 None
 
-$26,100
+\$26,100
 
-$50,000
+\$50,000
 
-$1,200
+\$1,200
 
-$52,100
+\$52,100
 
-$100,000
+\$100,000
 
-$1,800
+\$1,800
 
-$103,100
+\$103,100
 
-$150,000
+\$150,000
 
-$2,700
+\$2,700
 
-$154,600
+\$154,600
 
 
 Once the account closes above the Initial Trail Balance, the Fixed DLL is replaced by the LucidScale DLL.
@@ -607,14 +607,14 @@ It does not decrease, even if the account draws down
 This provides greater flexibility and reward for consistent profitability
 
 Example:
-If your highest end-of-day profit is $4,000, then:
+If your highest end-of-day profit is \$4,000, then:
 
 
 
-$4,000 × 0.60 = $2,400
+\$4,000 × 0.60 = \$2,400
 
 
-Your new DLL will be $2,400 until a higher end-of-day profit is achieved
+Your new DLL will be \$2,400 until a higher end-of-day profit is achieved
 
 The LucidScale DLL was designed to promote long-term success and reflects Lucid Trading’s commitment to trader-friendly rules and risk management.
 
@@ -646,44 +646,44 @@ Initial Trail Balance
 
 Locked MLL Balance
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
-$26,100
+\$26,100
 
-$25,100
+\$25,100
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$52,100
+\$52,100
 
-$50,100
+\$50,100
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
-$103,100
+\$103,100
 
-$100,100
+\$100,100
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
-$154,600
+\$154,600
 
-$150,100
+\$150,100
 
 
 As with the other account types:
 
 The MLL rises with your closing balance until it reaches the trail
 
-Once the account exceeds the trail, the MLL locks at the initial balance plus $100
+Once the account exceeds the trail, the MLL locks at the initial balance plus \$100
 
 If your account balance reached the MLL, your account will be breached.
 
@@ -719,21 +719,21 @@ Account Size
 Max Moved Live
 ​(Per Account)
 
-$25,000
+\$25,000
 
-$15,000
+\$15,000
 
-$50,000
+\$50,000
 
-$20,000
+\$20,000
 
-$100,000
+\$100,000
 
-$25,000
+\$25,000
 
-$150,000
+\$150,000
 
-$30,000
+\$30,000
 
 
 Any profits above the move-to-live cap will be forfeited during the transition to live.
@@ -750,33 +750,33 @@ Account Size
 Max Deposited Day 1
 (Per Account)
 
-$25,000
+\$25,000
 
-$2,000
+\$2,000
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$100,000
+\$100,000
 
-$4,000
+\$4,000
 
-$150,000
+\$150,000
 
-$5,000
+\$5,000
 
 
 Example:
-A trader moves five $50,000 LucidPro accounts live with $25,000 in simulated profit per account.
+A trader moves five \$50,000 LucidPro accounts live with \$25,000 in simulated profit per account.
 
-Max allowed per account = $20,000 → excess $5,000 is forfeited
+Max allowed per account = \$20,000 → excess \$5,000 is forfeited
 
-Total live capital: $100,000 ($20,000 × 5)
+Total live capital: \$100,000 (\$20,000 × 5)
 
-Day 1 capital = $15,000 ($3,000 × 5)
+Day 1 capital = \$15,000 (\$3,000 × 5)
 
-Remaining $85,000 is held in Escrow and may be unlocked
+Remaining \$85,000 is held in Escrow and may be unlocked
 
 Live Escrow
 Escrow is the portion of your move-to-live capital not deposited on Day 1. It is released based on live performance.
@@ -791,7 +791,7 @@ Before Escrow can begin releasing, you must meet two requirements:
 
 Complete 10 profitable trading days in your live account
 
-Earn $10,000 in live trading profits
+Earn \$10,000 in live trading profits
 
 Once both of these conditions are met, our risk team will review your performance.
 
@@ -799,7 +799,7 @@ Once both of these conditions are met, our risk team will review your performanc
 
 Escrow Release Structure
 
-For every $10,000 in additional live profits earned, $5,000 in Escrow will be released
+For every \$10,000 in additional live profits earned, \$5,000 in Escrow will be released
 
 Escrow is reviewed and calculated weekly, not daily
 
@@ -842,4 +842,4 @@ When a trader progresses from LucidPro to a live account:
 
 The simulated profits from your LucidPro account are used to calculate your starting LucidLive balance.
 
-There is a $150,000 total live funding cap across all active accounts, regardless of quantity.
+There is a \$150,000 total live funding cap across all active accounts, regardless of quantity.

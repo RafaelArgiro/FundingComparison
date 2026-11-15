@@ -123,7 +123,7 @@ https://support.lucidtrading.com/en/articles/12945790-lucidflex-evaluation-accou
 
 
 LucidFlex Evaluation Account
-LucidFlex evaluation accounts: $25K-$150K accounts, 40% consistency (50% with add-on), optional daily loss limit, one-time fee.
+LucidFlex evaluation accounts: \$25K-\$150K accounts, 40% consistency (50% with add-on), optional daily loss limit, one-time fee.
 
 O
 Written by Operations Lead
@@ -141,41 +141,41 @@ Consistency %
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,250
+\$1,250
 
-$1,000
+\$1,000
 
 40% (50% with add-on)
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$2,000
+\$2,000
 
 40% (50% with add-on)
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$6,000
+\$6,000
 
-$3,000
+\$3,000
 
 40% (50% with add-on)
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
 40% (50% with add-on)
 
@@ -206,7 +206,7 @@ A
 Written by AJ
 Updated over a month ago
 LucidFlex Funded Account Overview
-LucidFlex funded accounts have an optional Daily Loss Limit, no consistency rule and no payout buffer. 90/10 profit split. EOD trailing drawdown. Account sizes: $25K–$150K.
+LucidFlex funded accounts have an optional Daily Loss Limit, no consistency rule and no payout buffer. 90/10 profit split. EOD trailing drawdown. Account sizes: \$25K–\$150K.
 
 
 
@@ -222,9 +222,9 @@ Scaling Plan
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
 Optional
 
@@ -232,9 +232,9 @@ Yes
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
 Optional
 
@@ -242,9 +242,9 @@ Yes
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
 Optional
 
@@ -252,9 +252,9 @@ Yes
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
 Optional
 
@@ -309,30 +309,30 @@ Account Size
 
 Minimum Daily Profit
 
-$25,000
+\$25,000
 
-$100
+\$100
 
-$50,000
+\$50,000
 
-$150
+\$150
 
-$100,000
+\$100,000
 
-$200
+\$200
 
-$150,000
+\$150,000
 
-$250
+\$250
 
 
 2. Net Profit in Payout Cycle
-Traders must have positive net profit (even just $1) during each payout cycle in order to request a payout. This objective simply ensures traders have made at least some amount of money between requests. As long as you meet the Trading Days with Profit requirement and have positive net profit for the payout cycle, you are eligible for payout.
+Traders must have positive net profit (even just \$1) during each payout cycle in order to request a payout. This objective simply ensures traders have made at least some amount of money between requests. As long as you meet the Trading Days with Profit requirement and have positive net profit for the payout cycle, you are eligible for payout.
 
 
 
 Payout Minimums and Maximums
-Minimum payout request: $500
+Minimum payout request: \$500
 
 Maximum payout request: Futures traders may request 50% of their account balance up to a maximum dollar amount. The max dollar amount depends on account size and is laid out below:
 
@@ -342,25 +342,25 @@ Account Size
 
 Payout Maximum
 
-$25,000
+\$25,000
 
 50% of Profit
-up to $1,000
+up to \$1,000
 
-$50,000
-
-50% of Profit
-up to $2,000
-
-$100,000
+\$50,000
 
 50% of Profit
-up to $2,500
+up to \$2,000
 
-$150,000
+\$100,000
 
 50% of Profit
-up to $3,000
+up to \$2,500
+
+\$150,000
+
+50% of Profit
+up to \$3,000
 
 
 There is no buffer balance that must be maintained in LucidFlex funded accounts.
@@ -382,7 +382,7 @@ Funds will be deducted from your account within a few minutes.
 
 Payouts will be disbursed to your payment method within 2 business days.
 
-LucidFlex payouts, $500,000,000 paid to traders
+LucidFlex payouts, \$500,000,000 paid to traders
 
 
 ---
@@ -412,11 +412,11 @@ Largest Single Day Profit / Account Profit = Consistency Percentage
 
 
 Example
-You trade your $50k LucidFlex evaluation account and your Largest Single Day Profit was $750 when you reached the $3,000 profit target. Plug the values into the above formula.
+You trade your \$50k LucidFlex evaluation account and your Largest Single Day Profit was \$750 when you reached the \$3,000 profit target. Plug the values into the above formula.
 
 
 
-$750 / $3,000 = 25%
+\$750 / \$3,000 = 25%
 
 
 
@@ -439,35 +439,35 @@ Cushion
 
 25k Flex
 
-$1,250
+\$1,250
 
-$625
+\$625
 
-$650.00
+\$650.00
 
 50k Flex
 
-$3,000
+\$3,000
 
-$1,500
+\$1,500
 
-$1,560.00
+\$1,560.00
 
 100k Flex
 
-$6,000
+\$6,000
 
-$3,000
+\$3,000
 
-$3,120.00
+\$3,120.00
 
 150k Flex
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
-$4,680.00
+\$4,680.00
 
 
 Important: This is merely an example table based on hitting exactly 50% of your profit target. The cushion is a percentage calculated on what your actual profit earned is for the day and will vary from trader to trader.
@@ -500,19 +500,19 @@ The scaling plan updates at the end of each session, so your limits will not upd
 
 Simulated Profits
 
-$25,000
+\$25,000
 ​Contract Limits
 
-$50,000
+\$50,000
 ​Contract Limits
 
-$100,000
+\$100,000
 ​Contract Limits
 
-$150,000
+\$150,000
 ​Contract Limits
 
-$0 - $999
+\$0 - \$999
 
 1 mini or
 10 micros
@@ -526,7 +526,7 @@ $0 - $999
 4 minis or
 40 micros
 
-$1,000 - $1,999
+\$1,000 - \$1,999
 
 2 minis or
 20 micros
@@ -540,7 +540,7 @@ $1,000 - $1,999
 5 minis or
 50 micros
 
-$2,000 - $2,999
+\$2,000 - \$2,999
 
 -
 
@@ -553,7 +553,7 @@ $2,000 - $2,999
 6 minis or
 60 micros
 
-$3,000 - $4,499
+\$3,000 - \$4,499
 
 -
 
@@ -565,7 +565,7 @@ $3,000 - $4,499
 8 minis or
 80 micros
 
-$4,500+
+\$4,500+
 
 -
 
@@ -639,44 +639,44 @@ Initial Trail Balance
 
 Locked MLL Balance
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
-$26,100
+\$26,100
 
-$25,100
+\$25,100
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$52,100
+\$52,100
 
-$50,100
+\$50,100
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
-$103,100
+\$103,100
 
-$100,100
+\$100,100
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
-$154,600
+\$154,600
 
-$150,100
+\$150,100
 
 
 As with the other account types:
 
 The MLL rises with your closing balance until it reaches the trail
 
-Once the account exceeds the trail, the MLL locks at the initial balance plus $100
+Once the account exceeds the trail, the MLL locks at the initial balance plus \$100
 
 If your account balance reached the MLL, your account will be breached.
 
@@ -715,21 +715,21 @@ Account Size
 Max Moved Live
 ​(Per Account)
 
-$25,000
+\$25,000
 
-$4,000
+\$4,000
 
-$50,000
+\$50,000
 
-$8,000
+\$8,000
 
-$100,000
+\$100,000
 
-$12,000
+\$12,000
 
-$150,000
+\$150,000
 
-$16,000
+\$16,000
 
 
 Any profits above the move-to-live cap will be forfeited during the transition to live.
@@ -746,33 +746,33 @@ Account Size
 Max Deposited Day 1
 (Per Account)
 
-$25,000
+\$25,000
 
-$1,200
+\$1,200
 
-$50,000
+\$50,000
 
-$2,400
+\$2,400
 
-$100,000
+\$100,000
 
-$3,600
+\$3,600
 
-$150,000
+\$150,000
 
-$4,800
+\$4,800
 
 
 Example:
-A trader moves five $50,000 LucidFlex accounts live with $10,000 in simulated profit per account.
+A trader moves five \$50,000 LucidFlex accounts live with \$10,000 in simulated profit per account.
 
-Max allowed per account = $8,000 → excess $2,000 is forfeited
+Max allowed per account = \$8,000 → excess \$2,000 is forfeited
 
-Total live capital: $40,000 ($8,000 × 5)
+Total live capital: \$40,000 (\$8,000 × 5)
 
-Day 1 capital = $12,000 ($2,400 × 5)
+Day 1 capital = \$12,000 (\$2,400 × 5)
 
-Remaining $28,000 is held in Escrow and may be unlocked
+Remaining \$28,000 is held in Escrow and may be unlocked
 
 Live Escrow
 Escrow is the portion of your move-to-live capital not deposited on Day 1. It is released based on live performance.
@@ -787,7 +787,7 @@ Before Escrow can begin releasing, you must meet two requirements:
 
 Complete 10 profitable trading days in your live account
 
-Earn $10,000 in live trading profits
+Earn \$10,000 in live trading profits
 
 Once both of these conditions are met, our risk team will review your performance.
 
@@ -795,7 +795,7 @@ Once both of these conditions are met, our risk team will review your performanc
 
 Escrow Release Structure
 
-For every $10,000 in additional live profits earned, $5,000 in Escrow will be released
+For every \$10,000 in additional live profits earned, \$5,000 in Escrow will be released
 
 Escrow is reviewed and calculated weekly, not daily
 
@@ -836,6 +836,6 @@ The below structure applies to traders currently mid onboarding and those that g
 
 The simulated profits from your LucidFlex account are used to calculate your starting LucidLive balance.
 
-There is a $5,000 move to live cap for each LucidFlex account, regardless of account size.
+There is a \$5,000 move to live cap for each LucidFlex account, regardless of account size.
 
 Any excess profits left over will be forfeit upon the move to live.

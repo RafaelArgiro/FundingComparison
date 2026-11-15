@@ -185,7 +185,7 @@ Active Status Policy
 You are not required to trade daily or weekly, but accounts must remain active to avoid being flagged. We must remove dormant accounts to ensure system performance and data integrity.
 
 
-Accounts that have not been traded resulting in at least a net profit or loss of 1$ within 30 calendar days will be deemed abandoned and will be permanently deleted from our systems.
+Accounts that have not been traded resulting in at least a net profit or loss of 1\$ within 30 calendar days will be deemed abandoned and will be permanently deleted from our systems.
 
 
 

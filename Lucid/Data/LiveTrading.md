@@ -14,7 +14,7 @@ New Live Structure
 https://support.lucidtrading.com/en/articles/13425130-legacy-live-structure
 
 Legacy Live Structure
-LucidLive: Lucid's live account program. Earn a live account after Payout 5, receive daily payouts, EOD drawdown, no daily loss limit, plus a one-time Live Bonus up to $4,500. Full rules inside.
+LucidLive: Lucid's live account program. Earn a live account after Payout 5, receive daily payouts, EOD drawdown, no daily loss limit, plus a one-time Live Bonus up to \$4,500. Full rules inside.
 
 D
 Written by Doug
@@ -46,7 +46,7 @@ Each funded account must have received at least one payout to qualify
 
 All live accounts begin with:
 
-$0 starting balance
+\$0 starting balance
 
 Daily payouts
 
@@ -60,27 +60,27 @@ Starting Live Drawdown
 
 Max Live Contract Limit*
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
 2 minis or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
 4 minis or 40 micros
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
 6 minis or 60 micros
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
 10 minis or 100 micros
 
@@ -101,9 +101,9 @@ At the end of each trading session, the system calculates the account’s highes
 
 The MLL increases as the account balance grows, up to a defined point.
 
-Once a trader generates live profits equal to their starting live drawdown, the Max Loss Limit locks at $100 and no longer moves.
+Once a trader generates live profits equal to their starting live drawdown, the Max Loss Limit locks at \$100 and no longer moves.
 
-If a trader requests a live payout before generating profits over the live drawdown, the Max Loss Limit locks to $100.
+If a trader requests a live payout before generating profits over the live drawdown, the Max Loss Limit locks to \$100.
 
 
 
@@ -126,41 +126,41 @@ Live Target
 
 Live Bonus
 
-$25,000
+\$25,000
 
-$1,100
+\$1,100
 
-$1,000
+\$1,000
 
-$50,000
+\$50,000
 
-$2,100
+\$2,100
 
-$2,000
+\$2,000
 
-$100,000
+\$100,000
 
-$3,100
+\$3,100
 
-$3,000
+\$3,000
 
-$150,000
+\$150,000
 
-$4,600
+\$4,600
 
-$4,500
+\$4,500
 
 
 Example
-A trader is moved live with five $50,000 funded accounts:
+A trader is moved live with five \$50,000 funded accounts:
 
-Each account starts with $0 balance and $2,000 drawdown
+Each account starts with \$0 balance and \$2,000 drawdown
 
-The trader finishes the trading session with $2,100 in each account
+The trader finishes the trading session with \$2,100 in each account
 
-Lucid releases a $2,000 Live Bonus, per account, as a payout to the trader
+Lucid releases a \$2,000 Live Bonus, per account, as a payout to the trader
 
-Trader receives a $9,000 bonus payout in total, after the 90/10 profit split
+Trader receives a \$9,000 bonus payout in total, after the 90/10 profit split
 
 The bonus may be earned on all accounts moved live on the first trip under the new system. However, traders moved live 2 or more times will not be eligible for the bonus on subsequent sets of accounts. The bonus is not eligible for traders with LucidMaxx status.
 
@@ -209,7 +209,7 @@ Absolutely not. Hedging live accounts is strictly prohibited by both Lucid and t
 
 
 
-LucidLive clickable image $500,000,000 paid to traders
+LucidLive clickable image \$500,000,000 paid to traders
 
 
 ---
@@ -230,7 +230,7 @@ See the tables below for details.
 
 
 
-$25,000 Live account
+\$25,000 Live account
 Profit Range
 
 CME
@@ -241,7 +241,7 @@ NYMEX
 
 COMEX
 
-$0 - $1999.99
+\$0 - \$1999.99
 
 1 Mini or
 10 Micros
@@ -255,7 +255,7 @@ $0 - $1999.99
 0 Minis
 5 Micros
 
-$2000+
+\$2000+
 
 2 Minis or
 20 Micros
@@ -269,7 +269,7 @@ $2000+
 1 Mini or
 10 Micros
 
-$50,000 Live account
+\$50,000 Live account
 Profit Range
 
 CME
@@ -280,7 +280,7 @@ NYMEX
 
 COMEX
 
-$0 - $1999.99
+\$0 - \$1999.99
 
 2 Minis or
 20 Micros
@@ -294,7 +294,7 @@ $0 - $1999.99
 1 Mini or
 10 Micros
 
-$2000 - $3999
+\$2000 - \$3999
 
 3 Minis or
 30 Micros
@@ -308,7 +308,7 @@ $2000 - $3999
 1 Mini or
 15 micros
 
-$4000+
+\$4000+
 
 4 Minis or
 40 Micros
@@ -322,7 +322,7 @@ $4000+
 2 Minis or
 20 Micros
 
-$100,000 Live account
+\$100,000 Live account
 Profit Range
 
 CME
@@ -333,7 +333,7 @@ NYMEX
 
 COMEX
 
-$0 - $1999.99
+\$0 - \$1999.99
 
 3 Minis or
 30 Micros
@@ -347,7 +347,7 @@ $0 - $1999.99
 1 Mini or
 15 Micros
 
-$2000 - $3999
+\$2000 - \$3999
 
 4 Minis or
 40 Micros
@@ -361,7 +361,7 @@ $2000 - $3999
 2 Minis or
 20 Micros
 
-$4000 - $5999
+\$4000 - \$5999
 
 5 Minis or
 50 Micros
@@ -375,7 +375,7 @@ $4000 - $5999
 2 Minis or
 25 Micros
 
-$6000+
+\$6000+
 
 6 Minis or
 60 Micros
@@ -389,7 +389,7 @@ $6000+
 3 Minis or
 30 Micros
 
-$150,000 Live account
+\$150,000 Live account
 Profit Range
 
 CME
@@ -400,7 +400,7 @@ NYMEX
 
 COMEX
 
-$0 - $1999.99
+\$0 - \$1999.99
 
 4 Minis or
 40 Micros
@@ -414,7 +414,7 @@ $0 - $1999.99
 2 Minis or
 20 Micros
 
-$2000 - $3999
+\$2000 - \$3999
 
 5 Minis or
 50 Micros
@@ -428,7 +428,7 @@ $2000 - $3999
 2 Minis or
 25 Micros
 
-$4000 - $5999
+\$4000 - \$5999
 
 6 Minis or
 60 Micros
@@ -442,7 +442,7 @@ $4000 - $5999
 3 Minis or
 30 Micros
 
-$6000 - $8999
+\$6000 - \$8999
 
 8 Minis or
 80 Micros
@@ -456,7 +456,7 @@ $6000 - $8999
 4 Minis or
 40 Micros
 
-$9000+
+\$9000+
 
 10 Minis or
 100 Micros
@@ -480,7 +480,7 @@ https://support.lucidtrading.com/en/articles/16558826-new-live-structure
 
 
 New Live Structure
-LucidLive: Lucid's live account program. Earn a live account after Payout 5, receive daily payouts, EOD drawdown, no daily loss limit, plus a repeatable monthly Live Bonus up to $4,500. Full rules inside.
+LucidLive: Lucid's live account program. Earn a live account after Payout 5, receive daily payouts, EOD drawdown, no daily loss limit, plus a repeatable monthly Live Bonus up to \$4,500. Full rules inside.
 
 Written by Joel
 Updated over a month ago
@@ -519,7 +519,7 @@ Each funded account must have received at least one payout to qualify
 
 All live accounts begin with:
 
-$0 starting balance
+\$0 starting balance
 
 Daily payouts
 
@@ -533,27 +533,27 @@ Starting Live Drawdown
 
 Max Live Contract Limit*
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
 2 minis or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
 4 minis or 40 micros
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
 6 minis or 60 micros
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
 10 minis or 100 micros
 
@@ -573,9 +573,9 @@ At the end of each trading session, the system calculates the account’s highes
 
 The MLL increases as the account balance grows, up to a defined point.
 
-Once a trader generates live profits equal to their starting live drawdown, the Max Loss Limit locks at $100 and no longer moves.
+Once a trader generates live profits equal to their starting live drawdown, the Max Loss Limit locks at \$100 and no longer moves.
 
-If a trader requests a live payout before generating profits over the live drawdown, the Max Loss Limit locks to $100.
+If a trader requests a live payout before generating profits over the live drawdown, the Max Loss Limit locks to \$100.
 
 Repeatable Live Bonus
 A trader may be eligible to earn a repeatable bonus, based on their Live performance. The Live Bonus is subject to a 90/10 profit split.
@@ -588,7 +588,7 @@ Generate Live Profits above the starting balance, equal to the Profit target out
 
 Complete 20 trading days
 
-A trading day is defined as 1+ trade taken, generating +$1/-$1 P&L net of fees at the end of the trading session. We strongly encourage legitimate trading activity, and exploitation of this bonus system, via "contract flipping" or similar, may lead to further review.
+A trading day is defined as 1+ trade taken, generating +\$1/-\$1 P&L net of fees at the end of the trading session. We strongly encourage legitimate trading activity, and exploitation of this bonus system, via "contract flipping" or similar, may lead to further review.
 ​
 The Live Bonus Profit Target calculation is not negatively impacted by taking payouts.
 
@@ -600,50 +600,50 @@ Trading Days
 
 Live Bonus
 
-$25,000
+\$25,000
 
-$2,000
-
-20
-
-$1,000
-
-$50,000
-
-$4,000
+\$2,000
 
 20
 
-$2,000
+\$1,000
 
-$100,000
+\$50,000
 
-$6,000
-
-20
-
-$3,000
-
-$150,000
-
-$9,000
+\$4,000
 
 20
 
-$4,500
+\$2,000
+
+\$100,000
+
+\$6,000
+
+20
+
+\$3,000
+
+\$150,000
+
+\$9,000
+
+20
+
+\$4,500
 
 Example
-A trader is moved live with five $50,000 funded accounts:
+A trader is moved live with five \$50,000 funded accounts:
 
-Each account starts with $0 balance and $2,000 EOD drawdown
+Each account starts with \$0 balance and \$2,000 EOD drawdown
 
 The trader earns the Live Profit Target in each account
 
-The trader completes 20 trading days with a net PnL of +$1/-$1, net of fees
+The trader completes 20 trading days with a net PnL of +\$1/-\$1, net of fees
 
-Lucid releases a $2,000 Live Bonus, per account, as a payout to the trader
+Lucid releases a \$2,000 Live Bonus, per account, as a payout to the trader
 
-Trader receives a $9,000 bonus payout in total, after the 90/10 profit split
+Trader receives a \$9,000 bonus payout in total, after the 90/10 profit split
 
 The repeatable bonus may be earned on all accounts moved live, after completion of 20 trading days.
 ​
@@ -666,7 +666,7 @@ Receive access to daily, uncapped payouts
 
 Live balance is static for Maxxers, not EOD
 
-Once a Maxxer reaches Live, their account starts with a balance above $0, which is withdrawable from day 1
+Once a Maxxer reaches Live, their account starts with a balance above \$0, which is withdrawable from day 1
 
 Please refer to the LucidMaxx documentation for full details.
 

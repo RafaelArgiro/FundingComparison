@@ -36,9 +36,9 @@ Scaling DLL
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
 None
 
@@ -46,31 +46,31 @@ None
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$1,200
+\$1,200
 
 60% of Peak EOD Balance
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$3,500
+\$3,500
 
-$2,100
+\$2,100
 
 60% of Peak EOD Balance
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$5,000
+\$5,000
 
-$3,000
+\$3,000
 
 60% of Peak EOD Balance
 
@@ -119,7 +119,7 @@ Your largest single-day profit must be no more than 20% of your total profit dur
 The 20% Consistency Percentage resets after each payout.
 
 2. Payout Profit Goal
-To be eligible for a payout, you must reach a minimum profit goal during each payout cycle. This profit goal resets to $0 after each approved payout.
+To be eligible for a payout, you must reach a minimum profit goal during each payout cycle. This profit goal resets to \$0 after each approved payout.
 
 Account Size
 
@@ -127,29 +127,29 @@ Profit Goal 1
 
 Profit Goal 2+
 
-$25,000
+\$25,000
 
-$1,500
+\$1,500
 
-$1,250
+\$1,250
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$2,500
+\$2,500
 
-$100,000
+\$100,000
 
-$6,000
+\$6,000
 
-$3,500
+\$3,500
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
 
 Important: If you take a trade before your payout is processed that drops below the profit goal, your request may be denied.
@@ -157,7 +157,7 @@ Important: If you take a trade before your payout is processed that drops below 
 
 
 Payout Minimums and Maximums
-Minimum payout request: $500
+Minimum payout request: \$500
 
 Maximum payout amounts depend on account size and payout cycle:
 
@@ -167,29 +167,29 @@ Payouts 1-3
 
 Payouts 4-5
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
-$1,000
+\$1,000
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
-$100,000
+\$100,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
-$150,000
+\$150,000
 
-$3,000
+\$3,000
 
-$3,500
+\$3,500
 
 
 Each payout cycle resets these thresholds.
@@ -235,11 +235,11 @@ Largest Single Day Profit / Account Profit = Consistency Percentage
 
 
 Example
-You trade your $50k LucidDirect Account and your Largest Single Day Profit was $500 and your Account Profit is $3,000. Plug the values into the above formula.
+You trade your \$50k LucidDirect Account and your Largest Single Day Profit was \$500 and your Account Profit is \$3,000. Plug the values into the above formula.
 
 
 
-$500 / $3,000 = 16.7%
+\$500 / \$3,000 = 16.7%
 
 
 
@@ -276,29 +276,29 @@ Fixed DLL
 
 Initial Trail Balance
 
-$25,000
+\$25,000
 
 None
 
 None
 
-$50,000
+\$50,000
 
-$1,200
+\$1,200
 
-$52,100
+\$52,100
 
-$100,000
+\$100,000
 
-$2,100
+\$2,100
 
-$103,600
+\$103,600
 
-$150,000
+\$150,000
 
-$3,000
+\$3,000
 
-$155,100
+\$155,100
 
 
 Once the account closes above the Initial Trail Balance, the Fixed DLL is replaced by the LucidScale DLL.
@@ -317,23 +317,23 @@ It does not decrease, even if the account draws down
 This provides greater flexibility and reward for consistent profitability
 
 Example:
-If your highest end-of-day profit is $4,000, then:
+If your highest end-of-day profit is \$4,000, then:
 
 
 
-$4,000 × 0.60 = $2,400
+\$4,000 × 0.60 = \$2,400
 
 
-Your new DLL will be $2,400 until a higher end-of-day profit is achieved
+Your new DLL will be \$2,400 until a higher end-of-day profit is achieved
 
 The LucidScale DLL was designed to promote long-term success and reflects Lucid Trading’s commitment to trader-friendly rules and risk management.
 
 
 
 On Demand Payouts
-$50,000, $100,000 and $150,000 LucidDirect accounts have a Daily Loss Limit, so they can request payouts during the trading session, from profit made that session (6:00 PM to 3:45 PM ET).
+\$50,000, \$100,000 and \$150,000 LucidDirect accounts have a Daily Loss Limit, so they can request payouts during the trading session, from profit made that session (6:00 PM to 3:45 PM ET).
 
-$25,000 LucidDirect accounts have no Daily Loss Limit, so their payouts follow the regular end-of-day schedule.
+\$25,000 LucidDirect accounts have no Daily Loss Limit, so their payouts follow the regular end-of-day schedule.
 
 LucidDirect has no add-ons; the Daily Loss Limit is set by account size.
 
@@ -364,43 +364,43 @@ Initial Trail Balance
 
 Locked MLL Balance
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
-$26,100
+\$26,100
 
-$25,100
+\$25,100
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$52,100
+\$52,100
 
-$50,100
+\$50,100
 
-$100,000
+\$100,000
 
-$3,500
+\$3,500
 
-$103,600
+\$103,600
 
-$100,100
+\$100,100
 
-$150,000
+\$150,000
 
-$5,000
+\$5,000
 
-$155,100
+\$155,100
 
-$150,100
+\$150,100
 
 As with the other account types:
 
 The MLL rises with your closing balance until it reaches the trail
 
-Once the account exceeds the trail, the MLL locks at the initial balance plus $100
+Once the account exceeds the trail, the MLL locks at the initial balance plus \$100
 
 If your account balance reached the MLL, your account will be breached.
 
@@ -436,17 +436,17 @@ Account Size
 Max Moved Live
 ​(Per Account)
 
-$25,000
+\$25,000
 
-$4,000
+\$4,000
 
-$50,000
+\$50,000
 
-$8,000
+\$8,000
 
-$150,000
+\$150,000
 
-$16,000
+\$16,000
 
 
 Any profits above the move-to-live cap will be forfeited during the transition to live.
@@ -463,29 +463,29 @@ Account Size
 Max Deposited Day 1
 (Per Account)
 
-$25,000
+\$25,000
 
-$1,200
+\$1,200
 
-$50,000
+\$50,000
 
-$2,400
+\$2,400
 
-$150,000
+\$150,000
 
-$4,800
+\$4,800
 
 
 Example:
-A trader moves five $50,000 LucidDirect accounts live with $10,000 in simulated profit per account.
+A trader moves five \$50,000 LucidDirect accounts live with \$10,000 in simulated profit per account.
 
-Max allowed per account = $8,000 → excess $2,000 is forfeited
+Max allowed per account = \$8,000 → excess \$2,000 is forfeited
 
-Total live capital: $40,000 ($8,000 × 5)
+Total live capital: \$40,000 (\$8,000 × 5)
 
-Day 1 capital = $12,000 ($2,400 × 5)
+Day 1 capital = \$12,000 (\$2,400 × 5)
 
-Remaining $28,000 is held in Escrow and may be unlocked
+Remaining \$28,000 is held in Escrow and may be unlocked
 
 Live Escrow
 Escrow is the portion of your move-to-live capital not deposited on Day 1. It is released based on live performance.
@@ -500,7 +500,7 @@ Before Escrow can begin releasing, you must meet two requirements:
 
 Complete 10 profitable trading days in your live account
 
-Earn $10,000 in live trading profits
+Earn \$10,000 in live trading profits
 
 Once both of these conditions are met, our risk team will review your performance.
 
@@ -508,7 +508,7 @@ Once both of these conditions are met, our risk team will review your performanc
 
 Escrow Release Structure
 
-For every $10,000 in additional live profits earned, $5,000 in Escrow will be released
+For every \$10,000 in additional live profits earned, \$5,000 in Escrow will be released
 
 Escrow is reviewed and calculated weekly, not daily
 
@@ -560,14 +560,14 @@ Account Size
 
 Maximum Moved Live Per Account
 
-$25,000
+\$25,000
 
-$2,500
+\$2,500
 
-$50,000
+\$50,000
 
-$5,000
+\$5,000
 
-$150,000
+\$150,000
 
-$15,000
+\$15,000

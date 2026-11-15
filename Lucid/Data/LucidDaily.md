@@ -183,41 +183,41 @@ Consistency %
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,250
+\$1,250
 
-$1,000
+\$1,000
 
 50%
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$2,000
+\$2,000
 
 50%
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$6,000
+\$6,000
 
-$3,000
+\$3,000
 
 50%
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
 50%
 
@@ -261,9 +261,9 @@ Drawdown
 
 Max Size
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
 Yes
 
@@ -271,9 +271,9 @@ Intraday
 
 2 mini or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
 Yes
 
@@ -283,9 +283,9 @@ Intraday
 
 4 mini or 40 micros
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
 Yes
 
@@ -293,9 +293,9 @@ Intraday
 
 6 mini or 60 micros
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
 Yes
 
@@ -347,33 +347,33 @@ There are two requirements must be met in LucidDaily to qualify for a payout.
 1. Profit Over Buffer Balance
 To request a payout, your profits must exceed the buffer balance, which acts as a safety net to avoid hitting Max Loss Limit after a payout. You can not take a payout from the buffer balance.
 
-The buffer is equal to: Initial Max Loss Limit + $100
+The buffer is equal to: Initial Max Loss Limit + \$100
 
 Account Size
 
 Buffer Balance
 
-$25,000
+\$25,000
 
-$26,100
+\$26,100
 
-$50,000
+\$50,000
 
-$52,100
+\$52,100
 
-$100,000
+\$100,000
 
-$103,100
+\$103,100
 
-$150,000
+\$150,000
 
-$154,600
+\$154,600
 
 
 Important: If you take a trade before your payout is processed that drops your balance into the buffer, your request may be denied. Get more details at the bottom of this page.
 
 2. Net Profit Since Last Payout
-Traders must have positive net profit (even just $1) between each payout request in order to request a payout. This objective simply ensures traders have made at least some amount of money between requests. As long as you have profit above the buffer and have positive net profit since your last payout, you are eligible for payout.
+Traders must have positive net profit (even just \$1) between each payout request in order to request a payout. This objective simply ensures traders have made at least some amount of money between requests. As long as you have profit above the buffer and have positive net profit since your last payout, you are eligible for payout.
 
 Maximum Daily Profit
 LucidDaily differs from our other plans in that it doesn't follow a strict payout cap per request structure. Instead, there is a maximum amount of sim profit that can be earned in a day. If you meet or exceed the daily amount you are automatically moved live.
@@ -382,25 +382,25 @@ Account Size
 
 Maximum Daily Profit
 
-$25,000
+\$25,000
 
-$6,000
+\$6,000
 
-$50,000
+\$50,000
 
-$8,000
+\$8,000
 
-$100,000
+\$100,000
 
-$10,000
+\$10,000
 
-$150,000
+\$150,000
 
-$12,000
+\$12,000
 
 
 Payout Minimums and Maximums
-The minimum payout request per account is $500
+The minimum payout request per account is \$500
 
 Payout maximum is the amount of sim profits built above the buffer
 
@@ -439,11 +439,11 @@ Largest Single Day Profit / Account Profit = Consistency Percentage
 
 
 Example
-You trade your $50k LucidDaily evaluation account and your Largest Single Day Profit was $750 when you reached the $3,000 profit target. Plug the values into the above formula.
+You trade your \$50k LucidDaily evaluation account and your Largest Single Day Profit was \$750 when you reached the \$3,000 profit target. Plug the values into the above formula.
 
 
 
-$750 / $3,000 = 25%
+\$750 / \$3,000 = 25%
 
 
 
@@ -466,35 +466,35 @@ Cushion
 
 25k Daily
 
-$1,250
+\$1,250
 
-$625
+\$625
 
-$650.00
+\$650.00
 
 50k Daily
 
-$3,000
+\$3,000
 
-$1,500
+\$1,500
 
-$1,560.00
+\$1,560.00
 
 100k Daily
 
-$6,000
+\$6,000
 
-$3,000
+\$3,000
 
-$3,120.00
+\$3,120.00
 
 150k Daily
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
-$4,680.00
+\$4,680.00
 
 
 Important: This is merely an example table based on hitting exactly 50% of your profit target. The cushion is a percentage calculated on what your actual profit earned is for the day and will vary from trader to trader.
@@ -544,44 +544,44 @@ Initial Trail Balance
 
 Locked MLL Balance
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
-$26,100
+\$26,100
 
-$25,100
+\$25,100
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
-$52,100
+\$52,100
 
-$50,100
+\$50,100
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
-$103,100
+\$103,100
 
-$100,100
+\$100,100
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
-$154,600
+\$154,600
 
-$150,100
+\$150,100
 
 
 As with the other account types:
 
 The MLL rises until it reaches the trail balance
 
-Once the account exceeds the trail, the MLL locks at the initial balance plus $100
+Once the account exceeds the trail, the MLL locks at the initial balance plus \$100
 
 If your account balance reached the MLL, your account will be breached.
 
@@ -620,21 +620,21 @@ Account Size
 
 Fixed DLL Amount
 
-$25,000
+\$25,000
 
-$600
+\$600
 
-$50,000
+\$50,000
 
-$1,200
+\$1,200
 
-$100,000
+\$100,000
 
-$1,800
+\$1,800
 
-$150,000
+\$150,000
 
-$2,700
+\$2,700
 
 
 If you reach the DLL listed for your account size, you will be restricted from placing additional trades until the next trading session, provided your account has not been liquidated.
@@ -648,21 +648,21 @@ Account Size
 
 Fixed DLL Amount
 
-$25,000
+\$25,000
 
-$600
+\$600
 
-$50,000
+\$50,000
 
-$1,200
+\$1,200
 
-$100,000
+\$100,000
 
-$1,800
+\$1,800
 
-$150,000
+\$150,000
 
-$2,700
+\$2,700
 
 ---
 
@@ -701,11 +701,11 @@ Sim profits above the buffer may be paid out to the trader once their KYC with t
 
 
 
-The amount is capped at a fixed amount of $15,000.
+The amount is capped at a fixed amount of \$15,000.
 
 
 
-The cap is the same regardless of account size or how many you have. Whether you have one 25k account or five 150k accounts, the maximum sim profit paid out on the move to live is $15,000. Any profits in excess of the capped amount may not be withdrawn.
+The cap is the same regardless of account size or how many you have. Whether you have one 25k account or five 150k accounts, the maximum sim profit paid out on the move to live is \$15,000. Any profits in excess of the capped amount may not be withdrawn.
 
 
 
@@ -718,7 +718,7 @@ Each funded account must have received at least one payout to qualify
 
 All live accounts begin with:
 
-$0 starting balance
+\$0 starting balance
 
 Daily payouts
 
@@ -732,27 +732,27 @@ Starting Live Drawdown
 
 Max Live Contract Limit*
 
-$25,000
+\$25,000
 
-$1,000
+\$1,000
 
 2 minis or 20 micros
 
-$50,000
+\$50,000
 
-$2,000
+\$2,000
 
 4 minis or 40 micros
 
-$100,000
+\$100,000
 
-$3,000
+\$3,000
 
 6 minis or 60 micros
 
-$150,000
+\$150,000
 
-$4,500
+\$4,500
 
 10 minis or 100 micros
 
@@ -784,9 +784,9 @@ At the end of each trading session, the system calculates the account’s highes
 
 The MLL increases as the account balance grows, up to a defined point.
 
-Once a trader generates live profits equal to their starting live drawdown, the Max Loss Limit locks at $100 and no longer moves.
+Once a trader generates live profits equal to their starting live drawdown, the Max Loss Limit locks at \$100 and no longer moves.
 
-If a trader requests a live payout before generating profits over the live drawdown, the Max Loss Limit locks to $100.
+If a trader requests a live payout before generating profits over the live drawdown, the Max Loss Limit locks to \$100.
 
 
 
