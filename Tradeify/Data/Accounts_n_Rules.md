@@ -16,7 +16,7 @@ Detailed information about Challenge accounts, Funded accounts, and Lightning ac
 SELECT vs Growth: Choosing Your Evaluation Type
 Compare SELECT and Growth Evaluations side-by-side. Learn the key differences: consistency rules, daily loss limits, payout policies, and minimum days to pass. Find which evaluation fits your trading style.
 GROWTH™ Evaluation Accounts
-Growth Evaluation $25K-$150K: profit target $1,500-$9,000, no consistency rule, pass in 1 day, Daily Loss Limit soft breach, End of Day trailing drawdown, one-time purchase, max 5 activations per day.
+Growth Evaluation \$25K-\$150K: profit target \$1,500-\$9,000, no consistency rule, pass in 1 day, Daily Loss Limit soft breach, End of Day trailing drawdown, one-time purchase, max 5 activations per day.
 Select Evaluation Accounts
 Select evaluation guide: 25K-150K and 300K accounts, profit targets, drawdown, 40% consistency, 15 per 30 days limit, and choosing Select Flex (5-Day) or Select Daily payouts after passing.
 Lightning Funded Accounts
@@ -24,7 +24,7 @@ Lightning Funded: skip the evaluation and get funded instantly. Account sizes, d
 Funded Reset — FAQ
 Breached your Select funded account? Funded Reset lets you buy a fresh funded account of the same size right away, instead of passing a new evaluation. Learn who’s eligible, how…
 300k Select Account - Permanent Plan
-The Select $300K account is the largest size in the Tradeify Select plan, and it is now permanently available. This article covers the current version (V2): price, rules, purchase limits,…
+The Select \$300K account is the largest size in the Tradeify Select plan, and it is now permanently available. This article covers the current version (V2): price, rules, purchase limits,…
 Forge
 Everything you need to know about Forge, our limited-release plans. Find details, rules, and FAQs for each Forge drop here.
 2 articles
@@ -90,7 +90,7 @@ Growth Evaluations are one-time purchases. Pass the evaluation to get funded. Re
 
 
 
-Growth 25K costs $99, and a reset costs $60. Growth 50K costs $145, and a reset costs $95. Growth 100K costs $255, and a reset costs $169. Growth 150K costs $369, and a reset costs $229.
+Growth 25K costs \$99, and a reset costs \$60. Growth 50K costs \$145, and a reset costs \$95. Growth 100K costs \$255, and a reset costs \$169. Growth 150K costs \$369, and a reset costs \$229.
 
 
 
@@ -102,27 +102,27 @@ Reset Fee
 
 Growth 25K
 
-$99
+\$99
 
-$60
+\$60
 
 Growth 50K
 
-$145
+\$145
 
-$95
+\$95
 
 Growth 100K
 
-$255
+\$255
 
-$169
+\$169
 
 Growth 150K
 
-$369
+\$369
 
-$229
+\$229
 
 
 
@@ -133,7 +133,7 @@ Select Evaluation Pricing
 Select Evaluations are one-time purchases. Pass the evaluation and choose between Select Daily or Select Flex payout paths. Resets are available if your account fails.
 
 Select Evaluation with 40% Consistency:
-With the standard 40% consistency rule, Select 25K costs $109, and a reset costs $75. Select 50K costs $165, and a reset costs $109. Select 100K costs $265, and a reset costs $169. Select 150K costs $369, and a reset costs $239. Select 300K costs $570, and resets are not available.
+With the standard 40% consistency rule, Select 25K costs \$109, and a reset costs \$75. Select 50K costs \$165, and a reset costs \$109. Select 100K costs \$265, and a reset costs \$169. Select 150K costs \$369, and a reset costs \$239. Select 300K costs \$570, and resets are not available.
 
 Account Size
 
@@ -143,31 +143,31 @@ Reset Fee
 
 Select 25K
 
-$109
+\$109
 
-$75
+\$75
 
 Select 50K
 
-$165
+\$165
 
-$109
+\$109
 
 Select 100K
 
-$265
+\$265
 
-$169
+\$169
 
 Select 150K
 
-$369
+\$369
 
-$239
+\$239
 
 Select 300K
 
-$570
+\$570
 
 Not available
 
@@ -179,7 +179,7 @@ The 50% Consistency Add-on raises your consistency limit from 40% to 50%, allowi
 
 
 
-With the 50% Consistency Add-on, Select 25K costs $135, and a reset costs $90. Select 50K costs $205, and a reset costs $145. Select 100K costs $329, and a reset costs $230. Select 150K costs $459, and a reset costs $319. The 50% Consistency Add-on is not available on the Select 300K.
+With the 50% Consistency Add-on, Select 25K costs \$135, and a reset costs \$90. Select 50K costs \$205, and a reset costs \$145. Select 100K costs \$329, and a reset costs \$230. Select 150K costs \$459, and a reset costs \$319. The 50% Consistency Add-on is not available on the Select 300K.
 
 Account Size
 
@@ -189,27 +189,27 @@ Reset Fee
 
 Select 25K
 
-$135
+\$135
 
-$90
+\$90
 
 Select 50K
 
-$205
+\$205
 
-$145
+\$145
 
 Select 100K
 
-$329
+\$329
 
-$230
+\$230
 
 Select 150K
 
-$459
+\$459
 
-$319
+\$319
 
 Select 300K
 
@@ -232,7 +232,7 @@ Lightning Funded accounts are one-time purchases with no evaluation required. Yo
 
 
 
-Lightning 25K costs $345. Lightning 50K costs $492. Lightning 100K costs $660. Lightning 150K costs $796.
+Lightning 25K costs \$345. Lightning 50K costs \$492. Lightning 100K costs \$660. Lightning 150K costs \$796.
 
 
 
@@ -242,19 +242,19 @@ Price (One-Time)
 
 Lightning 25K
 
-$345
+\$345
 
 Lightning 50K
 
-$492
+\$492
 
 Lightning 100K
 
-$660
+\$660
 
 Lightning 150K
 
-$796
+\$796
 
 
 
@@ -282,7 +282,7 @@ All 5 accounts in a bundle must be the same account type and size. 100K and 150K
 How the Discount Works
 Auto-applied: The 5% bundle discount applies automatically when you select the Bundle and save option (5 accounts of the same type and size) at checkout. No code needed.
 
-Stacks with promo codes: If you also enter an active promo code, both discounts apply. Example: 5× Select 25K = $545 → bundle 5% off = $517 → with a 40% promo code = approximately $310.
+Stacks with promo codes: If you also enter an active promo code, both discounts apply. Example: 5× Select 25K = \$545 → bundle 5% off = \$517 → with a 40% promo code = approximately \$310.
 
 Single checkout only: The bundle is all-or-nothing: there is no option to buy 2, 3, or 4 accounts together at a discount. To buy any number other than 5, complete separate single-account purchases (each at full price). The discount applies per transaction and won't apply retroactively to a later order.
 
@@ -298,7 +298,7 @@ There are no activation fees for any current Tradeify account type. The purchase
 
 
 Platform and Data Fees
-Market data (Non-Professional): Free — you must sign the Non-Professional Agreement on your first Tradovate login. If you do not sign it, you may incur a $300/month professional data fee. Level 2 (L2) and EUREX are optional paid add-ons available on Tradovate accounts only, billed by Tradovate.
+Market data (Non-Professional): Free — you must sign the Non-Professional Agreement on your first Tradovate login. If you do not sign it, you may incur a \$300/month professional data fee. Level 2 (L2) and EUREX are optional paid add-ons available on Tradovate accounts only, billed by Tradovate.
 
 Rithmic: No additional platform fee. Same pricing as Tradovate and other platforms. Level 1 CME market data included; Level 2 and EUREX add-ons are not yet available — coming soon.
 
@@ -306,7 +306,7 @@ Tradesea: No additional platform fee. Uses Rithmic data — Level 1 CME only.
 
 WealthCharts: No additional platform fee. Same price as Tradovate and Rithmic. Operated by a third party with its own login credentials (separate from Tradovate/Tradeify). Level 1 CME market data included; Level 2 and EUREX add-ons are not yet available — coming soon.
 
-TradingView (optional): Free TradingView accounts have approximately 5-second delayed data. Paid TradingView subscriptions start at $12.95/month (paid directly to TradingView).
+TradingView (optional): Free TradingView accounts have approximately 5-second delayed data. Paid TradingView subscriptions start at \$12.95/month (paid directly to TradingView).
 
 
 
@@ -317,7 +317,7 @@ All trades incur commission fees. These are per-contract, round-trip (open + clo
 
 
 
-The round-trip commission per contract is $5.76 for ES (E-mini S&P 500), $5.76 for NQ (E-mini Nasdaq), $1.82 for MES (Micro E-mini S&P), $1.82 for MNQ (Micro E-mini Nasdaq), $5.98 for CL (Crude Oil), and $6.20 for GC (Gold).
+The round-trip commission per contract is \$5.76 for ES (E-mini S&P 500), \$5.76 for NQ (E-mini Nasdaq), \$1.82 for MES (Micro E-mini S&P), \$1.82 for MNQ (Micro E-mini Nasdaq), \$5.98 for CL (Crude Oil), and \$6.20 for GC (Gold).
 
 
 
@@ -327,32 +327,32 @@ Round-Trip Commission
 
 ES (E-mini S&P 500)
 
-$5.76
+\$5.76
 
 NQ (E-mini Nasdaq)
 
-$5.76
+\$5.76
 
 MES (Micro E-mini S&P)
 
-$1.82
+\$1.82
 
 MNQ (Micro E-mini Nasdaq)
 
-$1.82
+\$1.82
 
 CL (Crude Oil)
 
-$5.98
+\$5.98
 
 GC (Gold)
 
-$6.20
+\$6.20
 
 
 
 
-Important: Trading 10 micro contracts costs significantly more in commissions than 1 mini contract (e.g., 10 MES = $18.20 vs 1 ES = $5.76). For a full list of commission fees by instrument, see the Trading Commission Fees article.
+Important: Trading 10 micro contracts costs significantly more in commissions than 1 mini contract (e.g., 10 MES = \$18.20 vs 1 ES = \$5.76). For a full list of commission fees by instrument, see the Trading Commission Fees article.
 
 
 
@@ -480,9 +480,9 @@ End of Day Trailing
 
 Account Sizes
 
-$25K, $50K, $100K, $150K
+\$25K, \$50K, \$100K, \$150K
 
-$25K, $50K, $100K, $150K
+\$25K, \$50K, \$100K, \$150K
 
 Time Limit
 
@@ -539,7 +539,7 @@ SELECT: Has NO daily loss limit during evaluation, so a large losing day never p
 
 
 
-Growth: HAS a daily loss limit (soft breach). If you hit it, trading stops for the day but your account isn't failed. Limits are $600 (25K), $1,250 (50K), $2,500 (100K), $3,750 (150K).
+Growth: HAS a daily loss limit (soft breach). If you hit it, trading stops for the day but your account isn't failed. Limits are \$600 (25K), \$1,250 (50K), \$2,500 (100K), \$3,750 (150K).
 
 
 
@@ -570,29 +570,29 @@ SELECT Profit Target
 
 Growth Profit Target
 
-$25,000
+\$25,000
 
-$1,500
+\$1,500
 
-$1,500
+\$1,500
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$3,000
+\$3,000
 
-$100,000
+\$100,000
 
-$6,000
+\$6,000
 
-$6,000
+\$6,000
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$9,000
+\$9,000
 
 
 
@@ -626,7 +626,7 @@ A: Consider your trading style: If you often have volatile intraday swings and n
 
 Q: Is the drawdown the same for both?
 
-A: Both use End of Day Trailing Max Drawdown, but the amounts differ. SELECT has $1,000 (25K), $2,000 (50K), $3,000 (100K), $4,500 (150K). Growth has $1,000 (25K), $2,000 (50K), $3,500 (100K), $5,000 (150K).
+A: Both use End of Day Trailing Max Drawdown, but the amounts differ. SELECT has \$1,000 (25K), \$2,000 (50K), \$3,000 (100K), \$4,500 (150K). Growth has \$1,000 (25K), \$2,000 (50K), \$3,500 (100K), \$5,000 (150K).
 
 
 
@@ -648,10 +648,10 @@ For full details on each evaluation type, see: SELECT Evaluation Accounts | Grow
 https://help.tradeify.co/en/articles/10495915-growth-evaluation-accounts
 
 GROWTH™ Evaluation Accounts
-Growth Evaluation $25K-$150K: profit target $1,500-$9,000, no consistency rule, pass in 1 day, Daily Loss Limit soft breach, End of Day trailing drawdown, one-time purchase, max 5 activations per day.
+Growth Evaluation \$25K-\$150K: profit target \$1,500-\$9,000, no consistency rule, pass in 1 day, Daily Loss Limit soft breach, End of Day trailing drawdown, one-time purchase, max 5 activations per day.
 
 Updated over 3 weeks ago
-Tradeify offers GROWTH™ evaluation accounts in sizes of $25k, $50k, $100k and $150k.
+Tradeify offers GROWTH™ evaluation accounts in sizes of \$25k, \$50k, \$100k and \$150k.
 
 
 
@@ -706,7 +706,7 @@ In summary: GROWTH™ evaluation is the fastest way to get funded. You can pass 
 GROWTH™ evaluation rules
 The rules for GROWTH™ evaluation are stated in the table below.
 
-On a $25k GROWTH™ evaluation, the profit target is $1,500, the Daily Loss Limit (soft breach) is $600, the trailing max drawdown is $1,000, and the max position size is 1 contract (10 micros). On a $50k account, the profit target is $3,000, the Daily Loss Limit is $1,250, the trailing max drawdown is $2,000, and the max position size is 4 contracts (40 micros). On a $100k account, the profit target is $6,000, the Daily Loss Limit is $2,500, the trailing max drawdown is $3,500, and the max position size is 8 contracts (80 micros). On a $150k account, the profit target is $9,000, the Daily Loss Limit is $3,750, the trailing max drawdown is $5,000, and the max position size is 12 contracts (120 micros).
+On a \$25k GROWTH™ evaluation, the profit target is \$1,500, the Daily Loss Limit (soft breach) is \$600, the trailing max drawdown is \$1,000, and the max position size is 1 contract (10 micros). On a \$50k account, the profit target is \$3,000, the Daily Loss Limit is \$1,250, the trailing max drawdown is \$2,000, and the max position size is 4 contracts (40 micros). On a \$100k account, the profit target is \$6,000, the Daily Loss Limit is \$2,500, the trailing max drawdown is \$3,500, and the max position size is 8 contracts (80 micros). On a \$150k account, the profit target is \$9,000, the Daily Loss Limit is \$3,750, the trailing max drawdown is \$5,000, and the max position size is 12 contracts (120 micros).
 
 Account Size
 
@@ -718,43 +718,43 @@ Trailing Max Drawdown
 
 Max Position Size
 
-$25k
+\$25k
 
-$1,500
+\$1,500
 
-$600
+\$600
 
-$1,000
+\$1,000
 
 1 Contract (10 Micros)
 
-$50k
+\$50k
 
-$3,000
+\$3,000
 
-$1,250
+\$1,250
 
-$2,000
+\$2,000
 
 4 Contracts (40 Micros)
 
-$100k
+\$100k
 
-$6,000
+\$6,000
 
-$2,500
+\$2,500
 
-$3,500
+\$3,500
 
 8 Contracts (80 Micros)
 
-$150k
+\$150k
 
-$9,000
+\$9,000
 
-$3,750
+\$3,750
 
-$5,000
+\$5,000
 
 12 Contracts (120 Micros)
 
@@ -834,7 +834,7 @@ A: No. GROWTH™ evaluation does NOT have a consistency requirement. You can pas
 
 Q: Does GROWTH™ evaluation have a Daily Loss Limit?
 
-A: Yes. GROWTH™ evaluation DOES have a Daily Loss Limit (soft breach): $600 (25K), $1,250 (50K), $2,500 (100K), $3,750 (150K). If you hit it, trading stops for the day but your account is not failed. SELECT™ evaluation has NO daily loss limit during the evaluation phase.
+A: Yes. GROWTH™ evaluation DOES have a Daily Loss Limit (soft breach): \$600 (25K), \$1,250 (50K), \$2,500 (100K), \$3,750 (150K). If you hit it, trading stops for the day but your account is not failed. SELECT™ evaluation has NO daily loss limit during the evaluation phase.
 
 
 
@@ -935,17 +935,17 @@ Daily Payout Policy - For traders who want faster access to profits with daily w
 Available Account Sizes
 Select is available in five account sizes:
 
-$25,000
+\$25,000
 
-$50,000
+\$50,000
 
-$100,000
+\$100,000
 
-$150,000
+\$150,000
 
-$300,000
+\$300,000
 
-The $300,000 size has its own purchase requirements: KYC before purchase, no resets, a maximum of 5 Select 300K purchases per user per rolling 30 days and a maximum of 3 funded 300K accounts per user, counted within the standard 5 funded accounts, and it does not count toward the 15-evaluation monthly limit. Its evaluation, funded, and scaling parameters are in 300K Select Account.
+The \$300,000 size has its own purchase requirements: KYC before purchase, no resets, a maximum of 5 Select 300K purchases per user per rolling 30 days and a maximum of 3 funded 300K accounts per user, counted within the standard 5 funded accounts, and it does not count toward the 15-evaluation monthly limit. Its evaluation, funded, and scaling parameters are in 300K Select Account.
 
 
 
@@ -961,9 +961,9 @@ The evaluation phase uses a single set of rules designed to assess your trading 
 
 
 25K Account Evaluation
-Profit Target: $1,500
+Profit Target: \$1,500
 
-Maximum Drawdown: $1,000 (End of Day)
+Maximum Drawdown: \$1,000 (End of Day)
 
 Daily Loss Limit: None
 
@@ -976,9 +976,9 @@ Maximum Contracts: 1 mini / 10 micro
 
 
 50K Account Evaluation
-Profit Target: $3,000
+Profit Target: \$3,000
 
-Maximum Drawdown: $2,000 (End of Day)
+Maximum Drawdown: \$2,000 (End of Day)
 
 Daily Loss Limit: None
 
@@ -988,16 +988,16 @@ Maximum Contracts: 4 mini / 40 micro
 
 
 
-Note: Accounts purchased before the new dashboard launch retain their original $2,500 profit target, including on reset.
+Note: Accounts purchased before the new dashboard launch retain their original \$2,500 profit target, including on reset.
 
 
 
 
 
 100K Account Evaluation
-Profit Target: $6,000
+Profit Target: \$6,000
 
-Maximum Drawdown: $3,000 (End of Day)
+Maximum Drawdown: \$3,000 (End of Day)
 
 Daily Loss Limit: None
 
@@ -1010,9 +1010,9 @@ Maximum Contracts: 8 mini / 80 micro
 
 
 150K Account Evaluation
-Profit Target: $9,000
+Profit Target: \$9,000
 
-Maximum Drawdown: $4,500 (End of Day)
+Maximum Drawdown: \$4,500 (End of Day)
 
 Daily Loss Limit: None
 
@@ -1068,7 +1068,7 @@ The 5-Day Payout Policy is designed for traders who prefer accumulating larger p
 
 Payout Frequency: Every 5 winning days
 
-Payout Caps: Up to 50% of profits ($1,250 / $2,500 / $3,500 / $4,500 caps for accounts bought on or after September 1, 2026; $1,250 / $3,000 / $4,000 / $5,000 if bought before)
+Payout Caps: Up to 50% of profits (\$1,250 / \$2,500 / \$3,500 / \$4,500 caps for accounts bought on or after September 1, 2026; \$1,250 / \$3,000 / \$4,000 / \$5,000 if bought before)
 
 Daily Loss Limit: None
 
@@ -1085,11 +1085,11 @@ The Daily Payout Policy is designed for traders who value rapid access to profit
 
 Payout Frequency: Daily eligibility after meeting buffer requirement
 
-Payout Caps: Smaller, more frequent ($600 / $1,250 / $1,750 / $2,500 caps for accounts bought on or after September 1, 2026; $600 / $1,000 / $1,500 / $2,500 if bought before)
+Payout Caps: Smaller, more frequent (\$600 / \$1,250 / \$1,750 / \$2,500 caps for accounts bought on or after September 1, 2026; \$600 / \$1,000 / \$1,500 / \$2,500 if bought before)
 
-Daily Loss Limit: Yes ($500 / $1,000 / $1,250 / $1,750)
+Daily Loss Limit: Yes (\$500 / \$1,000 / \$1,250 / \$1,750)
 
-Buffer System: Required ($1,100 / $2,100 / $2,600 / $3,600)
+Buffer System: Required (\$1,100 / \$2,100 / \$2,600 / \$3,600)
 
 Best For: Traders who want consistent daily cash flow and structured risk management
 
@@ -1104,7 +1104,7 @@ Both lead to live trading - Either policy provides a path to Tradeify Elite Live
 
 No minimum balance required (Flex) - Request payouts after 5 winning days regardless of account balance
 
-Drawdown locks at $100 above starting balance - When your EOD balance exceeds your drawdown amount by $100, your drawdown floor locks permanently (e.g., $25,100 for 25K, $50,100 for 50K, $100,100 for 100K, $150,100 for 150K)
+Drawdown locks at \$100 above starting balance - When your EOD balance exceeds your drawdown amount by \$100, your drawdown floor locks permanently (e.g., \$25,100 for 25K, \$50,100 for 50K, \$100,100 for 100K, \$150,100 for 150K)
 
 Take time to review both options carefully.
 
@@ -1171,21 +1171,21 @@ A: Any amount. The consistency rule does NOT cap how much you can profit on a si
 
 
 
-For SELECT 50K, the profit target is $3,000. No single day can exceed 40% of your total profit. To work out the total profit a big day requires, divide it by 0.40 - a $1,300 day needs $3,250 in total profit ($1,300 ÷ 0.40). A day at exactly 40% of your total meets the rule, and anything larger is still allowed - it just needs more total profit from your other days.
+For SELECT 50K, the profit target is \$3,000. No single day can exceed 40% of your total profit. To work out the total profit a big day requires, divide it by 0.40 - a \$1,300 day needs \$3,250 in total profit (\$1,300 ÷ 0.40). A day at exactly 40% of your total meets the rule, and anything larger is still allowed - it just needs more total profit from your other days.
 
 
 
-Example (SELECT 50K, $3,000 target):
+Example (SELECT 50K, \$3,000 target):
 
-Day 1: +$1,000
+Day 1: +\$1,000
 
-Day 2: +$1,000
+Day 2: +\$1,000
 
-Day 3: +$1,000
+Day 3: +\$1,000
 
-Total: $3,000 (target met)
+Total: \$3,000 (target met)
 
-Biggest day = 33.3% of total ($1,000 ÷ $3,000), which is under the 40% limit
+Biggest day = 33.3% of total (\$1,000 ÷ \$3,000), which is under the 40% limit
 
 
 
@@ -1234,7 +1234,7 @@ A "Lightning Funded" account allows traders to skip the typical evaluation phase
 
 
 
-Tradeify offers Lightning Funded account sizes of $25k, $50k, $100k & $150k. The rules for the Lightning Funded are stated in the table below:
+Tradeify offers Lightning Funded account sizes of \$25k, \$50k, \$100k & \$150k. The rules for the Lightning Funded are stated in the table below:
 
 
 
@@ -1250,48 +1250,48 @@ Trailing Max Drawdown
 
 Max Position Size
 
-$25k
+\$25k
 
 None
 
 None
 
-$1,000
+\$1,000
 
 1 Contract(10 Micros)
 
-$50k
+\$50k
 
 None
 
-$1,250
+\$1,250
 
-$2,000
+\$2,000
 
 4 Contracts (40 Micros)
 
-$100k
+\$100k
 
 None
 
-$2,500
+\$2,500
 
-$4,000
+\$4,000
 
 8 Contracts (80 Micros)
 
-$150k
+\$150k
 
 None
 
-$3,000
+\$3,000
 
-$5,250
+\$5,250
 
 12 Contracts (120 Micros)
 
 
-Please note: the Daily Loss Limit for 150k Lightning funded purchases made before March 31st is $3,750.
+Please note: the Daily Loss Limit for 150k Lightning funded purchases made before March 31st is \$3,750.
 
 
 
@@ -1336,11 +1336,11 @@ Daily Loss Limit (Soft Breach)
 
 Trailing Max Drawdown
 
-$150k
+\$150k
 
-$3,750
+\$3,750
 
-$6,000
+\$6,000
 
 
 
@@ -1488,7 +1488,7 @@ If it has been more than 30 days since your breach: The Funded Reset offer is go
 https://help.tradeify.co/en/articles/17845238-300k-select-account-permanent-plan
 
 300k Select Account - Permanent Plan
-The Select $300K account is the largest size in the Tradeify Select plan, and it is now permanently available. This article covers the current version (V2): price, rules, purchase limits, payouts and scaling.
+The Select \$300K account is the largest size in the Tradeify Select plan, and it is now permanently available. This article covers the current version (V2): price, rules, purchase limits, payouts and scaling.
 
 Updated over a week ago
 Important: The Select 300K cannot be reset. If your evaluation fails, the account is closed, and you would need to buy another 300K evaluation to keep going.
@@ -1509,19 +1509,19 @@ Select 300K
 
 Evaluation price
 
-$570
+\$570
 
 Profit target
 
-$14,000
+\$14,000
 
 Evaluation maximum loss limit
 
-$8,000 (End of Day)
+\$8,000 (End of Day)
 
 Evaluation daily loss limit
 
-$4,000
+\$4,000
 
 Consistency requirement
 
@@ -1601,7 +1601,7 @@ In summary: the 300K trades under the same rules you already know from Select, b
 
 
 Purchase Requirements
-Price: $570. There are no activation fees and no ongoing fees on the funded account.
+Price: \$570. There are no activation fees and no ongoing fees on the funded account.
 
 Platform: The 300K size is offered on Tradovate, Rithmic and WealthCharts. TradingView is supported, as it connects through Tradovate.
 
@@ -1626,19 +1626,19 @@ Select 300K
 
 Price
 
-$570
+\$570
 
 Profit target
 
-$14,000
+\$14,000
 
 Maximum loss limit
 
-$8,000 (End of Day)
+\$8,000 (End of Day)
 
 Daily loss limit
 
-$4,000
+\$4,000
 
 Consistency requirement
 
@@ -1650,9 +1650,9 @@ Maximum contracts
 
 
 Key Evaluation Features
-Daily Loss Limit: The evaluation carries a $4,000 daily loss limit. Your maximum loss limit applies at all times.
+Daily Loss Limit: The evaluation carries a \$4,000 daily loss limit. Your maximum loss limit applies at all times.
 
-End of Day Drawdown: Your drawdown is calculated at session close, so intraday swings do not move the limit. The maximum loss limit is $8,000, and it is enforced in real time - touching it fails the account immediately.
+End of Day Drawdown: Your drawdown is calculated at session close, so intraday swings do not move the limit. The maximum loss limit is \$8,000, and it is enforced in real time - touching it fails the account immediately.
 
 40% Consistency Rule: No single trading day can represent more than 40% of your total profit. This means a minimum of 3 trading days to pass.
 
@@ -1680,7 +1680,7 @@ Parameter
 
 Maximum drawdown
 
-$8,000
+\$8,000
 
 Drawdown mode
 
@@ -1688,7 +1688,7 @@ End of Day (the limit only updates at the close, but is still enforced in real t
 
 Daily loss limit
 
-$4,000
+\$4,000
 
 Consistency rule
 
@@ -1696,7 +1696,7 @@ None
 
 Winning day threshold
 
-$750 minimum profit per day
+\$750 minimum profit per day
 
 Payout frequency
 
@@ -1704,7 +1704,7 @@ Every 5 winning days
 
 Payout cap
 
-Up to 50% of your total profits, capped at $10,000 per payout
+Up to 50% of your total profits, capped at \$10,000 per payout
 
 Starting contracts
 
@@ -1724,7 +1724,7 @@ Parameter
 
 Maximum drawdown
 
-$6,000
+\$6,000
 
 Drawdown mode
 
@@ -1732,7 +1732,7 @@ End of Day (the limit only updates at the close, but is still enforced in real t
 
 Daily loss limit
 
-$3,000
+\$3,000
 
 Consistency rule
 
@@ -1740,7 +1740,7 @@ None
 
 Buffer
 
-$6,100 (balance of $306,100)
+\$6,100 (balance of \$306,100)
 
 Payout frequency
 
@@ -1748,7 +1748,7 @@ Daily eligibility once above the buffer
 
 Maximum payout per day
 
-$4,000
+\$4,000
 
 New-profit rule
 
@@ -1777,33 +1777,33 @@ Account balance
 
 Maximum contracts
 
-$0 to $1,500
+\$0 to \$1,500
 
-$300,000 to $301,500
+\$300,000 to \$301,500
 
 3 mini / 30 micro
 
-$1,500 to $3,000
+\$1,500 to \$3,000
 
-$301,500 to $303,000
+\$301,500 to \$303,000
 
 4 mini / 40 micro
 
-$3,000 to $5,000
+\$3,000 to \$5,000
 
-$303,000 to $305,000
+\$303,000 to \$305,000
 
 6 mini / 60 micro
 
-$5,000 to $7,000
+\$5,000 to \$7,000
 
-$305,000 to $307,000
+\$305,000 to \$307,000
 
 10 mini / 100 micro
 
-$7,000 and above
+\$7,000 and above
 
-$307,000 and above
+\$307,000 and above
 
 16 mini / 160 micro
 
@@ -1821,19 +1821,19 @@ Your choice is permanent. Once you select Flex or Daily, you cannot change payou
 
 Both lead to live trading. Either policy provides a path to Tradeify Elite Live accounts - see the Tradeify Elite Program.
 
-Drawdown locks at $300,100. The balance that triggers the lock depends on your path:
+Drawdown locks at \$300,100. The balance that triggers the lock depends on your path:
 
-Daily: once your End of Day balance reaches $306,100.
+Daily: once your End of Day balance reaches \$306,100.
 
-Flex: once your End of Day balance reaches $308,100.
+Flex: once your End of Day balance reaches \$308,100.
 
-After locking, your drawdown stops trailing your peak and becomes a fixed floor at $300,100.
+After locking, your drawdown stops trailing your peak and becomes a fixed floor at \$300,100.
 
 Breaches are final. If your funded account breaches, it is closed and cannot be reinstated. You would need to purchase and pass a new 300K evaluation.
 
 All Select rules still apply. Trading hours, permitted products, hedging rules, and news trading guidelines are unchanged from the other Select sizes.
 
-Important Note: If you take a payout on a Select Flex account before reaching the drawdown lock threshold, your drawdown will automatically lock at $300,100 once the payout is approved.
+Important Note: If you take a payout on a Select Flex account before reaching the drawdown lock threshold, your drawdown will automatically lock at \$300,100 once the payout is approved.
 
 
 
@@ -1884,7 +1884,7 @@ A: No. Select 300K purchases do not count toward the limit of 15 evaluations per
 
 
 Q: Can I pass the 300K evaluation in one day?
-A: No. The 40% consistency rule means a minimum of 3 trading days, even if you reach the $14,000 profit target earlier.
+A: No. The 40% consistency rule means a minimum of 3 trading days, even if you reach the \$14,000 profit target earlier.
 
 
 
@@ -1899,12 +1899,12 @@ A: Both, in different ways. The drawdown level only updates at the end of the da
 
 
 Q: Why do I start with 3 contracts when the account allows 16?
-A: All Select funded accounts begin with reduced limits and scale up as the account grows. The full 16 mini / 160 micro limit becomes available once your End of Day profit reaches $7,000.
+A: All Select funded accounts begin with reduced limits and scale up as the account grows. The full 16 mini / 160 micro limit becomes available once your End of Day profit reaches \$7,000.
 
 
 
 Q: What is the buffer on the Daily path?
-A: The buffer is $6,100, so you cannot withdraw profits that would bring your balance below $306,100. Profits above the buffer are eligible for withdrawal, subject to the $4,000 daily cap and the new-profit rule.
+A: The buffer is \$6,100, so you cannot withdraw profits that would bring your balance below \$306,100. Profits above the buffer are eligible for withdrawal, subject to the \$4,000 daily cap and the new-profit rule.
 
 
 
@@ -1982,11 +1982,11 @@ Biggest End of Day PnL / Consistency % = Total Balance Needed
 
 
 
-For example, if your biggest day's profit is $1,000 and you must follow the 20% rule, the required total balance would be: $1,000 / 0.20 = $5,000. Another example: if your biggest day's profit is $2,682.10, the required total balance would be:
+For example, if your biggest day's profit is \$1,000 and you must follow the 20% rule, the required total balance would be: \$1,000 / 0.20 = \$5,000. Another example: if your biggest day's profit is \$2,682.10, the required total balance would be:
 
 
 
-$2,682.10 / 0.20 = $13,410.50
+\$2,682.10 / 0.20 = \$13,410.50
 
 
 
@@ -2021,7 +2021,7 @@ Highest end-of-day profit / 0.20 = Total profits required to meet the 20% consis
 
 
 
-For example, if your total profit is $10,000, your biggest single-day profit must not exceed $2,000 ($10,000 x 20% = $2,000).
+For example, if your total profit is \$10,000, your biggest single-day profit must not exceed \$2,000 (\$10,000 x 20% = \$2,000).
 
 
 
@@ -2036,9 +2036,9 @@ Here's another example to illustrate how the Consistency Rule is applied:
 
 A trader has been trading for 10 days in their Growth Sim Funded account, which follows a 35% Consistency Rule.
 
-Total profits over the 10 days: $10,000.
+Total profits over the 10 days: \$10,000.
 
-Highest single-day profit: $4,000 (which is 40% of the total profits).
+Highest single-day profit: \$4,000 (which is 40% of the total profits).
 
 
 
@@ -2046,25 +2046,25 @@ Since 40% exceeds the 35% limit, the trader does not meet the consistency requir
 
 
 
-If, on day 11, the trader makes an additional $1,500 in profits:
+If, on day 11, the trader makes an additional \$1,500 in profits:
 
 The trader has now traded for 11 days.
 
-Total profits: $11,500.
+Total profits: \$11,500.
 
-Highest single-day profit: $4,000 (which is now 34.7% of the total).
-
-
-
-At this point, the trader is eligible to request a payout, as their highest profit no longer exceeds the 35% limit. For Lightning Funded accounts, if your highest single-day profit is $643.34, calculate the required total profit to meet compliance as:
+Highest single-day profit: \$4,000 (which is now 34.7% of the total).
 
 
 
-$643.34 / 0.20 = $3,216.70
+At this point, the trader is eligible to request a payout, as their highest profit no longer exceeds the 35% limit. For Lightning Funded accounts, if your highest single-day profit is \$643.34, calculate the required total profit to meet compliance as:
 
 
 
-If your current profits are $2,570.14, you need to add $646.56 in additional small profit days while ensuring no single day exceeds $643.34.
+\$643.34 / 0.20 = \$3,216.70
+
+
+
+If your current profits are \$2,570.14, you need to add \$646.56 in additional small profit days while ensuring no single day exceeds \$643.34.
 
 
 
@@ -2085,7 +2085,7 @@ A: Consistency updates in real-time as you trade. Every dashboard metric - balan
 
 Q: Do losing days affect my consistency percentage?
 
-A: Yes, losing days can hurt your consistency percentage. The formula is: (Your biggest profitable day) / (Total profits). Losing days reduce your total profits (the denominator), which makes your consistency percentage go up. For example, if your biggest day was $1,000 and your total profit was $1,500 (66.7% consistency), a $300 losing day would drop your total to $1,200, pushing your consistency to 83.3% (worse). To improve consistency, you need profitable days that increase the denominator without exceeding your current biggest day.
+A: Yes, losing days can hurt your consistency percentage. The formula is: (Your biggest profitable day) / (Total profits). Losing days reduce your total profits (the denominator), which makes your consistency percentage go up. For example, if your biggest day was \$1,000 and your total profit was \$1,500 (66.7% consistency), a \$300 losing day would drop your total to \$1,200, pushing your consistency to 83.3% (worse). To improve consistency, you need profitable days that increase the denominator without exceeding your current biggest day.
 
 
 
@@ -2163,11 +2163,11 @@ Example:
 
 
 
-Starting balance: $100,000, Drawdown: $3,500, Limit: $96,500
+Starting balance: \$100,000, Drawdown: \$3,500, Limit: \$96,500
 
-Day 1: End with $103,000 → New limit: $99,500
+Day 1: End with \$103,000 → New limit: \$99,500
 
-Day 2: End with $101,000 → Limit stays at $99,500 (only moves up, never down)
+Day 2: End with \$101,000 → Limit stays at \$99,500 (only moves up, never down)
 
 
 
@@ -2179,11 +2179,11 @@ Example - an intraday dip does NOT get undone by recovering:
 
 
 
-Starting balance: $25,000, Drawdown: $1,000, Floor: $24,000
+Starting balance: \$25,000, Drawdown: \$1,000, Floor: \$24,000
 
-10:15 AM: net liquidation value drops to $22,000 - $22,000 is BELOW the $24,000 floor, so the account FAILS the instant it touched $24,000
+10:15 AM: net liquidation value drops to \$22,000 - \$22,000 is BELOW the \$24,000 floor, so the account FAILS the instant it touched \$24,000
 
-Close: recovering to $25,500 changes nothing - the account was already failed and cannot be restored
+Close: recovering to \$25,500 changes nothing - the account was already failed and cannot be restored
 
 
 
@@ -2192,7 +2192,7 @@ Close: recovering to $25,500 changes nothing - the account was already failed an
 When Does Drawdown Lock?
 
 
-On Sim Funded accounts (not Evaluations), your drawdown locks in place once you profit beyond the drawdown amount by $100, or immediately when you request a payout - whichever comes first. After locking, the drawdown limit becomes a fixed floor that never moves up again.
+On Sim Funded accounts (not Evaluations), your drawdown locks in place once you profit beyond the drawdown amount by \$100, or immediately when you request a payout - whichever comes first. After locking, the drawdown limit becomes a fixed floor that never moves up again.
 
 
 
@@ -2208,52 +2208,52 @@ Select Daily
 
 25K
 
-$26,100
+\$26,100
 
-$26,100
+\$26,100
 
-$26,100
+\$26,100
 
-$26,100
+\$26,100
 
 50K
 
-$52,100
+\$52,100
 
-$52,100
+\$52,100
 
-$52,100
+\$52,100
 
-$52,100
+\$52,100
 
 100K
 
-$103,600
+\$103,600
 
-$104,100
+\$104,100
 
-$103,100
+\$103,100
 
-$102,600
+\$102,600
 
 150K
 
-$155,100
+\$155,100
 
-$155,350
+\$155,350
 
-$154,600
+\$154,600
 
-$153,600
-
-
-
-
-The table shows the EOD balance required to trigger the drawdown lock. The lock can also trigger immediately when you request a payout - whichever comes first. Once locked, the drawdown floor becomes fixed at $100 above starting balance (e.g., $50,100 for 50K, $100,100 for 100K, $150,100 for 150K) and never moves up again.
+\$153,600
 
 
 
-Example: A 50K Growth account with $2,000 drawdown locks when EOD balance reaches $52,100. The drawdown floor becomes $50,100 and never moves up again. This same mechanism applies to all funded account types including Select Flex and Select Daily.
+
+The table shows the EOD balance required to trigger the drawdown lock. The lock can also trigger immediately when you request a payout - whichever comes first. Once locked, the drawdown floor becomes fixed at \$100 above starting balance (e.g., \$50,100 for 50K, \$100,100 for 100K, \$150,100 for 150K) and never moves up again.
+
+
+
+Example: A 50K Growth account with \$2,000 drawdown locks when EOD balance reaches \$52,100. The drawdown floor becomes \$50,100 and never moves up again. This same mechanism applies to all funded account types including Select Flex and Select Daily.
 
 
 
@@ -2268,7 +2268,7 @@ A: No. While EOD drawdown only UPDATES at end of day, it is ENFORCED in real-tim
 
 Q: I dipped below my drawdown floor during the day but finished green - is my account still active?
 
-A: No. The account failed at the moment your net liquidation value touched the floor. Recovering later in the day does not undo it - a drawdown breach is a hard breach with no recovery. For example, on a 25K account with a $24,000 floor, dropping to $22,000 during the day fails the account immediately, even if you close at $25,500.
+A: No. The account failed at the moment your net liquidation value touched the floor. Recovering later in the day does not undo it - a drawdown breach is a hard breach with no recovery. For example, on a 25K account with a \$24,000 floor, dropping to \$22,000 during the day fails the account immediately, even if you close at \$25,500.
 
 
 
@@ -2286,7 +2286,7 @@ A: No. Hitting the Max Trailing Drawdown is a hard breach - your account fails p
 
 Q: How do I check my current drawdown limit?
 
-A: Your current Trailing Max Drawdown is shown directly on your Tradeify dashboard. Look for the "Trailing Max Drawdown" figure on your account - it displays the exact dollar floor your balance cannot fall to or below (for example, $50,100 for a locked 50K account). This figure updates once per day, at the end of each trading day. Every other dashboard metric updates in real-time.
+A: Your current Trailing Max Drawdown is shown directly on your Tradeify dashboard. Look for the "Trailing Max Drawdown" figure on your account - it displays the exact dollar floor your balance cannot fall to or below (for example, \$50,100 for a locked 50K account). This figure updates once per day, at the end of each trading day. Every other dashboard metric updates in real-time.
 
 
 
@@ -2302,7 +2302,7 @@ For step-by-step setup instructions with screenshots, see our Drawdown Widget ar
 
 Q: How does drawdown work on Select accounts?
 
-A: Both Select Flex and Select Daily funded accounts use EOD trailing drawdown with the same locking mechanism as Growth and Lightning accounts. When your EOD balance exceeds your drawdown amount by $100, the drawdown locks at $100 above your starting balance. For example, a 50K Select account locks when EOD balance reaches $52,100, and the drawdown floor becomes $50,100 permanently.
+A: Both Select Flex and Select Daily funded accounts use EOD trailing drawdown with the same locking mechanism as Growth and Lightning accounts. When your EOD balance exceeds your drawdown amount by \$100, the drawdown locks at \$100 above your starting balance. For example, a 50K Select account locks when EOD balance reaches \$52,100, and the drawdown floor becomes \$50,100 permanently.
 
 
 ---
@@ -2382,33 +2382,33 @@ Select Daily DLL
 
 N/A
 
-$600
+\$600
 
-$500
+\$500
 
 50K
 
-$1,250
+\$1,250
 
-$1,250
+\$1,250
 
-$1,000
+\$1,000
 
 100K
 
-$2,500
+\$2,500
 
-$2,500
+\$2,500
 
-$1,250
+\$1,250
 
 150K
 
-$3,000
+\$3,000
 
-$3,750
+\$3,750
 
-$1,750
+\$1,750
 
 
 
@@ -2429,35 +2429,35 @@ Growth DLL Becomes
 
 25K
 
-$26,500
+\$26,500
 
 N/A
 
-$1,000
+\$1,000
 
 50K
 
-$53,000
+\$53,000
 
-$2,000
+\$2,000
 
-$2,000
+\$2,000
 
 100K
 
-$106,000
+\$106,000
 
-$4,000
+\$4,000
 
-$3,500
+\$3,500
 
 150K
 
-$159,000
+\$159,000
 
-$5,250
+\$5,250
 
-$5,000
+\$5,000
 
 
 
@@ -2476,19 +2476,19 @@ Starting a 100K Growth account:
 
 
 
-Starting balance: $100,000
+Starting balance: \$100,000
 
-Daily Loss Limit: $2,500
+Daily Loss Limit: \$2,500
 
-Max Trailing Drawdown: $3,500 from high water mark
-
-
-
-If you lose $2,500 in one day, the DLL triggers and trading pauses. You can trade again tomorrow.
+Max Trailing Drawdown: \$3,500 from high water mark
 
 
 
-Warning: If your high water mark is $101,000 and current balance is $99,000, your drawdown is only $2,000 away. Losing $2,500 would hit the drawdown BEFORE the DLL, failing your account.
+If you lose \$2,500 in one day, the DLL triggers and trading pauses. You can trade again tomorrow.
+
+
+
+Warning: If your high water mark is \$101,000 and current balance is \$99,000, your drawdown is only \$2,000 away. Losing \$2,500 would hit the drawdown BEFORE the DLL, failing your account.
 
 
 
@@ -2497,7 +2497,7 @@ Warning: If your high water mark is $101,000 and current balance is $99,000, you
 Frequently Asked Questions
 Q: Do Select accounts have a DLL?
 
-A: It depends on your payout policy. Select Daily funded accounts have a DLL ($500 for 25K, $1,000 for 50K, $1,250 for 100K, $1,750 for 150K). Select Flex (5-Day) funded accounts do not have a DLL - only the Max Trailing Drawdown applies.
+A: It depends on your payout policy. Select Daily funded accounts have a DLL (\$500 for 25K, \$1,000 for 50K, \$1,250 for 100K, \$1,750 for 150K). Select Flex (5-Day) funded accounts do not have a DLL - only the Max Trailing Drawdown applies.
 
 
 
@@ -2509,7 +2509,7 @@ A: Yes. The DLL resets at the start of each trading session (6:00 PM ET). Yester
 
 Q: When does the increased DLL take effect?
 
-A: When you reach the 6% profit threshold, your new DLL takes effect the NEXT trading session - not immediately. If you reach $53,000 on a 50K account during Monday's session, the increased DLL applies starting Monday evening at 6:00 PM ET.
+A: When you reach the 6% profit threshold, your new DLL takes effect the NEXT trading session - not immediately. If you reach \$53,000 on a 50K account during Monday's session, the increased DLL applies starting Monday evening at 6:00 PM ET.
 
 
 
@@ -2521,7 +2521,7 @@ A: Hitting the DLL alone does not fail your account. However, if your Max Traili
 
 Q: What's the difference between legacy and new DLL rules?
 
-A: For accounts purchased before September 12, 2025, the DLL is completely removed at 6% profit. For accounts purchased after, the DLL is increased (to $1,000/$2,000/$3,500-4,000/$5,000-5,250 for 25K/50K/100K/150K) but not removed.
+A: For accounts purchased before September 12, 2025, the DLL is completely removed at 6% profit. For accounts purchased after, the DLL is increased (to \$1,000/\$2,000/\$3,500-4,000/\$5,000-5,250 for 25K/50K/100K/150K) but not removed.
 
 ---
 
@@ -2759,7 +2759,7 @@ Opposing positions exist (hedging behaviour)
 
 The hedge duration exceeds 10 seconds
 
-Profit generated from the hedge exceeds $150
+Profit generated from the hedge exceeds \$150
 
 
 
@@ -3274,7 +3274,7 @@ All supported root symbols: ES, NQ, YM, RTY, EMD, NKD, MES, MNQ, MYM, M2K, CL, N
 
 
 Equity Index Futures
-Supported equity index futures. Full-size: Nikkei 225 (USD) (NKD) on CME. E-mini: E-Mini S&P 500 (ES) on CME; E-Mini NASDAQ (NQ) on CME; E-Mini Dow ($5) (YM) on CBOT; E-Mini Russell (RTY) on CME; E-Mini S&P Midcap 400 (EMD) on CME. Micro: Micro E-Mini S&P 500 (MES) on CME; Micro E-Mini NASDAQ (MNQ) on CME; Micro E-Mini Dow (MYM) on CBOT; Micro E-Mini Russell (M2K) on CME.
+Supported equity index futures. Full-size: Nikkei 225 (USD) (NKD) on CME. E-mini: E-Mini S&P 500 (ES) on CME; E-Mini NASDAQ (NQ) on CME; E-Mini Dow (\$5) (YM) on CBOT; E-Mini Russell (RTY) on CME; E-Mini S&P Midcap 400 (EMD) on CME. Micro: Micro E-Mini S&P 500 (MES) on CME; Micro E-Mini NASDAQ (MNQ) on CME; Micro E-Mini Dow (MYM) on CBOT; Micro E-Mini Russell (M2K) on CME.
 
 Name
 
@@ -3300,7 +3300,7 @@ E-mini
 
 CME
 
-E-Mini Dow ($5)
+E-Mini Dow (\$5)
 
 YM
 
@@ -3951,11 +3951,11 @@ Instant account activation after passing an evaluation is currently only availab
 
 
 Funded Account Starting Balance
-Your funded account starts at your base account size ($25K, $50K, $100K, or $150K) regardless of your evaluation ending balance.
+Your funded account starts at your base account size (\$25K, \$50K, \$100K, or \$150K) regardless of your evaluation ending balance.
 
 
 
-Example: If you end your evaluation at $53,200, your funded account will still start at $50,000 (your base account size).
+Example: If you end your evaluation at \$53,200, your funded account will still start at \$50,000 (your base account size).
 
 
 

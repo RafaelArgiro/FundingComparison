@@ -30,7 +30,7 @@ Trading commissions, activation fees, subscription billing, and important financ
 Chargeback Policy
 Filing a chargeback or payment dispute violates the Terms of Use: all accounts frozen without notice, permanent ban on purchases and new accounts, possible legal action. Contact support first to…
 Trading Commission Fees
-Futures commissions per contract round trip incl. exchange, NFA and clearing fees: ES and NQ $5.76, MES and MNQ $1.82, plus energy, metals and EUREX (priced in EUR). Trade 1…
+Futures commissions per contract round trip incl. exchange, NFA and clearing fees: ES and NQ \$5.76, MES and MNQ \$1.82, plus energy, metals and EUREX (priced in EUR). Trade 1…
 Are There Activation Fees?
 No activation fee on Growth Evaluation, Select Evaluation or Lightning Funded (one-time purchase). After passing an evaluation, activate your funded account yourself from the dashboard; it is not automatic.
 
@@ -54,11 +54,11 @@ Traders can have a maximum of 5 total Simulated Funded Accounts with any combina
 
 
 
-⚠️ Profit Goal vs. Payout Amount — please read this first: Your Profit Goal (for example, $9,000 for Payout 1 on a $150K account) is the profit you must earn to unlock a payout request. It is not the amount you can withdraw.
+⚠️ Profit Goal vs. Payout Amount — please read this first: Your Profit Goal (for example, \$9,000 for Payout 1 on a \$150K account) is the profit you must earn to unlock a payout request. It is not the amount you can withdraw.
 
 
 
-Every payout is also subject to a maximum payout cap based on your account size and payout number (see the Maximum Payout Per Request table further down). Even if you earn more than the cap, you can only withdraw up to the cap for that payout. For example, on a $150K account you reach the $9,000 Payout 1 Profit Goal but can withdraw at most $3,000 on Payout 1 — the rest of your profit stays in the account toward future payouts.
+Every payout is also subject to a maximum payout cap based on your account size and payout number (see the Maximum Payout Per Request table further down). Even if you earn more than the cap, you can only withdraw up to the cap for that payout. For example, on a \$150K account you reach the \$9,000 Payout 1 Profit Goal but can withdraw at most \$3,000 on Payout 1 — the rest of your profit stays in the account toward future payouts.
 
 
 
@@ -95,7 +95,7 @@ Payout Profit Goals: Payout Profit Goals are the profit you need to earn in betw
 
 
 Payout Profit Goal Table for Accounts purchased after September 12, 2025 at 8:00 AM ET:
-For accounts purchased after September 12, 2025 at 8:00 AM ET, the Payout 1 Profit Goal is $1,500 on a $25,000 account, $3,000 on a $50,000 account, $6,000 on a $100,000 account, and $9,000 on a $150,000 account. The Profit Goal for Payout 2 and every payout after it is $1,000 on a $25,000 account, $2,000 on a $50,000 account, $3,500 on a $100,000 account, and $4,500 on a $150,000 account.
+For accounts purchased after September 12, 2025 at 8:00 AM ET, the Payout 1 Profit Goal is \$1,500 on a \$25,000 account, \$3,000 on a \$50,000 account, \$6,000 on a \$100,000 account, and \$9,000 on a \$150,000 account. The Profit Goal for Payout 2 and every payout after it is \$1,000 on a \$25,000 account, \$2,000 on a \$50,000 account, \$3,500 on a \$100,000 account, and \$4,500 on a \$150,000 account.
 
 Account Size
 
@@ -103,29 +103,29 @@ Payout 1 Profit Goal
 
 Payout 2+ Profit Goal
 
-$25,000
+\$25,000
 
-$1,500
+\$1,500
 
-$1,000
+\$1,000
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$2,000
+\$2,000
 
-$100,000
+\$100,000
 
-$6,000
+\$6,000
 
-$3,500
+\$3,500
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
 
 
@@ -133,7 +133,7 @@ $4,500
 
 
 Payout Profit Goal Table for Accounts purchased before September 12, 2025 at 8:00 AM ET:
-For accounts purchased before September 12, 2025 at 8:00 AM ET, the Profit Goals are as follows. On a $25,000 account, the goal is $1,500 for Payout 1, $1,000 for Payout 2, and $1,000 for Payout 3 and later. On a $50,000 account, the goal is $3,000 for Payout 1, $2,000 for Payout 2, and $2,000 for Payout 3 and later. On a $100,000 account, the goal is $6,000 for Payout 1, $3,000 for Payout 2, and $2,500 for Payout 3 and later. On a $150,000 account, the goal is $9,000 for Payout 1, $4,500 for Payout 2, and $3,000 for Payout 3 and later.
+For accounts purchased before September 12, 2025 at 8:00 AM ET, the Profit Goals are as follows. On a \$25,000 account, the goal is \$1,500 for Payout 1, \$1,000 for Payout 2, and \$1,000 for Payout 3 and later. On a \$50,000 account, the goal is \$3,000 for Payout 1, \$2,000 for Payout 2, and \$2,000 for Payout 3 and later. On a \$100,000 account, the goal is \$6,000 for Payout 1, \$3,000 for Payout 2, and \$2,500 for Payout 3 and later. On a \$150,000 account, the goal is \$9,000 for Payout 1, \$4,500 for Payout 2, and \$3,000 for Payout 3 and later.
 
 Account Size
 
@@ -143,37 +143,37 @@ Payout 2 Profit Goal
 
 Payout 3 Profit Goal+
 
-$25,000
+\$25,000
 
-$1,500
+\$1,500
 
-$1,000
+\$1,000
 
-$1,000
+\$1,000
 
-$50,000
+\$50,000
 
-$3,000
+\$3,000
 
-$2,000
+\$2,000
 
-$2,000
+\$2,000
 
-$100,000
+\$100,000
 
-$6,000
+\$6,000
 
-$3,000
+\$3,000
 
-$2,500
+\$2,500
 
-$150,000
+\$150,000
 
-$9,000
+\$9,000
 
-$4,500
+\$4,500
 
-$3,000
+\$3,000
 
 
 
@@ -185,9 +185,9 @@ You will still be able to place trades after submitting a payout request. Howeve
 
 Payout Profit Goals reset after each payout and to achieve the next payout you move on to the next Payout Profit Goal.
 
-e.g. for a $150k account when you reach Payout 1 Profit Goal of $9k you can request a payout — but the most you can withdraw on Payout 1 is the $3,000 cap shown in the Maximum Payout Per Request table below; the rest of your profit stays in the account. You now must achieve Payout 2 Profit Goal of $4.5k to take your next payout. (see Payout Profit Goal Table)
+e.g. for a \$150k account when you reach Payout 1 Profit Goal of \$9k you can request a payout — but the most you can withdraw on Payout 1 is the \$3,000 cap shown in the Maximum Payout Per Request table below; the rest of your profit stays in the account. You now must achieve Payout 2 Profit Goal of \$4.5k to take your next payout. (see Payout Profit Goal Table)
 
-Example: You have a $150k Lightning account (post-Sep 12) and just received your first payout. Your balance is now $159k but your profit goal resets — you need $4,500 in new profit from new trades. Your consistency also resets, now at 25% for Payout 2. This means your highest single profitable day cannot exceed $1,125 ($4,500 × 25%). A safe approach is ~$1,125/day across 4 trading days.
+Example: You have a \$150k Lightning account (post-Sep 12) and just received your first payout. Your balance is now \$159k but your profit goal resets — you need \$4,500 in new profit from new trades. Your consistency also resets, now at 25% for Payout 2. This means your highest single profitable day cannot exceed \$1,125 (\$4,500 × 25%). A safe approach is ~\$1,125/day across 4 trading days.
 
 Profit is calculated and determined upon account reconciliation, which happens daily between approximately 5:00 P.M. and 6:00 P.M. ET.
 
@@ -211,13 +211,13 @@ Lightning Funded traders can now instantly request payouts directly from the das
 
 
 Maximum Payout Per Request (Payout Tiers)
-The minimum payout amount is $1,000.
+The minimum payout amount is \$1,000.
 
-The maximum payout is the most you can withdraw per payout request, based on your account size and payout number. These are hard caps — even if you have earned more profit (for example, the $9,000 Payout 1 Profit Goal on a $150K account), you can only withdraw up to the amount shown for that payout number; the remaining profit stays in your account for future payouts.
+The maximum payout is the most you can withdraw per payout request, based on your account size and payout number. These are hard caps — even if you have earned more profit (for example, the \$9,000 Payout 1 Profit Goal on a \$150K account), you can only withdraw up to the amount shown for that payout number; the remaining profit stays in your account for future payouts.
 
 
 
-The maximum payout per request on a $25K account is $1,000 for every payout. On a $50K account, it is $2,000 for Payouts 1, 2, and 3, and $2,500 for Payout 4 and later. On a $100K account, it is $2,500 for Payouts 1, 2, and 3, and $3,000 for Payout 4 and later. On a $150K account, it is $3,000 for Payouts 1, 2, and 3, and $3,500 for Payout 4 and later.
+The maximum payout per request on a \$25K account is \$1,000 for every payout. On a \$50K account, it is \$2,000 for Payouts 1, 2, and 3, and \$2,500 for Payout 4 and later. On a \$100K account, it is \$2,500 for Payouts 1, 2, and 3, and \$3,000 for Payout 4 and later. On a \$150K account, it is \$3,000 for Payouts 1, 2, and 3, and \$3,500 for Payout 4 and later.
 
 
 
@@ -225,60 +225,60 @@ See this table:
 
 Payout Number
 
-$25K Account
+\$25K Account
 
-$50K Account
+\$50K Account
 
-$100K Account
+\$100K Account
 
-$150K Account
+\$150K Account
 
 1
 
-$1,000
+\$1,000
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
 2
 
-$1,000
+\$1,000
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
 3
 
-$1,000
+\$1,000
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
 4+
 
-$1,000
+\$1,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
-$3,500
+\$3,500
 
 
 Payouts after the 4th remain capped at the same level as the 4th.
 
 
 
-$25K Account Note: For $25K Lightning accounts, the payout amount is fixed at $1,000 for all payouts (the minimum and maximum are both $1,000).
+\$25K Account Note: For \$25K Lightning accounts, the payout amount is fixed at \$1,000 for all payouts (the minimum and maximum are both \$1,000).
 
 
 
@@ -341,62 +341,62 @@ Consistency Rule: Abide by the 35% Consistency Rule (see: What is the Consistenc
 
 Minimum Trading Days: 5 or more of the Trading Days must show a profit greater than:
 
-$100 in profit for 25k accounts
+\$100 in profit for 25k accounts
 
-$150 in profit for 50k accounts
+\$150 in profit for 50k accounts
 
-$200 in profit for 100k accounts
+\$200 in profit for 100k accounts
 
-$250 in profit for 150k accounts
+\$250 in profit for 150k accounts
 
 The Trading Day count resets to zero after each successful payout.
 
 Account Balance Needed for Growth:
 
-To request a payout, your balance must reach at least $26,500 on a $25,000 account, $53,000 on a $50,000 account, $104,500 on a $100,000 account, or $156,500 on a $150,000 account.
+To request a payout, your balance must reach at least \$26,500 on a \$25,000 account, \$53,000 on a \$50,000 account, \$104,500 on a \$100,000 account, or \$156,500 on a \$150,000 account.
 
 ACCOUNT SIZE
 
 MIN BALANCE NEEDED
 
-$25,000
+\$25,000
 
-$26,500
+\$26,500
 
-$50,000
+\$50,000
 
-$53,000
+\$53,000
 
-$100,000
+\$100,000
 
-$104,500
+\$104,500
 
-$150,000
+\$150,000
 
-$156,500
+\$156,500
 
 
 
 
 Account Balance Needed for Growth purchased before September 12, 2025 at 8:00 AM ET:
 
-For Growth accounts purchased before September 12, 2025 at 8:00 AM ET, the minimum balance needed is $52,100 on a $50,000 account, $103,600 on a $100,000 account, and $155,100 on a $150,000 account.
+For Growth accounts purchased before September 12, 2025 at 8:00 AM ET, the minimum balance needed is \$52,100 on a \$50,000 account, \$103,600 on a \$100,000 account, and \$155,100 on a \$150,000 account.
 
 ACCOUNT SIZE
 
 MIN BALANCE NEEDED
 
-$50,000
+\$50,000
 
-$52,100
+\$52,100
 
-$100,000
+\$100,000
 
-$103,600
+\$103,600
 
-$150,000
+\$150,000
 
-$155,100
+\$155,100
 
 
 
@@ -417,19 +417,19 @@ Payout requests submitted outside of normal business hours (Mon-Fri, 8:00 a.m. -
 Maximum Payout Per Request (Payout Tiers)
 The minimum payout amounts are:
 
-$250 for $25k accounts
+\$250 for \$25k accounts
 
-$500 for $50k accounts
+\$500 for \$50k accounts
 
-$1,000 for $100k accounts
+\$1,000 for \$100k accounts
 
-$1,500 for $150k accounts
+\$1,500 for \$150k accounts
 
 The maximum payout is the most you can withdraw per payout request, based on your account size and payout number (see the table below). These are hard caps — even if your account balance is higher, you can only withdraw up to the amount shown for that payout number; the rest stays in your account for future payouts.
 
 
 
-The maximum payout per request on a $25k account is $1,000 for every payout. On a $50k account, it is $1,500 for Payout 1, $2,000 for Payout 2, $2,500 for Payout 3, and $3,000 for Payout 4 and later. On a $100k account, it is $2,000 for Payout 1, $2,500 for Payout 2, $3,000 for Payout 3, and $4,000 for Payout 4 and later. On a $150k account, it is $2,500 for Payout 1, $3,000 for Payout 2, $4,000 for Payout 3, and $5,000 for Payout 4 and later.
+The maximum payout per request on a \$25k account is \$1,000 for every payout. On a \$50k account, it is \$1,500 for Payout 1, \$2,000 for Payout 2, \$2,500 for Payout 3, and \$3,000 for Payout 4 and later. On a \$100k account, it is \$2,000 for Payout 1, \$2,500 for Payout 2, \$3,000 for Payout 3, and \$4,000 for Payout 4 and later. On a \$150k account, it is \$2,500 for Payout 1, \$3,000 for Payout 2, \$4,000 for Payout 3, and \$5,000 for Payout 4 and later.
 
 
 
@@ -437,53 +437,53 @@ See this table:
 
 Payout Number
 
-$25k Account
+\$25k Account
 
-$50k Account
+\$50k Account
 
-$100k Account
+\$100k Account
 
-$150k Account
+\$150k Account
 
 1
 
-$1,000
+\$1,000
 
-$1,500
+\$1,500
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
 2
 
-$1,000
+\$1,000
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
 3
 
-$1,000
+\$1,000
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
-$4,000
+\$4,000
 
 4+
 
-$1,000
+\$1,000
 
-$3,000
+\$3,000
 
-$4,000
+\$4,000
 
-$5,000
+\$5,000
 
 
 
@@ -491,96 +491,96 @@ $5,000
 
 
 Payout Tiers for Accounts Purchased before September 12, 2025 at 8:00 AM ET
-For accounts purchased before September 12, 2025 at 8:00 AM ET, the maximum payout per request is as follows. On a $50k account: $1,500 for Payout 1, $1,750 for Payout 2, $2,000 for Payout 3, $2,250 for Payout 4, $2,500 for Payout 5, and $3,000 for Payout 6. On a $100k account: $2,000 for Payout 1, $2,500 for Payout 2, $3,000 for Payout 3, $3,500 for Payout 4, $4,000 for Payout 5, and $5,000 for Payout 6. On a $150k account: $2,500 for Payout 1, $3,000 for Payout 2, $3,500 for Payout 3, $4,000 for Payout 4, $4,500 for Payout 5, and $5,500 for Payout 6.
+For accounts purchased before September 12, 2025 at 8:00 AM ET, the maximum payout per request is as follows. On a \$50k account: \$1,500 for Payout 1, \$1,750 for Payout 2, \$2,000 for Payout 3, \$2,250 for Payout 4, \$2,500 for Payout 5, and \$3,000 for Payout 6. On a \$100k account: \$2,000 for Payout 1, \$2,500 for Payout 2, \$3,000 for Payout 3, \$3,500 for Payout 4, \$4,000 for Payout 5, and \$5,000 for Payout 6. On a \$150k account: \$2,500 for Payout 1, \$3,000 for Payout 2, \$3,500 for Payout 3, \$4,000 for Payout 4, \$4,500 for Payout 5, and \$5,500 for Payout 6.
 
 Payout Number
 
-$50k Account
+\$50k Account
 
-$100k Account
+\$100k Account
 
-$150k Account
+\$150k Account
 
 1
 
-$1,500
+\$1,500
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
 2
 
-$1,750
+\$1,750
 
-$2,500
+\$2,500
 
-$3,000
+\$3,000
 
 3
 
-$2,000
+\$2,000
 
-$3,000
+\$3,000
 
-$3,500
+\$3,500
 
 4
 
-$2,250
+\$2,250
 
-$3,500
+\$3,500
 
-$4,000
+\$4,000
 
 5
 
-$2,500
+\$2,500
 
-$4,000
+\$4,000
 
-$4,500
+\$4,500
 
 6
 
-$3,000
+\$3,000
 
-$5,000
+\$5,000
 
-$5,500
+\$5,500
 
 
-Each subsequent payout after the 6th can be any amount up to $25,000 per account.
+Each subsequent payout after the 6th can be any amount up to \$25,000 per account.
 
 
 
 
 
 Scenarios
-If you have a Growth Sim Funded $50k account and the balance reaches the minimum required balance of $53,000 to request a payout, you can request up to a $1,500 payout.
+If you have a Growth Sim Funded \$50k account and the balance reaches the minimum required balance of \$53,000 to request a payout, you can request up to a \$1,500 payout.
 
 
 
-This leaves your remaining balance at $51,500.
+This leaves your remaining balance at \$51,500.
 
 
 
-Remember, in this example, your balance cannot go below $50,100 without "failing" the account. You ARE able to take out that amount, but you would leave yourself with $1,400 in drawdown room.
+Remember, in this example, your balance cannot go below \$50,100 without "failing" the account. You ARE able to take out that amount, but you would leave yourself with \$1,400 in drawdown room.
 
 
 
 
 
 Scenarios For Accounts Purchased before September 12, 2025 at 8:00 AM ET
-If you have a Growth Sim Funded $50k account and the balance reaches the minimum required balance of $52,100 to request a payout, you can request up to a $1,500 payout.
+If you have a Growth Sim Funded \$50k account and the balance reaches the minimum required balance of \$52,100 to request a payout, you can request up to a \$1,500 payout.
 
 
 
-This leaves your remaining balance at $50,600.
+This leaves your remaining balance at \$50,600.
 
 
 
-Remember, in this example, your balance cannot go below $50,100 without "failing" the account. You ARE able to take out that amount, but you would leave yourself with $500 in drawdown room.
+Remember, in this example, your balance cannot go below \$50,100 without "failing" the account. You ARE able to take out that amount, but you would leave yourself with \$500 in drawdown room.
 
 
 
@@ -660,13 +660,13 @@ Parameter
 
 Maximum Drawdown
 
-$1,000
+\$1,000
 
-$2,000
+\$2,000
 
-$3,000
+\$3,000
 
-$4,500
+\$4,500
 
 Drawdown Mode
 
@@ -734,48 +734,48 @@ Payout Frequency: Every 5 winning days
 
 Winning Day Threshold:
 
-25K Account: $100 minimum profit per day
+25K Account: \$100 minimum profit per day
 
-50K Account: $150 minimum profit per day
+50K Account: \$150 minimum profit per day
 
-100K Account: $200 minimum profit per day
+100K Account: \$200 minimum profit per day
 
-150K Account: $250 minimum profit per day
+150K Account: \$250 minimum profit per day
 
-300K Account: $750 minimum profit per day
+300K Account: \$750 minimum profit per day
 
 Payout Caps (This only applies to accounts purchased before Sep 1st, 2026):
-25K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $1,250 per payout
+25K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$1,250 per payout
 
-50K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $3,000 per payout
+50K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$3,000 per payout
 
-100K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $4,000 per payout
+100K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$4,000 per payout
 
-150K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $5,000 per payout
+150K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$5,000 per payout
 
-Select 300K (Flex): winning day threshold $750, payout cap up to 50% of your total profits capped at $10,000 per payout. Full parameters: 300K Select Account.
+Select 300K (Flex): winning day threshold \$750, payout cap up to 50% of your total profits capped at \$10,000 per payout. Full parameters: 300K Select Account.
 ​
 
 
 Accounts Purchased after September 1st, 2026 will have the following payout caps:
-25K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $1,250 per payout
+25K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$1,250 per payout
 
-50K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $2,500 per payout
+50K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$2,500 per payout
 
-100K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $3,500 per payout
+100K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$3,500 per payout
 
-150K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $4,500 per payout
+150K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$4,500 per payout
 
 
 
 Payout Caps for Select Accounts with the 50% Consistency Add-On
 Select accounts with the 50% Consistency add-on have lower Select Flex payout caps than the standard caps listed above. The 50% of total profits formula stays the same. Only the per-payout cap changes. (Select Daily Payout caps remain unchanged).
 
-50K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $2,000 per payout
+50K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$2,000 per payout
 
-100K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $3,000 per payout
+100K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$3,000 per payout
 
-150K Account: Up to 50% of your total profits (current balance minus starting balance), capped at $4,000 per payout
+150K Account: Up to 50% of your total profits (current balance minus starting balance), capped at \$4,000 per payout
 
 
 
@@ -786,17 +786,17 @@ Unlike other Tradeify programs, Select Flex has no minimum account balance requi
 
 First Payout Example (50K Account):
 
-You achieve 5 winning days with a balance of $52,500
+You achieve 5 winning days with a balance of \$52,500
 
-Since your EOD balance exceeded $52,100, your drawdown has already locked at $50,100
+Since your EOD balance exceeded \$52,100, your drawdown has already locked at \$50,100
 
-You're eligible to withdraw 50% of your profits ($1,250)
+You're eligible to withdraw 50% of your profits (\$1,250)
 
-You request and receive a $1,250 payout
+You request and receive a \$1,250 payout
 
-Your balance after payout: $51,250
+Your balance after payout: \$51,250
 
-Note: Your drawdown locks at $100 above your starting balance (e.g., $50,100 for a 50K account). This happens either automatically at EOD when your balance reaches $52,100 (for 50K), or immediately when you request a payout—whichever comes first.
+Note: Your drawdown locks at \$100 above your starting balance (e.g., \$50,100 for a 50K account). This happens either automatically at EOD when your balance reaches \$52,100 (for 50K), or immediately when you request a payout—whichever comes first.
 
 
 
@@ -809,19 +809,19 @@ For all payouts after your first, you must have positive net profit during each 
 
 Second Payout Example (50K Account):
 
-Starting balance: $50,000
+Starting balance: \$50,000
 
-After first cycle: Balance reached $52,500 (profit: $2,500)
+After first cycle: Balance reached \$52,500 (profit: \$2,500)
 
-First payout: 50% of $2,500 = $1,250 withdrawn
+First payout: 50% of \$2,500 = \$1,250 withdrawn
 
-Balance after first payout: $51,250
+Balance after first payout: \$51,250
 
-After second cycle: Balance reached $54,000
+After second cycle: Balance reached \$54,000
 
-Total profits now: $54,000 - $50,000 = $4,000
+Total profits now: \$54,000 - \$50,000 = \$4,000
 
-Second payout eligibility: 50% of $4,000 = $2,000
+Second payout eligibility: 50% of \$4,000 = \$2,000
 
 Key point: The 50% is calculated from your TOTAL profit position (current balance minus starting balance), not just the profit made during the current cycle.
 
@@ -879,13 +879,13 @@ Parameter
 
 Maximum Drawdown
 
-$1,000
+\$1,000
 
-$2,000
+\$2,000
 
-$2,500
+\$2,500
 
-$3,500
+\$3,500
 
 Drawdown Mode
 
@@ -899,13 +899,13 @@ End of Day
 
 Daily Loss Limit
 
-$500
+\$500
 
-$1,000
+\$1,000
 
-$1,250
+\$1,250
 
-$1,750
+\$1,750
 
 Consistency Rule
 
@@ -945,15 +945,15 @@ Max Contracts (Scaled)
 Buffer System
 The Daily Payout Policy uses a buffer amount that must be exceeded before you can request payouts:
 
-25K Account: $1,100 buffer
+25K Account: \$1,100 buffer
 
-50K Account: $2,100 buffer
+50K Account: \$2,100 buffer
 
-100K Account: $2,600 buffer
+100K Account: \$2,600 buffer
 
-150K Account: $3,600 buffer
+150K Account: \$3,600 buffer
 
-Select 300K: $6,100 buffer on V2 (balance of $306,100); $5,100 on V1 (balance of $305,100).
+Select 300K: \$6,100 buffer on V2 (balance of \$306,100); \$5,100 on V1 (balance of \$305,100).
 
 You cannot withdraw profits that would bring your account balance below the buffer amount. Profits above the buffer are eligible for withdrawal, up to the payout cap.
 
@@ -982,68 +982,68 @@ To be eligible for a payout on any day:
 Accounts purchased Before Sep 1st, 2026:
 They may request up to 2× the profit earned between each payout request, capped at:
 
-$600 for a 25K account
+\$600 for a 25K account
 
-$1,000 for a 50K account
+\$1,000 for a 50K account
 
-$1,500 for a 100K account
+\$1,500 for a 100K account
 
-$2,500 for a 150K account
+\$2,500 for a 150K account
 ​
 
 Accounts purchased After Sep 1st, 2026:
 They may request up to 2× the profit earned between each payout request, capped at:
 
-$600 for a 25K account
+\$600 for a 25K account
 
-$1,250 for a 50K account
+\$1,250 for a 50K account
 
-$1,750 for a 100K account
+\$1,750 for a 100K account
 
-$2,500 for a 150K account
+\$2,500 for a 150K account
 ​
 
-Select 300K (Daily) works differently: the cap is $4,000 per day on V2 ($3,500 on V1), and 50% of each payout must come from new profit earned since your last payout. The 2× multiplier and the per-size caps above do not apply to the 300K — see 300K Select Account.
+Select 300K (Daily) works differently: the cap is \$4,000 per day on V2 (\$3,500 on V1), and 50% of each payout must come from new profit earned since your last payout. The 2× multiplier and the per-size caps above do not apply to the 300K — see 300K Select Account.
 
 This cap resets after each payout cycle.
 
 
 
-Minimum payout: $250
+Minimum payout: \$250
 
 
 
 Example
-A trader with a 50K account has a balance of $53,500 and earned $250 in profit since their last payout.
+A trader with a 50K account has a balance of \$53,500 and earned \$250 in profit since their last payout.
 
-2 × $250 = $500
+2 × \$250 = \$500
 
-The trader is able to request a payout of up to $500 as the trader is more than $500 above the buffer.
+The trader is able to request a payout of up to \$500 as the trader is more than \$500 above the buffer.
 
-After payout approved the balance is set to $53,000
+After payout approved the balance is set to \$53,000
 
-If instead the trader had earned $700:
+If instead the trader had earned \$700:
 
-2 × $700 = $1,400
+2 × \$700 = \$1,400
 
-But the cap for a 50K account is $1,000
-​(if account is purchased before Sep 1st,2026 then the cap is $1,000 but if purchased after the cap is $1,250)
+But the cap for a 50K account is \$1,000
+​(if account is purchased before Sep 1st,2026 then the cap is \$1,000 but if purchased after the cap is \$1,250)
 
-So the trader could request up to $1,000 OR $1,250 (depending on when the account was purchased) as the trader is more than $1,000 above the buffer.
+So the trader could request up to \$1,000 OR \$1,250 (depending on when the account was purchased) as the trader is more than \$1,000 above the buffer.
 
-After payout approved the balance is set to $52,500
+After payout approved the balance is set to \$52,500
 
 After the payout is completed, profit resets to zero and the next cycle begins.
 
 
 
-If instead the trader had earned only $100:
+If instead the trader had earned only \$100:
 
-2 × $100 = $200
+2 × \$100 = \$200
 
-But the minimum payout is $250
+But the minimum payout is \$250
 
-Not eligible yet — the trader needs at least $125 in profit to request the minimum $250 payout
+Not eligible yet — the trader needs at least \$125 in profit to request the minimum \$250 payout
 
 
 
@@ -1124,7 +1124,7 @@ Starting Max Contracts
 
 3 minis / 30 micros
 
-Scaling Trigger 1 ($1,500 Equity)
+Scaling Trigger 1 (\$1,500 Equity)
 
 2 minis / 20 micros
 
@@ -1134,7 +1134,7 @@ Scaling Trigger 1 ($1,500 Equity)
 
 4 minis / 40 micros
 
-Scaling Trigger 2 ($2,000 Equity)
+Scaling Trigger 2 (\$2,000 Equity)
 
 —
 
@@ -1144,7 +1144,7 @@ Scaling Trigger 2 ($2,000 Equity)
 
 5 minis / 50 micros
 
-Scaling Trigger 3 ($3,000 Equity)
+Scaling Trigger 3 (\$3,000 Equity)
 
 —
 
@@ -1154,7 +1154,7 @@ Scaling Trigger 3 ($3,000 Equity)
 
 8 minis / 80 micros
 
-Scaling Trigger 4 ($4,500 Equity)
+Scaling Trigger 4 (\$4,500 Equity)
 
 —
 
@@ -1187,31 +1187,31 @@ Scaling Examples
 
 Start trading with 2 minis / 20 micros
 
-Reach $51,500 EOD balance ($1,500 profit) → Next day limits increase to 3 minis / 30 micros
+Reach \$51,500 EOD balance (\$1,500 profit) → Next day limits increase to 3 minis / 30 micros
 
-Reach $52,000 EOD balance ($2,000 profit) → Next day limits increase to 4 minis / 40 micros (maximum)
+Reach \$52,000 EOD balance (\$2,000 profit) → Next day limits increase to 4 minis / 40 micros (maximum)
 
 100K Account:
 
 Start trading with 3 minis / 30 micros
 
-Reach $101,500 EOD balance ($1,500 profit) → Next day limits increase to 4 minis / 40 micros
+Reach \$101,500 EOD balance (\$1,500 profit) → Next day limits increase to 4 minis / 40 micros
 
-Reach $102,000 EOD balance ($2,000 profit) → Next day limits increase to 5 minis / 50 micros
+Reach \$102,000 EOD balance (\$2,000 profit) → Next day limits increase to 5 minis / 50 micros
 
-Reach $103,000 EOD balance ($3,000 profit) → Next day limits increase to 8 minis / 80 micros (maximum)
+Reach \$103,000 EOD balance (\$3,000 profit) → Next day limits increase to 8 minis / 80 micros (maximum)
 
 150K Account:
 
 Start trading with 3 minis / 30 micros
 
-Reach $151,500 EOD balance ($1,500 profit) → Next day limits increase to 4 minis / 40 micros
+Reach \$151,500 EOD balance (\$1,500 profit) → Next day limits increase to 4 minis / 40 micros
 
-Reach $152,000 EOD balance ($2,000 profit) → Next day limits increase to 5 minis / 50 micros
+Reach \$152,000 EOD balance (\$2,000 profit) → Next day limits increase to 5 minis / 50 micros
 
-Reach $153,000 EOD balance ($3,000 profit) → Next day limits increase to 8 minis / 80 micros
+Reach \$153,000 EOD balance (\$3,000 profit) → Next day limits increase to 8 minis / 80 micros
 
-Reach $154,500 EOD balance ($4,500 profit) → Next day limits increase to 12 minis / 120 micros (maximum)
+Reach \$154,500 EOD balance (\$4,500 profit) → Next day limits increase to 12 minis / 120 micros (maximum)
 
 
 
@@ -1231,33 +1231,33 @@ Daily Policy
 
 25K Drawdown
 
-$1,000
+\$1,000
 
-$1,000
+\$1,000
 
 50K Drawdown
 
-$2,000
+\$2,000
 
-$2,000
+\$2,000
 
 100K Drawdown
 
-$3,000
+\$3,000
 
-$2,500
+\$2,500
 
 150K Drawdown
 
-$4,500
+\$4,500
 
-$3,500
+\$3,500
 
 Daily Loss Limit
 
 None
 
-Yes ($500 / $1,000 / $1,250 / $1,750)
+Yes (\$500 / \$1,000 / \$1,250 / \$1,750)
 
 Consistency Rule
 
@@ -1285,27 +1285,27 @@ Daily eligibility
 
 25K Cap
 
-$1,250
+\$1,250
 
-$600
+\$600
 
 50K Cap
 
-$3,000
+\$3,000
 
-$1,000
+\$1,000
 
 100K Cap
 
-$4,000
+\$4,000
 
-$1,500
+\$1,500
 
 150K Cap
 
-$5,000
+\$5,000
 
-$2,500
+\$2,500
 
 Processing
 
@@ -1337,27 +1337,27 @@ Daily eligibility
 
 25K Cap
 
-$1,250
+\$1,250
 
-$600
+\$600
 
 50K Cap
 
-$2,500
+\$2,500
 
-$1,250
+\$1,250
 
 100K Cap
 
-$3,500
+\$3,500
 
-$1,750
+\$1,750
 
 150K Cap
 
-$4,500
+\$4,500
 
-$2,500
+\$2,500
 
 Processing
 
@@ -1391,7 +1391,7 @@ Buffer System
 
 No
 
-Yes ($1,100 / $2,100 / $2,600 / $3,600)
+Yes (\$1,100 / \$2,100 / \$2,600 / \$3,600)
 
 Daily Continuity Rule
 
@@ -1401,9 +1401,9 @@ Yes (2× profit multiplier)
 
 Minimum Payout
 
-$250
+\$250
 
-$250
+\$250
 
 Loss Recovery Required
 
@@ -1550,7 +1550,7 @@ A: No, the buffer amounts are fixed for each account size under the Daily Payout
 
 Q: How does the Daily Continuity Rule work?
 
-A: You must have profit greater than $0 since your last payout. You may then request up to 2× the profit earned since your last payout, capped at $600/$1,250/$1,750/$2,500 depending on account size ($600/$1,000/$1,500/$2,500 for accounts bought before September 1, 2026) — and your remaining balance must stay above the buffer (you cannot request a payout that would take your account into the buffer). For example, if you earned $250 in profit, you could request up to $500, as long as that keeps your balance above the buffer. If you earned $700, you can request up to $1,250 on a 50K account bought on or after September 1, 2026 ($1,000 if bought before), since that's the cap. Minimum payout is $250. This applies to the 25K to 150K sizes. The Select 300K uses a $4,000 daily cap on V2 ($3,500 on V1) with a 50% new-profit requirement instead — see 300K Select Account.
+A: You must have profit greater than \$0 since your last payout. You may then request up to 2× the profit earned since your last payout, capped at \$600/\$1,250/\$1,750/\$2,500 depending on account size (\$600/\$1,000/\$1,500/\$2,500 for accounts bought before September 1, 2026) — and your remaining balance must stay above the buffer (you cannot request a payout that would take your account into the buffer). For example, if you earned \$250 in profit, you could request up to \$500, as long as that keeps your balance above the buffer. If you earned \$700, you can request up to \$1,250 on a 50K account bought on or after September 1, 2026 (\$1,000 if bought before), since that's the cap. Minimum payout is \$250. This applies to the 25K to 150K sizes. The Select 300K uses a \$4,000 daily cap on V2 (\$3,500 on V1) with a 50% new-profit requirement instead — see 300K Select Account.
 
 
 
@@ -1568,7 +1568,7 @@ A: No. Only one payout request can be open on an account at a time, on both Sele
 
 Q: If I lose money after a payout, do I have to earn it all back before I can request another payout?
 
-A: Yes, on both Select Flex and Select Daily. After each payout, your profit tracking resets to zero for the new payout cycle. If you lose money, your cycle profit goes negative. You must trade back to net positive for the current cycle before you are eligible for another payout request. This is true even if your overall account balance is still above the buffer. Example: If you take a payout and then lose $2,000 over the next few days, you need to earn back that $2,000 plus at least $1 more in profit before you can request your next payout — regardless of which payout policy you chose.
+A: Yes, on both Select Flex and Select Daily. After each payout, your profit tracking resets to zero for the new payout cycle. If you lose money, your cycle profit goes negative. You must trade back to net positive for the current cycle before you are eligible for another payout request. This is true even if your overall account balance is still above the buffer. Example: If you take a payout and then lose \$2,000 over the next few days, you need to earn back that \$2,000 plus at least \$1 more in profit before you can request your next payout — regardless of which payout policy you chose.
 
 
 
@@ -1580,25 +1580,25 @@ A: No. Both policies require positive net profit during each payout cycle. The d
 
 Q: After my first payout, is the 50% calculated from just the current cycle's profit or my total profits?
 
-A: The 50% is calculated from your total profits (current balance minus starting balance), not just the profits from the current cycle. For example, if your starting balance was $50,000 and you're now at $54,000, your total profit is $4,000, so you're eligible to withdraw up to $2,000 (50% of $4,000), assuming you've met the 5 winning days requirement for this cycle.
+A: The 50% is calculated from your total profits (current balance minus starting balance), not just the profits from the current cycle. For example, if your starting balance was \$50,000 and you're now at \$54,000, your total profit is \$4,000, so you're eligible to withdraw up to \$2,000 (50% of \$4,000), assuming you've met the 5 winning days requirement for this cycle.
 
 
 
 Q: What happens to my drawdown after my first payout?
 
-A: Your maximum trailing drawdown locks when your End of Day balance exceeds your drawdown amount by $100. Once locked, the drawdown limit becomes a fixed floor at $100 above your starting balance and never moves up again. This applies to both Select Flex and Select Daily policies.
+A: Your maximum trailing drawdown locks when your End of Day balance exceeds your drawdown amount by \$100. Once locked, the drawdown limit becomes a fixed floor at \$100 above your starting balance and never moves up again. This applies to both Select Flex and Select Daily policies.
 
 
 
 Lock trigger balances (EOD):
 
-25K Account: $26,100 (Flex) / $26,100 (Daily) → Locks at $25,100
+25K Account: \$26,100 (Flex) / \$26,100 (Daily) → Locks at \$25,100
 
-50K Account: $52,100 (Flex) / $52,100 (Daily) → Locks at $50,100
+50K Account: \$52,100 (Flex) / \$52,100 (Daily) → Locks at \$50,100
 
-100K Account: $103,100 (Flex) / $102,600 (Daily) → Locks at $100,100
+100K Account: \$103,100 (Flex) / \$102,600 (Daily) → Locks at \$100,100
 
-150K Account: $154,600 (Flex) / $153,600 (Daily) → Locks at $150,100
+150K Account: \$154,600 (Flex) / \$153,600 (Daily) → Locks at \$150,100
 
 
 
@@ -1836,7 +1836,7 @@ Option 1: Password (Recommended)
 
 18-42 characters
 
-Include special character (!@#$%^&*_+)
+Include special character (!@#\$%^&*_+)
 
 Include at least one number
 
@@ -2106,7 +2106,7 @@ https://help.tradeify.co/en/articles/10468315-trading-commission-fees
 
 
 Trading Commission Fees
-Futures commissions per contract round trip incl. exchange, NFA and clearing fees: ES and NQ $5.76, MES and MNQ $1.82, plus energy, metals and EUREX (priced in EUR). Trade 1 mini instead of 10 micros to save fees.
+Futures commissions per contract round trip incl. exchange, NFA and clearing fees: ES and NQ \$5.76, MES and MNQ \$1.82, plus energy, metals and EUREX (priced in EUR). Trade 1 mini instead of 10 micros to save fees.
 
 Updated over 3 weeks ago
 Find out the trading commissions and fees per instruments.
@@ -2132,13 +2132,13 @@ Exchange
 
 Total Round Trip Cost
 
-E-Mini Dow ($5)
+E-Mini Dow (\$5)
 
 YM
 
 CBOT
 
-$5.76
+\$5.76
 
 E-Mini S&P 500
 
@@ -2146,7 +2146,7 @@ ES
 
 CME
 
-$5.76
+\$5.76
 
 E-Mini NASDAQ
 
@@ -2154,7 +2154,7 @@ NQ
 
 CME
 
-$5.76
+\$5.76
 
 E-Mini Russell
 
@@ -2162,7 +2162,7 @@ RTY
 
 CME
 
-$5.76
+\$5.76
 
 E-Mini S&P Midcap 400
 
@@ -2170,7 +2170,7 @@ EMD
 
 CME
 
-$5.66
+\$5.66
 
 Nikkei 225 (USD)
 
@@ -2200,7 +2200,7 @@ FDAX
 
 EUREX
 
-$5.94 (EUR)
+\$5.94 (EUR)
 
 Mini-DAX
 
@@ -2208,7 +2208,7 @@ FDXM
 
 EUREX
 
-$3.72 (EUR)
+\$3.72 (EUR)
 
 Euro Stoxx 50
 
@@ -2216,7 +2216,7 @@ FESX
 
 EUREX
 
-$4.12 (EUR)
+\$4.12 (EUR)
 
 VSTOXX
 
@@ -2240,7 +2240,7 @@ FDXS
 
 EUREX
 
-$1.42 (EUR)
+\$1.42 (EUR)
 
 Micro Euro Stoxx 50
 
@@ -2248,7 +2248,7 @@ FSXE
 
 EUREX
 
-$1.34 (EUR)
+\$1.34 (EUR)
 
 
 
@@ -2278,7 +2278,7 @@ FGBS
 
 EUREX
 
-$7.70 (EUR)
+\$7.70 (EUR)
 
 Euro-Bobl
 
@@ -2286,7 +2286,7 @@ FGBM
 
 EUREX
 
-$5.70 (EUR)
+\$5.70 (EUR)
 
 Euro-Bund
 
@@ -2294,7 +2294,7 @@ FGBL
 
 EUREX
 
-$3.70 (EUR)
+\$3.70 (EUR)
 
 
 
@@ -2316,7 +2316,7 @@ Australian Dollar
 
 CME
 
-$6.20
+\$6.20
 
 British Pound
 
@@ -2324,7 +2324,7 @@ British Pound
 
 CME
 
-$6.20
+\$6.20
 
 Japanese Yen
 
@@ -2332,7 +2332,7 @@ Japanese Yen
 
 CME
 
-$6.20
+\$6.20
 
 Canadian Dollar
 
@@ -2340,7 +2340,7 @@ Canadian Dollar
 
 CME
 
-$6.20
+\$6.20
 
 Swiss Franc
 
@@ -2348,7 +2348,7 @@ Swiss Franc
 
 CME
 
-$10.20
+\$10.20
 
 Euro FX
 
@@ -2356,7 +2356,7 @@ Euro FX
 
 CME
 
-$6.20
+\$6.20
 
 
 
@@ -2378,7 +2378,7 @@ HE
 
 CME
 
-$9.20
+\$9.20
 
 Live Cattle
 
@@ -2386,7 +2386,7 @@ LE
 
 CME
 
-$11.20
+\$11.20
 
 Feeder Cattle
 
@@ -2394,7 +2394,7 @@ GF
 
 CME
 
-$7.20
+\$7.20
 
 Soybeans
 
@@ -2402,7 +2402,7 @@ ZS
 
 CBOT
 
-$15.20
+\$15.20
 
 Soybean Oil
 
@@ -2410,7 +2410,7 @@ ZL
 
 CBOT
 
-$7.20
+\$7.20
 
 Corn
 
@@ -2418,7 +2418,7 @@ ZC
 
 CBOT
 
-$7.20
+\$7.20
 
 Wheat
 
@@ -2426,7 +2426,7 @@ ZW
 
 CBOT
 
-$17.20
+\$17.20
 
 Soybean Meal
 
@@ -2434,7 +2434,7 @@ ZM
 
 CBOT
 
-$9.20
+\$9.20
 
 
 
@@ -2456,7 +2456,7 @@ CL
 
 NYMEX
 
-$5.98
+\$5.98
 
 Natural Gas
 
@@ -2464,7 +2464,7 @@ NG
 
 NYMEX
 
-$6.20
+\$6.20
 
 E-Mini Crude Oil
 
@@ -2472,7 +2472,7 @@ QM
 
 NYMEX
 
-$5.40
+\$5.40
 
 E-Mini Natural Gas
 
@@ -2480,7 +2480,7 @@ QG
 
 NYMEX
 
-$4.00
+\$4.00
 
 
 
@@ -2502,7 +2502,7 @@ GC
 
 COMEX
 
-$6.20
+\$6.20
 
 Copper
 
@@ -2510,7 +2510,7 @@ HG
 
 COMEX
 
-$6.20
+\$6.20
 
 Silver
 
@@ -2518,7 +2518,7 @@ SI
 
 COMEX
 
-$6.20
+\$6.20
 
 E-Mini Gold
 
@@ -2526,7 +2526,7 @@ QO
 
 COMEX
 
-$5.00
+\$5.00
 
 Platinum
 
@@ -2564,7 +2564,7 @@ MYM
 
 CBOT
 
-$1.82
+\$1.82
 
 Micro E-Mini S&P 500
 
@@ -2572,7 +2572,7 @@ MES
 
 CME
 
-$1.82
+\$1.82
 
 Micro E-Mini NASDAQ
 
@@ -2580,7 +2580,7 @@ MNQ
 
 CME
 
-$1.82
+\$1.82
 
 Micro E-Mini Russell
 
@@ -2588,7 +2588,7 @@ M2K
 
 CME
 
-$1.82
+\$1.82
 
 E-Micro Gold
 
@@ -2596,7 +2596,7 @@ MGC
 
 COMEX
 
-$2.12
+\$2.12
 
 Micro Crude Oil
 
@@ -2604,7 +2604,7 @@ MCL
 
 NYMEX
 
-$2.12
+\$2.12
 
 E-Micro Australian Dollar
 
@@ -2612,7 +2612,7 @@ M6A
 
 CME
 
-$1.60
+\$1.60
 
 E-Micro Euro
 
@@ -2620,7 +2620,7 @@ M6E
 
 CME
 
-$1.60
+\$1.60
 
 
 
@@ -2638,7 +2638,7 @@ Fees are subject to change based on exchange updates
 
 
 
-IMPORTANT NOTE FOR TRADING MICROS: If you're trading micro contracts in multiples of 10, you should trade the corresponding mini contract instead to save on fees. For example, trading 10 MES contracts costs $18.20 per round trip, while 1 ES contract costs only $5.76 - a savings of $12.44 per trade. Micro contracts are best suited for less frequent trading at much smaller position sizes, not for scaling up to mini-equivalent sizes.
+IMPORTANT NOTE FOR TRADING MICROS: If you're trading micro contracts in multiples of 10, you should trade the corresponding mini contract instead to save on fees. For example, trading 10 MES contracts costs \$18.20 per round trip, while 1 ES contract costs only \$5.76 - a savings of \$12.44 per trade. Micro contracts are best suited for less frequent trading at much smaller position sizes, not for scaling up to mini-equivalent sizes.
 
 
 

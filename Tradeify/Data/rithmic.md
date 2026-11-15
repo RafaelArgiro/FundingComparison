@@ -1231,7 +1231,7 @@ A Tradeify account purchased with Rithmic as your broker. Sierra Chart connects 
 
 Your Rithmic credentials. Find your Rithmic username and password in your Tradeify dashboard under your account details.
 
-A Sierra Chart subscription (Package 10 or higher). Sierra Chart requires a paid "Integrated" subscription to connect to Rithmic. Package 10 ("Integrated Standard") is the minimum at $36/month ($23.40/month with prepaid annual). Packages 3 and 5 do NOT support external data feeds like Rithmic. Subscribe at sierrachart.com.
+A Sierra Chart subscription (Package 10 or higher). Sierra Chart requires a paid "Integrated" subscription to connect to Rithmic. Package 10 ("Integrated Standard") is the minimum at \$36/month (\$23.40/month with prepaid annual). Packages 3 and 5 do NOT support external data feeds like Rithmic. Subscribe at sierrachart.com.
 
 A Windows computer. Sierra Chart is a Windows desktop application. Mac and Linux users can run it via a virtual machine or compatibility layer (e.g., Parallels, Wine), but this is not officially supported by Sierra Chart.
 
@@ -1376,7 +1376,7 @@ Sierra Chart offers an optional alternative market data source called the Denali
 
 
 
-Denali is a separate paid add-on ($6–$40.50/month depending on the exchanges you subscribe to) and has its own CME non-professional rate requirements. It is primarily designed for traders with personal live funded brokerage accounts.
+Denali is a separate paid add-on (\$6–\$40.50/month depending on the exchanges you subscribe to) and has its own CME non-professional rate requirements. It is primarily designed for traders with personal live funded brokerage accounts.
 
 
 

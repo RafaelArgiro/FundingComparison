@@ -122,7 +122,7 @@ Never select "Live" for Tradeify accounts
 
 
 Critical Data Agreement Step
-When logging in for the first time, make sure you sign the "NON-PROFESSIONAL Agreement. Otherwise, you will not receive real-time data and can potentially incur a $300 per month data fee.
+When logging in for the first time, make sure you sign the "NON-PROFESSIONAL Agreement. Otherwise, you will not receive real-time data and can potentially incur a \$300 per month data fee.
 
 
 
@@ -963,7 +963,7 @@ The following settings are available in the ATM Settings window:
 
 ATM Name: Click the + button to give your strategy a custom name, or select an existing strategy from the dropdown
 
-Show In: Setup your ATM Strategy using Ticks, Delta Price, or $Value
+Show In: Setup your ATM Strategy using Ticks, Delta Price, or \$Value
 
 Type: Create an ATM Strategy with both a Stop Loss and Profit Target, a Stop Loss only, or a Profit Target only
 
@@ -1295,7 +1295,7 @@ Each setting can be toggled on or off individually. After enabling a setting, en
 Important Notes About Risk Settings
 Risk Settings work on Tradeify evaluation and Sim Funded accounts, as well as Tradovate live and demo accounts. Settings you choose are your own limits and do not replace Tradeify's account rules.
 
-Saving a Risk Setting to $0 will result in position liquidation and the cancellation of open orders. If this occurs by mistake, you can either disable the setting or adjust it to a value greater than zero.
+Saving a Risk Setting to \$0 will result in position liquidation and the cancellation of open orders. If this occurs by mistake, you can either disable the setting or adjust it to a value greater than zero.
 
 Customized Risk Settings do not override brokerage margin rules. If a Loss Limit exceeds the margin requirement to maintain a position, the Margin Policy will take precedence.
 
@@ -1637,7 +1637,7 @@ Add the Dis Drawdown Net Liq to the right side of the visible fields.
 
 
 
-You will now see the distance to failing your account. In this example below if I lose $163 at anytime during the day, I will fail my account.
+You will now see the distance to failing your account. In this example below if I lose \$163 at anytime during the day, I will fail my account.
 
 
 

@@ -532,13 +532,13 @@ Frequently Asked Questions
 
 Q: Do I need a paid TradingView subscription for real-time market data?
 
-A: Free TradingView accounts receive data updates approximately every 5 seconds (near-real-time). For true real-time data with instant updates, you need any paid TradingView subscription. TradingView's Essential plan starts at $12.95/month. Note: The Tradovate integration itself is free - the TradingView subscription only affects chart data update speed.
+A: Free TradingView accounts receive data updates approximately every 5 seconds (near-real-time). For true real-time data with instant updates, you need any paid TradingView subscription. TradingView's Essential plan starts at \$12.95/month. Note: The Tradovate integration itself is free - the TradingView subscription only affects chart data update speed.
 
 
 
 Q: What's the difference between free and paid TradingView for trading?
 
-A: Free TradingView provides data updates every ~5 seconds, limited indicators, and fewer features. Paid TradingView (Essential $12.95/mo and up) provides true real-time data, more indicators, and multiple charts. For scalping or fast-moving markets, paid subscriptions are recommended. For longer holds, free may be sufficient.
+A: Free TradingView provides data updates every ~5 seconds, limited indicators, and fewer features. Paid TradingView (Essential \$12.95/mo and up) provides true real-time data, more indicators, and multiple charts. For scalping or fast-moving markets, paid subscriptions are recommended. For longer holds, free may be sufficient.
 
 ---
 
@@ -1205,7 +1205,7 @@ Most Common Problems and Quick Fixes
 
 
 1. "I Accidentally Cancelled My Data Subscription"
-What happened: You saw a $12/month "Real-Time Data" charge in Tradovate subscriptions and cancelled it
+What happened: You saw a \$12/month "Real-Time Data" charge in Tradovate subscriptions and cancelled it
 
 
 

@@ -8,7 +8,7 @@ First Steps
 Everything you need to begin your Tradeify journey - from understanding our platform to placing your first trade.
 
 Welcome to Tradeify
-Tradeify intro: Select and Growth Evaluations or Lightning Funded, one-time purchase, Tradovate, Rithmic or WealthCharts brokers, 90% profit split, $25K-$300K sizes. Founder and CEO Brett Simberkoff.
+Tradeify intro: Select and Growth Evaluations or Lightning Funded, one-time purchase, Tradovate, Rithmic or WealthCharts brokers, 90% profit split, \$25K-\$300K sizes. Founder and CEO Brett Simberkoff.
 Which Plan is Right for You?
 Compare Select Evaluation vs Growth Evaluation vs Lightning Funded: prices, End of Day trailing drawdown, daily loss limit, 40% consistency, profit targets, resets, funded in 1 or 3 days, Flex…
 What is a Simulated Funded Account?
@@ -23,7 +23,7 @@ General FAQ
 Frequently Asked Questions
 
 Common FAQs
-Common Tradeify Futures questions: payouts, profit split, KYC, receipts and invoices, refunds, promo and discount codes not applied, card declined, payment failed, $1 authorization hold, scalping.
+Common Tradeify Futures questions: payouts, profit split, KYC, receipts and invoices, refunds, promo and discount codes not applied, card declined, payment failed, \$1 authorization hold, scalping.
 What is a Trading Day?
 A trading day (market session) runs 6:00 PM to 5:00 PM ET, so trades at 10 AM and 7 PM count as two days. Payouts need the 10-second rule. Rithmic…
 How Many Simulated Funded Accounts Can I Have at Once?
@@ -44,7 +44,7 @@ Tradeify Help Center
 
 
 Welcome to Tradeify
-Tradeify intro: Select and Growth Evaluations or Lightning Funded, one-time purchase, Tradovate, Rithmic or WealthCharts brokers, 90% profit split, $25K-$300K sizes. Founder and CEO Brett Simberkoff.
+Tradeify intro: Select and Growth Evaluations or Lightning Funded, one-time purchase, Tradovate, Rithmic or WealthCharts brokers, 90% profit split, \$25K-\$300K sizes. Founder and CEO Brett Simberkoff.
 
 Updated over a week ago
 Welcome to Tradeify, where we turn talented traders into funded professionals. Whether you're new to funded trading or experienced with other firms, this guide will help you understand our platform and get started on your journey to consistent profitability.
@@ -94,7 +94,7 @@ Lightning Funded Accounts
 
 Skip evaluation, start earning immediately
 
-One-time payment: $345-$796
+One-time payment: \$345-\$796
 
 No monthly fees, no resets available
 
@@ -182,11 +182,11 @@ Active Discord community, comprehensive help center, and dedicated support team 
 
 
 Account Sizes Available
-Evaluation Accounts: $25k, $50k, $100k, $150k (Growth & Select), plus $300k (Select)
+Evaluation Accounts: \$25k, \$50k, \$100k, \$150k (Growth & Select), plus \$300k (Select)
 
 
 
-Lightning Funded: $25k, $50k, $100k, $150k
+Lightning Funded: \$25k, \$50k, \$100k, \$150k
 
 
 
@@ -266,7 +266,7 @@ Best for: Traders who want a unified evaluation process with flexible funded acc
 
 Pricing & Costs:
 
-One-time purchase: $109 - $369, or $570 for the 300K (no recurring fees)
+One-time purchase: \$109 - \$369, or \$570 for the 300K (no recurring fees)
 
 No activation fee: Transition to funded account is seamless with no additional costs
 
@@ -286,7 +286,7 @@ No daily loss limits during evaluation
 
 News trading allowed
 
-$1,500, $3,000, $6,000, $9,000, $14,000 Profit target to pass the evaluation (25K, 50K, 100K, 150K, 300K accounts)
+\$1,500, \$3,000, \$6,000, \$9,000, \$14,000 Profit target to pass the evaluation (25K, 50K, 100K, 150K, 300K accounts)
 
 Choose your payout policy after passing: Select Flex (5-Day) or Select Daily
 
@@ -301,7 +301,7 @@ Best for: Traders who prefer more flexibility during the trading day with end-of
 
 Pricing & Costs:
 
-One-time purchase: $99 - $369 (no recurring fees)
+One-time purchase: \$99 - \$369 (no recurring fees)
 
 No activation fee: (transition to a sim funded account is seamless)
 
@@ -321,7 +321,7 @@ End-of-day realized P&L tracking
 
 More flexibility during trading hours
 
-$1,500, $3,000, $6,000, $9,000 profit target (25K, 50K, 100K, 150K) to pass the Evaluation
+\$1,500, \$3,000, \$6,000, \$9,000 profit target (25K, 50K, 100K, 150K) to pass the Evaluation
 
 
 
@@ -334,7 +334,7 @@ Best for: Proven traders who want immediate funding who want to skip the evaluat
 
 Pricing & Costs:
 
-One-time payment: $345 - $796 (no recurring fees)
+One-time payment: \$345 - \$796 (no recurring fees)
 
 No monthly subscriptions or hidden fees
 
@@ -386,7 +386,7 @@ Funded in 3 days after passing
 
 Considerations:
 
-One-time purchase cost ($109-$369)
+One-time purchase cost (\$109-\$369)
 
 40% consistency requirement during evaluation
 
@@ -589,7 +589,7 @@ Evaluation Accounts (Growth and Select)
 Daily Loss Limits
 Select Evaluation: No daily loss limit
 
-Growth Evaluation: Daily loss limit varies by account size ($600 for $25k, $1,250 for $50k, $2,500 for $100k, $3,750 for $150k)
+Growth Evaluation: Daily loss limit varies by account size (\$600 for \$25k, \$1,250 for \$50k, \$2,500 for \$100k, \$3,750 for \$150k)
 
 
 
@@ -612,7 +612,7 @@ Only locks in drawdown improvements when you end the day profitable
 
 Provides flexibility during the trading day - temporary intraday losses do not move your drawdown limit. The limit itself is still enforced in real time, and touching it fails the account immediately
 
-Example (Sim Funded only): A 50K Growth funded account with a $2,000 trailing drawdown locks its floor at $50,100 once its end-of-day balance reaches $52,100. Drawdown never locks on evaluation accounts.
+Example (Sim Funded only): A 50K Growth funded account with a \$2,000 trailing drawdown locks its floor at \$50,100 once its end-of-day balance reaches \$52,100. Drawdown never locks on evaluation accounts.
 
 
 
@@ -624,11 +624,11 @@ Simulated Funded Accounts
 Daily Loss Limits
 Select Flex: No daily loss limit
 
-Select Daily: Daily loss limit varies by account size ($1,000 for $50k, $1,250 for $100k, $1,750 for $150k)
+Select Daily: Daily loss limit varies by account size (\$1,000 for \$50k, \$1,250 for \$100k, \$1,750 for \$150k)
 
-Growth Accounts: Daily loss limit varies by account size ($1,250 for $50k, $2,500 for $100k, $3,750 for $150k)
+Growth Accounts: Daily loss limit varies by account size (\$1,250 for \$50k, \$2,500 for \$100k, \$3,750 for \$150k)
 
-Lightning accounts: Daily loss limit varies by account size ($1,250 for $50k, $2,500 for $100k, $3,000 for $150k; none for $25k)
+Lightning accounts: Daily loss limit varies by account size (\$1,250 for \$50k, \$2,500 for \$100k, \$3,000 for \$150k; none for \$25k)
 
 Note: 25k Lightning funded does not have Daily Loss Limit protection.
 
@@ -709,25 +709,25 @@ Mini Contracts
 
 Micro Equivalent
 
-$25k
+\$25k
 
 1 contract
 
 10 micros
 
-$50k
+\$50k
 
 4 contracts
 
 40 micros
 
-$100k
+\$100k
 
 8 contracts
 
 80 micros
 
-$150k
+\$150k
 
 12 contracts
 
@@ -835,7 +835,7 @@ Lightning Funded: 20% for the first payout, 25% for the second, 30% from the thi
 
 
 
-Example: If your biggest day was $2,000 profit and you follow the 20% rule, you need at least $10,000 total profit to be eligible for payouts.
+Example: If your biggest day was \$2,000 profit and you follow the 20% rule, you need at least \$10,000 total profit to be eligible for payouts.
 
 
 
@@ -1136,7 +1136,7 @@ https://help.tradeify.co/en/articles/12268494-common-faqs
 
 
 Common FAQs
-Common Tradeify Futures questions: payouts, profit split, KYC, receipts and invoices, refunds, promo and discount codes not applied, card declined, payment failed, $1 authorization hold, scalping.
+Common Tradeify Futures questions: payouts, profit split, KYC, receipts and invoices, refunds, promo and discount codes not applied, card declined, payment failed, \$1 authorization hold, scalping.
 
 Updated over 3 weeks ago
 This is how a futures prop firm works: you trade the firm's simulated capital and receive real payouts when you meet the payout rules.
@@ -1310,7 +1310,7 @@ Can I get a refund?
 
 No. Tradeify does not offer refunds. By completing your purchase, you agreed to our Terms of Service which states all sales are final. This applies to all accounts regardless of whether they have been traded on. One exception: if a promo or discount code was not applied to your purchase, that is handled separately - contact support with your transaction details and we will get it corrected.
 
-Why do I see a $1 charge on my card?
+Why do I see a \$1 charge on my card?
 
 This is a temporary authorization hold to verify your card is valid. It is automatically refunded within 3-5 business days.
 
@@ -1332,7 +1332,7 @@ Bank blocking: Your bank may be blocking the transaction as a security measure. 
 
 Restricted country: Tradeify cannot accept payments from certain countries due to regulatory restrictions. If you're in a restricted region, the payment will be declined on our end.
 
-Card verification: You may see a temporary $1 authorization hold - this is normal and refunds automatically within 3-5 business days.
+Card verification: You may see a temporary \$1 authorization hold - this is normal and refunds automatically within 3-5 business days.
 
 To resolve: Verify your billing information matches your card exactly, contact your bank to authorize the transaction, or try a different payment method.
 
@@ -1525,7 +1525,7 @@ Why is my funded account in simulation mode? Why can't I live trade?
 
 Your Sim Funded account is working exactly as intended! Sim Funded = simulated trading with real payouts. You trade on simulated markets, but you receive real money when you hit payout thresholds. This is NOT a practice account.
 
-Why simulated? Tradeify uses simulation to let you trade with significant capital ($25K-$300K) at minimal upfront cost while you prove consistent profitability.
+Why simulated? Tradeify uses simulation to let you trade with significant capital (\$25K-\$300K) at minimal upfront cost while you prove consistent profitability.
 
 Seeing "Demo" or "Simulation" in Tradovate is expected - this is not an error. Your account is set up correctly.
 
@@ -1542,7 +1542,7 @@ The Premier Trading League (PTL) is Tradeify's current competition: a free, simu
 
 Has there been a Grand Cup before?
 
-Yes! The first Tradeify Grand Cup ran from November 2 to December 12, 2025, and Grand Cup 2 ended in June 2026. It featured a $1,000,000 prize pool, 400 prizes, and culminated in LIVE Grand Finals where traders competed for the $200,000 Grand Champion prize.
+Yes! The first Tradeify Grand Cup ran from November 2 to December 12, 2025, and Grand Cup 2 ended in June 2026. It featured a \$1,000,000 prize pool, 400 prizes, and culminated in LIVE Grand Finals where traders competed for the \$200,000 Grand Champion prize.
 
 Is the Grand Cup running now?
 
@@ -1732,13 +1732,13 @@ Select Evaluation - One-time purchase with end-of-day drawdown
 
 Account Sizes Available:
 
-$25k account
+\$25k account
 
-$50k account
+\$50k account
 
-$100k account
+\$100k account
 
-$150k account (Most Popular)
+\$150k account (Most Popular)
 
 Click "Get funded with [size]" to proceed.
 
@@ -2233,6 +2233,7 @@ For additional assistance with contract selection, contact Tradeify Support thro
 
 ---
 
+---
 
 https://help.tradeify.co/en/articles/12270591-understanding-cme-contracts-a-complete-guide
 
@@ -3501,7 +3502,7 @@ Milestones
 
 Never — career milestones
 
-Three green days, passing a Growth or Select evaluation, your first approved payout, promotion to a Live account, a payout on a Live account, a 150K allocation, cumulative payout milestones at $10K, $50K, and $100K
+Three green days, passing a Growth or Select evaluation, your first approved payout, promotion to a Live account, a payout on a Live account, a 150K allocation, cumulative payout milestones at \$10K, \$50K, and \$100K
 
 Purchases
 
@@ -3661,7 +3662,7 @@ Milestone
 
 15,000 XP + 1,000 Gems
 
-Payout Milestone: $10K
+Payout Milestone: \$10K
 
 Milestone
 
@@ -3670,7 +3671,7 @@ Milestone
 
 
 
-The $50K and $100K payout milestones pay more again. Every mission card in the Missions tab states its own reward, so that tab is always the current answer.
+The \$50K and \$100K payout milestones pay more again. Every mission card in the Missions tab states its own reward, so that tab is always the current answer.
 
 
 
