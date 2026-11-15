@@ -38,13 +38,16 @@ Key facts now established:
 - Cheapest route to a funded account at each size: **Flex at 25K ($45.50)**, **Daily at
   50K ($65.80), 100K ($110.60) and 150K ($160.30)**. Direct is three to five times the
   cost of any evaluation route.
+- **Configuration surcharges are not additive.** Each toggle's price depends on where the
+  others are set, so no configuration can be derived by addition.
+- **LucidDaily has twelve configurations, not eight**, because the funded drawdown is a
+  separate priced choice. Nine are captured.
 
 Still not priced anywhere:
 
 - Whether the `VAULT` coupon is permanent or a rotating promotion.
 - Reset fees for LucidDirect; no reset row appears on any Direct card.
-- Most LucidDaily configurations. Only the evaluation drawdown dimension has been
-  captured; the DLL and consistency surcharges for Daily are unknown.
+- Three LucidDaily configurations, all in the funded-EOD branch.
 - Any LucidMaxx pricing.
 
 ---
@@ -54,11 +57,11 @@ Still not priced anywhere:
 | # | Contradiction | Where |
 |---|---|---|
 | 1 | **Number of payouts before the move to live: 5 or 6.** LucidFlex Payouts states "Traders may take up to **5** payouts from each LucidFlex account after which they will be moved live." LucidFlex Live (Legacy) states traders are moved live "After completing their **sixth** and final LucidFlex payout". The Pro and Flex plan cards both state "Payouts to Live: 5", which favours 5. The Daily and Direct cards omit the row entirely. | `LucidFlex.md`, `LucidPro.md`, `LucidDirect.md` vs `LiveTrading.md` vs `Plans.md` |
-| 2 | **LucidDaily consistency: 40% or 50%.** The Customization article offers "40% (standard)" or "50% (add-on)". The Evaluation table lists 50% for every account size with no 40% option, and the Consistency article states flatly "you must have Consistency Percentage of 50% or less" and never mentions 40%. The Daily plan cards show a 40%/50% toggle with 40% as the default, which favours the Customization article. | `LucidDaily.md` vs `Plans.md` |
-| 3 | **LucidDaily has two settings, three settings, four configurations or eight.** The Customization article says "Two settings can be adjusted", then lists three (Daily Loss Limit, Evaluation Drawdown, Consistency), then says "These settings create **eight** unique LucidDaily account configurations", then the Available Account Configurations section says "LucidDaily offers **four** possible combinations" and lists four. Three binary settings give eight, and the plan cards show all three toggles. | `LucidDaily.md`, within one article |
+| 2 | **LucidDaily consistency tiers.** The Customization article offers "40% (standard)" or "50% (add-on)". The Evaluation table lists 50% for every account size with no 40% option, and the Consistency article states flatly "you must have Consistency Percentage of 50% or less" and never mentions 40%. The plan cards offer **40% / 50%**, or **30% / 40%** when the funded drawdown is set to EOD. The help centre documents none of this. | `LucidDaily.md` vs `Plans.md` |
+| 3 | **LucidDaily configuration count.** The Customization article says "Two settings can be adjusted", then lists three, then says "these settings create **eight** unique LucidDaily account configurations", then says "LucidDaily offers **four** possible combinations". The plan cards show **four** settings and **twelve** configurations. | `LucidDaily.md` vs `Plans.md` |
 | 4 | **Scaling DLL is defined against two different quantities.** The LucidPro and LucidDirect funded account tables carry a column headed "Scaling DLL — **60% of Peak EOD Balance**". The LucidScale formula in the Daily Loss Limit articles is "Highest end-of-day account **profit** × 60%". On a $50,000 account those differ by roughly $30,000. The plan cards repeat the same "Peak EOD Balance" wording, so the mislabel is consistent across the site. | `LucidPro.md`, `LucidDirect.md`, `Plans.md` |
 | 5 | **LucidPro 25K Daily Loss Limit: $600 or none.** The Pro DLL tables list the 25K as "None" in both the evaluation and funded phases. The Pro plan cards show **$600** on both the evaluation and funded cards, and show the DLL on/off toggle priced at +$14.70 to disable it. | `LucidPro.md` vs `Plans.md` |
-| 6 | **LucidDaily funded drawdown: fixed or selectable.** The help centre states twice that it is fixed: "Regardless of your selection, all LucidDaily Funded accounts use an Intraday Drawdown." The Daily evaluation card presents **"Drawdown In Funded"** as a selectable Intraday/EOD toggle, though only when EOD is chosen for the evaluation drawdown. | `LucidDaily.md` vs `Plans.md` |
+| 6 | **LucidDaily funded drawdown — the help centre is wrong.** It states twice that "Regardless of your selection, all LucidDaily Funded accounts use an Intraday Drawdown." The funded drawdown is in fact a **priced purchase-time toggle**, and a funded rules card bought with it set to EOD reads "Drawdown Type: EOD". The surcharge is large: +\$55.30 to +\$184.80 by size. | `LucidDaily.md` is incorrect; `Plans.md` is authoritative |
 | 7 | **LucidDirect 25K Initial Trail Balance.** The Daily Loss Limit table gives "None"; the Drawdown table gives "$26,100" for the same account. | `LucidDirect.md`, within one file |
 | 8 | **Platform availability.** The Supported Platforms article summary says "All platforms work across **LucidFlex and LucidPro** accounts", while the body says "All listed platforms work with **all** Lucid account types." LucidDirect and LucidDaily are not addressed in the summary. | `GeneralInfo.md` |
 | 9 | **Resets for a product with no evaluation.** The fees article says "LucidPro Evaluation **and LucidDirect** accounts are purchased by paying a one-time fee... you will need to purchase a reset if you wish to restart your **evaluation** account." LucidDirect has no evaluation phase, and the Direct plan cards show no reset fee row at all. | `FeesPaymentsPayouts.md` vs `LucidDirect.md` vs `Plans.md` |
@@ -266,8 +269,8 @@ payout request ($500), so the goal is never the binding constraint there.
    surcharges rather than observed.
 4. Resolve whether the move to live occurs after payout 5 or payout 6, and what the figure
    is for Daily and Direct, whose cards omit the row.
-5. Confirm whether the LucidDaily funded drawdown is genuinely selectable, as the plan
-   card implies, or always intraday, as the help centre states twice.
+5. Confirm whether the consistency tier affects any funded payout cap. No funded plan card
+   displays a cap, so cards taken at different tiers are indistinguishable.
 6. Confirm whether LucidDirect resets exist and at what price.
 7. Obtain the LucidDirect $100,000 move-to-live and day-one figures.
 8. Confirm which live structure applies to an account purchased today.

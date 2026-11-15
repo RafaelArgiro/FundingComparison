@@ -274,9 +274,10 @@ intraday.
 | 100K | \$350.00 | \$350 |
 | 150K | \$490.00 | \$490 |
 
-**A third consistency tier appears under funded EOD.** With the funded drawdown set to EOD
-the consistency row offers **30% / 40% / 50%**, with 40% selected and no surcharge shown.
-Every card captured with the funded drawdown set to intraday offers only 40% / 50%.
+**The consistency tiers change under funded EOD.** With the funded drawdown set to EOD the
+consistency row offers **30% / 40%** — the 50% option is no longer selectable, and a 30%
+tier appears that is not offered anywhere else. Cards with the funded drawdown set to
+intraday offer 40% / 50%.
 
 **The funded-EOD option is only reachable from an EOD evaluation drawdown.** When Intraday
 is selected for the evaluation, the "Drawdown In Funded" row is absent entirely.
@@ -288,7 +289,7 @@ is selected for the evaluation, the "Drawdown In Funded" row is absent entirely.
 | 25K | \$1,250 | \$1,000 | EOD or Intraday | Intraday | \$600 or off | On or off | 40% or 50% | 2 mini or 20 micro |
 | 50K | \$3,000 | \$2,000 | EOD or Intraday | Intraday | \$1,200 or off | On or off | 40% or 50% | 4 mini or 40 micro |
 | 100K | \$6,000 | \$3,000 | EOD or Intraday | Intraday | \$1,800 or off | On or off | 40% or 50% | 6 mini or 60 micro |
-| 150K | \$9,000 | \$4,500 | EOD or Intraday | Intraday **or EOD** | \$2,700 or off | On or off | 40% or 50% (30% also offered under funded EOD) | 10 mini or 100 micro |
+| 150K | \$9,000 | \$4,500 | EOD or Intraday | Intraday **or EOD** | \$2,700 or off | On or off | 40% / 50%, or **30% / 40%** under funded EOD | 10 mini or 100 micro |
 
 The "drawdown in funded" row appears only when EOD is selected as the evaluation drawdown.
 It is a genuine priced toggle — see 5.1. When Intraday is selected for the evaluation, the
@@ -429,38 +430,32 @@ Cheapest route to a funded account at each size: Flex at 25K (\$45.50), Daily at
 |---|---|---|---|
 | Pro | 2 | 2 | — |
 | Flex | 4 | 4 | — |
-| Daily | **14** | **9** | 5 — all with the funded drawdown set to EOD |
+| Daily | **12** | **9** | 3 — all with the funded drawdown set to EOD |
 | Direct | 1 | 1 | — (no evaluation phase) |
 
-**The Daily space is larger than first thought.** The "Drawdown In Funded" toggle is real
-and priced, and a third consistency tier appears when it is set to EOD:
+**The Daily space branches on the funded drawdown choice:**
 
 | Branch | DLL | Consistency | Combinations |
 |---|---|---|---|
 | Intraday eval → funded intraday | 2 | 40% / 50% | 4 |
 | EOD eval → funded intraday | 2 | 40% / 50% | 4 |
-| EOD eval → funded **EOD** | 2 | **30% / 40% / 50%** | 6 |
-| | | | **14** |
+| EOD eval → funded **EOD** | 2 | **30% / 40%** | 4 |
+| | | | **12** |
 
-All eight intraday-funded configurations are captured. Of the six funded-EOD
+All eight intraday-funded configurations are captured. Of the four funded-EOD
 configurations, one is captured: **DLL off / 40%**.
 
-**Missing Daily evaluation cards (5):**
+**Missing Daily evaluation cards (3):**
 
 | # | Eval drawdown | Funded drawdown | DLL | Consistency |
 |---|---|---|---|---|
 | 1 | EOD | EOD | **On** | 30% |
 | 2 | EOD | EOD | **On** | 40% |
-| 3 | EOD | EOD | **On** | 50% |
-| 4 | EOD | EOD | Off | **30%** |
-| 5 | EOD | EOD | Off | **50%** |
+| 3 | EOD | EOD | Off | **30%** |
 
 Configuration 2 is the most useful of these: it is the cheapest route to an end-of-day
-funded drawdown that also keeps On Demand Payouts.
-
-> **Unverified.** Whether the 30% consistency tier is genuinely exclusive to the funded-EOD
-> branch has not been confirmed. Every card captured with funded intraday shows only
-> 40% / 50%, but no card was taken specifically to test it.
+funded drawdown that also keeps On Demand Payouts, and it would also supply the one
+missing funded rules card.
 
 No price anywhere in this document is derived. Every figure was read from a plan card.
 
@@ -487,10 +482,10 @@ other value on the card is unchanged.
 **What was learned from the funded-EOD card.** The funded rules show "Drawdown Type: EOD"
 rather than Intraday. Nothing else changes.
 
-**What still cannot be checked.** No funded card displays a payout cap, so a card taken at
-30%, 40% or 50% consistency is indistinguishable from the others. If the consistency tier
-affects a funded payout cap, nothing in the captured material would reveal it. This has to
-be confirmed from the help centre or support rather than from the plan cards.
+**What still cannot be checked.** No funded card displays a payout cap, so cards taken at
+different consistency tiers are indistinguishable. If the consistency tier affects a funded
+payout cap, nothing in the captured material would reveal it. This has to be confirmed from
+the help centre or support rather than from the plan cards.
 
 ### 9.3 Other gaps
 
@@ -507,7 +502,7 @@ be confirmed from the help centre or support rather than from the plan cards.
 | 1 | Pro 25K has a \$600 DLL on both the evaluation and funded cards. | The Pro DLL tables list the 25K as "None" in both phases. |
 | 2 | Pro and Flex funded cards both state "Payouts to Live: 5". | The per-product Live (Legacy) articles state traders move live after "their sixth and final payout". |
 | 3 | **Confirmed by a funded card.** The "Drawdown In Funded" row is a real priced toggle, and a Daily funded rules card bought with it set to EOD reads "Drawdown Type: EOD". | Stated twice that this is not selectable: "Regardless of your selection, all LucidDaily Funded accounts use an Intraday Drawdown." **The help centre is wrong.** |
-| 4 | The Daily consistency row offers **30% / 40% / 50%** when the funded drawdown is set to EOD, and 40% / 50% otherwise. | The LucidDaily articles state a flat 50% requirement and mention no 40% option, let alone 30%. |
+| 4 | The Daily consistency row offers **30% / 40%** when the funded drawdown is set to EOD, and 40% / 50% otherwise. The 50% tier is not selectable under funded EOD. | The LucidDaily articles state a flat 50% requirement and mention no 40% option, let alone 30%. |
 | 5 | Pro funded card shows "Days to Payout: 3"; Direct shows "Min Day to Payout: 5". | Neither the Pro nor the Direct payout criteria specify a minimum trading-day count. |
 | 6 | Flex funded cards show no LucidScale DLL, only a fixed DLL below the initial trail. | The Flex articles do not describe the funded DLL behaviour either way. |
 | 7 | LucidScale DLL is labelled "60% of Peak EOD **Balance**" on the Pro and Direct cards. | The formula in the DLL articles is "Highest end-of-day account **profit** × 60%". The cards repeat the same mislabel. |
