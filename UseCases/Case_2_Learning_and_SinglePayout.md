@@ -1,350 +1,233 @@
-# Case 2 — Pass One Evaluation and Extract \$5,000–\$10,000
+# Case 2: Grow One Account and Withdraw Profits
 
-## 1. The goal
+## 1. Goal
 
-Buy **one** account, pass its evaluation, then withdraw **\$5,000 to \$10,000** of real
-money from that **single funded account**, and then move to trading own capital.
+Use **one account** to learn and build trading profits, withdraw **\$5,000 to \$10,000 in hand**, then stop and transition to trading own capital. Reaching \$5,000 would be a good outcome; \$10,000 is preferred if attainable.
 
-No second account, no scaling, no long-term income. The account is a **one-off extraction
-vehicle**.
+The money is not needed for living expenses. Losing the account without reaching the target is an acceptable possible outcome, although the purchase cost and any unwithdrawn profit would be lost.
 
-Figures below use the central assumptions from `Relevant_for_Comparison.md`: **one MNQ**,
-**50% win rate**, **\$200 stop / \$400 target**, **15 trades per month across roughly 6–7
-sessions**, giving **+\$1,500 per month** and about **\$230 per session**.
+Both routes are in scope:
 
----
+- **Evaluation:** pass one evaluation, then trade its funded account.
+- **Straight to funded:** purchase a funded account without an evaluation.
 
-## 2. How this differs from Case 1
-
-Case 1 could ignore every payout rule and did not even need to pass. This case inverts
-that completely.
-
-| | Case 1 | Case 2 |
-|---|---|---|
-| Passing the evaluation | Optional | **Mandatory** |
-| Profit target | Irrelevant | **First hurdle, and pure overhead** |
-| Payout caps and cadence | Irrelevant | **Primary constraint** |
-| Consistency rules | Irrelevant | **Binding at every payout** |
-| Profit split | Irrelevant | **Costs 10% of everything** |
-| Holding period | ~2 months | **6 to 12 months** |
-| Account survival | Nice to have | **The entire thesis** |
-| Lifetime per-account ceilings | Irrelevant | **Can make \$10,000 impossible** |
-
-What still does not matter: scaling plans, contract limits, the terms of the live account
-itself, and anything about running several accounts in parallel.
+The funded account is simulated unless the provider moves it to live. A move to live is acceptable but not preferred, particularly if it requires rebuilding a trading cushion. The handling of remaining simulated profits and live-account starting capital must be checked for each product.
 
 ---
 
-## 3. The arithmetic of extraction
+## 2. Trading approach
 
-Money received is not money earned. Three layers sit between them.
+The underlying trading style is described in `Trading_Style_Info.md`: NQ and MNQ, a 50–100 point stop, a 1:2 reward-to-risk target, and 1–3 trades per session. The initial frequency is 1–2 sessions per week, with more sessions possible later if the funded account is going well. The 50% win rate is an **assumption**, not a measured result.
 
-### 3.1 The three layers
+### 2.1 Increase size as the cushion grows
 
-1. **The evaluation profit target.** Earned, then discarded — the funded account starts
-   fresh at the base balance. Nothing carries over.
-2. **Capital that cannot leave the account.** Either a named buffer, or the half of profit
-   a 50% payout formula leaves behind, or simply the distance you must keep above the
-   drawdown floor.
-3. **The profit split.** At 90/10, receiving \$10,000 requires withdrawing **\$11,111**
-   gross.
+Position size can increase as the distance between the account balance and the applicable drawdown floor grows. Size also depends on the stop distance of the individual trade: a wider stop risks more per contract and can require fewer contracts.
 
-So:
+For MNQ, the planned loss before costs and slippage is:
 
-> **Total simulated profit required = evaluation target + gross withdrawal + capital
-> parked in the account.**
+**Number of MNQ contracts × stop distance in points × \$2 per point.**
 
-### 3.2 What that costs on a 50K account
+For example, one MNQ risks \$100 with a 50-point stop or \$200 with a 100-point stop. Two MNQ risk \$200 and \$400 respectively. Actual loss can be greater because of commissions, fees, slippage or gaps.
 
-Gross withdrawal needed: **\$5,556** for \$5,000 received, **\$11,111** for \$10,000
-received.
+Sizing must consider the **current** cushion, the daily loss limit, any permitted contract limit and the risk already taken that session. A daily loss limit is not necessarily a guarantee that the account survives: the drawdown floor may be closer, and execution can overshoot a limit.
 
-| Payout structure | Parked capital, 50K | Total profit for \$5,000 | Total profit for \$10,000 |
-|---|---|---|---|
-| **Buffered** (balance can never fall below start + drawdown + \$100) | \$2,100 | **\$10,656** | **\$16,211** |
-| **50%-of-profit formula** (half of each cycle stays behind) | ~\$2,000–\$2,500 | **\$10,556–\$11,056** | **\$16,111–\$16,611** |
-| **Flat cap, no buffer** (only the locked floor stops you) | ~\$100 | **\$8,656** | **\$14,211** |
-| **100% split on the first \$25,000** (one provider only) | \$2,600 | \$10,600 | \$15,600 |
+The exact fraction of the cushion to risk per trade and how quickly to scale down after losses remain open. Increasing contract size raises expected dollar profit under the assumed edge, but also raises dollar losses and the amount that can be lost in one session.
 
-**Derived values.** These follow from the published buffers, caps and splits; they are not
-quoted figures.
+### 2.2 Drawdown behaviour controls when room grows
 
-### 3.3 The overhead is 60–90%
+**Trading cushion** means the distance from the current balance to the account's drawdown floor. It is not necessarily the same as a provider's **payout buffer**, which is a balance threshold for withdrawals.
 
-To receive \$5,000 you must generate roughly **\$9,000–\$11,000** of simulated profit. To
-receive \$10,000 you must generate roughly **\$14,000–\$16,500**.
+On an end-of-day trailing account, new closing highs move the floor upward until it locks. Before the lock, gains to a new closing high generally move both balance and floor up, so the available cushion does not grow simply because profit grows. After the floor locks, additional retained profit increases the distance to the floor. A static floor allows cushion to grow with profit from the start.
 
-**Between 37% and 46% of everything earned never reaches you.** The evaluation target is
-the single largest component of that and buys nothing.
+Intraday-trailing accounts can also move the floor on unrealised gains. The floor can then remain higher even if those gains are given back. Enforcement may apply to open-position losses regardless of whether the floor updates intraday or at the end of day. Exact rules, lock levels and the effect of a payout request vary by product.
 
 ---
 
-## 4. How long it takes
+## 3. Growth and withdrawal strategy
 
-### 4.1 Generation time at one contract
+Payouts do not have to be requested as soon as they become available. One possible approach is to retain profits, increase size as the cushion permits, and begin withdrawing once the account has enough profit for the target and the applicable payout rules.
 
-At \$1,500 per month:
-
-| Total profit required | Sessions needed | Months |
-|---|---|---|
-| \$8,656 | 38 | **5.8** |
-| \$10,656 | 46 | **7.1** |
-| \$14,211 | 62 | **9.5** |
-| \$16,211 | 70 | **10.8** |
-
-At the low end of the trading frequency (one session per week, 8 trades per month) these
-roughly double, to **11 to 21 months**.
-
-**This is not a two-month project.** At one contract, \$5,000 received is a six-to-seven
-month commitment and \$10,000 is closer to a year.
-
-### 4.2 Payout cadence stretches badly, because qualifying days must be profitable
-
-Most payout cycles are counted in **qualifying days** — days closing with a minimum
-profit, typically \$150 on a 50K — not in sessions traded.
-
-At a 50% win rate with 1–3 trades per session, roughly **58% of sessions end profitable
-enough to qualify**. So:
-
-| Requirement | Sessions needed | Calendar time at 1–2 sessions/week |
-|---|---|---|
-| 3 trading days | ~3 | 1.5–3 weeks |
-| 3 profitable days (40% consistency) | ~5 | 2.5–5 weeks |
-| 5 qualifying days | **~9** | **4.5–9 weeks** |
-| 8 trading days | ~8 | 4–8 weeks |
-| Daily eligibility | 1 | days |
-
-### 4.3 Cadence against generation
-
-Cycles run **in parallel** with profit generation, so the binding constraint is whichever
-is longer, not the sum.
-
-| Payout cadence | Cycles for \$11,111 gross | Sessions consumed | Binds? |
-|---|---|---|---|
-| Daily eligibility | 1–9 | 1–15 | No |
-| 3 trading days, cap \$2,500 | 5 | ~25 | No |
-| 5 qualifying days, cap \$2,000–\$2,500 | 5 | **~43** | **Close to binding** |
-| 8 trading days, cap \$2,000 | 5 | ~40 | Close to binding |
-
-Generation needs ~70 sessions for \$10,000 received, so cadence does not usually decide the
-outcome — **but it does decide how much is still trapped in the account when things go
-wrong.** On a 5-qualifying-day product you are still collecting the final payouts at the
-very end of the run, with the largest sum exposed.
-
-**Daily-eligible payouts are worth a real premium in this case**, not because they are
-faster overall, but because they move money out of reach of a breach sooner.
-
----
-
-## 5. Constraints that can make the target unreachable
-
-### 5.1 Lifetime ceilings on a single account
-
-Several products end the account after a fixed number of payouts and move it live.
-
-| Structure | Lifetime gross, 50K | Received after split | \$10,000 reachable? |
-|---|---|---|---|
-| 5 payouts capped at \$2,000 | \$10,000 | \$9,000 | **No** |
-| 5 payouts, \$2,000 then \$2,500 | \$12,000 | \$10,800 | Only just — needs all five |
-| Caps that never lift, unlimited payouts | unlimited | unlimited | Yes |
-| No cap at all, buffer only | unlimited | unlimited | Yes |
-
-**The upper half of the stated range eliminates whole product categories.** At \$5,000 every
-structure works; at \$10,000 some cannot deliver from one account no matter how well you
-trade.
-
-### 5.2 Forced move to live
-
-Two separate mechanisms end the simulated account on the provider's timetable:
-
-- **A fixed payout count** (typically five), after which the account goes live
-  automatically.
-- **Provider discretion** after any successful payout.
-
-Either way, **profit left in the account at that moment is of undocumented status**. In
-this case the live account is unwanted — the exit is to own capital — so an early forced
-move converts remaining profit into an open question.
-
-**Practical consequence: do not leave profit in the account that you intend to withdraw.**
-Take it as soon as the rules permit.
-
-### 5.3 Consistency rules, measured against a single-contract day
-
-A consistency rule caps the largest single day as a share of the cycle's profit. At one
-MNQ the largest realistic day is three wins, **+\$1,200**.
-
-Cycle profit required before that day is permitted:
-
-| Largest day | 20% rule | 30% | 35% | 40% |
-|---|---|---|---|---|
-| +\$400 (1 win) | \$2,000 | \$1,333 | \$1,143 | \$1,000 |
-| +\$800 (2 wins) | \$4,000 | \$2,667 | \$2,286 | \$2,000 |
-| **+\$1,200 (3 wins)** | **\$6,000** | **\$4,000** | **\$3,429** | **\$3,000** |
-
-Compare against the profit a cycle actually needs — typically \$2,000 to \$4,500 on a 50K:
-
-- **40% and 35% rules are essentially non-binding**, except on a cycle that happens to
-  contain a three-win day early.
-- **30% is sometimes binding**, forcing extra days before the payout clears.
-- **20% is routinely binding.** It can require double the profit the payout itself needs.
-
-**A strict consistency rule does not reduce what you earn — it delays when you may take
-it**, which in this case means more sessions of breach exposure per dollar extracted.
-
----
-
-## 6. Survival over the holding period is the real risk
-
-This case asks the account to live for **6 to 12 months and 100 to 160 trades**, against
-Case 1's 8 to 17 sessions. Everything about risk changes scale.
-
-### 6.1 Cushion above the floor is what keeps the account alive
-
-Once the drawdown floor locks it stops moving, and the only thing between the account and
-death is the distance from the current balance down to that floor.
-
-After a maximum payout, that distance is exactly the parked capital:
-
-| Payout structure | Balance after a maximum payout, 50K | Consecutive \$200 losses to death |
-|---|---|---|
-| Buffered | floor + \$2,000 | **10** |
-| 50%-of-profit formula | floor + ~\$2,000–\$2,500 | 10–12 |
-| Flat cap, no buffer | floor + as little as \$100 | **1** |
-
-**The buffer is not purely a cost.** The capital it locks away is the same capital that
-keeps the account alive. The structure that lets you extract the most per dollar earned
-is the structure that leaves you closest to the floor.
-
-### 6.2 Streak risk over the full holding period
-
-At a 50% loss rate, over ~160 trades:
-
-| Run length | Probability of occurring somewhere in the run |
+| Retain profits longer | Request payouts earlier |
 |---|---|
-| 5 losses | Near certain |
-| 10 losses | **Roughly 15%** |
-| 15 losses | Under 1% |
+| More cushion can support a larger position after the floor locks | Cash received is no longer exposed to an account breach |
+| Fewer withdrawals while building the account | Withdrawals reduce the balance and may require smaller positions |
+| More profit remains exposed to losses, rule breaches or a forced move | Some products lock the floor on a payout request; the exact effect must be checked |
 
-**Roughly a one-in-seven chance of a ten-loss streak** over the time this case requires. On
-a 50K with a \$2,000 cushion that is a direct account loss, with every un-withdrawn dollar
-gone with it.
+Neither approach guarantees a better outcome. The preferred balance depends on the account's floor, withdrawal rules, contract limits and the amount at risk. Retaining profit does not make it withdrawable: payout eligibility still has to be satisfied.
 
-### 6.3 The operating rule that follows
+When extraction begins, trading smaller positions may help control risk while meeting trading-day requirements. **A day is not automatically a qualifying day:** some products require a minimum net profit, and a small trade may not meet that threshold. Losses, consistency rules, minimum withdrawals and the timing of payout-cycle resets also matter.
 
-**Never withdraw down to the cap when the cap would leave less than five stops of room.**
-On a \$200 stop that means keeping at least **\$1,000** above the floor at all times.
+### 3.1 The arithmetic of extraction
 
-This voluntarily recreates, on an unbuffered product, the buffer that a buffered product
-imposes — which largely erases the capital-efficiency advantage calculated in section 3.2.
+Money received differs from simulated profit earned for three reasons:
+
+1. **Evaluation profit:** on products where the funded account starts fresh, the profit needed to pass does not carry over. A straight-to-funded account has no evaluation target.
+2. **Profit left in the funded account:** payout buffers, percentage limits, payout caps or a voluntarily retained cushion can leave profit behind. How much remains depends on the withdrawal sequence and product rules.
+3. **Profit split:** at a 90% trader share, receiving \$5,000 requires at least \$5,555.56 gross, and receiving \$10,000 requires at least \$11,111.12 gross, assuming cent rounding.
+
+For an evaluation followed by a fresh funded account, a useful accounting identity is:
+
+**Evaluation profit + funded trading profit = evaluation profit + gross withdrawals + funded profit remaining.**
+
+This assumes no other balance adjustments. It is not a formula for the minimum achievable profit: the profit remaining is determined by the actual payout rules, trading outcomes and chosen cushion. Trading fees, payout fees and taxes need separate treatment.
+
+### 3.2 Worked extraction requirements on a 50K account
+
+The following are **derived illustrations**, not provider quotes or complete payout plans. Assume a \$3,000 evaluation target, a fresh funded account, a 90% trader share, no fees or additional trading after the funded profit is built, and a locked drawdown floor at \$50,100.
+
+| Illustrative payout structure | Funded profit left after withdrawals | Total simulated profit for \$5,000 in hand | Total simulated profit for \$10,000 in hand |
+|---|---|---|---|
+| Withdraw down to a \$52,100 payout buffer | \$2,100 | approximately \$10,655.56 | approximately \$16,211.12 |
+| No payout buffer; voluntarily leave balance at \$51,100 | \$1,100, including \$1,000 above the floor | approximately \$9,655.56 | approximately \$15,211.12 |
+| One request limited to 50% of current profit | At least as much profit as the gross request | approximately \$14,111.12 | approximately \$25,222.24 |
+
+The last row assumes a single request can be made without a cap. It does **not** mean half of all lifetime profit must remain: multiple requests may be possible, subject to the actual rules. Section 4.2 shows how repeated 50% requests work under a simplified current-profit formula.
+
+The buffer row assumes withdrawals can reach the buffer and that all other eligibility requirements are satisfied. In practice, per-request caps, qualifying days, consistency, minimum payouts and additional trading can change the total and the amount left behind. A straight-to-funded route removes the assumed \$3,000 evaluation component, but not necessarily the other requirements.
+
+### 3.3 What remains outside the payout
+
+In the buffered illustration, receiving \$5,000 requires approximately \$10,655.56 in combined simulated profit: \$3,000 in the evaluation, \$2,100 left in the funded account, and approximately \$555.56 retained by the provider through the split. At the \$10,000 target, the same components total approximately \$6,211.12.
+
+The funded profit left behind is not necessarily lost while the account remains open: it can provide a cushion and support position sizing. Its eventual treatment on a live transition or closure depends on the product. Evaluation profit is not a cash expense, but reaching the target takes trading time and exposes the account to failure.
 
 ---
 
-## 7. Rules that become live risks only because the holding period is long
+## 4. Payout rules that determine the exit
 
-A rule with a 1% chance of firing per month is nearly harmless over two months and a real
-threat over ten.
+### 4.1 Net target and profit split
 
-| Rule | Why it matters now |
+The target is cash **received after the provider's profit split**, before any taxes or payment-processing fees. At a 90% trader share, the minimum gross withdrawals needed are:
+
+| Cash received | Gross withdrawals at 90% |
 |---|---|
-| **Weekly inactivity requirement** | At 1–2 sessions per week there is no margin. Over 6–12 months a holiday, an illness or a quiet week is close to certain. **Account closed.** |
-| **30-day inactivity requirement** | Comfortable even with a two-week gap. |
-| **News trading as a hard breach** | The session contains the 10:00 ET release slot. Over ~50 sessions, accidental exposure is likely rather than possible, and the penalty is the account. |
-| **Trailing drawdown before the lock** | Only dangerous in the opening weeks, but that danger is now one of many months rather than the whole project. |
-| **Intraday drawdown enforcement** | Every unrealised peak over 6–12 months permanently costs room. Compounds badly across a long run. |
+| \$5,000 | approximately \$5,555.56 |
+| \$10,000 | approximately \$11,111.12, rounded up to cents |
 
-**The weekly inactivity rule and the hard news rule are the two that can end this case
-outright**, and neither has anything to do with trading badly.
+Other splits change these amounts. Fees, taxes, minimum request sizes, payout caps, and provider rounding can increase the gross amount required. Evaluation profit generally does not become funded-account profit; verify the transition for each product.
 
----
+### 4.2 Percentage-based withdrawals
 
-## 8. The early-payout decision
+A limit of **50% of profit per request** can substantially constrain extraction even when the account has accumulated enough profit. Whether profit means current account profit or profit since the previous payout matters, as do payout caps and cycle requirements.
 
-Requesting a payout **locks the drawdown floor immediately**, regardless of balance. That
-makes the first payout a risk-reduction action, not just a withdrawal.
+Illustration only: suppose a product allows 50% of the **current profit above starting balance**, with no cap, and no further trading profit or losses. Starting with \$10,000 of profit:
 
-But on products offering a **Funded Reset** — a second chance after a breach — eligibility
-is void the moment any payout has ever been taken.
-
-| | Take the first payout as early as possible | Delay it to preserve a reset |
+| Request | Gross withdrawal | Profit left in account |
 |---|---|---|
-| Floor | Locked early, cushion stops shrinking | Still trailing |
-| Money out of reach of a breach | Yes, immediately | No |
-| Second chance after a breach | **Forfeited permanently** | Retained |
+| 1 | \$5,000 | \$5,000 |
+| 2 | \$2,500 | \$2,500 |
+| 3 | \$1,250 | \$1,250 |
+| 4 | \$625 | \$625 |
+| 5 | \$312.50 | \$312.50 |
 
-**For this case the early payout is the better side of the trade.** The goal is cash
-extracted, not an account preserved; a reset returns a fresh account with zero profit and a
-reset payout clock, which costs months that this case cannot easily absorb.
+These are mathematical limits, not a feasible payout schedule: actual products can require new qualifying days or positive cycle profit, impose minimum requests and caps, or end the account after a set number of payouts. Any additional trading changes the balances shown. At a 90% split the five illustrative withdrawals total \$9,687.50 gross, or \$8,718.75 before fees and tax.
+
+**The 50% limit applies to each request, not necessarily to total lifetime withdrawals.** Nevertheless, a finite payout count or minimum payout can leave substantial profit in the account. The definition of profit is unresolved in the LucidFlex documentation, so both interpretations need checking before relying on an extraction plan.
+
+### 4.3 Caps, qualifying days and consistency
+
+- **Per-request caps** can require multiple payouts even with a large balance. Check whether caps change with payout number or product configuration.
+- **Qualifying days** may require a minimum net profit per day, not merely a trade. Check whether the requirements restart after each payout and whether additional cycle profit is required.
+- **Consistency rules** can limit the largest profitable day as a share of the relevant profit calculation. Larger positions can create larger days, potentially delaying eligibility. Trading small afterwards may help dilute the largest day, but it takes additional net profit and losses can delay it further.
+- **Buffers and floors** can restrict the balance after withdrawal. The remaining cushion must also be sufficient for the smaller positions used during extraction.
+- **Payout count limits and forced live transitions** can end the simulated account before the target is extracted. Provider discretion and the treatment of remaining profit must be checked separately.
+
+As an example of a hard ceiling, five requests capped at \$2,000 each produce at most \$10,000 gross, or \$9,000 at a 90% split before fees and tax. That can satisfy the \$5,000 goal but not \$10,000 in hand from those five requests alone. A live transition could have separate terms; it should not be assumed to provide the difference.
 
 ---
 
-## 9. What this case requires from a product
+## 5. Time and cost
 
-A specification, in priority order:
+At the illustrative fixed size of one MNQ, a 100-point stop, 1:2 reward-to-risk and an assumed 50% win rate give **\$100 expected gross profit per trade**, before trading costs. At 15 trades per month that is **\$1,500 expected gross profit per month**. This is a fixed-size reference, not a forecast or a guarantee of reaching a target.
 
-| # | Requirement | Reason |
+### 5.1 Fixed-size reference
+
+Using the buffered examples in section 3.2 and dividing their total simulated profit by the assumed \$100 per trade gives a simple reference:
+
+| Cash target | Combined simulated profit | Trades at \$100 average | Months at 15 trades per month |
+|---|---|---|---|
+| \$5,000 | approximately \$10,656 | approximately 107 | approximately 7.1 |
+| \$10,000 | approximately \$16,211 | approximately 162 | approximately 10.8 |
+
+At eight trades per month, the same arithmetic gives approximately 13.3 and 20.3 months respectively. These are **profit divided by average expectancy**, not estimated times to first reach the target: actual paths vary, the account can fail, and costs and payout eligibility can increase the time. The evaluation and funded phases each have their own drawdown risk.
+
+Scaling can change the timeline, but a credible estimate needs an explicit sizing rule, trade-by-trade outcomes, the drawdown mechanics and payout rules. Returns are path-dependent: early losses can prevent scaling or end the account; profits can support larger positions once the cushion grows; withdrawals reduce the balance. Payout requirements may continue to take time after the desired account balance has been reached.
+
+### 5.2 Payout cadence and qualifying days
+
+At 1–2 sessions per week, a requirement of three trading days takes at least roughly 1.5–3 weeks, five days 2.5–5 weeks, and eight days 4–8 weeks. These are calendar conversions, not estimates of eligibility: some products require profitable days or a minimum profit on each day.
+
+For illustration, assume independent trades with a 50% win rate, one MNQ, a \$200 stop and \$400 target, no costs, and one, two or three trades per session with equal frequency. The probabilities of a session ending at least \$150 profitable are 50%, 75% and 50%, respectively. Their average is approximately **58%**. Under these assumptions, collecting five such qualifying days takes about **8.6 sessions on average**, or roughly 4–9 weeks at 1–2 sessions per week.
+
+This is not a measured qualifying rate. Different stop sizes, contract sizes, session trade counts, costs, dependent outcomes or a different threshold change it. Scaling down for extraction can also make a winning day too small to qualify.
+
+### 5.3 Cadence versus profit generation
+
+Profit generation and qualifying days can overlap within a payout cycle, but caps, cycle resets, processing times and minimum new profit can require further cycles after the account reaches the desired balance. Evaluation and funded requirements occur in sequence. Neither the payout cadence nor profit generation can be assumed to be the limiting factor without modelling the chosen product and withdrawal plan.
+
+### 5.4 Cost
+
+Compare total outlay over the actual expected holding period, including evaluation or funded purchase price, recurring subscription charges, activation fees, and any reset or replacement costs. Straight-to-funded avoids the evaluation target and evaluation breach risk, but its purchase price, funded rules and payout conditions must be assessed on their own terms. Paying more is acceptable when the account better supports faster equity growth.
+
+---
+
+## 6. Account survival and cushion
+
+The target depends on both building profit and keeping the account eligible long enough to withdraw it. Profit held in the account can support larger positions, but remains exposed to losses, rule breaches and any forced transition.
+
+### 6.1 Cushion after a payout
+
+For an illustrative 50K account with a locked floor at \$50,100:
+
+| Balance after payout | Cushion above floor | Full \$200 losses to reach the floor, ignoring costs |
 |---|---|---|
-| 1 | **Lifetime extraction ceiling above \$11,111 gross on one account** | Otherwise \$10,000 is impossible |
-| 2 | **No weekly inactivity requirement** | 1–2 sessions per week has no margin over 6–12 months |
-| 3 | **No hard news-trading breach** | The 10:00 ET slot sits inside the session |
-| 4 | **End-of-day or static drawdown** | 6–12 months of unrealised peaks under intraday trailing |
-| 5 | **Daily or 3-day payout eligibility** | 5 qualifying days is ~9 sessions, ~4.5–9 weeks |
-| 6 | **Consistency rule at 35% or looser, or none** | 20% roughly doubles the profit needed per cycle |
-| 7 | **One-time pricing, not monthly** | A 6–12 month hold multiplies any subscription by 6–12 |
-| 8 | **Drawdown of \$2,000 or more** | 10 consecutive losses at a \$200 stop |
-| 9 | Low parked capital | Worth least — see section 6.1, the parked capital is also the cushion |
+| \$52,100 | \$2,000 | 10 |
+| \$51,100 | \$1,000 | 5 |
+| \$50,300 | \$200 | 1 |
 
-**Requirement 7 is far more important here than in Case 1.** A subscription that looks
-cheap at \$20 per month costs \$120–\$240 over this holding period, plus any activation
-fee, and the account is lost the moment a payment is missed.
+These are distances, not guarantees of survival: losses may be larger than planned, and real-time enforcement can breach the floor during an open trade. If the position is two MNQ with a 100-point stop, each planned loss is \$400 instead, so a \$2,000 cushion covers five such losses rather than ten. The floor and payout buffer vary by product.
+
+A required payout buffer can therefore provide trading room as well as restrict withdrawals. With no required buffer, it may still be prudent to retain a voluntary cushion; the amount is a decision, not a universal rule.
+
+### 6.2 Losing streaks and exposure
+
+At an assumed 50% loss probability and independent outcomes, a specified sequence of ten losses has probability **1 in 1,024**. The probability of encountering such a run somewhere in a longer series is higher and depends on the number of trades. Neither figure alone is the probability of account failure: wins between losses, a moving floor, variable stops, position sizing, commissions and withdrawals all affect survival.
+
+A fixed ten-loss example also becomes less representative as size changes. The relevant question is how much a sequence of losses would cost **at the position sizes actually used**, relative to the cushion at each trade.
+
+### 6.3 Managing risk during growth and extraction
+
+- **During growth:** increase size only when the actual cushion and product limits allow it; remember that a trailing floor can prevent cushion from growing until it locks.
+- **Before withdrawing:** calculate the balance and cushion that will remain after the requested gross amount is deducted, using the provider's rules.
+- **During extraction:** reassess size after each payout and allow for qualifying-day thresholds, daily limits and slippage. Smaller trades lower exposure but can take longer to meet payout requirements.
+- **After a breach:** whether to reset, buy another account or move to own capital remains undecided and may depend on the experience and available funds.
 
 ---
 
-## 10. Open questions for this case
+## 7. Product selection criteria
 
-### Would change the recommendation
+| Criterion | Relevance to this case |
+|---|---|
+| Netherlands availability | Essential; verify any unresolved provider restrictions and payout methods |
+| Drawdown size, update and enforcement | Determines starting risk capacity, when cushion can grow and how open trades can breach |
+| Position limits, scaling and daily loss limits | Must support the intended size as cushion grows, in both growth and extraction phases |
+| Payout formula and total extraction | Test whether one account can deliver \$5,000 and preferably \$10,000 in hand |
+| Qualifying days and consistency | Determine whether smaller trades can satisfy payout requirements after growth |
+| Forced live transition | Acceptable but not preferred; verify timing, starting cushion and treatment of remaining profits |
+| Accidental news exposure | Avoid an account-ending rule that can be triggered accidentally during the trading session |
+| Inactivity | Check requirements against 1–2 sessions per week and possible breaks |
+| Cost and resets | Compare purchase, subscription, activation and any reset costs against the desired risk capacity |
+| Platform | Tradovate is preferred |
 
-1. **Is \$5,000 or \$10,000 the real target?** They are different projects. \$5,000 is
-   roughly six months and every product structure can deliver it. \$10,000 is roughly a
-   year and rules out any product with a five-payout, \$2,000-capped ceiling. **If the
-   number is flexible, \$5,000 is disproportionately easier.**
+No product is selected here. The comparison needs to model both accumulation and extraction, including the account-specific rules and any unresolved documentation conflicts.
 
-2. **Is this money you need, or money you are happy to not receive?** At one contract the
-   expected outcome is positive but the variance is large, and there is a realistic chance
-   of ending the project with zero received and the purchase price spent.
+---
 
-3. **How many contracts are you willing to trade?** This is the only lever that
-   meaningfully shortens the timeline. Two MNQ halves the time and doubles the risk per
-   trade; on a 50K that means \$400 against a \$2,000 drawdown, which section 2.3 of
-   `Relevant_for_Comparison.md` rules out. **Moving up a size to trade two contracts raises
-   the evaluation target by as much as it raises the earnings rate**, so it buys risk
-   capacity rather than speed.
+## 8. Remaining decisions
 
-4. **Can the session count rise?** Going from 1–2 sessions per week to 3 is a larger effect
-   than any product choice in this document.
-
-### Would narrow the choice
-
-5. **If the account breaches at month eight, what happens?** Buy another and start again,
-   or stop? This decides whether reset availability and a second purchase belong in the
-   budget.
-
-6. **Is a forced move to live acceptable?** The stated exit is own capital. If a live
-   account is simply unwanted, products that automatically go live after five payouts carry
-   a real risk of stranding profit that was never withdrawn.
-
-7. **Would straight-to-funded be acceptable instead of passing an evaluation?** It removes
-   the entire evaluation target — about two months and \$3,000 of pure overhead — at the
-   cost of a much higher purchase price and, typically, a 20% consistency rule. **This is
-   the single largest structural saving available in this case.**
-
-8. **Is a longer holding period acceptable if it is cheaper?** The cheapest products are
-   generally the slowest to pay out.
-
-### Useful to confirm
-
-9. **Is the \$5,000–\$10,000 figure gross or in hand?** This document assumes in hand, after
-   the profit split. Gross would reduce every figure here by about 10%.
-
-10. **Would you stop at the target, or keep going if the account is running well?** If the
-    answer is "keep going", this is not Case 2 and the lifetime ceilings in section 5.1
-    become the dominant criterion.
+1. **Sizing rule:** What fraction of the current cushion may be risked on one trade, and when should size be reduced after losses or a payout?
+2. **Session risk:** How much can be lost in one session, including several stops and slippage, without taking more risk than intended?
+3. **Withdrawal trigger:** At what balance or available payout should extraction begin, and how much cushion should remain during the payout cycles?
+4. **Budget and retry:** What is the purchase budget, and would a breach justify a reset or another purchase? The decision may depend on the trading experience and available own capital at that time.
+5. **Evidence for the edge:** What win rate, stop distribution and losing streaks emerge from actual trading? These determine whether the assumed expectancy and scaling plan are realistic.
+6. **Payout verification:** For each candidate, confirm the applicable profit definition, caps, qualifying-day thresholds, split, fees, live-transition terms and payout methods.
