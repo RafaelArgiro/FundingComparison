@@ -65,6 +65,34 @@ At a 90% split, receiving \$5,000 requires at least **\$5,555.56 gross**; \$10,0
 
 All illustrative cap totals assume every request is approved at its maximum and no earlier live transition occurs. They do not prove that sufficient profits, qualifying days or consistency can be achieved. A 50% formula can leave profit behind even when the caps appear high enough.
 
+### 3.3 Profit required for each option
+
+The table estimates how much trading profit the account must generate to deliver the target **after the provider split**. It uses the 50K options compared here, plus the 100K Lucid Flex alternative. Evaluation profit is shown separately because the funded account starts fresh; it is added to funded-phase profit to give the total profit generated across both phases. Straight-to-funded products have no evaluation target.
+
+| 50K option | Evaluation target | Funded profit for \$5,000 net | Total including evaluation | Funded profit for \$10,000 net | Total including evaluation |
+|---|---:|---:|---:|---:|---:|
+| Lucid Pro | \$3,000 | ~\$7,656 | ~\$10,656 | ~\$13,211 | ~\$16,211 |
+| Lucid Flex | \$3,000 | At least ~\$5,656; likely more | At least ~\$8,656 | Not reachable within 5 published payouts | Not reachable |
+| Lucid Daily | \$3,000 | ~\$7,656 | ~\$10,656 | ~\$13,211 | ~\$16,211 |
+| Lucid Direct | None | At least \$8,000 | At least \$8,000 | Not established; 5 published caps yield only \$9,900 net | Not established |
+| Tradeify Growth | \$3,000 | ~\$6,500 | ~\$9,500 | ~\$12,000 | ~\$15,000 |
+| Tradeify Select Flex | \$3,000 | At least ~\$5,656; likely more | At least ~\$8,656 | At least ~\$11,211; likely more | At least ~\$14,211 |
+| Tradeify Select Daily | \$3,000 | At least ~\$7,656 | At least ~\$10,656 | At least ~\$13,211 | At least ~\$16,211 |
+| Tradeify Lightning | None | At least \$7,000 | At least \$7,000 | At least \$13,000 | At least \$13,000 |
+| Tradeify Inter Miami | \$3,500 | Unknown | Unknown | Unknown; \$12,500 gross withdrawals would exceed the stated \$12,000 payout-to-live threshold | Unknown |
+| Lucid Flex 100K alternative | \$6,000 | At least ~\$5,656; likely more | At least ~\$11,656 | At least ~\$11,211; likely more | At least ~\$17,211 |
+
+**How to read these estimates:**
+
+- At 90/10, the withdrawal target requires **\$5,555.56 gross** for \$5,000 net or **\$11,111.12 gross** for \$10,000 net. Inter Miami's 80% share requires \$6,250 or \$12,500 gross.
+- Lucid Pro and Lucid Daily figures add the gross withdrawals to the \$2,100 50K buffer, which remains in the account, then add the \$3,000 evaluation target. This assumes withdrawals can reach the buffer and the full target is paid before a transition. Lucid Daily's live-transition cap and news rule remain material.
+- Growth figures are a modeled minimum using its \$53,000 balance gate and payout caps. For \$5,000 net, one possible sequence is gross payouts of \$1,500, \$2,000 and \$2,055.56, requiring about \$6,500 funded profit to reach each balance gate. For \$10,000 net, a five-request sequence requires about \$12,000 funded profit while keeping the balance above the locked floor. Qualifying days, consistency, losses and fees may raise the actual amount.
+- Direct and Lightning figures sum the published fresh profit goals for the required number of payout cycles. Direct's \$5,000 case uses goals of \$3,000 + \$2,500 + \$2,500. Its five published caps do not reach \$10,000 net, and the sixth-payout terms are unresolved. Lightning's \$5,000 case requires three cycles (\$3,000 + \$2,000 + \$2,000); \$10,000 needs six cycles (\$3,000 + five \$2,000 goals), if six requests are approved before a live move.
+- For 50% payout formulas, the table gives a **cash-conservation lower bound**: gross withdrawals plus the floor amount that must remain after the account locks. It is not a sufficient trading plan. The formula, caps, required profitable days, positive-cycle conditions and cycle timing can require additional profit. Lucid Flex 50K also cannot reach \$10,000 net under its five published \$2,000 caps.
+- Select Daily's lower bound includes its \$2,100 50K buffer. Its 2× formula can change when withdrawals become available, but cannot bypass that retained buffer. More cycle profit may be needed to satisfy payout conditions.
+- Inter Miami's payout formula and caps are undocumented, so its funded-profit requirement cannot be calculated. Its \$10,000 net target needs \$12,500 gross, while the card says the live path occurs after \$12,000 in payouts; confirm whether that ends simulated withdrawals before treating the target as attainable.
+- No estimate includes commissions, platform/data costs, taxes, payment fees, losing trades, or voluntary trading cushion. “At least” means the source rules imply a lower bound, not that the stated amount will satisfy every day, consistency or transition rule.
+
 ---
 
 ## 4. Lucid products
