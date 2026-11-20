@@ -33,6 +33,8 @@ This comparison uses **50K as a starting point**, not a recommendation that 50K 
 
 The Lucid Direct entry does not assume a fifth or sixth payout is guaranteed: its published payout table ends at payout 5, while another article mentions a sixth and final payout. The Tradeify rows marked Pass for payout targets do **not** promise enough simulated payouts before a live move. For all rows, an actual withdrawal requires the applicable balance, consistency, day-count and other conditions to be met.
 
+---
+
 ## 2. Most suitable candidates
 
 **Lucid Pro 50K:** strongest documented Lucid candidate for both targets if news-breach avoidance and 30-day inactivity are important. Its 50K caps total \$12,000 gross across five requests, or **\$10,800 at 90%**, before fees and tax. That leaves only \$800 of cap headroom over the \$10,000 target, requires every payout, and is exposed to review and transition risk. The 40% consistency rule can delay payouts after a large trading day.
@@ -47,6 +49,8 @@ The Lucid Direct entry does not assume a fifth or sixth payout is guaranteed: it
 
 **Tradeify Inter Miami:** potentially attractive for scaling because the floor is static. It is not a defensible shortlist selection until its payout formula, caps, inactivity and other missing rules are supplied. Lucid Daily has attractive payout access but conflicts with the stated requirement that accidental news exposure must not end the account.
 
+---
+
 ## 3. Shared tradeoffs
 
 ### 3.1 Growth versus extraction
@@ -60,6 +64,8 @@ Payouts reduce the balance. Waiting can support larger positions but leaves more
 At a 90% split, receiving \$5,000 requires at least **\$5,555.56 gross**; \$10,000 requires **\$11,111.12 gross**, rounded up to cents. At an 80% share these become **\$6,250** and **\$12,500** respectively. Caps apply to gross requests in the worked comparisons below. Confirm the provider's split, rounding and the treatment of withdrawal amounts before relying on these totals.
 
 All illustrative cap totals assume every request is approved at its maximum and no earlier live transition occurs. They do not prove that sufficient profits, qualifying days or consistency can be achieved. A 50% formula can leave profit behind even when the caps appear high enough.
+
+---
 
 ## 4. Lucid products
 
@@ -92,6 +98,8 @@ Lucid's general inactivity rule is 30 calendar days with the documented net-P&L 
 - **Payout:** 20% consistency and at least five trading days; first cycle profit goal \$3,000, later goals \$2,500, resetting after payout. Published caps are \$2,000 for payouts 1–3 and \$2,500 for 4–5.
 - **Advantages:** avoids an evaluation and its target; EOD drawdown, no documented funded news restriction and 30-day inactivity.
 - **Issues:** high purchase cost, strict consistency and resetting profit goals can delay withdrawal even with a large existing balance. The fifth-versus-sixth payout documentation conflict, potential live move and unknown reset availability prevent a confident single-account ceiling. The first three caps total \$6,000 gross, or \$5,400 after split, if all are achieved without an earlier transition.
+
+---
 
 ## 5. Tradeify products
 
@@ -134,6 +142,8 @@ These funded products also have a **10-second payout rule**: more than 50% of tr
 - **Advantages:** static floor allows retained profit to increase the cushion without first waiting for a trailing-floor lock. It matches the preferred platform and supports MNQ.
 - **Issues:** payout formula, maximum payout, consistency, inactivity, reset price and application of general rules are not documented. The smaller initial drawdown and 30-micro maximum constrain risk and size. At 80%, \$10,000 in hand needs \$12,500 gross, so the \$12,000 live-transition figure is potentially decisive but cannot be interpreted without clarification.
 
+---
+
 ## 6. Information needed before selection
 
 1. Define the position-sizing rule, maximum session risk, desired withdrawal trigger and minimum cushion after a payout.
@@ -141,5 +151,65 @@ These funded products also have a **10-second payout rule**: more than 50% of tr
 3. Confirm Lucid Flex's definition of 50% profit and Direct's payout count; obtain the missing Lucid Daily EOD-funded / DLL-on configuration if Daily remains under consideration.
 4. Confirm whether Tradeify can transition Select accounts before the three-payout review threshold, the Lightning payout cadence, and whether weekly inactivity applies to Inter Miami.
 5. Obtain Inter Miami's complete evaluation and funded rules, including payout formula, caps and the precise \$12,000 live trigger, before treating it as a viable payout candidate.
+
+---
+
+## 8. Most important / restrictive rules
+
+This section isolates rules that either make an evaluation harder to pass or make funded profit harder to withdraw. Rules are listed only for the products to which the captured documents apply. A rule can be a delay rather than a permanent bar: for example, consistency may require continued profitable trading until the largest day is diluted.
+
+### 8.1 Evaluation stage: rules that raise breach or failure risk
+
+| Rule | Why it matters for passing | Applicable accounts |
+|---|---|---|
+| **Trailing drawdown during the evaluation** | As the balance rises, the floor follows the applicable peak until its lock point, reducing room for a later loss. Tradeify evaluates its trailing floor from end-of-day highs but enforces it in real time; an open trade can breach before a stop or session close. Lucid EOD floors follow closing balances. | All Lucid Pro, Flex and Daily evaluations; Tradeify Growth and Select evaluations. Lucid Daily can be bought with intraday evaluation drawdown, where unrealised peaks can raise the floor during the session. |
+| **Intraday evaluation drawdown** | A profitable open excursion that reverses can permanently raise the floor and consume room without a closed profit. | Lucid Daily evaluations configured for intraday drawdown. |
+| **No daily loss limit** | There is no separate daily lockout before the trailing floor is hit, making a multi-trade losing session more likely to breach the account. | Tradeify Select 25K–150K evaluations; Lucid evaluations configured with DLL off. |
+| **DLL is not the whole drawdown allowance** | A DLL can halt a session, but if the remaining drawdown is closer, the account can breach first. A soft/lock behavior also does not absorb slippage or guarantee survival. | Lucid Pro, Flex and Daily evaluations with DLL on; Tradeify Growth evaluations; Tradeify Inter Miami with soft DLL. |
+| **Evaluation consistency** | A strong single day can exceed the allowed share of total profit. The trader must generate more profit or additional days before passing, continuing exposure after the target may already have been reached. | Lucid Flex (40% or 50%); Lucid Daily (tiers depend on drawdown configuration); Tradeify Select (40%, or 50% add-on). |
+| **Minimum trading days** | Even after hitting the target, the evaluation remains open and exposed until the minimum is met. | Tradeify Select: 3 days at 40%, 2 at 50%; Lucid Daily: 2–4 depending on settings. Lucid Pro and Tradeify Growth have no multi-day minimum in the captured rules. |
+| **Static but smaller drawdown** | Static avoids a moving floor, but the Inter Miami 50K starts with only \$1,500 of drawdown. Its soft \$900 DLL is not much room for several wide-stop losses. | Tradeify Inter Miami evaluation. |
+
+**Product-specific pass exposure:** Lucid Pro has no evaluation consistency hurdle, and Tradeify Growth has both no evaluation consistency rule and a DLL. Tradeify Select has no DLL at these sizes and adds consistency and minimum days. Lucid Daily's intraday evaluation option is the most sensitive to unrealised reversals; choose EOD evaluation if using Daily and avoiding that mechanic is important. Inter Miami's static floor is simpler, but its initial room is smaller and its complete evaluation enforcement rules are not documented.
+
+No evaluation rule guarantees that an account will fail or pass. Stop width, position size, remaining room, slippage and the sequence of trades determine the actual breach risk.
+
+**No evaluation phase:** Lucid Direct and Tradeify Lightning begin under funded rules. They avoid evaluation-pass hurdles, but the funded-stage payout and account-risk restrictions below apply from the first trade.
+
+### 8.2 Funded stage: rules that limit withdrawal, risk or require more trading
+
+| Rule | Effect on extraction | Applicable accounts |
+|---|---|---|
+| **Daily Loss Limit (DLL)** | The DLL is a per-session loss budget, not a per-trade cap. It can nevertheless constrain how much can be risked on one trade and in total that day: one oversized loss may hit it, or several trades may use up the allowance and stop further trading. For a 50K account and a 100-point stop, one MNQ risks about \$200 before costs; a \$1,000 DLL is five such planned losses, while a \$1,250 DLL is six with \$50 left. Slippage, fees, open losses and a nearer drawdown floor reduce that room. Reaching the DLL usually locks trading for the session rather than ending the account, but the Max Loss Limit can be hit first. | Lucid Pro / Flex / Daily at 50K: \$1,200 or off; Lucid Direct: \$1,200, converting to LucidScale after the trail locks. Lucid Daily remains fixed; Flex conversion above the trail is undocumented. Tradeify Growth: \$1,250, rising to \$2,000 at the stated balance threshold; Select Daily: \$1,000; Select Flex: none; Lightning: \$1,250, rising to \$2,000 at the stated threshold. Inter Miami: \$900 soft or none. |
+| **Payout consistency** | A large profitable day can make a payout ineligible until further profit dilutes that day. This requires continued trading and continued exposure. | Lucid Pro: 40% each payout; Lucid Direct: 20% each payout; Tradeify Growth: 35% each payout; Tradeify Lightning: 20% / 25% / 30% for payouts 1 / 2 / 3+. |
+| **Profit goals reset after each payout** | Profit left in the account does not satisfy the next cycle's goal, so the trader must make fresh profit before requesting again. | Lucid Direct; Tradeify Lightning. |
+| **Qualifying or winning days per cycle** | A balance can be profitable enough but still not payout-eligible until the required days meet their profit threshold. Trading smaller can lower risk but may fail to make a qualifying day. | Lucid Pro: 3 trading days; Lucid Flex: 5 qualifying days (50K threshold is above \$150); Tradeify Growth: 5 qualifying days (50K threshold above \$150); Tradeify Select Flex: 5 winning days; Tradeify Select Daily: daily eligibility but requires positive new cycle profit. |
+| **Percentage-of-profit payout formula** | Only part of the current account profit can be requested at a time; retained profit is still exposed and can require further requests and trading. | Lucid Flex: 50% of profit, capped; Tradeify Select Flex: 50% of total current profit, capped. LucidFlex's source is ambiguous whether “profit” means current account profit or profit since the last payout. |
+| **Per-request caps** | More requests are needed to extract the target; each additional request is subject to eligibility and transition rules. | Lucid Pro, Flex and Direct; Tradeify Growth, Select Flex, Select Daily and Lightning. At 50K, Lucid Flex's five \$2,000 caps total \$9,000 after split; Tradeify Select Daily needs at least 5 maximum \$1,250 requests for \$5,000 net and 9 for \$10,000 net, before fees. |
+| **Payout buffer / minimum balance** | The balance must remain above a threshold that cannot be withdrawn. This ties up profit and restricts how much can be taken from a built-up balance. | Lucid Pro and Lucid Daily: 50K buffer \$2,100 above starting balance; Tradeify Growth: 50K request requires balance \$53,000; Tradeify Select Daily: 50K buffer \$2,100. Inter Miami's buffer is unknown. |
+| **Minimum new profit per cycle** | A large balance alone may not unlock a request; the trader has to generate qualifying profit after the previous payout. | Tradeify Select Daily: payout is up to 2× profit since last payout and requires a net-positive cycle; Lucid Direct has a fresh profit goal each cycle; Tradeify Lightning has a reset profit goal each cycle. |
+| **10-second payout gate** | To request a payout, **more than 50% of trades must last longer than 10 seconds, and more than 50% of profit must come from trades lasting longer than 10 seconds**. Failing either test blocks payout until the ratios recover. | Tradeify Growth, Select Flex, Select Daily and Lightning. The user's usual minutes-long trades should normally satisfy the duration aspect, but the profit ratio is also tested. Inter Miami applicability is undocumented. |
+| **Account ends or may move to live** | A live transition can prevent further simulated withdrawals. Remaining profit treatment, live eligibility and whether a cashout is preferable need confirmation. | Lucid Pro, Flex and Direct are subject to review around the fifth payout and other criteria; Lucid Daily can move automatically on its maximum daily-profit trigger. Tradeify can consider Growth, Select and Lightning after 3 payouts on one account, and its policies reserve a right to move after a successful payout. Tradeify Inter Miami's card says live after \$12,000 in payouts, but full mechanics are missing. |
+| **Accidental news breach** | A prohibited news trade can end the funded account rather than merely delay a payout. | Lucid Daily funded accounts only: flat around specified US high-impact events. Not documented as a restriction on the other listed funded products. |
+| **Weekly inactivity** | Missing the activity requirement can close the account before the payout target is reached. | Tradeify Growth, Select Flex, Select Daily and Lightning. Tradeify Inter Miami's applicability is unknown. Lucid's documented general rule is 30-day inactivity, not weekly. |
+
+**How this affects the scaling plan:** as position size grows, compare the planned loss on one trade and the total plausible session loss against both the funded DLL and the remaining distance to the drawdown floor. A DLL can become the binding limit before the floor, causing a session lock; when the floor is nearer, the account can fail before the DLL helps. A product with no DLL, such as Tradeify Select Flex, removes that session lock but does not add drawdown room or protection. On Lucid Pro and Direct, and Tradeify Growth and Lightning, the DLL can rise under the documented profit thresholds; LucidDaily's stays fixed. LucidFlex's above-trail DLL behavior is unresolved. Lucid DLL-off configurations remove the session cap, and also remove On Demand Payouts.
+
+#### Published cap ceilings that can decide the target
+
+These are gross cap arithmetic after the stated 90% split, before fees and tax. They assume all listed payouts are available and approved; they do not account for an earlier transition or prove that the required profits and eligibility conditions will be met.
+
+| 50K funded product | Published cap arithmetic | Maximum net from those requests | Consequence for target |
+|---|---|---:|---|
+| Lucid Pro | \$2,000 + four \$2,500 requests | \$10,800 | Both targets fit narrowly; \$10K needs all five |
+| Lucid Flex | Five \$2,000 requests | \$9,000 | \$5K fits; \$10K does not on the five documented payouts |
+| Lucid Direct | Three \$2,000 + two \$2,500 requests | \$9,900 | \$5K fits; \$10K misses by \$100 before fees; sixth payout is unclear |
+| Tradeify Growth | First three caps: \$1,500 + \$2,000 + \$2,500 | \$5,400 | \$5K can fit within three payouts; subsequent cap is \$3,000, but live movement can intervene |
+| Tradeify Select Flex | \$2,500 per request | No fixed total cap documented | Per-request formula and duration gate continue to apply |
+| Tradeify Select Daily | \$1,250 per request | No fixed total cap documented | At least 5 max requests for \$5K net; 9 for \$10K net |
+| Tradeify Lightning | \$2,000 for payouts 1–3, then \$2,500 | First 3 yield \$5,400 net | \$5K fits within 3 capped requests; \$10K needs at least 6 requests, subject to goals and transition |
+| Tradeify Inter Miami | Maximum not published | Unknown | Cannot assess either target |
+
+**Selection implication:** the strongest extraction formula is not necessarily the easiest account to live with. Lucid Pro's caps can support \$10,000 in hand but need five successful payouts and consistency. Tradeify Select Daily has no 50% current-profit formula, but its \$1,250 cap requires many requests and new profit; weekly inactivity and live-transition discretion add exposure. Lucid Flex is inexpensive and has no funded consistency rule, but the 50% formula and five-payout ceiling limit the 50K outcome. Products with missing payout rules cannot be treated as passing either target.
 
 Sources: [Case 2 profile](../UseCases/Case_2_Learning_and_SinglePayout.md), [Lucid plans](../Lucid/Data/Plans.md), [Lucid funded rules](../Lucid/Reports/Lu_Rules_Funded.md), [Lucid live rules](../Lucid/Reports/Lu_Rules_Live.md), [Lucid data gaps](../Lucid/data_health.md), [Tradeify evaluation rules](../Tradeify/Reports/Tr_Rules_Evaluation.md), [Tradeify funded rules](../Tradeify/Reports/Tr_Rules_Funded.md), [Tradeify live rules](../Tradeify/Reports/Tr_Rules_Live.md), [Tradeify data gaps](../Tradeify/data_health.md).
